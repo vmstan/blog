@@ -1,0 +1,25 @@
+{
+  "name": "virtually-benevolent",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@11.9.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "deploy": "astro build && wrangler deploy",
+    "import:ghost": "node scripts/import-ghost.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.3",
+    "@fortawesome/fontawesome-free": "^7.3.1",
+    "astro": "^7.1.1"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^6.0.0",
+    "wrangler": "^4.112.0"
+  }
+}

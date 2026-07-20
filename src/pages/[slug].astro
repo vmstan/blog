@@ -1,0 +1,111 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../config";
+import { formatDate, publishedPosts, readingTime } from "../lib/content";
+
+type Entry = CollectionEntry<"posts"> | CollectionEntry<"pages">;
+
+interface Props {
+  entry: Entry;
+  kind: "post" | "page";
+  newer?: CollectionEntry<"posts">;
+  older?: CollectionEntry<"posts">;
+}
+
+export async function getStaticPaths() {
+  const posts = publishedPosts(await getCollection("posts"));
+  const pages = (await getCollection("pages")).filter((page) => !page.data.draft);
+  const postPaths = posts.map((entry, index) => ({
+    params: { slug: entry.data.slug },
+    props: {
+      entry,
+      kind: "post" as const,
+      newer: posts[index - 1],
+      older: posts[index + 1],
+    },
+  }));
+  const pagePaths = pages.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry, kind: "page" as const },
+  }));
+  return [...postPaths, ...pagePaths];
+}
+
+const { entry, kind, newer, older } = Astro.props;
+const { Content } = await render(entry);
+const minutes = readingTime(entry.body ?? entry.data.description);
+const canonicalUrl =
+  entry.data.canonicalUrl ?? new URL(`/${entry.data.slug}/`, SITE.url).toString();
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": kind === "post" ? "BlogPosting" : "WebPage",
+  headline: entry.data.title,
+  description: entry.data.description,
+  datePublished: entry.data.publishedAt.toISOString(),
+  dateModified: entry.data.updatedAt.toISOString(),
+  author: { "@type": "Person", name: entry.data.author },
+  mainEntityOfPage: canonicalUrl,
+};
+---
+
+<BaseLayout
+  title={entry.data.metaTitle ?? entry.data.title}
+  description={entry.data.description}
+  canonicalUrl={canonicalUrl}
+  article={kind === "post"}
+>
+  <article class="entry shell">
+    <header class="entry-header">
+      {kind === "post" && <p class="eyebrow">Essay</p>}
+      <h1>{entry.data.title}</h1>
+      {
+        kind === "post" && (
+          <div class="entry-author">
+            <span class="author-avatar" aria-hidden="true">MS</span>
+            <div>
+              <strong>{entry.data.author}</strong>
+              <p class="entry-meta">
+                <time datetime={entry.data.publishedAt.toISOString()}>
+                  {formatDate(entry.data.publishedAt)}
+                </time>
+                <span aria-hidden="true">·</span>
+                <span>{minutes} min read</span>
+              </p>
+            </div>
+          </div>
+        )
+      }
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+  {
+    kind === "post" && (newer || older) && (
+      <nav class="entry-nav shell" aria-label="Adjacent posts">
+        {newer ? (
+          <a href={`/${newer.data.slug}/`}>
+            <span>Newer</span>
+            <strong>{newer.data.title}</strong>
+          </a>
+        ) : (
+          <span />
+        )}
+        {older ? (
+          <a href={`/${older.data.slug}/`}>
+            <span>Older</span>
+            <strong>{older.data.title}</strong>
+          </a>
+        ) : (
+          <span />
+        )}
+      </nav>
+    )
+  }
+  <script
+    type="application/ld+json"
+    is:inline
+    set:html={JSON.stringify(structuredData)}
+  />
+</BaseLayout>

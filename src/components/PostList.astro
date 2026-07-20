@@ -1,0 +1,32 @@
+---
+import type { Post } from "../lib/content";
+import { formatDate, readingTime } from "../lib/content";
+
+interface Props {
+  posts: Post[];
+}
+
+const { posts } = Astro.props;
+---
+
+<ol class="post-list">
+  {
+    posts.map((post) => (
+      <li>
+        <article class="post-card">
+          <a class="post-card-link" href={`/${post.data.slug}/`}>
+            <h2>{post.data.title}</h2>
+            <p>{post.data.description}</p>
+          </a>
+          <p class="post-meta">
+            <time datetime={post.data.publishedAt.toISOString()}>
+              {formatDate(post.data.publishedAt)}
+            </time>
+            <span aria-hidden="true">·</span>
+            <span>{readingTime(post.body ?? post.data.description)} min read</span>
+          </p>
+        </article>
+      </li>
+    ))
+  }
+</ol>

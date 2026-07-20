@@ -1,0 +1,45 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PostList from "../../components/PostList.astro";
+import Pagination from "../../components/Pagination.astro";
+import { POSTS_PER_PAGE } from "../../config";
+import { publishedPosts, type Post } from "../../lib/content";
+
+interface Props {
+  posts: Post[];
+  currentPage: number;
+  totalPages: number;
+}
+
+export async function getStaticPaths() {
+  const allPosts = publishedPosts(await getCollection("posts"));
+  const totalPages = Math.ceil(allPosts.length / POSTS_PER_PAGE);
+
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, index) => {
+    const currentPage = index + 2;
+    const start = (currentPage - 1) * POSTS_PER_PAGE;
+    return {
+      params: { page: String(currentPage) },
+      props: {
+        posts: allPosts.slice(start, start + POSTS_PER_PAGE),
+        currentPage,
+        totalPages,
+      },
+    };
+  });
+}
+
+const { posts, currentPage, totalPages } = Astro.props;
+---
+
+<BaseLayout title={`Writing, page ${currentPage}`}>
+  <section class="shell compact-hero">
+    <p class="eyebrow">Archive</p>
+    <h1>Writing</h1>
+  </section>
+  <section class="shell listing-section">
+    <PostList posts={posts} />
+    <Pagination currentPage={currentPage} totalPages={totalPages} />
+  </section>
+</BaseLayout>

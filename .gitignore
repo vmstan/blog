@@ -1,0 +1,10 @@
+node_modules/
+.pnpm-store/
+dist/
+.astro/
+.wrangler/
+.DS_Store
+
+# Ghost exports contain staff and site configuration data.
+migration/
+*.ghost.*.json

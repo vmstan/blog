@@ -1,0 +1,35 @@
+---
+import { SITE } from "../config";
+
+const pathname = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="/" aria-label={`${SITE.title}, home`}>
+      <span>{SITE.title}</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <ul class="nav-list">
+        {
+          SITE.navigation.map((item) => (
+            <li>
+              <a
+                href={item.href}
+                aria-current={
+                  pathname === item.href ||
+                  (item.href !== "/" && pathname.startsWith(item.href))
+                    ? "page"
+                    : undefined
+                }
+              >
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <a class="header-rss" href="/rss.xml">RSS</a>
+  </div>
+</header>

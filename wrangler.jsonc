@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "blog",
+  "compatibility_date": "2026-07-20",
+  "compatibility_flags": ["nodejs_compat"],
+  // Workers Cache is intentionally omitted. These files are served directly by
+  // Workers Static Assets without invoking or billing Worker code. Enable the
+  // Worker cache only when this project gains a cacheable dynamic entrypoint.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
