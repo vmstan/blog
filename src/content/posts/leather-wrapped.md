@@ -35,10 +35,10 @@ It had… buttons.
 
 And yet, I resisted, I hovered over the order button a few times, until the one that I wanted was eventually out of stock and on a multiple-week backorder. Eventually, I gave in and picked up the midnight blue version from a local Apple store. I didn’t love the color, but I loved the buttons.
 
-Then on a trip to Dallas a week or two later, while killing time one afternoon waiting to head to the airport, I went into an Apple store and found it: <u>[Sea Blue](http://www.apple.com/shop/favoriteProduct/MMY42ZM/A/iphone-7-leather-case-sea-blue)</u>.
+Then on a trip to Dallas a week or two later, while killing time one afternoon waiting to head to the airport, I went into an Apple store and found it: [Sea Blue](http://www.apple.com/shop/favoriteProduct/MMY42ZM/A/iphone-7-leather-case-sea-blue).
 
 The midnight model got returned a couple of days later, and the new blue leather case with its equally clicky button goodness has been on my phone most of the time since then. It actually takes me a while to get used to having a case though. It’s like this psychological problem, where I have to put it on, take it off, put it back on, and then force myself to keep it on for a little longer each time. Eventually, I reached the point where having the iPhone out of the case felt more uncomfortable than having it in one, and so it’s been in there ever since that day.
 
 Seriously though, naked iPhone is a hard thing to give up after doing it for so long, because it just feels so great. It’d be like if you wore nothing but your underwear around the house every day of your life, and then suddenly because the neighbors complained that their kids were being traumatized, the police told you that you had to start wearing pants.
 
-_If you’re in a situation where you suddenly need a good pair of pants,_ _<u>[I’ve got a recommendation](/pant-lover/)</u>__._
+_If you’re in a situation where you suddenly need a good pair of pants, [I’ve got a recommendation](/pant-lover/)._

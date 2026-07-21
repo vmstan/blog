@@ -28,4 +28,4 @@ I have two of the 3rd generation units, and the 2nd generation, and while I love
 - You cannot pair a Bluetooth keyboard (even the Apple ones) to the Apple TV, either.
 - The first two combine to make initial setup with logging into accounts a real pain in the ass when you have super complex passwords for everything.
 
-Overall, I very much like the new box. There probably isn’t a day that goes by where it doesn’t get used. I’m going to be adding an OTA network tuner and downloading the <u>[Channels app](http://getchannels.com)</u> this week to replace switching inputs on my TV to a dedicated antenna. I’ll probably also pick up another box for the downstairs TV and then gift my 3rd generation units to the family for the holidays.
+Overall, I very much like the new box. There probably isn’t a day that goes by where it doesn’t get used. I’m going to be adding an OTA network tuner and downloading the [Channels app](http://getchannels.com) this week to replace switching inputs on my TV to a dedicated antenna. I’ll probably also pick up another box for the downstairs TV and then gift my 3rd generation units to the family for the holidays.

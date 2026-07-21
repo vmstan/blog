@@ -15,11 +15,11 @@ The process of looking for a new job is stressful. If you already have one, you�
 
 I knew by March of this year that I was ready to move on from my now previous employer. I’ve never really had a difficult time finding a job when I decided to commit to the process. I don’t think this time was any different in that respect, but it was interesting. I was fortunate and excited to accept the position that I had the most interest in of all those I looked at during the entire process.
 
-My process was around the same time that my friend <u>[@davemhenry](https://twitter.com/davemhenry)</u> was in the midst of his <u>[#HireDaveNow](https://twitter.com/search?q=%23HireDaveNow)</u> campaign on Twitter. It was fun to watch Dave advertise himself, while I was lurking in the shadows, although I’m sure it was super stressful for him at the time. It would have been refreshing to be able to shout “I’m available” to the world.
+My process was around the same time that my friend [@davemhenry](https://twitter.com/davemhenry) was in the midst of his [#HireDaveNow](https://twitter.com/search?q=%23HireDaveNow) campaign on Twitter. It was fun to watch Dave advertise himself, while I was lurking in the shadows, although I’m sure it was super stressful for him at the time. It would have been refreshing to be able to shout “I’m available” to the world.
 
-Someone <u>[eventually hired Dave](http://geekfluent.com/2017/05/22/job-search-successful-im-headed-to-the-cloud/)</u>.
+Someone [eventually hired Dave](http://geekfluent.com/2017/05/22/job-search-successful-im-headed-to-the-cloud/).
 
-I have never used a third-party recruiter in any of my job quests. I’ve always been a direct applicant, and it was no different this time. I’m sure people have had success with external recruiters, but I’ve never tried. I’ve <u>[shared my thoughts](/new-recruit-er/)</u> before on that process.
+I have never used a third-party recruiter in any of my job quests. I’ve always been a direct applicant, and it was no different this time. I’m sure people have had success with external recruiters, but I’ve never tried. I’ve [shared my thoughts](/new-recruit-er/) before on that process.
 
 It just seems like even direct recruiters could do better to make the process suck less for the people on the other end. If the application, interview, and waiting process is completely crushing all your enthusiasm, what does that say about your future if you’re offered a job there?
 

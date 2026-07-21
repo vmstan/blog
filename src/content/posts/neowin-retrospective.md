@@ -15,11 +15,11 @@ Most of the people who know and interact with me professionally, or on social me
 
 They’d be mostly right.
 
-But there was a time before that, where I was “Marshalus” — and if you asked most of the people who knew what he paid attention to, it was one thing: Microsoft. Specifically, covering Microsoft at <u>[Neowin](https://neowin.net)</u>.
+But there was a time before that, where I was “Marshalus” — and if you asked most of the people who knew what he paid attention to, it was one thing: Microsoft. Specifically, covering Microsoft at [Neowin](https://neowin.net).
 
 That’d have been mostly right, too.
 
-In late 2002, during my freshman year as a college journalism student, I was “hired” by Steve (Neobond) Parker to be a Gaming News Reporter for <u>[Neowin.net](http://Neowin.net)</u>. I still remember the night it happened, sitting in my dorm room getting access to the news CMS at the time. I think my first post was something coming off of my previous obsession, Command & Conquer game modding.
+In late 2002, during my freshman year as a college journalism student, I was “hired” by Steve (Neobond) Parker to be a Gaming News Reporter for [Neowin.net](http://Neowin.net). I still remember the night it happened, sitting in my dorm room getting access to the news CMS at the time. I think my first post was something coming off of my previous obsession, Command & Conquer game modding.
 
 _As an aside, anyone reading this remember Federation Studios?_
 
@@ -40,7 +40,7 @@ I left the site in mid-2009, for reasons now that I don’t exactly remember. Th
 
 For most of my time in any kind of leadership role, I fought with Steve **constantly** about the direction of the site. I remember resigning and being fired a couple of times during my tenure, but nothing lasting more than a day or so. Somehow during the seven-year run, I managed to rise through the ranks to the position of Managing Editor. These things either happened by purely annoying Steve to the point it was the only way to shut me up, or by being willing/able to do things other people on staff were not.
 
-But there was a schism in the summer of 2009, that resulted in the departure of roughly a dozen, mostly US, staff members. In the wake, those of us who left stumbled around to find a new place to build and call home, a sort of an anti-Neowin, eventually leading to a site called <u>[TechVirtuoso](http://www.techvirtuoso.com)</u>. The site still technically exists, but nothing much happens with it. The Third Prime group that formed to run it now consists of just Frank Owen, to whom I transferred control of the domain a couple of years ago. It turns out that having a lot of strong-willed Internet personalities trying to start and run a site by committee is a lot harder than it seemed. I still remember sitting on conference calls with that group realizing that this was never going to work.
+But there was a schism in the summer of 2009, that resulted in the departure of roughly a dozen, mostly US, staff members. In the wake, those of us who left stumbled around to find a new place to build and call home, a sort of an anti-Neowin, eventually leading to a site called [TechVirtuoso](http://www.techvirtuoso.com). The site still technically exists, but nothing much happens with it. The Third Prime group that formed to run it now consists of just Frank Owen, to whom I transferred control of the domain a couple of years ago. It turns out that having a lot of strong-willed Internet personalities trying to start and run a site by committee is a lot harder than it seemed. I still remember sitting on conference calls with that group realizing that this was never going to work.
 
 But what I also realized today is that I’ve been away from Neowin now for as long as I was ever involved with the daily operations. Neowin still exists, and by an outsider’s view is as successful as ever. I apologized to Steve a few years ago, after which he was gracious enough to allow me “Veteran” status on the site, after previously being unceremoniously stripped of all status. (Not that I blamed him, at the time I didn’t want my name on it at all.)
 

@@ -15,11 +15,11 @@ For many years, 16GB devices have been an issue for Apple and its users. However
 
 16GB problem, gone.
 
-Yesterday, Apple announced a revamped MacBook Pro. Thinner, USB-C / ThunderBolt 3 all over the place, P3 display, Intel Skylake CPUs, and a new dedicated T1 chip powering <u>[a watchOS-enabled Touch Bar](https://www.macstories.net/mac/new-macbook-pro-touch-bar-t1-chip-run-on-a-variant-of-watchos/)</u>, including a Touch ID sensor in a non-iOS device for the first time.
+Yesterday, Apple announced a revamped MacBook Pro. Thinner, USB-C / ThunderBolt 3 all over the place, P3 display, Intel Skylake CPUs, and a new dedicated T1 chip powering [a watchOS-enabled Touch Bar](https://www.macstories.net/mac/new-macbook-pro-touch-bar-t1-chip-run-on-a-variant-of-watchos/), including a Touch ID sensor in a non-iOS device for the first time.
 
 Great stuff. One small problem.
 
-Intel’s Skylake processors and chipsets that Apple is using are able to support more than 16GB of memory. For instance, the <u>[i7–6920HQ](http://ark.intel.com/products/88972)</u>, which based on Apple’s advertised clock speeds looks to be what is utilized in the maxed-out 15” model, says it can do up to 64GB. Apple is a company that makes amazing products, that create and redefine entire categories. But they’re bound to some limitations.
+Intel’s Skylake processors and chipsets that Apple is using are able to support more than 16GB of memory. For instance, the [i7–6920HQ](http://ark.intel.com/products/88972), which based on Apple’s advertised clock speeds looks to be what is utilized in the maxed-out 15” model, says it can do up to 64GB. Apple is a company that makes amazing products, that create and redefine entire categories. But they’re bound to some limitations.
 
 I figured this wasn’t something that Apple did “just because” … if there was a way they could sell me more memory, at a premium, I’d think they’d do it. There’s a tradeoff being made here.
 

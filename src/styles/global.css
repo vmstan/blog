@@ -385,10 +385,18 @@ h4 {
 
 .prose blockquote {
   margin-inline: 0;
-  padding: 0.2rem 0 0.2rem 1.4rem;
+  padding: 0 0 0 1.4rem;
   border-left: 0.22rem solid var(--accent);
   color: var(--muted);
   font-size: 1.08em;
+}
+
+.prose blockquote > :first-child {
+  margin-top: 0;
+}
+
+.prose blockquote > :last-child {
+  margin-bottom: 0;
 }
 
 .prose img {

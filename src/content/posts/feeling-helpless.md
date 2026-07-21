@@ -13,7 +13,7 @@ ghostId: "a2f05dfa-bc99-478e-8f06-a054d27fd724"
 
 > For a while, what transpired in the aftermath of that night left me feeling betrayed by some people that I thought I could trust, and feeling helpless. Like so many times in life before, I was told by those who had the power to stop what was going on, that there was nothing they were willing to do, that this was my problem, and that I was to blame. My pain was always my fault. It’s never the responsibility of the people who were inflicting it.
 
-<u>[Kernel Panic](/kernel-panic/)</u>
+[Kernel Panic](/kernel-panic/)
 
 I sat there motionless, unable to speak. I could have said something, anything, but I didn’t know what to say. It was the mental equivalent of getting the wind knocked out of me. Instead, I just sat there and focused all my attention on the water bottle sitting in front of me.
 

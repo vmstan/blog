@@ -11,7 +11,7 @@ featured: false
 ghostId: "388db6d4-c6a5-4902-8ec8-3c3af34e3ced"
 ---
 
-You know you have a problem when you get excited about plan changes on your cellular provider. Yesterday, <u>[AT&T gave me a problem](http://about.att.com/story/att_introduces_mobile_share_advantage.html)</u>.
+You know you have a problem when you get excited about plan changes on your cellular provider. Yesterday, [AT&T gave me a problem](http://about.att.com/story/att_introduces_mobile_share_advantage.html).
 
 Initially, no more data overages, higher caps, and reduced pricing tiers look like good news all around, but is that really true? After looking at the details of these new AT&T data plans, I’m less than impressed. **They’ve upped the per-device access charge from $15 to $20.**
 

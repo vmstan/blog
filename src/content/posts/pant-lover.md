@@ -17,7 +17,7 @@ I also have a job that requires me to dress nicely to meet a customer in the mor
 
 Between size, cost, looks, and durability, I’ve found one pair of pants that consistently meet all my requirements.
 
-<u>[Eddie Bauer Men’s Legend Wash Chino Pants](http://www.eddiebauer.com/product/men--39-s-legend-wash-chino-pants---classic-fit/10307484/_/A-ebSku_0035697938009550__10307484_catalog10002_en__US?showProducts=111&backToCat=&previousPage=SRC&tab=&color=241)</u>. Classic fit, preferably in slate.
+[Eddie Bauer Men’s Legend Wash Chino Pants](http://www.eddiebauer.com/product/men--39-s-legend-wash-chino-pants---classic-fit/10307484/_/A-ebSku_0035697938009550__10307484_catalog10002_en__US?showProducts=111&backToCat=&previousPage=SRC&tab=&color=241). Classic fit, preferably in slate.
 
 I wear these pants almost every day.
 

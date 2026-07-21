@@ -18,7 +18,7 @@ I decided to temporarily set my Twitter account to private for a few days last w
 But at a larger level, it feels like we’ve all lost our minds, and our awareness that the things we say and do to other people have consequences, emotionally, and physically. John Mark Troyer, in his latest TechReckoning Dispatch, touched on it in a way that I think really resonated with me:
 
 > It turns out a lot of us are taking a good hard look at social media and how it is affecting our psyches and how we spend our time. Some people are opting out completely, especially off Facebook. Some people are using tools to block out distractions during the day.
-
+> 
 > Too often — and this has happened to me in 2017 — too much information becomes noise that leads to paralysis. My brother, who has been a pastor and social worker, points to the stress of all the emoting without the benefit of slowing down for ritual, without coming together. **Yelling is cathartic but does not sustain us.**
 
 I spent a good deal of time and energy from the last year yelling because I had a lot to be mad about. Honestly, I still do. But even with me yelling, I’ve always thought of my opinions as just me expressing my views, and tried to limit any negative engagement with “the other side” … but it’s inevitable that someone would take offense to even my yelling into the ether. I realize now that even the yelling wasn’t helping anyone, and that most of it was really just disruptive to everyone else’s well being. Especially my own.
