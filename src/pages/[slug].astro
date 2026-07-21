@@ -36,6 +36,8 @@ export async function getStaticPaths() {
 const { entry, kind, newer, older } = Astro.props;
 const { Content } = await render(entry);
 const isWhois = kind === "page" && entry.data.slug === "whois";
+const isNow = kind === "page" && entry.data.slug === "now";
+const updatedDate = entry.data.updatedAt.toISOString().slice(0, 10);
 const minutes = readingTime(entry.body || entry.data.description);
 const canonicalUrl =
   entry.data.canonicalUrl ?? new URL(`/${entry.data.slug}/`, SITE.url).toString();
@@ -108,7 +110,16 @@ const structuredData = {
         )
       }
     </header>
-    {isWhois ? <WhoisDirectory /> : <div class="prose"><Content /></div>}
+    {
+      isWhois ? (
+        <WhoisDirectory />
+      ) : (
+        <div class="prose">
+          {isNow && <p><code>{`$ date.updated = '${updatedDate} UTC'`}</code></p>}
+          <Content />
+        </div>
+      )
+    }
   </article>
   {
     kind === "post" && (newer || older) && (

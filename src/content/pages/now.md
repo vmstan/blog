@@ -11,8 +11,6 @@ featured: false
 ghostId: "6388f55e-bfa0-4c68-a45e-0b6c818db7d7"
 ---
 
-`$ date.updated = '2026-07-16 UTC'`
-
 ## Health
 
 ### [Supplements](https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM)
