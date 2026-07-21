@@ -30,7 +30,13 @@ and variables → Actions**:
 The deployment workflow installs the locked dependencies, runs the complete Astro
 check and production build, and deploys with the repository's pinned Wrangler
 version. Wrangler infers the account from the scoped API token. Other branches do
-not deploy.
+not deploy to production.
+
+Pull requests from branches in this repository receive a public Cloudflare preview
+after the build succeeds. The workflow uploads a non-production Worker version,
+assigns it a stable `pr-<number>` alias, and updates one comment on the pull request
+with the preview link. Pull requests from forks and Dependabot run the build checks
+without receiving Cloudflare credentials or a preview deployment.
 
 ## Cloudflare caching
 

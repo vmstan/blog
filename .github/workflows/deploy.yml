@@ -39,6 +39,98 @@ jobs:
       - name: Build site
         run: pnpm build
 
+  preview:
+    name: Deploy preview
+    if: >-
+      github.event_name == 'pull_request' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      github.event.pull_request.user.login != 'dependabot[bot]' &&
+      needs.test.result == 'success'
+    needs: test
+    permissions:
+      contents: read
+      pull-requests: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build site
+        run: pnpm build
+
+      - name: Upload Worker preview
+        id: preview
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: versions upload --preview-alias pr-${{ github.event.pull_request.number }}
+
+      - name: Add preview link to pull request
+        uses: actions/github-script@v9
+        env:
+          COMMIT_SHA: ${{ github.event.pull_request.head.sha }}
+          VERSION_PREVIEW_URL: ${{ steps.preview.outputs.deployment-url }}
+          WRANGLER_OUTPUT: ${{ steps.preview.outputs.command-output }}
+        with:
+          script: |
+            const marker = "<!-- cloudflare-preview -->";
+            const wranglerOutput = process.env.WRANGLER_OUTPUT || "";
+            const aliasMatch = wranglerOutput.match(
+              /^Version Preview Alias URL:\s*(https:\/\/\S+)/m,
+            );
+            const previewUrl = aliasMatch?.[1] || process.env.VERSION_PREVIEW_URL;
+
+            if (!previewUrl) {
+              core.setFailed("Cloudflare did not return a preview URL.");
+              return;
+            }
+
+            const shortSha = process.env.COMMIT_SHA.slice(0, 7);
+            const body = `${marker}
+            ### Cloudflare preview
+
+            [Open the website preview](${previewUrl})
+
+            Updated for \`${shortSha}\`.`;
+            const parameters = {
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            };
+            const comments = await github.paginate(
+              github.rest.issues.listComments,
+              { ...parameters, per_page: 100 },
+            );
+            const existing = comments.find(
+              (comment) =>
+                comment.user?.type === "Bot" && comment.body?.includes(marker),
+            );
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({ ...parameters, body });
+            }
+
   deploy:
     name: Deploy
     if: github.event_name != 'pull_request' && needs.test.result == 'success'
