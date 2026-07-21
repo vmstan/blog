@@ -26,10 +26,8 @@ const {
   noindex = false,
 } = Astro.props;
 const pageTitle = title ? `${title} — ${SITE.title}` : SITE.title;
-const ogImage = new URL(
-  image ?? "/images/michael-stanclift-avatar.png",
-  SITE.url,
-).toString();
+const socialTitle = title ?? SITE.title;
+const socialImage = image ? new URL(image, SITE.url).toString() : undefined;
 ---
 
 <!doctype html>
@@ -51,13 +49,21 @@ const ogImage = new URL(
       href="/rss.xml"
     />
     <meta property="og:site_name" content={SITE.title} />
-    <meta property="og:title" content={title ?? SITE.title} />
+    <meta property="og:locale" content={SITE.locale} />
+    <meta property="og:title" content={socialTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content={article ? "article" : "website"} />
     <meta property="og:url" content={canonicalUrl} />
-    <meta property="og:image" content={ogImage} />
-    <meta property="og:image:alt" content={SITE.author} />
-    <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    {socialImage && <meta property="og:image:alt" content={socialTitle} />}
+    <meta
+      name="twitter:card"
+      content={socialImage ? "summary_large_image" : "summary"}
+    />
+    <meta name="twitter:title" content={socialTitle} />
+    <meta name="twitter:description" content={description} />
+    {socialImage && <meta name="twitter:image" content={socialImage} />}
+    {socialImage && <meta name="twitter:image:alt" content={socialTitle} />}
   </head>
   <body class:list={{ "home-template": Astro.url.pathname === "/" }}>
     <a class="skip-link" href="#main-content">Skip to content</a>
