@@ -148,6 +148,30 @@ export const whoisGroups: WhoisGroup[] = [
     ],
   },
   {
+    title: "Payments",
+    description: "Where to give me all your money.",
+    services: [
+      {
+        name: "Venmo",
+        handle: "vmstan",
+        href: "https://venmo.com/u/vmstan",
+        icon: "fa-brands fa-venmo-v",
+      },
+      {
+        name: "CashApp",
+        handle: "vmstan",
+        href: "https://cash.app/vmstan",
+        icon: "fa-brands fa-cash-app",
+      },
+      {
+        name: "Patreon",
+        handle: "vmstan",
+        href: "https://patreon.com/vmstan",
+        icon: "fa-brands fa-patreon",
+      },
+    ],
+  },
+  {
     title: "Gaming",
     description: "Places where I play and share my games.",
     services: [
