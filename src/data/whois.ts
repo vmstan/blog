@@ -50,12 +50,6 @@ export const whoisGroups: WhoisGroup[] = [
         href: "https://wa.me/vmstan",
         icon: "fa-brands fa-whatsapp",
       },
-      {
-        name: "Discord",
-        handle: "vmstan",
-        href: "https://discord.com/users/vmstan",
-        icon: "fa-brands fa-discord",
-      },
     ],
   },
   {
@@ -116,6 +110,12 @@ export const whoisGroups: WhoisGroup[] = [
         icon: "fa-brands fa-youtube",
       },
       {
+        name: "Discord",
+        handle: "vmstan",
+        href: "https://discord.com/users/vmstan",
+        icon: "fa-brands fa-discord",
+      },
+      {
         name: "Facebook",
         handle: "stanclift",
         href: "https://www.facebook.com/stanclift",
@@ -128,21 +128,27 @@ export const whoisGroups: WhoisGroup[] = [
         icon: "fa-brands fa-tiktok",
       },
       {
-        name: "Snapchat",
-        handle: "realvmstan",
-        href: "https://snapchat.com/t/QZD66ePe",
-        icon: "fa-brands fa-snapchat",
-      },
-      {
         name: "X",
         handle: "vmstan",
         href: "https://x.com/vmstan",
-        icon: "fa-brands fa-x-twitter",
+        icon: "fa-brands fa-twitter",
       },
       {
         name: "Mastodon",
         handle: "vmstan@vmst.io",
         icon: "fa-brands fa-mastodon",
+        status: "inactive",
+      },
+      {
+        name: "Snapchat",
+        handle: "vmstan",
+        icon: "fa-brands fa-snapchat",
+        status: "inactive",
+      },
+      {
+        name: "Reddit",
+        handle: "u/vmstan",
+        icon: "fa-brands fa-reddit",
         status: "inactive",
       },
     ],
