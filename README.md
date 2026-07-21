@@ -5,6 +5,7 @@ The static source for [vmstan.com](https://vmstan.com), built with Astro and dep
 ## Write and preview
 
 Posts live in `src/content/posts` and pages live in `src/content/pages`. Each file is plain Markdown with validated frontmatter.
+Node.js 24 and pnpm 11 are required.
 
 ```sh
 pnpm install
