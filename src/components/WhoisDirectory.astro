@@ -1,0 +1,97 @@
+---
+import { whoisGroups, whoisProfile } from "../data/whois";
+
+const serviceCount = whoisGroups.reduce(
+  (count, group) => count + group.services.length,
+  0,
+);
+---
+
+<section class="whois-profile" aria-labelledby="whois-profile-name">
+  <img
+    class="whois-avatar"
+    src="/images/michael-stanclift-avatar.png"
+    alt=""
+    width="256"
+    height="256"
+    decoding="async"
+  />
+  <div class="whois-profile-copy">
+    <p class="whois-command"><code>{whoisProfile.command}</code></p>
+    <p class="whois-name" id="whois-profile-name">{whoisProfile.name}</p>
+    <p class="whois-summary">{whoisProfile.description}</p>
+    <ul class="whois-facts" aria-label="Profile details">
+      {
+        whoisProfile.facts.map((fact) => (
+          <li>
+            <i class={fact.icon} aria-hidden="true" />
+            <span>{fact.label}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
+
+<section class="whois-directory" aria-labelledby="whois-directory-title">
+  <header class="whois-directory-header">
+    <div>
+      <p class="eyebrow">Profiles</p>
+      <h2 id="whois-directory-title">Elsewhere online</h2>
+    </div>
+    <p>{serviceCount} services</p>
+  </header>
+
+  <div class="whois-groups">
+    {
+      whoisGroups.map((group) => (
+        <section class="whois-group" aria-labelledby={`whois-${group.title.toLowerCase()}`}>
+          <header class="whois-group-header">
+            <h3 id={`whois-${group.title.toLowerCase()}`}>{group.title}</h3>
+            <p>{group.description}</p>
+          </header>
+          <ul class="whois-service-grid">
+            {group.services.map((service) => (
+              <li>
+                <a
+                  class:list={[
+                    "whois-service",
+                    {
+                      "whois-service-featured": service.featured,
+                      "whois-service-inactive": service.status === "inactive",
+                    },
+                  ]}
+                  href={
+                    service.status === "inactive" ? undefined : service.href
+                  }
+                  aria-disabled={
+                    service.status === "inactive" ? "true" : undefined
+                  }
+                  tabindex={service.status === "inactive" ? "-1" : undefined}
+                  aria-label={
+                    service.status === "inactive"
+                      ? `${service.name}, ${service.handle}, inactive`
+                      : undefined
+                  }
+                >
+                  <span class="whois-service-icon" aria-hidden="true">
+                    <i class={service.icon} />
+                  </span>
+                  <span class="whois-service-copy">
+                    <strong>{service.name}</strong>
+                    <span class="whois-service-handle">{service.handle}</span>
+                  </span>
+                  {
+                    service.status !== "inactive" && (
+                      <span class="whois-service-arrow" aria-hidden="true">↗</span>
+                    )
+                  }
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</section>

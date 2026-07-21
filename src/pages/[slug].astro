@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import WhoisDirectory from "../components/WhoisDirectory.astro";
 import { SITE } from "../config";
 import { formatDate, publishedPosts, readingTime } from "../lib/content";
 
@@ -34,6 +35,7 @@ export async function getStaticPaths() {
 
 const { entry, kind, newer, older } = Astro.props;
 const { Content } = await render(entry);
+const isWhois = kind === "page" && entry.data.slug === "whois";
 const minutes = readingTime(entry.body ?? entry.data.description);
 const canonicalUrl =
   entry.data.canonicalUrl ?? new URL(`/${entry.data.slug}/`, SITE.url).toString();
@@ -56,12 +58,20 @@ const structuredData = {
   article={kind === "post"}
 >
   <article
-    class="entry shell"
+    class:list={["entry", "shell", { "whois-page": isWhois }]}
     data-pagefind-body={kind === "post" ? "" : undefined}
   >
-    <header class="entry-header">
+    <header class:list={["entry-header", { "whois-page-header": isWhois }]}>
       {kind === "post" && <p class="eyebrow" data-pagefind-ignore>Essay</p>}
+      {isWhois && <p class="eyebrow">About</p>}
       <h1>{entry.data.title}</h1>
+      {
+        isWhois && (
+          <p class="whois-intro">
+            Who is this guy?
+          </p>
+        )
+      }
       {
         kind === "post" && (
           <div class="entry-author" data-pagefind-ignore="all">
@@ -98,9 +108,7 @@ const structuredData = {
         )
       }
     </header>
-    <div class="prose">
-      <Content />
-    </div>
+    {isWhois ? <WhoisDirectory /> : <div class="prose"><Content /></div>}
   </article>
   {
     kind === "post" && (newer || older) && (
