@@ -5,7 +5,7 @@ description: "Memory utilization is important in VMware, most of the time it’s
 publishedAt: "2013-02-11T18:00:00.000Z"
 updatedAt: "2026-06-21T16:33:39.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "hardware", "datacenter", "administration"]
 draft: false
 featured: false
 ghostId: "6e2214ea-f80d-4d34-8919-a51e21145bfe"

@@ -5,7 +5,7 @@ description: "One hundred years from now, people will talk about Steve Jobs the 
 publishedAt: "2011-10-06T00:00:00.000Z"
 updatedAt: "2026-06-21T15:52:44.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "technology", "tribute", "personal"]
 draft: false
 featured: false
 ghostId: "4fb3a25e-b129-4146-9d6f-5c9a3328a8e5"

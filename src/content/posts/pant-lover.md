@@ -5,7 +5,7 @@ description: "I have some strict requirements around work pants. My wife hates t
 publishedAt: "2016-12-07T19:40:00.000Z"
 updatedAt: "2025-07-18T17:10:57.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["lifestyle", "review", "personal"]
 draft: false
 featured: false
 ghostId: "8474a50d-90ef-4935-90a1-35870499ec39"

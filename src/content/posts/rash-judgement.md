@@ -5,7 +5,7 @@ description: "A couple of months ago I noticed a rash on my wrist, under my Appl
 publishedAt: "2015-09-22T15:20:00.000Z"
 updatedAt: "2025-10-24T17:35:26.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "health", "wearables", "review"]
 draft: false
 featured: false
 ghostId: "d0be82d8-f542-43e0-aebc-34b918f263e4"

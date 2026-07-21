@@ -5,7 +5,7 @@ description: "I’ve had AT&T’s U-verse service since October 2009, the day we
 publishedAt: "2011-04-27T00:00:00.000Z"
 updatedAt: "2026-06-21T15:42:33.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["telecom", "networking", "home", "troubleshooting"]
 draft: false
 featured: false
 ghostId: "5064b6a0-be1b-4db2-a3f2-2bfa3f4af593"

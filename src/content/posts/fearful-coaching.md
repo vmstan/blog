@@ -5,7 +5,7 @@ description: "Something stood out from an article on the Birth Without Fear site
 publishedAt: "2013-06-30T02:00:00.000Z"
 updatedAt: "2026-06-20T19:40:06.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["family", "mentalhealth", "health", "personal"]
 draft: false
 featured: false
 ghostId: "5bf2b893-2e2c-451a-bccc-169a6a753343"

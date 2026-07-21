@@ -5,7 +5,7 @@ description: "You know you have a problem when you get excited about plan change
 publishedAt: "2016-08-18T19:44:00.000Z"
 updatedAt: "2025-07-18T17:21:08.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["mobile", "telecom", "opinion", "technology"]
 draft: false
 featured: false
 ghostId: "388db6d4-c6a5-4902-8ec8-3c3af34e3ced"

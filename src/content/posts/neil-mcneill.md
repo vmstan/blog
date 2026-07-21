@@ -5,7 +5,7 @@ description: "Neil McNeill was the most interesting man in my world. Neil knew s
 publishedAt: "2015-10-08T17:07:00.000Z"
 updatedAt: "2025-07-24T20:04:00.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["personal", "family", "tribute", "community"]
 draft: false
 featured: false
 ghostId: "2a110c4b-d559-40b1-91ad-480c57a08ed0"

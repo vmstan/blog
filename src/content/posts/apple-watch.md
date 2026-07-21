@@ -5,7 +5,7 @@ description: "After months of industry speculation, Apple today released pricing
 publishedAt: "2015-03-09T19:37:00.000Z"
 updatedAt: "2025-10-24T17:40:21.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "hardware", "wearables", "review"]
 draft: false
 featured: false
 ghostId: "3c9cef22-48b1-478f-8b06-bc726b35cb05"

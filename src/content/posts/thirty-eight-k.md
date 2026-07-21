@@ -5,7 +5,7 @@ description: "I've historically been pretty terrible at two things: negotiating 
 publishedAt: "2020-01-02T21:05:07.000Z"
 updatedAt: "2025-07-18T16:50:32.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["career", "salary", "employment", "personal"]
 draft: false
 featured: false
 ghostId: "fb5ec272-4bcf-4453-ad71-b1dabc7c8afd"

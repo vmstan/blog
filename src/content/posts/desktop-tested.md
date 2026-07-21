@@ -5,7 +5,7 @@ description: "Yesterday I sat for the VMware Certified Advanced Professional in 
 publishedAt: "2014-07-01T20:10:00.000Z"
 updatedAt: "2025-10-24T17:43:30.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "certification", "career", "desktop"]
 draft: false
 featured: false
 ghostId: "be74343b-1914-4425-9f11-942e91b89b3c"

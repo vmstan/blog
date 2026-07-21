@@ -5,7 +5,7 @@ description: "Most of the people who know and interact with me professionally, o
 publishedAt: "2017-02-13T17:58:00.000Z"
 updatedAt: "2025-07-18T17:08:38.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["microsoft", "community", "writing", "career", "technology"]
 draft: false
 featured: false
 ghostId: "e93eab70-d5a4-4304-a023-e6b2f054d560"

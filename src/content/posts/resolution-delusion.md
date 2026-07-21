@@ -5,7 +5,7 @@ description: "I'm not one for making New Year's resolutions. They always get bro
 publishedAt: "2020-01-01T22:52:10.000Z"
 updatedAt: "2025-07-18T16:51:35.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["mentalhealth", "personal", "culture", "opinion"]
 draft: false
 featured: false
 ghostId: "921996cb-d886-4336-a4f2-db3af40cbbeb"

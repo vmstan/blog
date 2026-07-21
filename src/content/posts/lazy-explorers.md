@@ -5,7 +5,7 @@ description: "The number of businesses still using Internet Explorer 6 is painfu
 publishedAt: "2010-01-16T00:00:00.000Z"
 updatedAt: "2026-06-20T16:59:22.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["security", "software", "administration", "microsoft", "opinion"]
 draft: false
 featured: false
 ghostId: "6ac03945-caa5-4b76-b549-5d55b92dfab2"

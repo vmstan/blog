@@ -5,7 +5,7 @@ description: "I'm going to start this by saying something that might seem strang
 publishedAt: "2017-03-30T22:59:00.000Z"
 updatedAt: "2025-10-24T17:30:32.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["socialmedia", "mentalhealth", "personal", "writing"]
 draft: false
 featured: false
 ghostId: "3ff0ee98-5db8-41ff-aaaa-415ec60562da"

@@ -5,7 +5,7 @@ description: "Historically, finding employment has not really been particularly 
 publishedAt: "2013-12-19T03:22:00.000Z"
 updatedAt: "2026-06-20T16:44:34.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["career", "employment", "recruiting", "resume", "opinion"]
 draft: false
 featured: false
 ghostId: "65385973-ec97-4b16-9099-6432aa1c27fa"

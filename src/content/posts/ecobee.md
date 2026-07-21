@@ -5,7 +5,7 @@ description: "Installed an Ecobee thermostat, and one feature is an indoor air q
 publishedAt: "2025-05-22T14:34:44.000Z"
 updatedAt: "2025-07-18T16:36:57.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["hardware", "health", "home", "technology"]
 draft: false
 featured: false
 ghostId: "63f87feb-26da-41ec-a1f9-a8776905ccf1"

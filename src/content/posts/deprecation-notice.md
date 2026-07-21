@@ -5,7 +5,7 @@ description: "At the end of the day on Tuesday, June 30, 2026, the Mastodon inst
 publishedAt: "2026-06-16T18:03:39.000Z"
 updatedAt: "2026-06-17T03:14:43.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["mastodon", "fediverse", "socialmedia", "hosting", "migration"]
 draft: false
 featured: false
 ghostId: "cac07e05-1548-43d0-9da8-eaf331e0b761"

@@ -5,7 +5,7 @@ description: "Ever since the iPhone supported Exchange, I’ve been a huge suppo
 publishedAt: "2010-06-29T00:00:00.000Z"
 updatedAt: "2026-06-20T20:13:00.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "android", "mobile", "review", "opinion"]
 draft: false
 featured: false
 ghostId: "97f56f5d-a5a8-4070-9892-d942c5c76174"

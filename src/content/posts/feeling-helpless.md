@@ -5,7 +5,7 @@ description: "For a while, what transpired in the aftermath of that night left m
 publishedAt: "2019-05-28T18:42:00.000Z"
 updatedAt: "2025-07-18T16:52:33.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["mentalhealth", "personal", "workplace"]
 draft: false
 featured: false
 ghostId: "a2f05dfa-bc99-478e-8f06-a054d27fd724"

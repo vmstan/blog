@@ -5,7 +5,7 @@ description: "I just got on the Pi-hole bandwagon a few weeks ago, and boy do I 
 publishedAt: "2020-05-20T19:01:22.000Z"
 updatedAt: "2025-07-18T16:43:56.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["networking", "automation", "software", "hosting"]
 draft: false
 featured: false
 ghostId: "26e1f4be-9bb3-4c38-86fa-bd866a1028d9"

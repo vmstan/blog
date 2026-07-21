@@ -5,7 +5,7 @@ description: "I’ve been on a View 5.1 deployment with a customer all week, and
 publishedAt: "2013-01-18T18:00:00.000Z"
 updatedAt: "2026-06-21T16:01:41.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "desktop", "troubleshooting", "software"]
 draft: false
 featured: false
 ghostId: "576d644e-8cfe-4a84-9fa3-2069d751a976"

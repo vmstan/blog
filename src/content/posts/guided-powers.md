@@ -5,7 +5,7 @@ description: "Power… it is the only thing that you will find more prevalent in
 publishedAt: "2014-05-16T04:08:00.000Z"
 updatedAt: "2025-10-24T17:45:23.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["datacenter", "hardware", "consulting", "infrastructure"]
 draft: false
 featured: false
 ghostId: "99e991f0-3337-47de-8942-1c7196e6e37d"

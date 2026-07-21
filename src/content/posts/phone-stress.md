@@ -5,7 +5,7 @@ description: "The boys who cried wolf (AKA The Wall Street Journal, et al) are a
 publishedAt: "2011-01-09T00:00:00.000Z"
 updatedAt: "2026-06-21T15:36:33.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "mobile", "telecom", "opinion"]
 draft: false
 featured: false
 ghostId: "29a133f4-5229-4d95-96bb-67c511650a1a"

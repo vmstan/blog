@@ -5,7 +5,7 @@ description: "So you want to set your datastores to Round Robin, but you’ve go
 publishedAt: "2013-06-26T16:00:00.000Z"
 updatedAt: "2026-06-20T19:43:46.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "storage", "automation", "datacenter"]
 draft: false
 featured: false
 ghostId: "86a68fb8-ac27-4146-b43d-a99df179bd53"

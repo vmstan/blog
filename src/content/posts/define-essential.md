@@ -5,7 +5,7 @@ description: "Two weeks ago, after regretfully trying to use the iOS 11 develope
 publishedAt: "2017-07-22T00:00:00.000Z"
 updatedAt: "2025-07-18T17:03:57.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "software", "mobile", "productivity"]
 draft: false
 featured: false
 ghostId: "7c2f61ea-d676-44b9-a158-86e4ff26d47f"

@@ -5,7 +5,7 @@ description: "The process of looking for a new job is stressful. If you already 
 publishedAt: "2017-06-10T15:28:00.000Z"
 updatedAt: "2025-07-18T17:04:48.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["career", "employment", "salary", "recruiting", "personal"]
 draft: false
 featured: false
 ghostId: "802d0dc2-4cbd-4503-b3a4-faa4a684e9dd"

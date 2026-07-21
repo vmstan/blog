@@ -5,7 +5,7 @@ description: "Wife: Did you buy another CPAP machine?! Me: Maybe Wife: So now yo
 publishedAt: "2025-07-07T21:11:37.000Z"
 updatedAt: "2025-07-18T16:34:59.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["health", "sleep", "personal", "family"]
 draft: false
 featured: false
 ghostId: "9bcb211b-e2ad-454d-9626-f0228c395864"

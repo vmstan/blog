@@ -5,7 +5,7 @@ description: "For the next two weeks, while I’m on vacation and enjoying the h
 publishedAt: "2013-12-20T19:31:00.000Z"
 updatedAt: "2026-06-20T16:39:24.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["cisco", "certification", "networking", "career", "datacenter"]
 draft: false
 featured: false
 ghostId: "e131a9f4-a01d-44b4-8da8-b340981f0cab"

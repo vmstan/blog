@@ -5,7 +5,7 @@ description: "I’ve been thinking for over two years about how to talk about th
 publishedAt: "2019-04-19T21:00:00.000Z"
 updatedAt: "2025-10-24T17:19:23.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["mentalhealth", "personal", "workplace", "career"]
 draft: false
 featured: false
 ghostId: "01f8f79c-7f7b-412d-ac5f-b19e09b9d924"

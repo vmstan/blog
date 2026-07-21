@@ -5,7 +5,7 @@ description: "Almost exactly one year ago, I wrote: I'm taking a Facebook Vacati
 publishedAt: "2014-06-30T00:55:00.000Z"
 updatedAt: "2026-03-01T19:58:06.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["socialmedia", "personal", "technology", "opinion"]
 draft: false
 featured: false
 ghostId: "8674972b-d5fe-40d7-994e-54b650e56b9a"

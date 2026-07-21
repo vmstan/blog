@@ -5,7 +5,7 @@ description: "My original bout with the 4.7” iPhone 6 lasted almost seven mont
 publishedAt: "2015-12-01T16:36:00.000Z"
 updatedAt: "2025-07-19T02:26:03.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "mobile", "hardware", "review"]
 draft: false
 featured: false
 ghostId: "128358ea-38aa-44cd-b93a-a9c984d4f496"

@@ -5,7 +5,7 @@ description: "1. You really should never use 100mb networking with VMware for mu
 publishedAt: "2013-02-01T18:00:00.000Z"
 updatedAt: "2026-06-21T16:04:30.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "networking", "datacenter", "infrastructure", "opinion"]
 draft: false
 featured: false
 ghostId: "8790011d-248d-48e0-8ec9-6182a5810098"

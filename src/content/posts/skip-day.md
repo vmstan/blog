@@ -5,7 +5,7 @@ description: "It turns out that finding something to write about every day is re
 publishedAt: "2020-01-06T23:03:12.000Z"
 updatedAt: "2025-07-18T16:47:36.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["writing", "personal", "productivity", "socialmedia"]
 draft: false
 featured: false
 ghostId: "ddbcae37-fa28-47f8-b54c-2b538cd6d5a1"

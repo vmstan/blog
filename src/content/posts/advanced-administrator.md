@@ -5,7 +5,7 @@ description: "On Friday, February 7, I sat for the VMware Certified Advanced Pro
 publishedAt: "2014-02-13T16:21:00.000Z"
 updatedAt: "2025-10-24T17:52:35.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "certification", "career", "datacenter"]
 draft: false
 featured: false
 ghostId: "6c512333-c030-419e-8bab-dfb4c305ad30"

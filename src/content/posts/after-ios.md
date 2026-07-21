@@ -5,7 +5,7 @@ description: "As I explained in a previous entry on Tuesday, I’ve made the dec
 publishedAt: "2010-07-02T00:00:00.000Z"
 updatedAt: "2026-06-20T20:18:43.000Z"
 author: "Vmstan"
-tags: []
+tags: ["apple", "android", "mobile", "review"]
 draft: false
 featured: false
 ghostId: "466aec4c-1a85-4ff3-aca9-ea04d1c2441b"

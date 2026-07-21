@@ -5,7 +5,7 @@ description: "Occasionally I’ll wear my “blueberry” VMware certification s
 publishedAt: "2018-04-22T00:00:00.000Z"
 updatedAt: "2025-07-18T17:02:38.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "certification", "career", "community"]
 draft: false
 featured: false
 ghostId: "481e379b-fe4b-4b89-a2c1-d3553376707c"

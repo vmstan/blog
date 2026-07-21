@@ -5,7 +5,7 @@ description: "Pardon my language, or don't. Last weekend in my Instapaper Weekly
 publishedAt: "2015-02-01T16:28:00.000Z"
 updatedAt: "2025-10-24T17:40:59.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["mentalhealth", "personal", "productivity", "opinion"]
 draft: false
 featured: false
 ghostId: "361cfbd3-3b4d-4cf1-9b1b-41177e1a43eb"

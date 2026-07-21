@@ -5,7 +5,7 @@ description: "Recently, I had two VMware Horizon View proof of concept setups fo
 publishedAt: "2016-11-30T16:34:00.000Z"
 updatedAt: "2025-07-18T17:18:01.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "storage", "hardware", "troubleshooting", "datacenter"]
 draft: false
 featured: false
 ghostId: "a8db2d66-7725-4e5d-94fd-79bde32f09ab"
@@ -50,16 +50,11 @@ So, long story short, if you’re using local RAID sets for anything other than 
 
 **Installation Instructions**
 
-	1.	[Download the new driver (for ESXi 6.0 U2)](https://my.vmware.com/group/vmware/details?downloadGroup=DT-ESX60-LSI-SCSI-MEGARAID-SAS-66081600-1OEM&productId=491)
-
-	2.	Extract the .vib file from the driver bundle and copy it to a datastore on the host
-
-	3.	Enable SSH on the host and connect to it via your terminal application of choice
-
-	4.	Apply the driver from the SSH session and disable the old one.
-
-	5.	Reboot the host
-
-	6.	Reconnect via SSH, and run a core adapter list command to verify it’s active
+1.	[Download the new driver (for ESXi 6.0 U2)](https://my.vmware.com/group/vmware/details?downloadGroup=DT-ESX60-LSI-SCSI-MEGARAID-SAS-66081600-1OEM&productId=491)
+2.	Extract the .vib file from the driver bundle and copy it to a datastore on the host
+3.	Enable SSH on the host and connect to it via your terminal application of choice
+4.	Apply the driver from the SSH session and disable the old one.
+5.	Reboot the host
+6.	Reconnect via SSH, and run a core adapter list command to verify it’s active
 
 This should verify that your RAID controller (typically either vmhba0 or vmhba1) is now using the megaraid\_sas driver. If the “UID” is listed as “Unknown” in this readout, it’s normal.

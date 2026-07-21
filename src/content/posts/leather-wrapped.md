@@ -5,7 +5,7 @@ description: "I have an on-again, off-again relationship with iPhone cases. I pu
 publishedAt: "2016-12-08T19:57:00.000Z"
 updatedAt: "2025-07-18T17:10:06.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "mobile", "hardware", "review", "lifestyle"]
 draft: false
 featured: false
 ghostId: "ec6f45b2-c74a-400b-b112-e7fc96e0a285"

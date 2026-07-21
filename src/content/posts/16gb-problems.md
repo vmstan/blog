@@ -5,7 +5,7 @@ description: "For many years, 16GB devices have been an issue for Apple and its 
 publishedAt: "2016-10-28T15:58:00.000Z"
 updatedAt: "2025-07-18T17:18:59.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "hardware", "mobile", "opinion"]
 draft: false
 featured: false
 ghostId: "9e9d1049-63f7-4206-910d-f05a03561187"

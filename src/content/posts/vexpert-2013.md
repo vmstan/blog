@@ -5,7 +5,7 @@ description: "Earlier today, John Mark Troyer announced the 2013 vExpert list. S
 publishedAt: "2013-05-28T16:00:00.000Z"
 updatedAt: "2026-06-20T20:09:02.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "community", "career", "certification"]
 draft: false
 featured: false
 ghostId: "d578dbff-8838-45ee-92c0-6d3b748dfff8"

@@ -5,7 +5,7 @@ description: "As previously noticed, vmst.io will be decommissioned on June 30, 
 publishedAt: "2026-06-22T17:58:55.000Z"
 updatedAt: "2026-06-22T17:58:55.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["mastodon", "fediverse", "socialmedia", "hosting", "migration"]
 draft: false
 featured: false
 ghostId: "63b78532-e8c6-40d4-a9ba-be49da09ef41"

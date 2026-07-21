@@ -5,7 +5,7 @@ description: "A recent email discussion over a education security listserv got m
 publishedAt: "2009-12-08T00:00:00.000Z"
 updatedAt: "2026-06-20T16:55:11.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["security", "administration", "workplace", "microsoft", "opinion"]
 draft: false
 featured: false
 ghostId: "f4cf03fa-4a2c-439e-acd1-06bf7cc2f90e"

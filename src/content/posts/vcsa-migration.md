@@ -5,7 +5,7 @@ description: "Last night I did my first customer migration from a Windows-based 
 publishedAt: "2016-12-02T20:21:00.000Z"
 updatedAt: "2025-07-18T17:16:50.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "troubleshooting", "datacenter", "migration"]
 draft: false
 featured: false
 ghostId: "654aaee8-5d65-4045-85e3-b7b69692c68b"

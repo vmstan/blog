@@ -5,7 +5,7 @@ description: "I’ve never been one to have commitment issues. But my decision t
 publishedAt: "2010-07-29T00:00:00.000Z"
 updatedAt: "2026-06-20T21:36:56.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "android", "mobile", "review", "opinion"]
 draft: false
 featured: false
 ghostId: "e55c0298-a7a5-4c22-9d17-b1241caa8425"

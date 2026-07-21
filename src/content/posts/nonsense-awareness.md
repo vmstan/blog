@@ -5,7 +5,7 @@ description: "Jessica Joy Kerr, in her blog post titled Open your eyes to the no
 publishedAt: "2020-01-04T01:18:00.000Z"
 updatedAt: "2025-07-18T16:49:29.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["workplace", "culture", "career", "opinion"]
 draft: false
 featured: false
 ghostId: "aab4b92f-1578-4750-91f0-7eca78e63058"

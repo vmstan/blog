@@ -5,7 +5,7 @@ description: "Over the weekend I facilitated a customer upgrade that involved: *
 publishedAt: "2014-01-13T18:01:00.000Z"
 updatedAt: "2025-10-24T17:53:14.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "troubleshooting", "datacenter", "consulting"]
 draft: false
 featured: false
 ghostId: "2d9063e4-e222-4989-9265-7fb733609f32"

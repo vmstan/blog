@@ -5,7 +5,7 @@ description: "On Wednesday morning, during my morning Starbucks cold-brew run, I
 publishedAt: "2017-03-30T17:30:00.000Z"
 updatedAt: "2025-10-24T17:32:39.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["emc", "storage", "career", "community"]
 draft: false
 featured: false
 ghostId: "65da4058-4c06-44dd-9315-77e8053d57e5"

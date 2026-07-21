@@ -5,7 +5,7 @@ description: "VMware has updated its certification names logos and logos, again.
 publishedAt: "2013-04-16T16:00:00.000Z"
 updatedAt: "2026-06-21T20:37:57.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "certification", "datacenter", "opinion"]
 draft: false
 featured: false
 ghostId: "90d89f98-5aca-4586-b846-bd21b6326557"

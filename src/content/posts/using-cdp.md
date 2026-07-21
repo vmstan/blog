@@ -5,7 +5,7 @@ description: "The other day I was tasked with adding a new VLAN to a customer’
 publishedAt: "2013-02-26T18:00:00.000Z"
 updatedAt: "2026-06-21T16:35:22.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "networking", "cisco", "troubleshooting", "datacenter"]
 draft: false
 featured: false
 ghostId: "afe47c19-bb84-4b45-a89d-3d1a4ab5b73a"

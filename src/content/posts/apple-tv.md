@@ -5,7 +5,7 @@ description: "When the 4th generation Apple TV was announced a few weeks back, m
 publishedAt: "2015-12-01T19:00:00.000Z"
 updatedAt: "2025-07-19T02:16:15.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "hardware", "television", "entertainment", "review"]
 draft: false
 featured: false
 ghostId: "f60c1ee4-af8d-4b20-be82-9a284d59e384"

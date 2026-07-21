@@ -5,7 +5,7 @@ description: "I recently picked up an iPhone XS Smart Battery Case for my iPhone
 publishedAt: "2019-01-22T16:44:19.000Z"
 updatedAt: "2025-07-18T16:56:05.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["apple", "mobile", "hardware", "review"]
 draft: false
 featured: false
 ghostId: "0260bb96-9af4-4954-a026-8b74a9e95ab5"

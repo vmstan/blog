@@ -5,7 +5,7 @@ description: "Yesterday my local paper posted an article about a new coffee shop
 publishedAt: "2015-07-31T19:17:00.000Z"
 updatedAt: "2025-10-24T17:38:08.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["food", "community", "home", "review"]
 draft: false
 featured: false
 ghostId: "20312c46-c33a-4eeb-abec-6b27e2ed8667"
@@ -13,7 +13,8 @@ ghostId: "20312c46-c33a-4eeb-abec-6b27e2ed8667"
 
 Yesterday my local paper posted [an article](http://www.shawneedispatch.com/news/2015/jul/29/java-jive-opens-western-shawnee-offers-much-more-j/) about a new coffee shop that has opened up near my house.
 
-> Arshad said he has instilled his own requirements for quality in the restaurant. Most of the products used are kosher and organic and he uses organic fair-trade coffee.  
+> Arshad said he has instilled his own requirements for quality in the restaurant. Most of the products used are kosher and organic and he uses organic fair-trade coffee.
+>
 > And with that philosophy, he also balances the need for affordable prices. Arshad says he has accomplished that and maintains some of the lowest prices in the area. A large cup of coffee at Java Jive costs $1.95 while a small costs $1.50.
 
 I'm all for supporting a local business, so this afternoon I decide to go check it out.

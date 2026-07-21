@@ -5,7 +5,7 @@ description: "I’m pleased to announce that yesterday I passed the VCAP6.5-DCD 
 publishedAt: "2018-07-27T00:00:00.000Z"
 updatedAt: "2025-10-24T17:21:03.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "certification", "career", "datacenter"]
 draft: false
 featured: false
 ghostId: "47b0beba-6025-4d43-ba92-447094667d6f"

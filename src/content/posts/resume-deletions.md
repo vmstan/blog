@@ -5,7 +5,7 @@ description: "There are some things that just aren’t worth putting on your res
 publishedAt: "2020-01-13T16:24:06.000Z"
 updatedAt: "2025-07-18T16:46:05.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["career", "employment", "resume", "workplace"]
 draft: false
 featured: false
 ghostId: "d742694d-dd5c-4c12-a65f-af3252a49dea"

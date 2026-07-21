@@ -5,7 +5,7 @@ description: "The Cisco Data Center track has been around since November 2012, a
 publishedAt: "2014-01-04T23:59:00.000Z"
 updatedAt: "2025-10-24T17:53:51.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["cisco", "certification", "networking", "career", "datacenter"]
 draft: false
 featured: false
 ghostId: "50c0dcfc-eb5f-426e-8a96-eb2cd53e8612"

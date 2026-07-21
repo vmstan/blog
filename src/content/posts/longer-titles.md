@@ -5,7 +5,7 @@ description: "There is no other purpose for this entry, except for some shameles
 publishedAt: "2013-07-05T16:00:00.000Z"
 updatedAt: "2026-06-20T16:51:09.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["career", "certification", "cisco", "community"]
 draft: false
 featured: false
 ghostId: "f0126dd1-1cb1-43ce-a8eb-2f9e22f8e230"

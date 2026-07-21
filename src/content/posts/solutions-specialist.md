@@ -5,7 +5,7 @@ description: "Last week, I passed the EMC Implementation Engineer, Isilon Soluti
 publishedAt: "2013-10-14T16:00:00.000Z"
 updatedAt: "2026-06-20T16:49:59.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["emc", "certification", "storage", "career", "datacenter"]
 draft: false
 featured: false
 ghostId: "a2d03530-d12c-40c9-a94f-28a908fd649b"

@@ -5,7 +5,7 @@ description: "Elan Hasson asked in a Matrix chat group of Mastodon admins how he
 publishedAt: "2023-04-18T14:37:00.000Z"
 updatedAt: "2025-10-24T17:16:44.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["television", "entertainment", "community"]
 draft: false
 featured: false
 ghostId: "92bd5444-eebf-41c3-8511-6d3d4d56f17c"

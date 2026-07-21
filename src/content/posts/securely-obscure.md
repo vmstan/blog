@@ -5,7 +5,7 @@ description: "A couple of years ago, one of our network security architects at w
 publishedAt: "2016-12-05T15:17:00.000Z"
 updatedAt: "2025-07-18T17:13:16.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["security", "career", "datacenter", "infrastructure", "opinion"]
 draft: false
 featured: false
 ghostId: "e142d37a-3ae9-448e-8581-e79bae4dfc5d"

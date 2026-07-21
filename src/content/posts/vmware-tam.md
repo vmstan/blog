@@ -5,7 +5,7 @@ description: "I have accepted a job with VMware as a Technical Account Manager (
 publishedAt: "2018-05-01T00:00:00.000Z"
 updatedAt: "2025-07-18T16:59:19.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "career", "employment", "community"]
 draft: false
 featured: false
 ghostId: "1cd00597-c7d8-4a83-861c-01d75696e380"

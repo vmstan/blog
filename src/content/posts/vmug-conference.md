@@ -5,7 +5,7 @@ description: "I used to go to a lot more of the Kansas City VMUG meetings back b
 publishedAt: "2012-12-13T18:00:00.000Z"
 updatedAt: "2026-06-21T15:58:14.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["vmware", "community", "datacenter"]
 draft: false
 featured: false
 ghostId: "26887d00-24e9-4d0d-a196-91427a7aa427"

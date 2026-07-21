@@ -5,7 +5,7 @@ description: "This morning I gave two weeks' notice to my current employer, a Ka
 publishedAt: "2017-05-22T16:19:00.000Z"
 updatedAt: "2025-07-18T17:05:59.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["career", "employment", "consulting", "personal"]
 draft: false
 featured: false
 ghostId: "e84deca2-3b29-40b4-8a29-9332a1f11d0e"

@@ -5,7 +5,7 @@ description: "This is the turkey brine receipe I've been using, adapted from thi
 publishedAt: "2014-11-26T22:20:00.000Z"
 updatedAt: "2025-10-24T17:41:38.000Z"
 author: "Michael Stanclift"
-tags: []
+tags: ["food", "home", "lifestyle", "personal"]
 draft: false
 featured: false
 ghostId: "1e675f8d-250e-49aa-8d7f-3819f6b7b8e8"
