@@ -373,17 +373,6 @@ h4 {
   max-width: var(--shell);
 }
 
-.whois-page-header {
-  max-width: var(--measure);
-}
-
-.whois-intro {
-  max-width: 38rem;
-  margin: 1rem 0 0;
-  color: var(--muted);
-  font-size: 1.15rem;
-}
-
 .whois-profile {
   display: grid;
   grid-template-columns: 6.5rem minmax(0, 1fr);

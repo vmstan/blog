@@ -63,53 +63,49 @@ const structuredData = {
     class:list={["entry", "shell", { "whois-page": isWhois }]}
     data-pagefind-body={kind === "post" ? "" : undefined}
   >
-    <header class:list={["entry-header", { "whois-page-header": isWhois }]}>
-      {kind === "post" && <p class="eyebrow" data-pagefind-ignore>Essay</p>}
-      {isWhois && <p class="eyebrow">About</p>}
-      <h1>{entry.data.title}</h1>
-      {
-        isWhois && (
-          <p class="whois-intro">
-            Who is this guy?
-          </p>
-        )
-      }
-      {
-        kind === "post" && (
-          <div class="entry-author" data-pagefind-ignore="all">
-            <img
-              class="author-avatar"
-              src="/images/michael-stanclift-avatar.png"
-              alt=""
-              width="256"
-              height="256"
-              decoding="async"
-            />
-            <div>
-              <strong>{entry.data.author}</strong>
-              <p class="entry-meta">
-                <time datetime={entry.data.publishedAt.toISOString()}>
-                  {formatDate(entry.data.publishedAt)}
-                </time>
-                <span aria-hidden="true">·</span>
-                <span>{minutes} min read</span>
-              </p>
-            </div>
-          </div>
-        )
-      }
-      {
-        kind === "post" && entry.data.tags.length > 0 && (
-          <ul class="entry-tags" aria-label="Tags" data-pagefind-ignore>
-            {
-              entry.data.tags.map((tag) => (
-                <li data-pagefind-filter="tag">{tag}</li>
-              ))
-            }
-          </ul>
-        )
-      }
-    </header>
+    {
+      !isWhois && (
+        <header class="entry-header">
+          {kind === "post" && <p class="eyebrow" data-pagefind-ignore>Essay</p>}
+          <h1>{entry.data.title}</h1>
+          {
+            kind === "post" && (
+              <div class="entry-author" data-pagefind-ignore="all">
+                <img
+                  class="author-avatar"
+                  src="/images/michael-stanclift-avatar.png"
+                  alt=""
+                  width="256"
+                  height="256"
+                  decoding="async"
+                />
+                <div>
+                  <strong>{entry.data.author}</strong>
+                  <p class="entry-meta">
+                    <time datetime={entry.data.publishedAt.toISOString()}>
+                      {formatDate(entry.data.publishedAt)}
+                    </time>
+                    <span aria-hidden="true">·</span>
+                    <span>{minutes} min read</span>
+                  </p>
+                </div>
+              </div>
+            )
+          }
+          {
+            kind === "post" && entry.data.tags.length > 0 && (
+              <ul class="entry-tags" aria-label="Tags" data-pagefind-ignore>
+                {
+                  entry.data.tags.map((tag) => (
+                    <li data-pagefind-filter="tag">{tag}</li>
+                  ))
+                }
+              </ul>
+            )
+          }
+        </header>
+      )
+    }
     {
       isWhois ? (
         <WhoisDirectory />
