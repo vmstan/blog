@@ -15,12 +15,11 @@ ghostId: "6388f55e-bfa0-4c68-a45e-0b6c818db7d7"
 
 ## Health
 
-### Supplements - [My Stack](https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM&utm_source=share&utm_content=st)
+### [Supplements](https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM)
 
 - Vitamin D+K (10,000 IU)
 - Omega 3 DHA/EPA (2 g)
-- Magnesium Glycinate (400 mg)
-- Magnesium Threonate (144 mg)
+- Magnesium Glycinate & Threonate (500 mg)
 - Creatine (5 g)
 
 ### CPAP
@@ -29,34 +28,11 @@ ghostId: "6388f55e-bfa0-4c68-a45e-0b6c818db7d7"
 - **Travel:**  Resmed AirMini w/ AirFit P10
 - **Tape:**  papmd
 
-## Media
-
-### Watching
-
-- 2026 FIFA World Cup
-
-### Reading
-
-- Wikipedia
-
-### Listening
-
-- Accidental Tech Podcast
-- Blocks
-- Club Random
-- Dithering
-- Ezra Klein Show
-- Raging Moderates
-- Reason Interview
-- Six Colors
-- Vulcan Hello
-
 ## Technology
 
 ### Apps
 
 - **Ad Blocker:**   [Wipr 2](https://kaylees.site/wipr2.html)
-- **Browser Extensions:**  [Stop The Madness Pro](https://underpassapp.com/StopTheMadness/)
 - **Coding:**   [Nova](https://nova.app)
 - **Containers:**   [Orbstack](https://orbstack.dev)
 - **Diagrams** :  [OmniGraffle](https://www.omnigroup.com/omnigraffle)
