@@ -9,6 +9,7 @@ export const SITE = {
     { href: "/whois/", label: "Whois" },
     { href: "/now/", label: "Now" },
     { href: "/archive/", label: "Archive" },
+    { href: "/search/", label: "Search" },
   ],
 } as const;
 

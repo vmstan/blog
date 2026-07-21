@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check && astro build && pagefind --site dist",
     "preview": "astro preview",
-    "deploy": "astro build && wrangler deploy",
+    "deploy": "pnpm build && wrangler deploy",
     "import:ghost": "node scripts/import-ghost.mjs"
   },
   "dependencies": {
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
+    "pagefind": "^1.5.2",
     "typescript": "^6.0.0",
     "wrangler": "^4.112.0"
   }

@@ -55,13 +55,16 @@ const structuredData = {
   canonicalUrl={canonicalUrl}
   article={kind === "post"}
 >
-  <article class="entry shell">
+  <article
+    class="entry shell"
+    data-pagefind-body={kind === "post" ? "" : undefined}
+  >
     <header class="entry-header">
-      {kind === "post" && <p class="eyebrow">Essay</p>}
+      {kind === "post" && <p class="eyebrow" data-pagefind-ignore>Essay</p>}
       <h1>{entry.data.title}</h1>
       {
         kind === "post" && (
-          <div class="entry-author">
+          <div class="entry-author" data-pagefind-ignore="all">
             <img
               class="author-avatar"
               src="/images/michael-stanclift-avatar.png"
@@ -81,6 +84,17 @@ const structuredData = {
               </p>
             </div>
           </div>
+        )
+      }
+      {
+        kind === "post" && entry.data.tags.length > 0 && (
+          <ul class="entry-tags" aria-label="Tags" data-pagefind-ignore>
+            {
+              entry.data.tags.map((tag) => (
+                <li data-pagefind-filter="tag">{tag}</li>
+              ))
+            }
+          </ul>
         )
       }
     </header>

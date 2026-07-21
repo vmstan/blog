@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const resultTemplate = `
+  <li class="search-result">
+    <a class="search-result-link" href="{{ meta.url | default(url) | safeUrl }}">
+      <h2 class="search-result-title">{{ meta.title | default("Untitled") }}</h2>
+      {{#if excerpt}}
+      <p class="search-result-excerpt">{{+ excerpt +}}</p>
+      {{/if}}
+    </a>
+  </li>
+`;
+
+const placeholderTemplate = `
+  <li class="search-result search-result-placeholder" aria-hidden="true">
+    <div class="search-result-link">
+      <span class="search-result-skeleton search-result-skeleton-title"></span>
+      <span class="search-result-skeleton search-result-skeleton-copy"></span>
+    </div>
+  </li>
+`;
+---
+
+<BaseLayout
+  title="Search"
+  description="Search the Virtually Benevolent article archive."
+>
+  <section class="entry shell search-page">
+    <p class="eyebrow">From 2009 to today</p>
+    <h1>Search</h1>
+    <p class="search-intro">Search the complete article archive by topic or keyword.</p>
+
+    <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" />
+    <script
+      is:inline
+      src="/pagefind/pagefind-component-ui.js"
+      type="module"
+    ></script>
+
+    <pagefind-input placeholder="Search essays…"></pagefind-input>
+    <pagefind-summary></pagefind-summary>
+    <pagefind-results hide-sub-results>
+      <script is:inline type="text/pagefind-template" set:html={resultTemplate}></script>
+      <script
+        is:inline
+        type="text/pagefind-template"
+        data-template="placeholder"
+        set:html={placeholderTemplate}
+      ></script>
+    </pagefind-results>
+  </section>
+</BaseLayout>
