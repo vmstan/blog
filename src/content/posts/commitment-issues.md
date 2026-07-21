@@ -1,7 +1,7 @@
 ---
 title: "Commitment Issues"
 slug: "commitment-issues"
-description: "I’ve never been one to have commitment issues. But my decision to move from the iPhone 4 to the Nexus One just couldn’t stick. Last month I wrote about what I saw as the flaws of the iOS…"
+description: "One month after switching to the Nexus One and praising it, I sold it and went back to the iPhone 4. Here is what changed my mind."
 publishedAt: "2010-07-29T00:00:00.000Z"
 updatedAt: "2026-06-20T21:36:56.000Z"
 author: "Michael Stanclift"

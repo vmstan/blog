@@ -1,7 +1,7 @@
 ---
 title: "3PAP"
 slug: "3pap"
-description: "Wife: Did you buy another CPAP machine?! Me: Maybe Wife: So now you have three? Why do you need three?! Me: Home, travel— Wife: You already got one for travel a few months ago! Me: Well…"
+description: "A short, self-incriminating dialogue with my wife about why one person could possibly need three CPAP machines."
 publishedAt: "2025-07-07T21:11:37.000Z"
 updatedAt: "2025-07-18T16:34:59.000Z"
 author: "Michael Stanclift"

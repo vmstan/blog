@@ -1,7 +1,7 @@
 ---
 title: "Deprecation Notice"
 slug: "deprecation-notice"
-description: "At the end of the day on Tuesday, June 30, 2026, the Mastodon instance vmst.io will cease operations after nearly four years. Between now and then, users will have the opportunity to export…"
+description: "After nearly four years, the vmst.io Mastodon instance will shut down on June 30, 2026. What is changing, and what users need to do."
 publishedAt: "2026-06-16T18:03:39.000Z"
 updatedAt: "2026-06-17T03:14:43.000Z"
 author: "Michael Stanclift"

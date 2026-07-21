@@ -1,7 +1,7 @@
 ---
 title: "Classic Ordering"
 slug: "classic-ordering"
-description: "Elan Hasson asked in a Matrix chat group of Mastodon admins how he should go back and watch classic Star Trek. It got me thinking about a list of episodes to help jumpstart your knowledge…"
+description: "A curated starter list of classic Star Trek episodes for getting up to speed without watching every Original Series installment."
 publishedAt: "2023-04-18T14:37:00.000Z"
 updatedAt: "2025-10-24T17:16:44.000Z"
 author: "Michael Stanclift"

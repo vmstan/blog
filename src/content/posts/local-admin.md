@@ -1,7 +1,7 @@
 ---
 title: "Local Admin"
 slug: "local-admin"
-description: "A recent email discussion over a education security listserv got me thinking about the topic of giving users administrator rights to their local machines. This is a common discussion that…"
+description: "The perennial IT debate over giving users local administrator rights, and the two schools of thought that never quite agree."
 publishedAt: "2009-12-08T00:00:00.000Z"
 updatedAt: "2026-06-20T16:55:11.000Z"
 author: "Michael Stanclift"

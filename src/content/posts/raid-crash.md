@@ -1,7 +1,7 @@
 ---
 title: "RAID Crash"
 slug: "raid-crash"
-description: "Recently, I had two VMware Horizon View proof of concept setups for work, where we designed an all-in-one Cisco UCS C240 M4 box, full of local SSD and spindles, in various RAID sets. This…"
+description: "Designing an all-in-one Cisco UCS C240 M4 full of SSD and spindles for a VMware Horizon View proof of concept, and the RAID layout behind it."
 publishedAt: "2016-11-30T16:34:00.000Z"
 updatedAt: "2025-07-18T17:18:01.000Z"
 author: "Michael Stanclift"

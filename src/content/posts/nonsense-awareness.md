@@ -1,7 +1,7 @@
 ---
 title: "Nonsense Awareness"
 slug: "nonsense-awareness"
-description: "Jessica Joy Kerr, in her blog post titled Open your eyes to the nonsense shares a great anecdote from a friend about the software development process at a utility company: “We make power,…"
+description: "Borrowing a lesson from Jessica Joy Kerr: stop trying to make sense of an organization's culture, and learn to observe and work within it."
 publishedAt: "2020-01-04T01:18:00.000Z"
 updatedAt: "2025-07-18T16:49:29.000Z"
 author: "Michael Stanclift"

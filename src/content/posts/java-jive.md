@@ -1,7 +1,7 @@
 ---
 title: "Java Jive"
 slug: "java-jive"
-description: "Yesterday my local paper posted an article about a new coffee shop that has opened up near my house. Arshad said he has instilled his own requirements for quality in the restaurant. Most of…"
+description: "Checking out a new neighborhood coffee shop that promised organic, fair-trade coffee at some of the lowest prices around."
 publishedAt: "2015-07-31T19:17:00.000Z"
 updatedAt: "2025-10-24T17:38:08.000Z"
 author: "Michael Stanclift"

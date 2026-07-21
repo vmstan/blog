@@ -1,7 +1,7 @@
 ---
 title: "Apple Watch"
 slug: "apple-watch"
-description: "After months of industry speculation, Apple today released pricing for the new Apple Watch. As a registered iFanboy, I'm legally required to purchase one. I wasn't even sure when they were…"
+description: "Working through which original Apple Watch to buy, weighing steel against aluminum and which band survives life in a datacenter."
 publishedAt: "2015-03-09T19:37:00.000Z"
 updatedAt: "2025-10-24T17:40:21.000Z"
 author: "Michael Stanclift"

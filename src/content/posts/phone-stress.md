@@ -1,7 +1,7 @@
 ---
 title: "Phone Stress"
 slug: "phone-stress"
-description: "The boys who cried wolf (AKA The Wall Street Journal, et al) are all indicating that Tuesday will be the announcement of the long awaited iPhone 4 on Verizon. I hope they’re finally right.…"
+description: "Why I am rooting for the rumored Verizon iPhone even though I am a satisfied AT&T customer with no plans to switch."
 publishedAt: "2011-01-09T00:00:00.000Z"
 updatedAt: "2026-06-21T15:36:33.000Z"
 author: "Michael Stanclift"

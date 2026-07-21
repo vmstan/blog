@@ -1,7 +1,7 @@
 ---
 title: "Bird Bath"
 slug: "bird-bath"
-description: "This is the turkey brine receipe I've been using, adapted from this one by Traeger. The first time I used it, it was identical to their instructions but I've since boiled it down to what I…"
+description: "The turkey brine recipe I keep coming back to, adapted from Traeger and boiled down to the essentials."
 publishedAt: "2014-11-26T22:20:00.000Z"
 updatedAt: "2025-10-24T17:41:38.000Z"
 author: "Michael Stanclift"

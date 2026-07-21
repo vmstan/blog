@@ -1,7 +1,7 @@
 ---
 title: "Longer Titles"
 slug: "longer-titles"
-description: "There is no other purpose for this entry, except for some shameless self promotion. I’m pretty excited about both of them, as they’re the results of things I’ve been working on for a while.…"
+description: "A little shameless self-promotion: a new Sr. Systems Engineer title and passing the first exam on the way to my CCNA."
 publishedAt: "2013-07-05T16:00:00.000Z"
 updatedAt: "2026-06-20T16:51:09.000Z"
 author: "Michael Stanclift"

@@ -1,7 +1,7 @@
 ---
 title: "Steve Jobs"
 slug: "steve-jobs"
-description: "One hundred years from now, people will talk about Steve Jobs the same way we do of Alexander Graham Bell, Thomas Edison, Henry Ford and the Wright brothers. Perhaps, as my friend Chris…"
+description: "Remembering Steve Jobs as the rare inventor and salesman whose name, a century from now, will sit alongside Edison and the Wright brothers."
 publishedAt: "2011-10-06T00:00:00.000Z"
 updatedAt: "2026-06-21T15:52:44.000Z"
 author: "Michael Stanclift"

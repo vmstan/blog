@@ -1,7 +1,7 @@
 ---
 title: "View Borked"
 slug: "view-borked"
-description: "I’ve been on a View 5.1 deployment with a customer all week, and part of the project involved deploying VMware vCenter Operations Manager (vCOPS) for View, version 1.01. I’ve done this a…"
+description: "A baffling '32-bit application' error while installing the vCenter Operations Manager adapter for View, on a 64-bit app and OS."
 publishedAt: "2013-01-18T18:00:00.000Z"
 updatedAt: "2026-06-21T16:01:41.000Z"
 author: "Michael Stanclift"

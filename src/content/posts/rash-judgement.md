@@ -1,7 +1,7 @@
 ---
 title: "Rash Judgement"
 slug: "rash-judgement"
-description: "A couple of months ago I noticed a rash on my wrist, under my Apple Watch. I didn’t put a lot of thought into it at first, made sure to clean the strap and back of the watch. Figured it was…"
+description: "A worsening rash under my Apple Watch turned out to be a nickel allergy. What I learned about the stainless steel sport band clasp."
 publishedAt: "2015-09-22T15:20:00.000Z"
 updatedAt: "2025-10-24T17:35:26.000Z"
 author: "Michael Stanclift"

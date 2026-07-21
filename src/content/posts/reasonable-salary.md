@@ -1,7 +1,7 @@
 ---
 title: "Reasonable Salary"
 slug: "reasonable-salary"
-description: "The process of looking for a new job is stressful. If you already have one, you’re a bit like a secret agent, sneaking around town trying to complete the mission of getting someone new to…"
+description: "On the peculiar, secret-agent stress of job hunting while still employed, and finally accepting a position I was genuinely excited about."
 publishedAt: "2017-06-10T15:28:00.000Z"
 updatedAt: "2025-07-18T17:04:48.000Z"
 author: "Michael Stanclift"

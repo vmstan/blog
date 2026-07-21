@@ -1,7 +1,7 @@
 ---
 title: "Pant Lover"
 slug: "pant-lover"
-description: "I have some strict requirements around work pants. My wife hates the “I can see your socks while you’re standing up” hipster look, so they have to be full length. Honestly, it’d be a great…"
+description: "A very specific quest for work pants that look sharp in a morning meeting and survive crawling under a raised floor that afternoon."
 publishedAt: "2016-12-07T19:40:00.000Z"
 updatedAt: "2025-07-18T17:10:57.000Z"
 author: "Michael Stanclift"

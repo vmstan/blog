@@ -1,7 +1,7 @@
 ---
 title: "Kernel Panic"
 slug: "kernel-panic"
-description: "I’ve been thinking for over two years about how to talk about this, how to talk about the day I couldn’t process anymore. The day where my bullshit buffers overflowed. The day of my…"
+description: "A personal essay, two years in the making, about the day my mind ran out of resources and threw a kernel panic."
 publishedAt: "2019-04-19T21:00:00.000Z"
 updatedAt: "2025-10-24T17:19:23.000Z"
 author: "Michael Stanclift"

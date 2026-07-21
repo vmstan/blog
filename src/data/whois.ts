@@ -1,11 +1,12 @@
-export interface WhoisService {
+interface WhoisServiceBase {
   name: string;
   handle: string;
-  href: string;
   icon: string;
   featured?: boolean;
-  status?: "inactive";
 }
+
+export type WhoisService = WhoisServiceBase &
+  ({ status: "inactive"; href?: string } | { status?: never; href: string });
 
 export interface WhoisGroup {
   title: string;

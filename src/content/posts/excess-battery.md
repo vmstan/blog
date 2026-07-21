@@ -1,7 +1,7 @@
 ---
 title: "Excess Battery"
 slug: "excess-battery"
-description: "I recently picked up an iPhone XS Smart Battery Case for my iPhone X. I’ve previously owned the 6S battery case for my iPhone 6 and the iPhone 7 case. Let me first say that even though…"
+description: "Using the iPhone XS Smart Battery Case on an iPhone X: what fits, what does not, and whether the cosmetic compromises actually matter."
 publishedAt: "2019-01-22T16:44:19.000Z"
 updatedAt: "2025-07-18T16:56:05.000Z"
 author: "Michael Stanclift"

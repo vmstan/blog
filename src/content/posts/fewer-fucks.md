@@ -1,7 +1,7 @@
 ---
 title: "Fewer Fucks"
 slug: "fewer-fucks"
-description: "Pardon my language, or don't. Last weekend in my Instapaper Weekly email, was a link to a fantastic article by Mark Manson called The Subtle Art of Not Giving a Fuck. Take 12 minutes, and…"
+description: "On Mark Manson's essay about caring about fewer things, and learning to spend a limited supply of caring on what actually matters."
 publishedAt: "2015-02-01T16:28:00.000Z"
 updatedAt: "2025-10-24T17:40:59.000Z"
 author: "Michael Stanclift"

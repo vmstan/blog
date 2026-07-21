@@ -1,7 +1,7 @@
 ---
 title: "Feeling Helpless"
 slug: "feeling-helpless"
-description: "For a while, what transpired in the aftermath of that night left me feeling betrayed by some people that I thought I could trust, and feeling helpless. Like so many times in life before, I…"
+description: "A personal account of the workplace meeting where six years of service, and my mental health, were met with disbelief and a door pointed toward the exit."
 publishedAt: "2019-05-28T18:42:00.000Z"
 updatedAt: "2025-07-18T16:52:33.000Z"
 author: "Michael Stanclift"

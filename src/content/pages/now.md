@@ -1,7 +1,7 @@
 ---
 title: "Now"
 slug: "now"
-description: "$ date.updated = '2026-07-16 UTC' Health Supplements - My Stack * Vitamin D+K (10,000 IU) * Omega 3 DHA/EPA (2 g) * Magnesium Glycinate (400 mg) * Magnesium Threonate (144 mg) * Creatine (5…"
+description: "A snapshot of what I am focused on right now: my current health routine, CPAP gear, and the apps and hardware in daily use."
 publishedAt: "2025-07-17T21:04:28.000Z"
 updatedAt: "2026-07-16T19:37:14.000Z"
 author: "Michael Stanclift"

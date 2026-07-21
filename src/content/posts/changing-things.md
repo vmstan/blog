@@ -1,7 +1,7 @@
 ---
 title: "Changing Things"
 slug: "changing-things"
-description: "VMware has updated its certification names logos and logos, again. I guess nothing lives forever, nothing stays the same. What was the VCP until September of last year was originally going…"
+description: "VMware reshuffles its certification names and logos again, turning the VCP-DV into the VCP-DCV just as I was ready to reprint business cards."
 publishedAt: "2013-04-16T16:00:00.000Z"
 updatedAt: "2026-06-21T20:37:57.000Z"
 author: "Michael Stanclift"

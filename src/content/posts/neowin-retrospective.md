@@ -1,7 +1,7 @@
 ---
 title: "Neowin Retrospective"
 slug: "neowin-retrospective"
-description: "Most of the people who know and interact with me professionally, or on social media, know me as “vmstan” — and if you asked most of those people, they’d tell you I only pay attention to two…"
+description: "Before 'vmstan' there was 'Marshalus': looking back on being hired as a teenage gaming news reporter covering Microsoft at Neowin."
 publishedAt: "2017-02-13T17:58:00.000Z"
 updatedAt: "2025-07-18T17:08:38.000Z"
 author: "Michael Stanclift"

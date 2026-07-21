@@ -1,7 +1,7 @@
 ---
 title: "Define Essential"
 slug: "define-essential"
-description: "Two weeks ago, after regretfully trying to use the iOS 11 developer betas on my primary devices, I was forced by general instability to roll back to iOS 10. Unfortunately, there’s no great…"
+description: "Rolling back from an unstable iOS 11 beta meant a fresh install and lost Apple Watch data, and rethinking what is essential to back up."
 publishedAt: "2017-07-22T00:00:00.000Z"
 updatedAt: "2025-07-18T17:03:57.000Z"
 author: "Michael Stanclift"

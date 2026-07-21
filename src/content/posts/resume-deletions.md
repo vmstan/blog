@@ -1,7 +1,7 @@
 ---
 title: "Resume Deletions"
 slug: "resume-deletions"
-description: "There are some things that just aren’t worth putting on your resume. This was the reminder that came to mind during replies to Owen Williams on Twitter. \"I once joined a company that…"
+description: "Some jobs are not worth a line on your resume, like the woodworking-tool company that announced it was out of money on my first day."
 publishedAt: "2020-01-13T16:24:06.000Z"
 updatedAt: "2025-07-18T16:46:05.000Z"
 author: "Michael Stanclift"

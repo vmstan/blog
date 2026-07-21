@@ -1,7 +1,7 @@
 ---
 title: "Neil McNeill"
 slug: "neil-mcneill"
-description: "Neil McNeill was the most interesting man in my world. Neil knew something about everything and had an opinion to share on all of it. Not in a way that made you feel inferior or…"
+description: "A tribute to Neil McNeill, the most interesting man I knew, who could discuss corporate taxation and lithium batteries in the same breath."
 publishedAt: "2015-10-08T17:07:00.000Z"
 updatedAt: "2025-07-24T20:04:00.000Z"
 author: "Michael Stanclift"

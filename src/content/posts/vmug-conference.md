@@ -1,7 +1,7 @@
 ---
 title: "VMUG Conference"
 slug: "vmug-conference"
-description: "I used to go to a lot more of the Kansas City VMUG meetings back before I became a consultant (and had more control over my own schedule) but when I saw there would be a full day event (and…"
+description: "A full-day Kansas City VMUG event headlined by Steve Wozniak, and why it earned its VMworld-like reputation."
 publishedAt: "2012-12-13T18:00:00.000Z"
 updatedAt: "2026-06-21T15:58:14.000Z"
 author: "Michael Stanclift"

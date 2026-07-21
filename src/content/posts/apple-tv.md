@@ -1,7 +1,7 @@
 ---
 title: "Apple TV"
 slug: "apple-tv"
-description: "When the 4th generation Apple TV was announced a few weeks back, my initial response was basically “take my money!” But then, I had second thoughts, and I didn’t order one at the start of…"
+description: "Second-guessing, then buying, the fourth-generation Apple TV, and what I still want from Apple as a cord-cutter."
 publishedAt: "2015-12-01T19:00:00.000Z"
 updatedAt: "2025-07-19T02:16:15.000Z"
 author: "Michael Stanclift"

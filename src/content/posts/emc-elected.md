@@ -1,7 +1,7 @@
 ---
 title: "EMC Elected"
 slug: "emc-elected"
-description: "On Wednesday morning, during my morning Starbucks cold-brew run, I received a shocking message from my friend Jon Hildebrand. “Congrats on EMCElect” I seriously thought he was kidding. But…"
+description: "The surprise of finding my name on the EMC Elect list, and some thoughts on what these vendor influencer programs are really for."
 publishedAt: "2017-03-30T17:30:00.000Z"
 updatedAt: "2025-10-24T17:32:39.000Z"
 author: "Michael Stanclift"

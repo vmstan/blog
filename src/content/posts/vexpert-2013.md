@@ -1,7 +1,7 @@
 ---
 title: "vExpert 2013"
 slug: "vexpert-2013"
-description: "Earlier today, John Mark Troyer announced the 2013 vExpert list. Shockingly, I made the cut, and I’m beyond honored. One of 580. Full disclosure: I originally wrote this entire blog post…"
+description: "Being named a 2013 VMware vExpert came as a genuine surprise, so much so that I had pre-written the opposite blog post just in case."
 publishedAt: "2013-05-28T16:00:00.000Z"
 updatedAt: "2026-06-20T20:09:02.000Z"
 author: "Michael Stanclift"

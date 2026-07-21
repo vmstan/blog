@@ -1,7 +1,7 @@
 ---
 title: "Blueberry Lover"
 slug: "blueberry-lover"
-description: "Occasionally I’ll wear my “blueberry” VMware certification shirt to work. Some people in the community love these shirts, some people don’t. I, do. Blue also happens to be my favorite…"
+description: "What wearing my blue VMware certification shirt says about me at work, and the conversations it tends to start."
 publishedAt: "2018-04-22T00:00:00.000Z"
 updatedAt: "2025-07-18T17:02:38.000Z"
 author: "Michael Stanclift"

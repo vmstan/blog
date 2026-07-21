@@ -23,7 +23,7 @@ const { posts } = Astro.props;
               {formatDate(post.data.publishedAt)}
             </time>
             <span aria-hidden="true">·</span>
-            <span>{readingTime(post.body ?? post.data.description)} min read</span>
+            <span>{readingTime(post.body || post.data.description)} min read</span>
           </p>
         </article>
       </li>

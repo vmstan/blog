@@ -1,7 +1,7 @@
 ---
 title: "Choosing Electives"
 slug: "choosing-electives"
-description: "I'm going to start this by saying something that might seem strange for a post like this, but is no surprise to my closest friends: The last two months, and especially the last two weeks,…"
+description: "After two draining months, a hard look at how much social media was fueling the stress, and what stepping back from Twitter taught me."
 publishedAt: "2017-03-30T22:59:00.000Z"
 updatedAt: "2025-10-24T17:30:32.000Z"
 author: "Michael Stanclift"

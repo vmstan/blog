@@ -1,7 +1,7 @@
 ---
 title: "Fearful Coaching"
 slug: "fearful-coaching"
-description: "Something stood out from an article on the Birth Without Fear site that Sadie sent me earlier tonight: I have watched her move on past the trauma and postpartum depression by herself. I was…"
+description: "A reflection on watching my wife endure birth trauma and postpartum depression, and the unspoken toll it takes on partners too."
 publishedAt: "2013-06-30T02:00:00.000Z"
 updatedAt: "2026-06-20T19:40:06.000Z"
 author: "Michael Stanclift"

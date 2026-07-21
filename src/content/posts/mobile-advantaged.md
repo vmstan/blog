@@ -1,7 +1,7 @@
 ---
 title: "Mobile Advantaged"
 slug: "mobile-advantaged"
-description: "You know you have a problem when you get excited about plan changes on your cellular provider. Yesterday, AT&T gave me a problem. Initially, no more data overages, higher caps, and reduced…"
+description: "AT&T's improved data plans, examined line by line, and why the new pricing tiers left me paying more rather than less."
 publishedAt: "2016-08-18T19:44:00.000Z"
 updatedAt: "2025-07-18T17:21:08.000Z"
 author: "Michael Stanclift"

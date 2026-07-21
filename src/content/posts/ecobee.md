@@ -1,7 +1,7 @@
 ---
 title: "Air Quality"
 slug: "ecobee"
-description: "Installed an Ecobee thermostat, and one feature is an indoor air quality sensor. When our windows are closed, it almost always reports our home is \"poor\" despite two other Eve sensors…"
+description: "My new Ecobee's air quality sensor insists I live inside a volcano. Comparing its wild VOC readings against my Eve sensors and the raw API."
 publishedAt: "2025-05-22T14:34:44.000Z"
 updatedAt: "2025-07-18T16:36:57.000Z"
 author: "Michael Stanclift"

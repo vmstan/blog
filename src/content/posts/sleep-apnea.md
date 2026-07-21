@@ -1,7 +1,7 @@
 ---
 title: "Sleep Apnea"
 slug: "sleep-apnea"
-description: "I went to an ENT a few weeks ago because I have been getting tonsil stones for a few years now, especially bad in the winter months. He said \"yep your tonsils need to come out, this is…"
+description: "A visit to the ENT for tonsil stones turned into a snoring complaint, an at-home sleep study, and a sleep apnea diagnosis."
 publishedAt: "2023-05-22T14:58:27.000Z"
 updatedAt: "2025-07-18T16:39:24.000Z"
 author: "Michael Stanclift"

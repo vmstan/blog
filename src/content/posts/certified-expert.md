@@ -1,7 +1,7 @@
 ---
 title: "Certified Expert"
 slug: "certified-expert"
-description: "I’m pleased to announce that yesterday I passed the VCAP6.5-DCD exam, thus earning the VMware Certified Implementation Engineer – Data Center Virtualization “milestone” after elevating the…"
+description: "Passing the VMware VCAP6.5-DCD at last, and how the 6.5 exam improved on the 6.0 beta I first attempted years earlier."
 publishedAt: "2018-07-27T00:00:00.000Z"
 updatedAt: "2025-10-24T17:21:03.000Z"
 author: "Michael Stanclift"

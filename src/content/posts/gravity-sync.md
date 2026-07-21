@@ -1,7 +1,7 @@
 ---
 title: "Gravity Sync"
 slug: "gravity-sync"
-description: "I just got on the Pi-hole bandwagon a few weeks ago, and boy do I love it. Really, who doesn't love DNS? And what is better than a Pi-hole? Two Pi-holes! With the release of Pi-hole 5.0, I…"
+description: "How a quick hack to keep two Pi-hole instances in sync grew into Gravity Sync, a small tool for high-availability Pi-hole setups."
 publishedAt: "2020-05-20T19:01:22.000Z"
 updatedAt: "2025-07-18T16:43:56.000Z"
 author: "Michael Stanclift"

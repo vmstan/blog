@@ -1,7 +1,7 @@
 ---
 title: "Lazy Explorers"
 slug: "lazy-explorers"
-description: "The number of businesses still using Internet Explorer 6 is painful to see. Coupled with the fact that all of them are on Windows XP or Windows 2000, it turns from pain into terror,…"
+description: "A blunt take on the administrators still running Internet Explorer 6 on Windows XP, and why 'it breaks our apps' is not good enough."
 publishedAt: "2010-01-16T00:00:00.000Z"
 updatedAt: "2026-06-20T16:59:22.000Z"
 author: "Michael Stanclift"

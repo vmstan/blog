@@ -1,7 +1,7 @@
 ---
 title: "Size Matters"
 slug: "size-matters"
-description: "My original bout with the 4.7” iPhone 6 lasted almost seven months to the day. I remember this because I received it on September 19, 2014. It was the same day my second son was born. On…"
+description: "After insisting Apple should never build a phone bigger than four inches, here is what finally converted me to the iPhone 6 Plus."
 publishedAt: "2015-12-01T16:36:00.000Z"
 updatedAt: "2025-07-19T02:26:03.000Z"
 author: "Michael Stanclift"

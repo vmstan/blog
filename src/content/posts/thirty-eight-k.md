@@ -1,7 +1,7 @@
 ---
 title: "Thirty Eight K"
 slug: "thirty-eight-k"
-description: "I've historically been pretty terrible at two things: negotiating salaries and promoting my own skills. As someone who freely admits the movie of his life story could very well be titled…"
+description: "A story about impostor syndrome, negotiating salaries badly, and the $38k university job where I had no concept of my own worth."
 publishedAt: "2020-01-02T21:05:07.000Z"
 updatedAt: "2025-07-18T16:50:32.000Z"
 author: "Michael Stanclift"

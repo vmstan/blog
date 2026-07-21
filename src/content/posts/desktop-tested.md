@@ -1,7 +1,7 @@
 ---
 title: "Desktop Tested"
 slug: "desktop-tested"
-description: "Yesterday I sat for the VMware Certified Advanced Professional in Desktop Administration exam. While I would love to tell you that I passed, sadly it seems I will be sitting for the exam…"
+description: "A Monday-morning VCAP Desktop Administration exam I walked into unprepared, and the honest post-mortem on why I will sit it again."
 publishedAt: "2014-07-01T20:10:00.000Z"
 updatedAt: "2025-10-24T17:43:30.000Z"
 author: "Michael Stanclift"

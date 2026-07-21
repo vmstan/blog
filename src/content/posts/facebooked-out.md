@@ -1,7 +1,7 @@
 ---
 title: "Facebooked Out"
 slug: "facebooked-out"
-description: "Almost exactly one year ago, I wrote: I'm taking a Facebook Vacation. I've logged out from every device, removed the apps, the bookmarks, integration to operating systems. The duration will…"
+description: "Another attempt at quitting Facebook, why the last one only lasted a few weeks, and what 24 hours away feels like at thirty."
 publishedAt: "2014-06-30T00:55:00.000Z"
 updatedAt: "2026-03-01T19:58:06.000Z"
 author: "Michael Stanclift"

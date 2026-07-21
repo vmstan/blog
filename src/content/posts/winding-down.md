@@ -1,7 +1,7 @@
 ---
 title: "Winding Down"
 slug: "winding-down"
-description: "As previously noticed, vmst.io will be decommissioned on June 30, 2026. Starting at 17:00 UTC (noon central US) the instance will enter self-destruct mode. This process will erase vmst.io…"
+description: "The final days of the vmst.io Mastodon instance, including what happens when it enters federation self-destruct mode on June 30, 2026."
 publishedAt: "2026-06-22T17:58:55.000Z"
 updatedAt: "2026-06-22T17:58:55.000Z"
 author: "Michael Stanclift"

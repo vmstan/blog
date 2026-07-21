@@ -1,7 +1,7 @@
 ---
 title: "Host Memory"
 slug: "host-memory"
-description: "Memory utilization is important in VMware, most of the time it’s the most limiting factor in the virtual to physical consolidation ratio. Often times I’m tasked with assessing how…"
+description: "Three ways to find out exactly how a VMware host's memory is laid out on the motherboard before you spend money upgrading it."
 publishedAt: "2013-02-11T18:00:00.000Z"
 updatedAt: "2026-06-21T16:33:39.000Z"
 author: "Michael Stanclift"

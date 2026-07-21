@@ -1,7 +1,7 @@
 ---
 title: "16GB Problems"
 slug: "16gb-problems"
-description: "For many years, 16GB devices have been an issue for Apple and its users. However, Apple fixed this in September, bumping up to 32GB of storage as the new minimum capacity in the iPhone 7,…"
+description: "Apple finally killed the 16GB storage floor, then shipped a new MacBook Pro capped at 16GB of memory. A look at why Skylake forced that tradeoff."
 publishedAt: "2016-10-28T15:58:00.000Z"
 updatedAt: "2025-07-18T17:18:59.000Z"
 author: "Michael Stanclift"

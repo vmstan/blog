@@ -1,7 +1,7 @@
 ---
 title: "VMware TAM"
 slug: "vmware-tam"
-description: "I have accepted a job with VMware as a Technical Account Manager (TAM). To say I’m excited about this would be a gross understatement. VMware has been the company I’ve spent the majority of…"
+description: "Accepting a role at VMware as a Technical Account Manager, joining the company I had spent most of my career focused on."
 publishedAt: "2018-05-01T00:00:00.000Z"
 updatedAt: "2025-07-18T16:59:19.000Z"
 author: "Michael Stanclift"

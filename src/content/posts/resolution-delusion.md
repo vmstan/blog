@@ -1,7 +1,7 @@
 ---
 title: "Resolution Delusion"
 slug: "resolution-delusion"
-description: "I'm not one for making New Year's resolutions. They always get broken, and then you're disappointed in yourself. However, Brent Simmons posted something on Inessential which I think is a…"
+description: "Not a fan of New Year's resolutions, but Brent Simmons' goal of getting angry only when it is truly worth it is one worth borrowing."
 publishedAt: "2020-01-01T22:52:10.000Z"
 updatedAt: "2025-07-18T16:51:35.000Z"
 author: "Michael Stanclift"

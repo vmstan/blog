@@ -1,7 +1,7 @@
 ---
 title: "Objective Complete"
 slug: "objective-complete"
-description: "The Cisco Data Center track has been around since November 2012, and when they announced it I knew that I'd have to get it at some point. I'm pleased to say that it's now done, and I can…"
+description: "Finishing the Cisco Data Center certification track, and setting my sights on the CCNP Data Center and VCAP-DCA next."
 publishedAt: "2014-01-04T23:59:00.000Z"
 updatedAt: "2025-10-24T17:53:51.000Z"
 author: "Michael Stanclift"

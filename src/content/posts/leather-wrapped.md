@@ -1,7 +1,7 @@
 ---
 title: "Leather Wrapped"
 slug: "leather-wrapped"
-description: "I have an on-again, off-again relationship with iPhone cases. I put them on. I take them off. I generally don’t like cases. I’ve only broken my iPhone one time and that was when my 6 Plus…"
+description: "An on-again, off-again relationship with iPhone cases, and why Apple's own leather case is the only one I keep coming back to."
 publishedAt: "2016-12-08T19:57:00.000Z"
 updatedAt: "2025-07-18T17:10:06.000Z"
 author: "Michael Stanclift"

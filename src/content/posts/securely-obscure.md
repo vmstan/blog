@@ -1,7 +1,7 @@
 ---
 title: "Securely Obscure"
 slug: "securely-obscure"
-description: "A couple of years ago, one of our network security architects at work told me that I was in the wrong business. Storage, virtualization, data centers, it’s all going to the cloud. I’d soon…"
+description: "A network security architect once told me the cloud would soon put me out of a job. Years later, a look back at that prediction."
 publishedAt: "2016-12-05T15:17:00.000Z"
 updatedAt: "2025-07-18T17:13:16.000Z"
 author: "Michael Stanclift"

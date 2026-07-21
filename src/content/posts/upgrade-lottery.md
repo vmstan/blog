@@ -1,7 +1,7 @@
 ---
 title: "Upgrade Lottery"
 slug: "upgrade-lottery"
-description: "Over the weekend I facilitated a customer upgrade that involved: * In place upgrade of Windows Server 2008 to Windows Server 2008 R2 on a vCenter Server. * Direct upgrade from View Composer…"
+description: "A weekend of stacked vCenter, ESXi, and Horizon View upgrades that all went off without a single support call."
 publishedAt: "2014-01-13T18:01:00.000Z"
 updatedAt: "2025-10-24T17:53:14.000Z"
 author: "Michael Stanclift"

@@ -26,6 +26,10 @@ const {
   noindex = false,
 } = Astro.props;
 const pageTitle = title ? `${title} — ${SITE.title}` : SITE.title;
+const ogImage = new URL(
+  image ?? "/images/michael-stanclift-avatar.png",
+  SITE.url,
+).toString();
 ---
 
 <!doctype html>
@@ -51,7 +55,8 @@ const pageTitle = title ? `${title} — ${SITE.title}` : SITE.title;
     <meta property="og:description" content={description} />
     <meta property="og:type" content={article ? "article" : "website"} />
     <meta property="og:url" content={canonicalUrl} />
-    {image && <meta property="og:image" content={image} />}
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={SITE.author} />
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
   </head>
   <body class:list={{ "home-template": Astro.url.pathname === "/" }}>

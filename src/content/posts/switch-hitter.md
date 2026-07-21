@@ -1,7 +1,7 @@
 ---
 title: "Switch Hitter"
 slug: "switch-hitter"
-description: "Ever since the iPhone supported Exchange, I’ve been a huge supporter. I’ve spent two good years on the iOS with my iPhone 3G. My job bought it for me back in 2008 and I got it shortly after…"
+description: "Two years an iPhone evangelist, and why the iPhone 4 finally has me seriously considering a switch away from iOS."
 publishedAt: "2010-06-29T00:00:00.000Z"
 updatedAt: "2026-06-20T20:13:00.000Z"
 author: "Michael Stanclift"

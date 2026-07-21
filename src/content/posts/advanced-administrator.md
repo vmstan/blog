@@ -1,7 +1,7 @@
 ---
 title: "Advanced Administrator"
 slug: "advanced-administrator"
-description: "On Friday, February 7, I sat for the VMware Certified Advanced Professional, Data Center Administration (VCAP5-DCA) exam. Thinking about how I performed has consumed most of my idle hours,…"
+description: "Reflections on sitting the VMware VCAP5-DCA, an entirely lab-based exam unlike any other in the VMware certification portfolio."
 publishedAt: "2014-02-13T16:21:00.000Z"
 updatedAt: "2025-10-24T17:52:35.000Z"
 author: "Michael Stanclift"
