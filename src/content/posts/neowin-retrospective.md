@@ -27,17 +27,12 @@ Anyway, I put hired up there in irony-quotes because it would be many years late
 
 That’s not to say that there weren’t other benefits to my involvement. The Neowindex, staff meet-up events were things that I still think about, and tell stories about, occasionally:
 
-	•	Like the time I got to play Team Fortress 2 with the development team of Valve Software.
-
-	•	Like the time I got to go on the _Northwestern_ of _Deadliest Catch_ fame and sit in the captain's chair while interviewing to Sig Hansen.
-
-	•	Like the time I got to go to HP and walk on the server assembly floor.
-
-	•	Like the time I got to go to AMD and meet the people who overclock their own processors to see how far the limits are.
-
-	•	Or, like the time I was dealing with some difficult life events, had a little too many Midori Sours, and decided it was a good idea to head to the strip club with some other staffers where I promptly forgot another staff member who came with us was gay, and couldn’t understand why he was so uncomfortable there…
-
-	•	And then decided to buy him a lap dance to loosen him up.
+- Like the time I got to play Team Fortress 2 with the development team of Valve Software.
+- Like the time I got to go on the _Northwestern_ of _Deadliest Catch_ fame and sit in the captain's chair while interviewing to Sig Hansen.
+- Like the time I got to go to HP and walk on the server assembly floor.
+- Like the time I got to go to AMD and meet the people who overclock their own processors to see how far the limits are.
+- Or, like the time I was dealing with some difficult life events, had a little too many Midori Sours, and decided it was a good idea to head to the strip club with some other staffers where I promptly forgot another staff member who came with us was gay, and couldn’t understand why he was so uncomfortable there…
+- And then decided to buy him a lap dance to loosen him up.
 
 Neowin was my life for most of those years, so much so that the groomscake at my wedding in 2008 was a surprise from my wife: The Neowin Logo.
 
