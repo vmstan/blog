@@ -1,6 +1,6 @@
 export const SITE = {
   title: "Virtually Benevolent",
-  description: "Thoughts, opinions, and other longer form rants",
+  description: "Michael Stanclift",
   url: "https://vmstan.com",
   author: "Michael Stanclift",
   locale: "en_US",
