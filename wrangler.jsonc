@@ -3,6 +3,9 @@
   "name": "blog",
   "compatibility_date": "2026-07-20",
   "compatibility_flags": ["nodejs_compat"],
+  "routes": [
+    { "pattern": "vmstan.com", "custom_domain": true }
+  ],
   // Workers Cache is intentionally omitted. These files are served directly by
   // Workers Static Assets without invoking or billing Worker code. Enable the
   // Worker cache only when this project gains a cacheable dynamic entrypoint.

@@ -18,7 +18,7 @@ export const whoisProfile = {
   command: '$ whois vmstan',
   name: "Michael Stanclift",
   description:
-    "Lifelong Kansan, father of four, and sysadmin since age 13. Heavily caffinated, well-rested.",
+    "Lifelong Kansan, father of four, and sysadmin since age 13. Heavily caffinated, infrequently rested.",
   facts: [
     { label: "Kansas City", icon: "fa-solid fa-location-dot" },
     { label: "Broadcom", icon: "fa-solid fa-briefcase" },
