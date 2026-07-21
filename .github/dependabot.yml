@@ -5,6 +5,14 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    # TypeScript 7's native compiler drops the programmatic API that `astro check`
+    # relies on, which breaks `pnpm build`. Astro tracks TS 7 support here:
+    # https://github.com/withastro/roadmap/discussions/1321
+    # Remove this ignore once @astrojs/check widens its `typescript` peer range to
+    # include ^7 (watch for a Dependabot bump of @astrojs/check / astro).
+    ignore:
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
 
   - package-ecosystem: github-actions
     directory: /
