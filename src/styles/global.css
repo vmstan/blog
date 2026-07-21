@@ -24,6 +24,8 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   margin: 0;
   background: var(--paper);
@@ -31,6 +33,10 @@ body {
   font-size: 1.05rem;
   line-height: 1.65;
   text-rendering: optimizeLegibility;
+}
+
+main {
+  flex: 1;
 }
 
 a {
@@ -87,6 +93,13 @@ a:hover {
   font-weight: 800;
   letter-spacing: -0.03em;
   text-decoration: none;
+}
+
+.brand:hover,
+.brand:focus-visible,
+.header-rss:hover,
+.header-rss:focus-visible {
+  color: white;
 }
 
 .nav-list {
@@ -319,16 +332,12 @@ h4 {
 }
 
 .author-avatar {
-  display: grid;
+  display: block;
+  flex: 0 0 auto;
   width: 3.2rem;
-  aspect-ratio: 1;
-  place-items: center;
+  height: 3.2rem;
   border-radius: 50%;
-  background: var(--ink);
-  color: white;
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
+  object-fit: cover;
 }
 
 .prose {

@@ -25,4 +25,5 @@ ghostId: "e3346d48-b3f9-455a-9408-ac7667ef8091"
     <li><i class="fa-brands fa-bluesky fa-canvas-square"></i> <a href="https://bsky.app/profile/vmstan.com">vmstan</a></li>
     <li><i class="fa-brands fa-github fa-canvas-square"></i> <a href="https://github.com/vmstan">vmstan</a></li>
     <li><i class="fa-brands fa-twitter fa-canvas-square"></i> <del>vmstan</del></li>
+    <li><i class="fa-brands fa-mastodon fa-canvas-square"></i> <del>vmst.io</del></li>
   </ul>
