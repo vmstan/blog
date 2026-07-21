@@ -12,16 +12,11 @@ ghostId: "a8db2d66-7725-4e5d-94fd-79bde32f09ab"
 ---
 
 Recently, I had two VMware Horizon View proof of concept setups for work, where we designed an all-in-one Cisco UCS C240 M4 box, full of local SSD and spindles, in various RAID sets. This lets the customer kick the tires on View in a small setup to see if it's a good fit for their environment, but on something more substantial than cribbing resources from the production environment.
-
-	•	5x 300GB 10K SAS RAID 5 for Infrastructure VMs (vCenter, View Broker/Composer, etc)
-
-	•	10x 300GB 10K SAS RAID 10 for VM View Linked Clones
-
-	•	6x 240GB SSD RAID 5 for View Replicas
-
-	•	1x hot spare for each drive type
-
-	•	VMware ESXi 6.0 U2 is installed on a FlexFlash SD pair
+- 5x 300GB 10K SAS RAID 5 for Infrastructure VMs (vCenter, View Broker/Composer, etc)
+- 10x 300GB 10K SAS RAID 10 for VM View Linked Clones
+- 6x 240GB SSD RAID 5 for View Replicas
+- 1x hot spare for each drive type
+- VMware ESXi 6.0 U2 is installed on a FlexFlash SD pair
 
 After getting all the basics configured, we had a single View connection broker with another View Composer VM on a local SQL Express 2012 instance for the database. Both were version 7.0.2. At the first site, the VM base image we attempted to deploy was an optimized Windows 7 x64 instance.
 
