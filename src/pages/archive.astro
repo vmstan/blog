@@ -1,13 +1,18 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { formatDate, publishedPosts } from "../lib/content";
+import { publishedPosts } from "../lib/content";
 
 const posts = publishedPosts(await getCollection("posts"));
 const groups = Object.groupBy(posts, (post) =>
   String(post.data.publishedAt.getUTCFullYear()),
 );
 const years = Object.keys(groups).sort((left, right) => Number(right) - Number(left));
+const archiveDate = new Intl.DateTimeFormat("en-US", {
+  day: "numeric",
+  month: "short",
+  timeZone: "UTC",
+});
 ---
 
 <BaseLayout title="Archive" description="Every Virtually Benevolent article, by year.">
@@ -25,7 +30,7 @@ const years = Object.keys(groups).sort((left, right) => Number(right) - Number(l
             {groups[year]?.map((post) => (
               <li>
                 <time datetime={post.data.publishedAt.toISOString()}>
-                  {formatDate(post.data.publishedAt).replace(` ${year}`, "")}
+                  {archiveDate.format(post.data.publishedAt)}
                 </time>
                 <a href={`/${post.data.slug}/`}>{post.data.title}</a>
               </li>

@@ -477,6 +477,7 @@ h4 {
 .archive-year {
   display: grid;
   grid-template-columns: 6rem 1fr;
+  align-items: baseline;
   gap: 1.5rem;
   padding-block: 1.7rem;
   border-top: 1px solid var(--line);
