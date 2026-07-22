@@ -30,6 +30,12 @@ const pathname = Astro.url.pathname;
         }
       </ul>
     </nav>
-    <a class="header-rss" href="/rss.xml">RSS</a>
+    <pagefind-modal-trigger
+      class="header-search"
+      placeholder="Search"
+      hide-shortcut
+    ></pagefind-modal-trigger>
   </div>
 </header>
+
+<pagefind-modal class="site-search-modal" reset-on-close></pagefind-modal>

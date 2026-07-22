@@ -2,12 +2,10 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PostList from "../components/PostList.astro";
-import Pagination from "../components/Pagination.astro";
-import { POSTS_PER_PAGE, SITE } from "../config";
+import { RECENT_POSTS_COUNT, SITE } from "../config";
 import { publishedPosts } from "../lib/content";
 
 const posts = publishedPosts(await getCollection("posts"));
-const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
 ---
 
 <BaseLayout>
@@ -18,7 +16,11 @@ const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
     </div>
   </section>
   <section class="shell listing-section" aria-label="Recent writing">
-    <PostList posts={posts.slice(0, POSTS_PER_PAGE)} />
-    <Pagination currentPage={1} totalPages={totalPages} />
+    <PostList posts={posts.slice(0, RECENT_POSTS_COUNT)} />
+    <div class="homepage-archive-link">
+      <a href="/archive/">
+        Browse all {posts.length} posts <span aria-hidden="true">→</span>
+      </a>
+    </div>
   </section>
 </BaseLayout>

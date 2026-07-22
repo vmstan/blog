@@ -127,9 +127,7 @@ a:hover {
 }
 
 .brand:hover,
-.brand:focus-visible,
-.header-rss:hover,
-.header-rss:focus-visible {
+.brand:focus-visible {
   color: white;
 }
 
@@ -158,15 +156,50 @@ a:hover {
   color: white;
 }
 
-.header-rss {
+.header-search {
   margin-left: auto;
-  padding: 0.42rem 0.85rem;
-  border: 1px solid color-mix(in srgb, white 55%, transparent);
-  border-radius: 999px;
-  color: white;
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-decoration: none;
+  --pf-background: transparent;
+  --pf-border: color-mix(in srgb, white 55%, transparent);
+  --pf-border-focus: white;
+  --pf-border-radius: 999px;
+  --pf-input-height: auto;
+  --pf-outline-focus: white;
+  --pf-text-muted: white;
+}
+
+.header-search .pf-trigger-btn {
+  padding: 0.42rem 0.85rem !important;
+  color: white !important;
+  font-size: 0.78rem !important;
+  font-weight: 700 !important;
+}
+
+.header-search .pf-trigger-btn:hover,
+.header-search .pf-trigger-btn[aria-expanded="true"] {
+  background: color-mix(in srgb, white 12%, transparent) !important;
+}
+
+.header-search .pf-trigger-icon {
+  background: white !important;
+}
+
+.site-search-modal {
+  --pf-background: var(--paper);
+  --pf-border: var(--line);
+  --pf-border-focus: var(--accent-strong);
+  --pf-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --pf-hover: var(--surface);
+  --pf-input-font-size: 1rem;
+  --pf-input-height: 3.25rem;
+  --pf-mark: var(--accent-strong);
+  --pf-modal-max-width: 44rem;
+  --pf-outline-focus: var(--accent-strong);
+  --pf-result-excerpt-font-size: 0.88rem;
+  --pf-result-title-font-size: 1rem;
+  --pf-text: var(--ink);
+  --pf-text-muted: var(--muted);
+  --pf-text-secondary: var(--muted);
 }
 
 .home-template .site-header {
@@ -319,21 +352,16 @@ h4 {
   text-transform: uppercase;
 }
 
-.pagination {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 1rem;
-  align-items: center;
+.homepage-archive-link {
+  display: flex;
+  max-width: 58rem;
+  justify-content: flex-end;
+  border-top: 1px solid var(--line);
   padding-block: 2.2rem;
-  color: var(--muted);
   font-size: 0.86rem;
 }
 
-.pagination > :last-child {
-  justify-self: end;
-}
-
-.pagination a {
+.homepage-archive-link a {
   font-weight: 750;
   text-decoration: none;
 }
@@ -1721,7 +1749,7 @@ h4 {
     padding-block: 1rem;
   }
 
-  .header-rss {
+  .header-search {
     position: absolute;
     top: 1.2rem;
     right: 1.25rem;
@@ -1793,14 +1821,6 @@ h4 {
 
   .entry-nav {
     grid-template-columns: 1fr;
-  }
-
-  .pagination {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .pagination > span:nth-child(2) {
-    display: none;
   }
 
   .whois-profile {

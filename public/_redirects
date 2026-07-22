@@ -2,3 +2,4 @@
 /rss /rss.xml 301
 /author/michael/ /whois/ 301
 /author/vmstan/ /whois/ 301
+/page/* /archive/ 301

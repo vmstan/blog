@@ -51,6 +51,12 @@ const socialImage = image ? new URL(image, SITE.url).toString() : undefined;
     {!noindex && <link rel="canonical" href={canonicalUrl} />}
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" />
+    <script
+      is:inline
+      src="/pagefind/pagefind-component-ui.js"
+      type="module"
+    ></script>
     <link
       rel="alternate"
       type="application/rss+xml"

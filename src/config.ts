@@ -9,8 +9,7 @@ export const SITE = {
     { href: "/whois/", label: "Whois" },
     { href: "/now/", label: "Now" },
     { href: "/archive/", label: "Archive" },
-    { href: "/search/", label: "Search" },
   ],
 } as const;
 
-export const POSTS_PER_PAGE = 25;
+export const RECENT_POSTS_COUNT = 7;
