@@ -592,89 +592,80 @@ h4 {
   transform: translateY(-2px);
 }
 
-.whois-service-featured {
-  border-color: #ead17a;
-  background: linear-gradient(135deg, #fffdf4, #fff6cf);
-  box-shadow: 0 0.35rem 1.1rem color-mix(in srgb, #b98700 10%, transparent);
+.whois-service-preferred {
+  border-color: color-mix(in srgb, var(--accent-strong) 42%, var(--line));
+  background: color-mix(in srgb, var(--accent-strong) 9%, var(--paper));
+  box-shadow: none;
 }
 
-.whois-service-featured:hover {
-  border-color: #d5aa2a;
-  background: linear-gradient(135deg, #fffbed, #ffefad);
+.whois-service-preferred:hover {
+  border-color: color-mix(in srgb, var(--accent-strong) 58%, var(--line));
+  background: color-mix(in srgb, var(--accent-strong) 14%, var(--paper));
 }
 
-.whois-service-featured .whois-service-icon {
-  background: #fff0ad;
-  color: #8a6300;
+.whois-service-preferred .whois-service-icon {
+  background: color-mix(in srgb, var(--accent-strong) 20%, var(--paper));
+  color: var(--accent-strong);
 }
 
-.whois-service-featured .whois-service-arrow {
-  color: #8a6300;
+.whois-service-preferred .whois-service-arrow {
+  color: var(--accent-strong);
 }
 
-.whois-service-inactive {
-  border-color: #e3e8ea;
-  background: #fafbfb;
+.whois-service-active {
+  border-color: color-mix(in srgb, var(--accent-strong) 42%, var(--line));
+}
+
+.whois-service-active:hover {
+  border-color: color-mix(in srgb, var(--accent-strong) 58%, var(--line));
+}
+
+.whois-service-active .whois-service-icon {
+  background: color-mix(in srgb, var(--accent-strong) 20%, var(--paper));
+  color: var(--accent-strong);
+}
+
+.whois-service-active .whois-service-arrow {
+  color: var(--accent-strong);
+}
+
+.whois-service-legacy {
   color: #68777e;
   box-shadow: none;
   cursor: default;
 }
 
-.whois-service-inactive:hover {
-  border-color: #d4dcdf;
-  background: #f6f8f8;
-  color: #59686f;
+.whois-service-legacy:hover {
+  border-color: var(--line);
+  background: var(--paper);
+  color: #68777e;
   transform: none;
 }
 
-.whois-service-inactive .whois-service-icon {
+.whois-service-legacy .whois-service-icon {
   background: #f0f3f4;
   color: #94a1a7;
 }
 
-.whois-service-inactive .whois-service-arrow {
+.whois-service-legacy .whois-service-arrow {
   color: #94a1a7;
 }
 
 @media (prefers-color-scheme: dark) {
-  .whois-service-featured {
-    border-color: #786829;
-    background: linear-gradient(135deg, #2d2813, #3a3011);
-    box-shadow: 0 0.35rem 1.1rem color-mix(in srgb, #e0bd45 8%, transparent);
-  }
-
-  .whois-service-featured:hover {
-    border-color: #a88d32;
-    background: linear-gradient(135deg, #352e14, #493b12);
-  }
-
-  .whois-service-featured .whois-service-icon {
-    background: #4c3e13;
-    color: #f0ce62;
-  }
-
-  .whois-service-featured .whois-service-arrow {
-    color: #f0ce62;
-  }
-
-  .whois-service-inactive {
-    border-color: #283239;
-    background: #151a1e;
+  .whois-service-legacy {
     color: #829099;
   }
 
-  .whois-service-inactive:hover {
-    border-color: #313d44;
-    background: #181e22;
-    color: #8d9ba3;
+  .whois-service-legacy:hover {
+    color: #829099;
   }
 
-  .whois-service-inactive .whois-service-icon {
+  .whois-service-legacy .whois-service-icon {
     background: #20282d;
     color: #74838c;
   }
 
-  .whois-service-inactive .whois-service-arrow {
+  .whois-service-legacy .whois-service-arrow {
     color: #74838c;
   }
 }
@@ -690,8 +681,8 @@ h4 {
   height: 2.6rem;
   place-items: center;
   border-radius: 50%;
-  background: color-mix(in srgb, var(--accent-strong) 10%, var(--paper));
-  color: var(--accent-strong);
+  background: color-mix(in srgb, var(--muted) 16%, var(--paper));
+  color: var(--muted);
   font-size: 1.1rem;
 }
 
@@ -716,7 +707,7 @@ h4 {
 }
 
 .whois-service-arrow {
-  color: var(--accent-strong);
+  color: var(--muted);
   font-size: 0.9rem;
   font-weight: 800;
 }

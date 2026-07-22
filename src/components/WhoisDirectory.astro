@@ -1,10 +1,35 @@
 ---
-import { whoisGroups, whoisProfile } from "../data/whois";
+import {
+    whoisGroups,
+    whoisProfile,
+    type WhoisService,
+    type WhoisTier,
+} from "../data/whois";
 
 const serviceCount = whoisGroups.reduce(
-    (count, group) => count + group.services.length,
+    (count, group) =>
+        count +
+        group.services.filter((service) => service.tier !== "legacy").length,
     0,
 );
+
+const tierOrder: Record<WhoisTier, number> = {
+    preferred: 0,
+    active: 1,
+    occasional: 2,
+    legacy: 3,
+};
+
+function sortServices(services: WhoisService[]) {
+    return [...services].sort((a, b) => {
+        const rankDelta =
+            tierOrder[a.tier ?? "active"] - tierOrder[b.tier ?? "active"];
+        return (
+            rankDelta ||
+            a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
+        );
+    });
+}
 
 function getAge(birthDate: string, today = new Date()) {
     const [birthYear, birthMonth, birthDay] = birthDate
@@ -100,62 +125,53 @@ const currentAge = getAge(whoisProfile.birthDate);
                         <p>{group.description}</p>
                     </header>
                     <ul class="whois-service-grid">
-                        {group.services.map((service) => (
-                            <li>
-                                <a
-                                    class:list={[
-                                        "whois-service",
-                                        {
-                                            "whois-service-featured":
-                                                service.featured,
-                                            "whois-service-inactive":
-                                                service.status === "inactive",
-                                        },
-                                    ]}
-                                    href={
-                                        service.status === "inactive"
-                                            ? undefined
-                                            : service.href
-                                    }
-                                    aria-disabled={
-                                        service.status === "inactive"
-                                            ? "true"
-                                            : undefined
-                                    }
-                                    tabindex={
-                                        service.status === "inactive"
-                                            ? "-1"
-                                            : undefined
-                                    }
-                                    aria-label={
-                                        service.status === "inactive"
-                                            ? `${service.name}, ${service.handle}, inactive`
-                                            : undefined
-                                    }
-                                >
-                                    <span
-                                        class="whois-service-icon"
-                                        aria-hidden="true"
+                        {sortServices(group.services).map((service) => {
+                            const tier = service.tier ?? "active";
+                            const isLegacy = tier === "legacy";
+                            return (
+                                <li>
+                                    <a
+                                        class:list={[
+                                            "whois-service",
+                                            `whois-service-${tier}`,
+                                        ]}
+                                        href={isLegacy ? undefined : service.href}
+                                        aria-disabled={
+                                            isLegacy ? "true" : undefined
+                                        }
+                                        tabindex={isLegacy ? "-1" : undefined}
+                                        aria-label={
+                                            isLegacy
+                                                ? `${service.name}, ${service.handle}, inactive`
+                                                : undefined
+                                        }
                                     >
-                                        <i class={service.icon} />
-                                    </span>
-                                    <span class="whois-service-copy">
-                                        <strong>{service.name}</strong>
-                                        <span class="whois-service-handle">
-                                            {service.handle}
+                                        <span
+                                            class="whois-service-icon"
+                                            aria-hidden="true"
+                                        >
+                                            <i class={service.icon} />
                                         </span>
-                                    </span>
-                                    {service.status !== "inactive" && (
+                                        <span class="whois-service-copy">
+                                            <strong>{service.name}</strong>
+                                            <span class="whois-service-handle">
+                                                {service.handle}
+                                            </span>
+                                        </span>
                                         <span
                                             class="whois-service-arrow"
                                             aria-hidden="true"
                                         >
-                                            ↗
+                                            {isLegacy ? (
+                                                <i class="fa-solid fa-skull-crossbones" />
+                                            ) : (
+                                                "↗"
+                                            )}
                                         </span>
-                                    )}
-                                </a>
-                            </li>
-                        ))}
+                                    </a>
+                                </li>
+                            );
+                        })}
                     </ul>
                 </section>
             ))
