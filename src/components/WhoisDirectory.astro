@@ -5,6 +5,19 @@ const serviceCount = whoisGroups.reduce(
     (count, group) => count + group.services.length,
     0,
 );
+
+function getAge(birthDate: string, today = new Date()) {
+    const [birthYear, birthMonth, birthDay] = birthDate
+        .split("-")
+        .map(Number);
+    const birthdayHasPassed =
+        today.getMonth() + 1 > birthMonth ||
+        (today.getMonth() + 1 === birthMonth && today.getDate() >= birthDay);
+
+    return today.getFullYear() - birthYear - (birthdayHasPassed ? 0 : 1);
+}
+
+const currentAge = getAge(whoisProfile.birthDate);
 ---
 
 <header class="whois-profile" aria-labelledby="whois-profile-name">
@@ -29,9 +42,40 @@ const serviceCount = whoisGroups.reduce(
                     </li>
                 ))
             }
+            <li>
+                <i class="fa-solid fa-cake-candles" aria-hidden="true" />
+                <span
+                    data-whois-age
+                    data-birth-date={whoisProfile.birthDate}
+                >
+                    {currentAge}
+                </span>
+            </li>
         </ul>
     </div>
 </header>
+
+<script>
+    const ageElement = document.querySelector<HTMLElement>("[data-whois-age]");
+    const birthDate = ageElement?.dataset.birthDate;
+
+    if (ageElement && birthDate) {
+        const [birthYear, birthMonth, birthDay] = birthDate
+            .split("-")
+            .map(Number);
+        const today = new Date();
+        const birthdayHasPassed =
+            today.getMonth() + 1 > birthMonth ||
+            (today.getMonth() + 1 === birthMonth &&
+                today.getDate() >= birthDay);
+        const age =
+            today.getFullYear() -
+            birthYear -
+            (birthdayHasPassed ? 0 : 1);
+
+        ageElement.textContent = String(age);
+    }
+</script>
 
 <section class="whois-directory" aria-labelledby="whois-directory-title">
     <header class="whois-directory-header">

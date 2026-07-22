@@ -17,6 +17,7 @@ export interface WhoisGroup {
 export const whoisProfile = {
   command: '$ whois vmstan',
   name: "Michael Stanclift",
+  birthDate: "1983-11-09",
   description:
     "Lifelong Kansan, father of four, and sysadmin since age 13. Heavily caffinated, infrequently rested.",
   facts: [
