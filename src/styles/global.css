@@ -700,12 +700,12 @@ h4 {
 .now-hero {
   position: relative;
   display: grid;
-  min-height: clamp(25rem, 48vw, 33rem);
+  min-height: clamp(20rem, 36vw, 25rem);
   grid-template-columns: minmax(0, 1.2fr) minmax(17rem, 0.8fr);
-  gap: clamp(2rem, 6vw, 5rem);
+  gap: clamp(1.5rem, 4vw, 3.5rem);
   align-items: center;
   overflow: hidden;
-  padding: clamp(2rem, 6vw, 4.5rem);
+  padding: clamp(1.5rem, 4vw, 3rem);
   border-radius: clamp(1.25rem, 3vw, 2rem);
   background:
     radial-gradient(circle at 78% 50%, rgba(13, 136, 216, 0.27), transparent 28%),
@@ -736,7 +736,7 @@ h4 {
   display: inline-flex;
   gap: 0.65rem;
   align-items: center;
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
   color: #b9c7cf;
   font-size: 0.74rem;
   font-weight: 800;
@@ -756,7 +756,7 @@ h4 {
   max-width: 10ch;
   color: white;
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: clamp(2.65rem, 6.2vw, 5.25rem);
+  font-size: clamp(2.35rem, 5.5vw, 4.75rem);
   font-weight: 850;
   letter-spacing: -0.065em;
   line-height: 0.97;
@@ -764,14 +764,14 @@ h4 {
 
 .now-intro {
   max-width: 33rem;
-  margin: 1.5rem 0 0;
+  margin: 1rem 0 0;
   color: #b9c7cf;
   font-size: clamp(1rem, 2vw, 1.2rem);
   line-height: 1.55;
 }
 
 .now-updated {
-  margin: 2.2rem 0 0;
+  margin: 1.5rem 0 0;
   color: #768994;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.74rem;
@@ -784,7 +784,7 @@ h4 {
 
 .now-signal {
   display: grid;
-  width: min(100%, 19rem);
+  width: min(100%, 16.5rem);
   aspect-ratio: 1;
   place-items: center;
   justify-self: end;
@@ -1751,7 +1751,7 @@ h4 {
   }
 
   .now-hero {
-    min-height: 29rem;
+    min-height: 22rem;
     grid-template-columns: 1fr;
   }
 
