@@ -66,9 +66,10 @@ export const nowSnapshot = {
     { label: "Wallpapers", name: "Wallaroo", href: "https://wallaroo.app" },
   ] satisfies LabeledNowLink[],
   hardware: [
-    { name: "iPhone 17 Pro", detail: "2025 · TechWoven Case" },
-    { name: "Apple Watch Ultra", detail: "2022" },
-    { name: 'MacBook Pro M3 Max 14"', detail: "2023" },
+    { name: "iPhone 17 Pro", detail: "Deep Blue · TechWoven Case" },
+    { name: "Apple Watch Ultra", detail: "Blue Trail Loop · Natural Titanium Milanese Loop" },
+    { name: 'MacBook Pro M3 Max 14"', detail: "Personal" },
+    { name: 'MacBook Pro M5 Pro 16"', detail: "Business" },
     { name: "AirPods Pro 3", detail: "Everyday audio" },
     {
       name: "Keychron K3 V2",
