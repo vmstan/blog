@@ -1,0 +1,184 @@
+---
+import { nowSnapshot } from "../data/now";
+
+interface Props {
+    updatedAt: Date;
+}
+
+const { updatedAt } = Astro.props;
+const updatedLabel = new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+}).format(updatedAt);
+---
+
+<header class="now-hero" aria-labelledby="now-title">
+    <div class="now-hero-copy">
+        <p class="now-status">
+            <span class="now-status-dot" aria-hidden="true"></span>
+            <span>Current snapshot</span>
+        </p>
+        <h1 id="now-title">This is what right now looks like.</h1>
+        <p class="now-intro">
+            A living inventory of the routines, tools, and hardware earning a
+            place in my day.
+        </p>
+        <p class="now-updated">
+            Last refreshed <time datetime={updatedAt.toISOString()}>{updatedLabel}</time>
+        </p>
+    </div>
+    <div class="now-signal" aria-hidden="true">
+        <span class="now-signal-ring now-signal-ring-outer"></span>
+        <span class="now-signal-ring now-signal-ring-inner"></span>
+        <span class="now-signal-core">NOW</span>
+    </div>
+</header>
+
+<section class="now-overview" aria-label="Snapshot at a glance">
+    <p><strong>{nowSnapshot.supplements.items.length}</strong> supplements</p>
+    <p><strong>{nowSnapshot.apps.length}</strong> daily apps</p>
+    <p><strong>{nowSnapshot.hardware.length}</strong> devices</p>
+    <p><strong>{nowSnapshot.podcasts.length}</strong> podcasts</p>
+</section>
+
+<div class="now-sections">
+    <section class="now-panel now-panel-stack" aria-labelledby="now-stack-title">
+        <header class="now-panel-header">
+            <div>
+                <p class="now-panel-index">01 / Health</p>
+                <h2 id="now-stack-title">Daily stack</h2>
+            </div>
+            <a class="now-panel-link" href={nowSnapshot.supplements.href}>
+                Full stack <span aria-hidden="true">↗</span>
+            </a>
+        </header>
+        <ol class="now-stack-list">
+            {
+                nowSnapshot.supplements.items.map((item, index) => (
+                    <li>
+                        <span class="now-item-number">
+                            {String(index + 1).padStart(2, "0")}
+                        </span>
+                        <span class="now-item-copy">
+                            <strong>{item.name}</strong>
+                            <span>{item.detail}</span>
+                        </span>
+                    </li>
+                ))
+            }
+        </ol>
+    </section>
+
+    <section class="now-panel now-panel-sleep" aria-labelledby="now-sleep-title">
+        <header class="now-panel-header">
+            <div>
+                <p class="now-panel-index">02 / Recovery</p>
+                <h2 id="now-sleep-title">Sleep kit</h2>
+            </div>
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </header>
+        <div class="now-sleep-setups">
+            {
+                nowSnapshot.sleep.map((setup) => (
+                    <article class="now-sleep-setup">
+                        <p>{setup.context}</p>
+                        <h3>{setup.device}</h3>
+                        <span>with {setup.accessory}</span>
+                    </article>
+                ))
+            }
+        </div>
+        <p class="now-sleep-note">
+            <span>Supporting role</span>
+            <strong>{nowSnapshot.tape} tape</strong>
+        </p>
+    </section>
+
+    <section class="now-panel now-panel-apps" aria-labelledby="now-apps-title">
+        <header class="now-panel-header">
+            <div>
+                <p class="now-panel-index">03 / Software</p>
+                <h2 id="now-apps-title">The app layer</h2>
+            </div>
+            <p class="now-panel-count">{nowSnapshot.apps.length} in rotation</p>
+        </header>
+        <ul class="now-app-list">
+            {
+                nowSnapshot.apps.map((app) => (
+                    <li>
+                        <span>{app.label}</span>
+                        <a href={app.href}>
+                            <strong>{app.name}</strong>
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                    </li>
+                ))
+            }
+        </ul>
+    </section>
+
+    <section class="now-panel now-panel-hardware" aria-labelledby="now-hardware-title">
+        <header class="now-panel-header">
+            <div>
+                <p class="now-panel-index">04 / Hardware</p>
+                <h2 id="now-hardware-title">On me + on the desk</h2>
+            </div>
+        </header>
+        <ul class="now-hardware-list">
+            {
+                nowSnapshot.hardware.map((item) => (
+                    <li>
+                        <span class="now-hardware-mark" aria-hidden="true"></span>
+                        <span class="now-item-copy">
+                            {
+                                "href" in item && item.href ? (
+                                    <a href={item.href}>{item.name}</a>
+                                ) : (
+                                    <strong>{item.name}</strong>
+                                )
+                            }
+                            <span>{item.detail}</span>
+                        </span>
+                    </li>
+                ))
+            }
+        </ul>
+    </section>
+
+    <section class="now-panel now-panel-podcasts" aria-labelledby="now-podcasts-title">
+        <header class="now-panel-header">
+            <div>
+                <p class="now-panel-index">05 / Listening</p>
+                <h2 id="now-podcasts-title">Regularly in my ears</h2>
+            </div>
+            <span class="now-listening-mark" aria-hidden="true">
+                <i class="fa-solid fa-headphones"></i>
+                <span>In rotation</span>
+            </span>
+        </header>
+        <ol class="now-podcast-list">
+            {
+                nowSnapshot.podcasts.map((podcast, index) => (
+                    <li>
+                        <span class="now-podcast-number">
+                            {String(index + 1).padStart(2, "0")}
+                        </span>
+                        <strong>{podcast}</strong>
+                        <span class="now-waveform" aria-hidden="true">
+                            <i></i><i></i><i></i><i></i>
+                        </span>
+                    </li>
+                ))
+            }
+        </ol>
+    </section>
+</div>
+
+<footer class="now-colophon">
+    <span aria-hidden="true">↻</span>
+    <p>
+        This page changes as my routines and tools do. It is a snapshot, not an
+        endorsement graveyard.
+    </p>
+</footer>
