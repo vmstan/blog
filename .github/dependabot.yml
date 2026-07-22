@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
     # TypeScript 7's native compiler drops the programmatic API that `astro check`
     # relies on, which breaks `pnpm build`. Astro tracks TS 7 support here:
     # https://github.com/withastro/roadmap/discussions/1321
@@ -17,4 +17,4 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
