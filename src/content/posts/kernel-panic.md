@@ -3,7 +3,7 @@ title: "Kernel Panic"
 slug: "kernel-panic"
 description: "A personal essay, two years in the making, about the day my mind ran out of resources and threw a kernel panic."
 publishedAt: "2019-04-19T21:00:00.000Z"
-updatedAt: "2025-10-24T17:19:23.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["mentalhealth", "personal", "workplace", "career"]
 draft: false

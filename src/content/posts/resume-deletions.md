@@ -3,7 +3,7 @@ title: "Resume Deletions"
 slug: "resume-deletions"
 description: "Some jobs are not worth a line on your resume, like the woodworking-tool company that announced it was out of money on my first day."
 publishedAt: "2020-01-13T16:24:06.000Z"
-updatedAt: "2025-07-18T16:46:05.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["career", "employment", "resume", "workplace"]
 draft: false

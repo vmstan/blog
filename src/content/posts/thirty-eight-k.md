@@ -3,7 +3,7 @@ title: "Thirty Eight K"
 slug: "thirty-eight-k"
 description: "A story about impostor syndrome, negotiating salaries badly, and the $38k university job where I had no concept of my own worth."
 publishedAt: "2020-01-02T21:05:07.000Z"
-updatedAt: "2025-07-18T16:50:32.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["career", "salary", "employment", "personal"]
 draft: false

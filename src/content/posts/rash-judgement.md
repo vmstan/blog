@@ -3,7 +3,7 @@ title: "Rash Judgement"
 slug: "rash-judgement"
 description: "A worsening rash under my Apple Watch turned out to be a nickel allergy. What I learned about the stainless steel sport band clasp."
 publishedAt: "2015-09-22T15:20:00.000Z"
-updatedAt: "2025-10-24T17:35:26.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "health", "wearables", "review"]
 draft: false

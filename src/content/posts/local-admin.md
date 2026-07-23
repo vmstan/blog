@@ -3,7 +3,7 @@ title: "Local Admin"
 slug: "local-admin"
 description: "The perennial IT debate over giving users local administrator rights, and the two schools of thought that never quite agree."
 publishedAt: "2009-12-08T00:00:00.000Z"
-updatedAt: "2026-06-20T16:55:11.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["security", "administration", "workplace", "microsoft", "opinion"]
 draft: false

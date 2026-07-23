@@ -3,7 +3,7 @@ title: "Bird Bath"
 slug: "bird-bath"
 description: "The turkey brine recipe I keep coming back to, adapted from Traeger and boiled down to the essentials."
 publishedAt: "2014-11-26T22:20:00.000Z"
-updatedAt: "2025-10-24T17:41:38.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["food", "home", "lifestyle", "personal"]
 draft: false

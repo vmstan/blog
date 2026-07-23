@@ -3,7 +3,7 @@ title: "Fewer Fucks"
 slug: "fewer-fucks"
 description: "On Mark Manson's essay about caring about fewer things, and learning to spend a limited supply of caring on what actually matters."
 publishedAt: "2015-02-01T16:28:00.000Z"
-updatedAt: "2025-10-24T17:40:59.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["mentalhealth", "personal", "productivity", "opinion"]
 draft: false

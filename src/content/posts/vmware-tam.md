@@ -3,7 +3,7 @@ title: "VMware TAM"
 slug: "vmware-tam"
 description: "Accepting a role at VMware as a Technical Account Manager, joining the company I had spent most of my career focused on."
 publishedAt: "2018-05-01T00:00:00.000Z"
-updatedAt: "2025-07-18T16:59:19.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "career", "employment", "community"]
 draft: false

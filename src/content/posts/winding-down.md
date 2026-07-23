@@ -3,7 +3,7 @@ title: "Winding Down"
 slug: "winding-down"
 description: "The final days of the vmst.io Mastodon instance, including what happens when it enters federation self-destruct mode on June 30, 2026."
 publishedAt: "2026-06-22T17:58:55.000Z"
-updatedAt: "2026-06-22T17:58:55.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["mastodon", "fediverse", "socialmedia", "hosting", "migration"]
 draft: false

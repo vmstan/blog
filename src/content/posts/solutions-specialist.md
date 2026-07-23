@@ -3,7 +3,7 @@ title: "Solutions Specialist"
 slug: "solutions-specialist"
 description: "Finally sitting the EMC Isilon Solutions Specialist exam months after the training, back when the certification barely existed yet."
 publishedAt: "2013-10-14T16:00:00.000Z"
-updatedAt: "2026-06-20T16:49:59.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["emc", "certification", "storage", "career", "datacenter"]
 draft: false

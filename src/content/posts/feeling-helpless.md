@@ -3,7 +3,7 @@ title: "Feeling Helpless"
 slug: "feeling-helpless"
 description: "A personal account of the workplace meeting where six years of service, and my mental health, were met with disbelief and a door pointed toward the exit."
 publishedAt: "2019-05-28T18:42:00.000Z"
-updatedAt: "2025-07-18T16:52:33.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["mentalhealth", "personal", "workplace"]
 draft: false

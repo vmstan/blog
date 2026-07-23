@@ -3,7 +3,7 @@ title: "Steve Jobs"
 slug: "steve-jobs"
 description: "Remembering Steve Jobs as the rare inventor and salesman whose name, a century from now, will sit alongside Edison and the Wright brothers."
 publishedAt: "2011-10-06T00:00:00.000Z"
-updatedAt: "2026-06-21T15:52:44.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "technology", "tribute", "personal"]
 draft: false

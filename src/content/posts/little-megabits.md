@@ -3,7 +3,7 @@ title: "Little Megabits"
 slug: "little-megabits"
 description: "A field example of what not to do with VMware networking, from 100mb links to single-vNIC vSwitches sharing management and VM traffic."
 publishedAt: "2013-02-01T18:00:00.000Z"
-updatedAt: "2026-06-21T16:04:30.000Z"
+updatedAt: "2026-07-21"
 author: "Michael Stanclift"
 tags: ["vmware", "networking", "datacenter", "infrastructure", "opinion"]
 draft: false

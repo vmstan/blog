@@ -3,7 +3,7 @@ title: "Air Quality"
 slug: "ecobee"
 description: "My new Ecobee's air quality sensor insists I live inside a volcano. Comparing its wild VOC readings against my Eve sensors and the raw API."
 publishedAt: "2025-05-22T14:34:44.000Z"
-updatedAt: "2025-07-18T16:36:57.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["hardware", "health", "home", "technology"]
 draft: false

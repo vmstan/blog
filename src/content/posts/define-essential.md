@@ -3,7 +3,7 @@ title: "Define Essential"
 slug: "define-essential"
 description: "Rolling back from an unstable iOS 11 beta meant a fresh install and lost Apple Watch data, and rethinking what is essential to back up."
 publishedAt: "2017-07-22T00:00:00.000Z"
-updatedAt: "2025-07-18T17:03:57.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "software", "mobile", "productivity"]
 draft: false

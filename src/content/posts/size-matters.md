@@ -3,7 +3,7 @@ title: "Size Matters"
 slug: "size-matters"
 description: "After insisting Apple should never build a phone bigger than four inches, here is what finally converted me to the iPhone 6 Plus."
 publishedAt: "2015-12-01T16:36:00.000Z"
-updatedAt: "2025-07-19T02:26:03.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "mobile", "hardware", "review"]
 draft: false

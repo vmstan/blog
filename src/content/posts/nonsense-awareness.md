@@ -3,7 +3,7 @@ title: "Nonsense Awareness"
 slug: "nonsense-awareness"
 description: "Borrowing a lesson from Jessica Joy Kerr: stop trying to make sense of an organization's culture, and learn to observe and work within it."
 publishedAt: "2020-01-04T01:18:00.000Z"
-updatedAt: "2025-07-18T16:49:29.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["workplace", "culture", "career", "opinion"]
 draft: false

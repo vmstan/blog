@@ -3,7 +3,7 @@ title: "Resolution Delusion"
 slug: "resolution-delusion"
 description: "Not a fan of New Year's resolutions, but Brent Simmons' goal of getting angry only when it is truly worth it is one worth borrowing."
 publishedAt: "2020-01-01T22:52:10.000Z"
-updatedAt: "2025-07-18T16:51:35.000Z"
+updatedAt: "2026-07-21"
 author: "Michael Stanclift"
 tags: ["mentalhealth", "personal", "culture", "opinion"]
 draft: false

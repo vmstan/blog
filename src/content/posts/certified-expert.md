@@ -3,7 +3,7 @@ title: "Certified Expert"
 slug: "certified-expert"
 description: "Passing the VMware VCAP6.5-DCD at last, and how the 6.5 exam improved on the 6.0 beta I first attempted years earlier."
 publishedAt: "2018-07-27T00:00:00.000Z"
-updatedAt: "2025-10-24T17:21:03.000Z"
+updatedAt: "2026-07-21"
 author: "Michael Stanclift"
 tags: ["vmware", "certification", "career", "datacenter"]
 draft: false

@@ -3,7 +3,7 @@ title: "After iOS"
 slug: "after-ios"
 description: "Why years of iPhone loyalty ended with the iPhone 4's antenna troubles, and what pushed me to try Android on the Nexus One."
 publishedAt: "2010-07-02T00:00:00.000Z"
-updatedAt: "2026-06-20T20:18:43.000Z"
+updatedAt: "2026-07-23"
 author: "Vmstan"
 tags: ["apple", "android", "mobile", "review"]
 draft: false

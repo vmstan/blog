@@ -3,7 +3,7 @@ title: "Pant Lover"
 slug: "pant-lover"
 description: "A very specific quest for work pants that look sharp in a morning meeting and survive crawling under a raised floor that afternoon."
 publishedAt: "2016-12-07T19:40:00.000Z"
-updatedAt: "2025-07-18T17:10:57.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["lifestyle", "review", "personal"]
 draft: false

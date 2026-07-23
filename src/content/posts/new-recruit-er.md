@@ -3,7 +3,7 @@ title: "New Recruit(er)"
 slug: "new-recruit-er"
 description: "Having never needed a technical recruiter to find work, some candid thoughts on what they do and the mixed results I have watched."
 publishedAt: "2013-12-19T03:22:00.000Z"
-updatedAt: "2026-06-20T16:44:34.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["career", "employment", "recruiting", "resume", "opinion"]
 draft: false

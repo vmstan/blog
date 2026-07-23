@@ -3,7 +3,7 @@ title: "Skip Day"
 slug: "skip-day"
 description: "It turns out finding something to write every day is genuinely hard. A few honest words about breaking a daily posting streak."
 publishedAt: "2020-01-06T23:03:12.000Z"
-updatedAt: "2025-07-18T16:47:36.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["writing", "personal", "productivity", "socialmedia"]
 draft: false

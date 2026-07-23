@@ -3,7 +3,7 @@ title: "View Borked"
 slug: "view-borked"
 description: "A baffling '32-bit application' error while installing the vCenter Operations Manager adapter for View, on a 64-bit app and OS."
 publishedAt: "2013-01-18T18:00:00.000Z"
-updatedAt: "2026-06-21T16:01:41.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "desktop", "troubleshooting", "software"]
 draft: false

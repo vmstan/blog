@@ -3,7 +3,7 @@ title: "Classic Ordering"
 slug: "classic-ordering"
 description: "A curated starter list of classic Star Trek episodes for getting up to speed without watching every Original Series installment."
 publishedAt: "2023-04-18T14:37:00.000Z"
-updatedAt: "2025-10-24T17:16:44.000Z"
+updatedAt: "2026-07-21"
 author: "Michael Stanclift"
 tags: ["television", "entertainment", "community"]
 draft: false

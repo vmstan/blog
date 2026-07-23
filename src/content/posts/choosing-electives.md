@@ -3,7 +3,7 @@ title: "Choosing Electives"
 slug: "choosing-electives"
 description: "After two draining months, a hard look at how much social media was fueling the stress, and what stepping back from Twitter taught me."
 publishedAt: "2017-03-30T22:59:00.000Z"
-updatedAt: "2025-10-24T17:30:32.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["socialmedia", "mentalhealth", "personal", "writing"]
 draft: false

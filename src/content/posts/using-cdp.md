@@ -3,7 +3,7 @@ title: "Using CDP"
 slug: "using-cdp"
 description: "Adding a VLAN to a customer's vSphere cluster, and using CDP to map exactly which physical switch ports each host connects to."
 publishedAt: "2013-02-26T18:00:00.000Z"
-updatedAt: "2026-06-21T16:35:22.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "networking", "cisco", "troubleshooting", "datacenter"]
 draft: false

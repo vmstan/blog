@@ -3,7 +3,7 @@ title: "Switch Hitter"
 slug: "switch-hitter"
 description: "Two years an iPhone evangelist, and why the iPhone 4 finally has me seriously considering a switch away from iOS."
 publishedAt: "2010-06-29T00:00:00.000Z"
-updatedAt: "2026-06-20T20:13:00.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "android", "mobile", "review", "opinion"]
 draft: false

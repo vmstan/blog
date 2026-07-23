@@ -3,7 +3,7 @@ title: "Lazy Explorers"
 slug: "lazy-explorers"
 description: "A blunt take on the administrators still running Internet Explorer 6 on Windows XP, and why 'it breaks our apps' is not good enough."
 publishedAt: "2010-01-16T00:00:00.000Z"
-updatedAt: "2026-06-20T16:59:22.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["security", "software", "administration", "microsoft", "opinion"]
 draft: false

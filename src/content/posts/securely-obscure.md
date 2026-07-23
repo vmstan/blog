@@ -3,7 +3,7 @@ title: "Securely Obscure"
 slug: "securely-obscure"
 description: "A network security architect once told me the cloud would soon put me out of a job. Years later, a look back at that prediction."
 publishedAt: "2016-12-05T15:17:00.000Z"
-updatedAt: "2025-07-18T17:13:16.000Z"
+updatedAt: "2026-07-21"
 author: "Michael Stanclift"
 tags: ["security", "career", "datacenter", "infrastructure", "opinion"]
 draft: false

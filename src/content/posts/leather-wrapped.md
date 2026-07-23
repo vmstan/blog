@@ -3,7 +3,7 @@ title: "Leather Wrapped"
 slug: "leather-wrapped"
 description: "An on-again, off-again relationship with iPhone cases, and why Apple's own leather case is the only one I keep coming back to."
 publishedAt: "2016-12-08T19:57:00.000Z"
-updatedAt: "2025-07-18T17:10:06.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "mobile", "hardware", "review", "lifestyle"]
 draft: false

@@ -3,7 +3,7 @@ title: "EMC Elected"
 slug: "emc-elected"
 description: "The surprise of finding my name on the EMC Elect list, and some thoughts on what these vendor influencer programs are really for."
 publishedAt: "2017-03-30T17:30:00.000Z"
-updatedAt: "2025-10-24T17:32:39.000Z"
+updatedAt: "2026-07-21"
 author: "Michael Stanclift"
 tags: ["emc", "storage", "career", "community"]
 draft: false

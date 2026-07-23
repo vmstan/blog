@@ -3,7 +3,7 @@ title: "Longer Titles"
 slug: "longer-titles"
 description: "A little shameless self-promotion: a new Sr. Systems Engineer title and passing the first exam on the way to my CCNA."
 publishedAt: "2013-07-05T16:00:00.000Z"
-updatedAt: "2026-06-20T16:51:09.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["career", "certification", "cisco", "community"]
 draft: false

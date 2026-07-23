@@ -3,7 +3,7 @@ title: "Java Jive"
 slug: "java-jive"
 description: "Checking out a new neighborhood coffee shop that promised organic, fair-trade coffee at some of the lowest prices around."
 publishedAt: "2015-07-31T19:17:00.000Z"
-updatedAt: "2025-10-24T17:38:08.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["food", "community", "home", "review"]
 draft: false

@@ -3,7 +3,7 @@ title: "Desktop Tested"
 slug: "desktop-tested"
 description: "A Monday-morning VCAP Desktop Administration exam I walked into unprepared, and the honest post-mortem on why I will sit it again."
 publishedAt: "2014-07-01T20:10:00.000Z"
-updatedAt: "2025-10-24T17:43:30.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "certification", "career", "desktop"]
 draft: false

@@ -3,7 +3,7 @@ title: "Associated Objectives"
 slug: "associated-objectives"
 description: "Spending a two-week holiday break heads-down studying for the Cisco CCNA Data Center exams instead of finishing CCNA Routing and Switching."
 publishedAt: "2013-12-20T19:31:00.000Z"
-updatedAt: "2026-06-20T16:39:24.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["cisco", "certification", "networking", "career", "datacenter"]
 draft: false

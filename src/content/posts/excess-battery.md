@@ -3,7 +3,7 @@ title: "Excess Battery"
 slug: "excess-battery"
 description: "Using the iPhone XS Smart Battery Case on an iPhone X: what fits, what does not, and whether the cosmetic compromises actually matter."
 publishedAt: "2019-01-22T16:44:19.000Z"
-updatedAt: "2025-07-18T16:56:05.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "mobile", "hardware", "review"]
 draft: false

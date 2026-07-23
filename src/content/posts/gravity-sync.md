@@ -3,7 +3,7 @@ title: "Gravity Sync"
 slug: "gravity-sync"
 description: "How a quick hack to keep two Pi-hole instances in sync grew into Gravity Sync, a small tool for high-availability Pi-hole setups."
 publishedAt: "2020-05-20T19:01:22.000Z"
-updatedAt: "2025-07-18T16:43:56.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["networking", "automation", "software", "hosting"]
 draft: false

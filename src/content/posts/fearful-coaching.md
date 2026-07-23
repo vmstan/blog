@@ -3,7 +3,7 @@ title: "Fearful Coaching"
 slug: "fearful-coaching"
 description: "A reflection on watching my wife endure birth trauma and postpartum depression, and the unspoken toll it takes on partners too."
 publishedAt: "2013-06-30T02:00:00.000Z"
-updatedAt: "2026-06-20T19:40:06.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["family", "mentalhealth", "health", "personal"]
 draft: false

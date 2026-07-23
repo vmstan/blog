@@ -3,7 +3,7 @@ title: "Host Memory"
 slug: "host-memory"
 description: "Three ways to find out exactly how a VMware host's memory is laid out on the motherboard before you spend money upgrading it."
 publishedAt: "2013-02-11T18:00:00.000Z"
-updatedAt: "2026-06-21T16:33:39.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "hardware", "datacenter", "administration"]
 draft: false

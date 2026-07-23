@@ -3,7 +3,7 @@ title: "Changing Things"
 slug: "changing-things"
 description: "VMware reshuffles its certification names and logos again, turning the VCP-DV into the VCP-DCV just as I was ready to reprint business cards."
 publishedAt: "2013-04-16T16:00:00.000Z"
-updatedAt: "2026-06-21T20:37:57.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "certification", "datacenter", "opinion"]
 draft: false

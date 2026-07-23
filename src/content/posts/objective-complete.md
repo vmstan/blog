@@ -3,7 +3,7 @@ title: "Objective Complete"
 slug: "objective-complete"
 description: "Finishing the Cisco Data Center certification track, and setting my sights on the CCNP Data Center and VCAP-DCA next."
 publishedAt: "2014-01-04T23:59:00.000Z"
-updatedAt: "2025-10-24T17:53:51.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["cisco", "certification", "networking", "career", "datacenter"]
 draft: false

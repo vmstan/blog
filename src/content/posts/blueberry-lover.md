@@ -3,7 +3,7 @@ title: "Blueberry Lover"
 slug: "blueberry-lover"
 description: "What wearing my blue VMware certification shirt says about me at work, and the conversations it tends to start."
 publishedAt: "2018-04-22T00:00:00.000Z"
-updatedAt: "2025-07-18T17:02:38.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "certification", "career", "community"]
 draft: false

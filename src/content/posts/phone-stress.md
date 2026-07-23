@@ -3,7 +3,7 @@ title: "Phone Stress"
 slug: "phone-stress"
 description: "Why I am rooting for the rumored Verizon iPhone even though I am a satisfied AT&T customer with no plans to switch."
 publishedAt: "2011-01-09T00:00:00.000Z"
-updatedAt: "2026-06-21T15:36:33.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "mobile", "telecom", "opinion"]
 draft: false

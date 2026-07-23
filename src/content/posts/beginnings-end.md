@@ -3,7 +3,7 @@ title: "Beginnings End"
 slug: "beginnings-end"
 description: "Giving notice after six years as a VAR data center engineer, and looking back on the 242 customers I helped along the way."
 publishedAt: "2017-05-22T16:19:00.000Z"
-updatedAt: "2025-07-18T17:05:59.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["career", "employment", "consulting", "personal"]
 draft: false

@@ -3,7 +3,7 @@ title: "VMUG Conference"
 slug: "vmug-conference"
 description: "A full-day Kansas City VMUG event headlined by Steve Wozniak, and why it earned its VMworld-like reputation."
 publishedAt: "2012-12-13T18:00:00.000Z"
-updatedAt: "2026-06-21T15:58:14.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "community", "datacenter"]
 draft: false

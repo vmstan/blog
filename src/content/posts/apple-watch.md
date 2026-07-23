@@ -3,7 +3,7 @@ title: "Apple Watch"
 slug: "apple-watch"
 description: "Working through which original Apple Watch to buy, weighing steel against aluminum and which band survives life in a datacenter."
 publishedAt: "2015-03-09T19:37:00.000Z"
-updatedAt: "2025-10-24T17:40:21.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "hardware", "wearables", "review"]
 draft: false

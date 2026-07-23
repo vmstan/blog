@@ -3,7 +3,7 @@ title: "16GB Problems"
 slug: "16gb-problems"
 description: "Apple finally killed the 16GB storage floor, then shipped a new MacBook Pro capped at 16GB of memory. A look at why Skylake forced that tradeoff."
 publishedAt: "2016-10-28T15:58:00.000Z"
-updatedAt: "2025-07-18T17:18:59.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "hardware", "mobile", "opinion"]
 draft: false

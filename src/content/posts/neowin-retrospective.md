@@ -3,7 +3,7 @@ title: "Neowin Retrospective"
 slug: "neowin-retrospective"
 description: "Before 'vmstan' there was 'Marshalus': looking back on being hired as a teenage gaming news reporter covering Microsoft at Neowin."
 publishedAt: "2017-02-13T17:58:00.000Z"
-updatedAt: "2025-07-18T17:08:38.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["microsoft", "community", "writing", "career", "technology"]
 draft: false

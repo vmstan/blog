@@ -3,7 +3,7 @@ title: "Reasonable Salary"
 slug: "reasonable-salary"
 description: "On the peculiar, secret-agent stress of job hunting while still employed, and finally accepting a position I was genuinely excited about."
 publishedAt: "2017-06-10T15:28:00.000Z"
-updatedAt: "2025-07-18T17:04:48.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["career", "employment", "salary", "recruiting", "personal"]
 draft: false

@@ -3,7 +3,7 @@ title: "Commitment Issues"
 slug: "commitment-issues"
 description: "One month after switching to the Nexus One and praising it, I sold it and went back to the iPhone 4. Here is what changed my mind."
 publishedAt: "2010-07-29T00:00:00.000Z"
-updatedAt: "2026-06-20T21:36:56.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "android", "mobile", "review", "opinion"]
 draft: false

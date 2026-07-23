@@ -3,7 +3,7 @@ title: "AT&T Fun"
 slug: "at-amp-t-fun"
 description: "Six months of broken DVRs, frozen TV, and dropping internet on AT&T U-verse, and the late-night failure that finally broke my patience."
 publishedAt: "2011-04-27T00:00:00.000Z"
-updatedAt: "2026-06-21T15:42:33.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["telecom", "networking", "home", "troubleshooting"]
 draft: false

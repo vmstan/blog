@@ -3,7 +3,7 @@ title: "Sleep Apnea"
 slug: "sleep-apnea"
 description: "A visit to the ENT for tonsil stones turned into a snoring complaint, an at-home sleep study, and a sleep apnea diagnosis."
 publishedAt: "2023-05-22T14:58:27.000Z"
-updatedAt: "2025-07-18T16:39:24.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["health", "sleep", "personal", "family"]
 draft: false

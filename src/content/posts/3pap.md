@@ -3,7 +3,7 @@ title: "3PAP"
 slug: "3pap"
 description: "A short, self-incriminating dialogue with my wife about why one person could possibly need three CPAP machines."
 publishedAt: "2025-07-07T21:11:37.000Z"
-updatedAt: "2025-07-18T16:34:59.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["health", "sleep", "personal", "family"]
 draft: false

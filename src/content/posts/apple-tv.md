@@ -3,7 +3,7 @@ title: "Apple TV"
 slug: "apple-tv"
 description: "Second-guessing, then buying, the fourth-generation Apple TV, and what I still want from Apple as a cord-cutter."
 publishedAt: "2015-12-01T19:00:00.000Z"
-updatedAt: "2025-07-19T02:16:15.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["apple", "hardware", "television", "entertainment", "review"]
 draft: false

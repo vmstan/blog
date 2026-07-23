@@ -3,7 +3,7 @@ title: "Mobile Advantaged"
 slug: "mobile-advantaged"
 description: "AT&T's improved data plans, examined line by line, and why the new pricing tiers left me paying more rather than less."
 publishedAt: "2016-08-18T19:44:00.000Z"
-updatedAt: "2025-07-18T17:21:08.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["mobile", "telecom", "opinion", "technology"]
 draft: false

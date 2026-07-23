@@ -3,7 +3,7 @@ title: "Guided Powers"
 slug: "guided-powers"
 description: "The part of datacenter design nobody mentions until it bites you: power. A crash course in connectors, voltages, and amperage for admins."
 publishedAt: "2014-05-16T04:08:00.000Z"
-updatedAt: "2025-10-24T17:45:23.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["datacenter", "hardware", "consulting", "infrastructure"]
 draft: false

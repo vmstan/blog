@@ -3,7 +3,7 @@ title: "Round Robin"
 slug: "round-robin"
 description: "A quick PowerCLI script to switch every datastore on every host in a vSphere cluster to Round Robin multipathing."
 publishedAt: "2013-06-26T16:00:00.000Z"
-updatedAt: "2026-06-20T19:43:46.000Z"
+updatedAt: "2026-07-23"
 author: "Michael Stanclift"
 tags: ["vmware", "storage", "automation", "datacenter"]
 draft: false
