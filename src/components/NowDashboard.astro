@@ -11,6 +11,10 @@ const updatedLabel = new Intl.DateTimeFormat("en-US", {
     day: "numeric",
     year: "numeric",
 }).format(updatedAt);
+const appCount = nowSnapshot.apps.reduce(
+    (total, category) => total + category.items.length,
+    0,
+);
 ---
 
 <header class="now-hero" aria-labelledby="now-title">
@@ -37,7 +41,7 @@ const updatedLabel = new Intl.DateTimeFormat("en-US", {
 
 <section class="now-overview" aria-label="Snapshot at a glance">
     <p><strong>{nowSnapshot.supplements.items.length}</strong> supplements</p>
-    <p><strong>{nowSnapshot.apps.length}</strong> daily apps</p>
+    <p><strong>{appCount}</strong> daily apps</p>
     <p><strong>{nowSnapshot.hardware.length}</strong> devices</p>
     <p><strong>{nowSnapshot.podcasts.length}</strong> podcasts</p>
 </section>
@@ -101,17 +105,21 @@ const updatedLabel = new Intl.DateTimeFormat("en-US", {
                 <p class="now-panel-index">03 / Software</p>
                 <h2 id="now-apps-title">The app layer</h2>
             </div>
-            <p class="now-panel-count">{nowSnapshot.apps.length} in rotation</p>
+            <p class="now-panel-count">{appCount} in rotation</p>
         </header>
         <ul class="now-app-list">
             {
-                nowSnapshot.apps.map((app) => (
+                nowSnapshot.apps.map((category) => (
                     <li>
-                        <span>{app.label}</span>
-                        <a href={app.href}>
-                            <strong>{app.name}</strong>
-                            <span aria-hidden="true">↗</span>
-                        </a>
+                        <span>{category.label}</span>
+                        <div class="now-app-items">
+                            {category.items.map((app) => (
+                                <a href={app.href}>
+                                    <strong>{app.name}</strong>
+                                    <span aria-hidden="true">↗</span>
+                                </a>
+                            ))}
+                        </div>
                     </li>
                 ))
             }

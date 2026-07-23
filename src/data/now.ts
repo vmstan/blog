@@ -3,8 +3,9 @@ interface NowLink {
   href?: string;
 }
 
-interface LabeledNowLink extends NowLink {
+interface NowAppCategory {
   label: string;
+  items: NowLink[];
 }
 
 export const nowSnapshot = {
@@ -32,64 +33,83 @@ export const nowSnapshot = {
   tape: "papmd",
   apps: [
     {
-      label: "Ad blocker",
-      name: "Wipr 2",
-      href: "https://kaylees.site/wipr2.html",
+      label: "Ad Blocker",
+      items: [
+        {
+          name: "Wipr 2",
+          href: "https://kaylees.site/wipr2.html",
+        },
+      ],
     },
-    { label: "Coding", name: "Nova", href: "https://nova.app" },
+    {
+      label: "Coding",
+      items: [
+        { name: "Nova", href: "https://nova.app" },
+        { name: "Zed", href: "https://zed.dev" },
+      ],
+    },
     {
       label: "Containers",
-      name: "OrbStack",
-      href: "https://orbstack.dev",
+      items: [{ name: "OrbStack", href: "https://orbstack.dev" }],
     },
     {
-      label: "Diagrams",
-      name: "OmniGraffle",
-      href: "https://www.omnigroup.com/omnigraffle",
+      label: "Diagramming",
+      items: [
+        {
+          name: "OmniGraffle",
+          href: "https://www.omnigroup.com/omnigraffle",
+        },
+      ],
     },
     {
-      label: "Photo editing",
-      name: "Pixelmator",
-      href: "https://www.pixelmator.com",
+      label: "Photo Editing",
+      items: [
+        {
+          name: "Pixelmator",
+          href: "https://www.pixelmator.com",
+        },
+      ],
     },
     {
       label: "Podcasts",
-      name: "Overcast",
-      href: "https://overcast.fm",
+      items: [{ name: "Overcast", href: "https://overcast.fm" }],
     },
     {
-      label: "Sleep tracking",
-      name: "SleepHQ",
-      href: "https://sleephq.com",
+      label: "Sleep Tracking",
+      items: [{ name: "SleepHQ", href: "https://sleephq.com" }],
     },
-    { label: "Terminal", name: "Ghostty", href: "https://ghostty.org" },
-    { label: "Wallpapers", name: "Wallaroo", href: "https://wallaroo.app" },
-  ] satisfies LabeledNowLink[],
+    {
+      label: "Terminal",
+      items: [{ name: "Ghostty", href: "https://ghostty.org" }],
+    },
+    {
+      label: "Wallpapers",
+      items: [{ name: "Wallaroo", href: "https://wallaroo.app" }],
+    },
+  ] satisfies NowAppCategory[],
   hardware: [
     { name: "iPhone 17 Pro", detail: "Deep Blue · TechWoven Case" },
     { name: "Apple Watch Ultra", detail: "Blue Trail Loop · Natural Titanium Milanese Loop" },
-    { name: 'MacBook Pro M3 Max 14"', detail: "Personal" },
-    { name: 'MacBook Pro M5 Pro 16"', detail: "Business" },
-    { name: "AirPods Pro 3", detail: "Everyday audio" },
+    { name: 'MacBook Pro M3 Max 14"', detail: "Personal · Space Black" },
+    { name: 'MacBook Pro M5 Pro 16"', detail: "Business · Space Black" },
+    { name: 'iPad Pro 11" (2nd generation)', detail: "Minimally Utilized" },
+    { name: "AirPods Pro 3", detail: "Everyday Audio" },
     {
       name: "Keychron K3 V2",
-      detail: "Optical Blue switches",
+      detail: "Optical Blue Switches",
       href: "https://www.keychron.com/products/keychron-k3-wireless-mechanical-keyboard?variant=32220198764633",
     },
     {
       name: "Logitech MX Master 3S",
-      detail: "Everyday pointer",
+      detail: "Everyday Pointer",
       href: "https://www.logitech.com/en-us/shop/p/mx-master-3s.910-006557",
     },
   ] satisfies (NowLink & { detail: string })[],
   podcasts: [
     "Accidental Tech Podcast",
     "Blocks",
-    "Club Random",
     "Dithering",
-    "Ezra Klein Show",
     "Raging Moderates",
-    "Reason Interview",
     "Six Colors",
     "Vulcan Hello",
   ],
