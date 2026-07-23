@@ -25,7 +25,7 @@ On my right was the human resources director, who’d been in that role the enti
 
 Those were the words from a man I barely knew, but up until that point seemed like he would have been a force for change in an organization that desperately needed it, words that left me hollowed-out inside. I like to think he didn’t mean it to be a cruel statement, but in that moment it sucked the life out of me.
 
-Six years of service ignored, my state of mind, ignored.
+Six years of service ignored, my state of mind ignored.
 
 The meeting on this Monday afternoon had started with an apology from me. Hours before the start of the weekend, in a trance fueled by a dump of adrenaline, I’d called and left my manager a voicemail that I would come to regret, where I demanded that the company help me, but said the magic words that would suddenly make me a threat. Now, here we were three days later, sitting in silence.
 

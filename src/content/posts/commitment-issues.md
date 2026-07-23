@@ -17,9 +17,9 @@ When [I announced this “news” on Twitter and Facebook last night](http://twi
 
 **Subsidies**
 
-The Nexus One I purchased cost me $529 direct from Google. So I take that phone and attach it to my AT&T account and then pay AT&T the same amount of money for my voice, data and TXT messages as I would if I were on a 2-year agreement. AT&T spends nothing upfront and makes a larger profit from me than it does for someone who spends $199 for a iPhone 4. The obvious benefit for me is that I can take my phone and go to another carrier, or cancel my account anytime I want. But here’s the kicker… my only _real_ choice is AT&T.
+The Nexus One I purchased cost me $529 direct from Google. So I take that phone and attach it to my AT&T account and then pay AT&T the same amount of money for my voice, data and TXT messages as I would if I were on a 2-year agreement. AT&T spends nothing upfront and makes a larger profit from me than it does for someone who spends $199 for an iPhone 4. The obvious benefit for me is that I can take my phone and go to another carrier, or cancel my account anytime I want. But here’s the kicker… my only _real_ choice is AT&T.
 
-Beyond the logistical issues of having every friend and family member I know being on AT&T (free mobile to mobile) and the fact that they have one of the better networks in the Kansas City area… Google for some reason designed two different Nexus Ones. One radio optimized for T-Mobile and one for AT&T. So if I decided I was fed up and wanted to move to T-Mobile, I’d basically cripple my phone by relegating it to EDGE network data speeds. And since obviously Verizon and Sprint are on different technologies, they’re not even something to be considered. Google would have been wise to use a radio that would work on both types of GSM networks, if that were possible. Realistically, I’m locked into AT&T, regardless of if I have a 2-year contract or not.
+Beyond the logistical issues of having every friend and family member I know being on AT&T (free mobile to mobile) and the fact that they have one of the better networks in the Kansas City area… Google for some reason designed two different Nexus Ones. One radio optimized for T-Mobile and one for AT&T. So if I decided I was fed up and wanted to move to T-Mobile, I’d basically cripple my phone by relegating it to EDGE network data speeds. And since obviously Verizon and Sprint are on different technologies, they’re not even something to be considered. Google would have been wise to use a radio that would work on both types of GSM networks, if that were possible. Realistically, I’m locked into AT&T, regardless of whether I have a 2-year contract or not.
 
 So the real question for me was, in order to make the value of owning the Nexus One “worth it” … was my experience with it more than 2.5x better than the iPhone 4?
 
@@ -27,7 +27,7 @@ Basically. No.
 
 **Quirks**
 
-Here’s the thing about reading reviews done by people who purchased the product with their own money… we tend to want to make ourselves feel good about the purchase, so things that might annoy an totally objective person are sometimes overlooked (or not mentioned.)
+Here’s the thing about reading reviews done by people who purchased the product with their own money… we tend to want to make ourselves feel good about the purchase, so things that might annoy a totally objective person are sometimes overlooked (or not mentioned.)
 
 There were a few things about the Nexus One that annoyed me from the start, but were not enough to make me dislike it completely. If it was going head to head on price with the iPhone 4, I wouldn’t give them much of a second thought and would probably still consider elements on the device and the OS to be superior. But here are a few:
 
@@ -35,11 +35,11 @@ There were a few things about the Nexus One that annoyed me from the start, but 
 2. The row of home, back and search buttons on my Nexus One were very picky. You have to touch them just above where the actual indicator button is for them to work properly. It’s something you get used to, but when you hand the phone to someone else, they tend to have a hard time getting it to work.
 3. Battery life was less than stellar. The more I used the device, the more I saw where I was coming very close to not being able to go through the day without a recharge. Since I’m not much of a night owl (I’m usually at home or even in bed by 10PM on a Saturday) it didn’t hit me too bad. I did initially purchase a second battery for the device, but I never used it.
 4. I found the ear hole for the speaker to be in an old location, at least compared to the iPhone. I had to hold the edge of the phone up to my ear to hear other people clearly. It was something I had to get used to, but found to be somewhat bothersome.
-5. The on-screen keyboard was just not as accurate as the iPhone version. In fact I found the touch screen to be somewhat laggy compared to the iPhone. By this I mean, the iPhone screen seems what I would describe as “spring loaded” — snappy and ready to flip from around with ease. On the Nexus One it was common to try and flip two or even three times before the screen reacted.
+5. The on-screen keyboard was just not as accurate as the iPhone version. In fact I found the touch screen to be somewhat laggy compared to the iPhone. By this I mean, the iPhone screen seems what I would describe as “spring loaded” — snappy and ready to flip around with ease. On the Nexus One it was common to try and flip two or even three times before the screen reacted.
 
 **Applications**
 
-Despite what I initially said, the Android Marketplace has a long way to go before it catches up with the App Store. While there were a sizable collection of applications that had been ported, many of them did not function anywhere as smoothly as the iPhone version. The Facebook for Android application was painful to use at times, forcing me to manually refresh pages to see updates or get notifications. This was common for most of the applications that I used, things that seemed to just happen naturally on the iPhone either required multiple menus or buttons to access, or the features were missing.
+Despite what I initially said, the Android Marketplace has a long way to go before it catches up with the App Store. While there was a sizable collection of applications that had been ported, many of them did not function anywhere as smoothly as the iPhone version. The Facebook for Android application was painful to use at times, forcing me to manually refresh pages to see updates or get notifications. This was common for most of the applications that I used; things that seemed to just happen naturally on the iPhone either required multiple menus or buttons to access, or the features were missing.
 
 There is also something to be said for the investment in Apps that I’d made over the last two years as an owner of the iPhone 3G. I have hundreds of Apps in my iTunes library, and I’d paid for a sizable chunk of them. Many of them I could just not find a replacement for in Android. Really, the App Store is one of the smartest things Apple did to insure people stay with the platform.
 
@@ -65,7 +65,7 @@ It never makes you feel good when you buy something and then two weeks later lea
 
 **It’s Not All Bad**
 
-Even with my complaints about Android and the Nexus One. It’s not all bad. I still stand by my analysis of the intricacies of the operating systems from my previous review. Things like the notification system and the integration with Google services are really top notch and the notification system in iOS is something Apple really needs to address.
+Even with my complaints about Android and the Nexus One, it’s not all bad. I still stand by my analysis of the intricacies of the operating systems from my previous review. Things like the notification system and the integration with Google services are really top notch and the notification system in iOS is something Apple really needs to address.
 
 **Synopsis**
 
@@ -75,6 +75,6 @@ Would I buy it again? Yes (subsidized) Would I encourage others to buy it? Yes.
 
 Would I encourage others to look at Android? Yes
 
-But in the end, I just couldn’t make it stick. Weighing all the factors, the iPhone, with it’s assorted Apps and features was the better choice for me.
+But in the end, I just couldn’t make it stick. Weighing all the factors, the iPhone, with its assorted apps and features, was the better choice for me.
 
 _Forgive me Father Jobs, for I have strayed from the light. Please accept me back to the comfort of the Reality Distortion Field once again. I promise I’ll (probably) buy an iPad!_

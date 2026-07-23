@@ -15,9 +15,9 @@ I went to an ENT a few weeks ago because I have been getting tonsil stones for a
 
 That adventure is now scheduled for the week of June 26.
 
-While I'm there I also mentioned that I snore really badly at night. It's bothered my wife for years and more recently my children have joined in on making it clear they hear it all night too. He ordered an at home sleep study which consisted on wearing a magic Bluetooth ring on my finger for two nights. 😴
+While I was there, I also mentioned that I snore really badly at night. It's bothered my wife for years, and more recently my children have joined in on making it clear they hear it all night too. He ordered an at-home sleep study, which consisted of wearing a magic Bluetooth ring on my finger for two nights. 😴
 
-I was skeptical that they'd get good results but the doctors office called with the results  today, and apparently I stop breathing while sleeping up to 30 times an hour. 😧
+I was skeptical that they'd get good results, but the doctor's office called with the results today, and apparently I stop breathing while sleeping up to 30 times an hour. 😧
 
 So I'm getting a CPAP. 😤
 

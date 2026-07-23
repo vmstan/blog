@@ -19,11 +19,11 @@ Yesterday, Apple announced a revamped MacBook Pro. Thinner, USB-C / ThunderBolt 
 
 Great stuff. One small problem.
 
-Intel’s Skylake processors and chipsets that Apple is using are able to support more than 16GB of memory. For instance, the [i7–6920HQ](http://ark.intel.com/products/88972), which based on Apple’s advertised clock speeds looks to be what is utilized in the maxed-out 15” model, says it can do up to 64GB. Apple is a company that makes amazing products, that create and redefine entire categories. But they’re bound to some limitations.
+Intel’s Skylake processors and chipsets that Apple is using are able to support more than 16GB of memory. For instance, the [i7–6920HQ](http://ark.intel.com/products/88972), which based on Apple’s advertised clock speeds looks to be what is utilized in the maxed-out 15” model, says it can do up to 64GB. Apple is a company that makes amazing products that create and redefine entire categories. But they’re bound to some limitations.
 
 I figured this wasn’t something that Apple did “just because” … if there was a way they could sell me more memory, at a premium, I’d think they’d do it. There’s a tradeoff being made here.
 
-On the Intel page for the Skylake chips, it indicated that the maximum size was dependent on memory type. Apple is using LPDDR3 chips, which from what I can gather based on the 2133MHz speed, are either made by Micron or Samsung as they appear to be the only two vendors producing them, and based on past relationships makes a lot of sense.
+On the Intel page for the Skylake chips, it indicated that the maximum size was dependent on memory type. Apple is using LPDDR3 chips, which from what I can gather based on the 2133MHz speed, are either made by Micron or Samsung, as they appear to be the only two vendors producing them. Based on past relationships, that makes a lot of sense.
 
 In both cases, what I’ve been reading is that 16GB is the maximum size available in this class of chip. LPDDR3 has a lot of advantages when it comes to power consumption, running at a much lower voltage of 1.2V, and only using 10% of the power during standby compared to regular DDR3 or DDR4 memory.
 

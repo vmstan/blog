@@ -65,4 +65,4 @@ And I love it.
 
 I tried to go back to the Plus, twice, just to be sure. One night I lasted almost 5 hours before switching back. It was sold the next day.
 
-I’m back to the 4.7” phone, and when the iPhone 7 arrives, assuming Apple doesn’t do anything stupid and move everyone to 5+ inch devices, that’s probably the form-factor I’ll stick with for the future.
+I’m back to the 4.7” phone, and when the iPhone 7 arrives, assuming Apple doesn’t do anything stupid and move everyone to devices larger than five inches, that’s probably the form factor I’ll stick with for the future.

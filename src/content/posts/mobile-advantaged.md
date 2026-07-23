@@ -17,7 +17,7 @@ Initially, no more data overages, higher caps, and reduced pricing tiers look li
 
 Right now I have the $100 plan for 15GB, plus three devices, for a total of $145. Under the new plan, if I move to the similar 16GB plan, the base price is $90, but I’m now paying $60 in per-device charges for a total of $150. (+$5)
 
-Even going from the 15GB down to the new 10GB plan, would result in a savings of only $5, at the loss of 5GB of data.
+Even going from the 15GB down to the new 10GB plan would result in a savings of only $5, at the loss of 5GB of data.
 
 Maybe.
 

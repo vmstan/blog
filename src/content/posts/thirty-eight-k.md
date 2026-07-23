@@ -25,9 +25,9 @@ One early morning the next week, my phone rang; it was a recruiter with said com
 
 Now when you’re making $38k, this is a big jump. My wife, who was working at the time, had a master's degree in accounting and a CPA license—and even she wasn’t doing that well. What I was asking for seemed like a lot of money, in my mind.
 
-Over the next couple weeks, I went through a few interviews. Finally, one day as I was walking into lunch, the recruiter calls to offer me the job. The salary: $50,000.
+Over the next couple weeks, I went through a few interviews. Finally, one day as I was walking into lunch, the recruiter called to offer me the job. The salary: $50,000.
 
-I didn’t negotiate at all. I wasn't sure that I was in a position to even try. I wanted to work for this company as much or more than they wanted to employ me, and when you don’t know your value it’s hard to think you can convince anyone else of it. In the moment, I was pretty excited, but as I was eating lunch, I started to also wonder if I should be worried by how quickly they came back with exactly my original number. Should I have asked for more? Could I have got more?
+I didn’t negotiate at all. I wasn't sure that I was in a position to even try. I wanted to work for this company as much or more than they wanted to employ me, and when you don’t know your value it’s hard to think you can convince anyone else of it. In the moment, I was pretty excited, but as I was eating lunch, I started to also wonder if I should be worried by how quickly they came back with exactly my original number. Should I have asked for more? Could I have gotten more?
 
 What I didn’t realize at the time is that I’d just helped sink the hopes of some folks in my new department looking for raises. What I’d asked for was indeed the going rate for admins there, perhaps even a little bit lower, so HR was happy to oblige my request. The other folks I'd soon sit next to had hoped it would take more to bring in someone with the relevant skill set, to justify them getting their own salaries adjusted. The topic of pay would come up frequently among members of my new team.
 
@@ -45,7 +45,7 @@ Then came my turn, and after the interviews, the hiring manager calls to give me
 
 Wait, what? This couldn't be right, why was I getting so much less? My wife straight up didn’t want me to take it, and I was about 50/50, but thought "well if the last guy went into a bidding war, now is my chance to use this as leverage to get my own counter offer." I didn't want to leave, so much as I just wanted what was starting to seem like a fair deal.
 
-Apparently, HR decided that I wasn’t worth it, there would be no counter offer. In hindsight, there's really not a reason to blame them. I'd only been there a year and didn't do a lot of highlighting myself or making it seem like I was so valuable that there was a cost associated with me leaving. They got me for the price they did not more than 12 months earlier, why would I be worth so much more now, just because I realized it? And in reality, I couldn't even get the market to pay it.
+Apparently, HR decided that I wasn’t worth it; there would be no counteroffer. In hindsight, there's really not a reason to blame them. I'd only been there a year and didn't do a lot of highlighting myself or making it seem like I was so valuable that there was a cost associated with me leaving. They got me for the price they did less than 12 months earlier; why would I be worth so much more now, just because I realized it? And in reality, I couldn't even get the market to pay it.
 
 So, I left, for just a slightly larger bump than I got to come there.
 

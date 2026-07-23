@@ -13,13 +13,13 @@ ghostId: "d0be82d8-f542-43e0-aebc-34b918f263e4"
 
 A couple of months ago I noticed a rash on my wrist, under my Apple Watch. I didn’t put a lot of thought into it at first, made sure to clean the strap and back of the watch. Figured it was just from lack of skin breathing under the sport band, on a hot day, after a workout.
 
-But the rash didn’t go away, it actually got worse, and it seemed to be localized to one spot on the back of my wrist, right where the metal clasp of the sports band rubbed by arm.
+But the rash didn’t go away; it actually got worse, and it seemed to be localized to one spot on the back of my wrist, right where the metal clasp of the sports band rubbed my arm.
 
 And it was getting painful.
 
 My wife was the first to suggest that it looked like a nickel allergy. At first this seemed strange, why would Apple put nickel in the band? Everyone knows that can cause issues. So I did a little research.
 
-The stainless steel in the Apple Watch and in the bands, is grade 316L, [per Apple’s own site](https://support.apple.com/en-us/HT204522). It’s incredibly common in jewelry, medical implants, and other places where contact with the human body is a thing. It’s also easier to machine than other grades of stainless steel. But it has nickel in it. According to [AZO Materials](http://www.azom.com/article.aspx?ArticleID=2382), about 10–14% of the composite is within spec for 316L.
+The stainless steel in the Apple Watch and in the bands is grade 316L, [per Apple’s own site](https://support.apple.com/en-us/HT204522). It’s incredibly common in jewelry, medical implants, and other places where contact with the human body is a thing. It’s also easier to machine than other grades of stainless steel. But it has nickel in it. According to [AZO Materials](http://www.azom.com/article.aspx?ArticleID=2382), about 10–14% of the composite is within spec for 316L.
 
 Still, I’ve worn watches forever, and ever since I was a teenager they’ve all been watches with metal bands. Apple Watch was the first watch in probably 18 years that had a band made out of plastic. (Sorry, fluoroelastomer.) I started thinking back, and when I was about 15, I had a similar reaction on the top of my wrist that a doctor told me was because of the nickel in the back of a cheap watch, but I ditched the watch and it was never an issue again.
 
@@ -41,7 +41,7 @@ She asked me what band I would be interested in, color, size, and then asked for
 
 It arrives today.
 
-For those of you who keep track, I’ve actually had the leather loop before, for about 18 hours. I bought it on an impulse. Twice, actually. The first time I ordered it with the watch before it shipped, but then cancelled it to give the sports band a proper evaluation. The second time, was in the store, but I had buyers remorse at the $150 price tag. (More accurately, I decided it wasn’t worth trying to justify to the wife.)
+For those of you who keep track, I’ve actually had the leather loop before, for about 18 hours. I bought it on an impulse. Twice, actually. The first time I ordered it with the watch before it shipped, but then cancelled it to give the sports band a proper evaluation. The second time was in the store, but I had buyer’s remorse at the $150 price tag. (More accurately, I decided it wasn’t worth trying to justify to the wife.)
 
 For now, I’m still sporting bandages under my watch, to clear up the second coming of the rash. My next problem is figuring out what to do about the fact that the leather band isn’t appropriate for working out in.
 

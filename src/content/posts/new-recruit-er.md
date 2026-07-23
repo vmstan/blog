@@ -11,15 +11,15 @@ featured: false
 ghostId: "65385973-ec97-4b16-9099-6432aa1c27fa"
 ---
 
-Historically, finding employment has not really been particularly difficult for me. When I’ve decided it was time to make a change, I’ve been able to do so pretty quickly. A well assembled resume, solid technical chops, practiced interviewing skills, and making connections with people seems to have served me pretty well thus far. I don’t say that to brag, just as a statement of fact.
+Historically, finding employment has not really been particularly difficult for me. When I’ve decided it was time to make a change, I’ve been able to do so pretty quickly. A well-assembled resume, solid technical chops, practiced interviewing skills, and making connections with people seem to have served me pretty well thus far. I don’t say that to brag, just as a statement of fact.
 
 As such, I’ve never utilized the “services” of a technical recruiter during my job searches. I’ve watched friends and coworkers use them, with pretty mixed results.
 
-Now, when I’m talking about a recruiter, I’m not referring to the internal HR professional who works for a company you’re trying to get a job with. I’m talking about the headhunters who make their living by finding people and placing them in jobs, and then their skin in the game is to get you hired and get a cut of it for them in a finders fee.
+Now, when I’m talking about a recruiter, I’m not referring to the internal HR professional who works for a company you’re trying to get a job with. I’m talking about the headhunters who make their living by finding people and placing them in jobs. Their skin in the game is to get you hired and get a cut of it for themselves in a finder’s fee.
 
 (If this process is actually financially beneficial to the person being recruited is probably up for debate. The [Freakonomics study](http://www.youtube.com/watch?v=17jO_w6f8Ck) on real estate agents is probably something to think about in this regard.)
 
-I’m also not here to argue that this type of recruiter has no place in the process. Organizations frequently are in need of new talent, and sometimes that talent is hard to find, especially when trying to recruit people from a new region or in a skill set outside the companies normal area. I know [my company](http://www.aos5.com/careers) makes use of them at times.
+I’m also not here to argue that this type of recruiter has no place in the process. Organizations frequently are in need of new talent, and sometimes that talent is hard to find, especially when trying to recruit people from a new region or in a skill set outside the company's normal area. I know [my company](http://www.aos5.com/careers) makes use of them at times.
 
 I should also make a point, just to cover my own ass, that I’m happy where I’m at in my current employment. My dealings with headhunters recently are purely unsolicited. (Part of my frustration, see below.)
 
@@ -35,9 +35,9 @@ Right away, I’m turned off if they’ve not been in their profession for at le
 
 Really, what this tells me is they don’t (yet) have the skills to help me. They don’t understand what it is I do and they probably don’t have the connections to show me anything that a search on DICE wouldn’t turn up. Honestly, it’s not worth my time to engage with them.
 
-I get it. We all have to start somewhere. There was a time when I didn’t know the difference between spanning tree and an oak tree. Time and experience, training, makes us all better. Most of us started in help desk, or desktop support. We’re not usually born as systems administrators or consultants.
+I get it. We all have to start somewhere. There was a time when I didn’t know the difference between spanning tree and an oak tree. Time, experience, and training make us all better. Most of us started in help desk or desktop support. We’re not usually born as systems administrators or consultants.
 
-The problems comes when these recruiters lack experience, they look at someone with years of experience implementing award winning virtualization solutions, holding multiple and VCP certifications… and then suggest a position managing Windows updates processes.
+The problem comes when these recruiters lack experience: they look at someone with years of experience implementing award-winning virtualization solutions and holding multiple VCP certifications… and then suggest a position managing Windows update processes.
 
 Just like any other job, they need to do research and know the market they’re in, and the positions they’re recruiting for. In the end all it does is make them look foolish.
 
@@ -51,8 +51,8 @@ _Side thought: If this was really the case, if recruiting was really a good way 
 
 And while I’ve said that headhunters do have a place, it’s a narrow one. Again, it’s different when they work for the company doing the recruiting. It’s different if they know the person is looking for work. It’s different when I ask a friend or former coworker if they’re interested in coming to work _with_ or _for_ me. There is a mutual interest at stake.
 
-But if my job consisted of sitting around cold calling people with the prospects of changing jobs, just for the sake of making a buck, I’d quickly be looking for a new job. You rarely see this type of process with other life changing things. It’s like car salesmen who flags you down while you’re driving to ask if you’d like to come by the lot and test drive a new Audi… or a realtor who knocks on your front door and asks if you’d like to buy the house down the street.
+But if my job consisted of sitting around cold calling people with the prospect of changing jobs, just for the sake of making a buck, I’d quickly be looking for a new job. You rarely see this type of process with other life-changing things. It’s like car salesmen who flag you down while you’re driving to ask if you’d like to come by the lot and test drive a new Audi… or a realtor who knocks on your front door and asks if you’d like to buy the house down the street.
 
 Why not let the customer come to you?
 
-One final thought, today received a LinkedIn message from a recruiter working for what is essentially a competitor to my current employer, asking me if I could refer anyone to work for _them!_
+One final thought: today I received a LinkedIn message from a recruiter working for what is essentially a competitor to my current employer, asking me if I could refer anyone to work for _them!_

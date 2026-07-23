@@ -59,7 +59,7 @@ In almost every way, the new company was a great place to be with more money and
 
 As strange as this sounds, I missed my VDI environment.
 
-Eventually, I started finding fulfillment in the new projects that I was assigned. I needed to show my new coworkers that I was worthy of sitting alongside them. I’m probably always harder on myself than others are of me, in this respect.
+Eventually, I started finding fulfillment in the new projects that I was assigned. I needed to show my new coworkers that I was worthy of sitting alongside them. I’m probably always harder on myself than others are on me, in this respect.
 
 Very quickly, I started building some great relationships with my coworkers there, but my time in the role would be short-lived. The company was acquired, and it became apparent that the new owners were not interested in being in the IT business. Outsourcing firms did the hands-on administration in their corporate environment, and as a result, all our jobs were now in jeopardy.
 
@@ -71,15 +71,15 @@ Now, if you’ve never worked for a VAR, I would suggest listening to the Datana
 
 But in hindsight I was never happy. I might have acted that way to customers and coworkers that I interacted with on projects, but inside there was something else growing.
 
-I never felt like I belonged as an employee of the company. Other than the people I’d come into the job with from the previous employer, in many ways I felt out of place among my coworkers. I worked there, but I didn’t feel like I belonged there. Not to say I despised every one I worked with, far from it. I was friendly with most everyone I worked with and spent my 4 o’clock hour on the phone daily with a couple of them to commiserate on the events of the day. But, not to dwell on the details, sometimes standards for professionalism and etiquette were not always in lock step with the rest of the organization.
+I never felt like I belonged as an employee of the company. Other than the people I’d come into the job with from the previous employer, in many ways I felt out of place among my coworkers. I worked there, but I didn’t feel like I belonged there. Not to say I despised everyone I worked with, far from it. I was friendly with most everyone I worked with and spent my 4 o’clock hour on the phone daily with a couple of them to commiserate on the events of the day. But, not to dwell on the details, sometimes standards for professionalism and etiquette were not always in lockstep with the rest of the organization.
 
-After a few years of toiling through grunt work, there were a few key technologies that I had worked myself up to “expert” status on, so customers, sales teams, and project managers would want me to work those implementations regardless of where in the midwest they were located. I started traveling too much, but in some ways, it was the intended result of my goal to become so relied on that I was the best or only choice, for my job security. So, I didn’t complain.
+After a few years of toiling through grunt work, there were a few key technologies that I had worked myself up to “expert” status on, so customers, sales teams, and project managers would want me to work those implementations regardless of where in the Midwest they were located. I started traveling too much, but in some ways, it was the intended result of my goal to become so relied upon that I was the best or only choice, for my job security. So, I didn’t complain.
 
 I rarely complained to management about anything there; I was more adept at just doing the work. I was making pretty good money and concerned that I couldn’t do better anywhere else, but most of all, I was subject to a restrictive non-compete agreement. I was already getting a lot of flak from my family for changing jobs as often as I did, despite knowing that it was pretty standard for people in this industry.
 
 My father, in contrast, has had two jobs in 40 years, and if he wasn’t laid off from the first in the early 1990s, he might still be there.
 
-After three years, I thought about leaving. After four, I looked around but got turned down in the final round for what at the time would have been my “dream job” — Even after a few months from being turned down, when that company got acquired, and it was apparent that the “dream” would have been a nightmare, I still felt resentment. I’d never been turned down after making it through that many interviews, and I didn’t want to do it again. So, I turned down multiple opportunities to interview for positions with VMware shortly after that.
+After three years, I thought about leaving. After four, I looked around but got turned down in the final round for what at the time would have been my “dream job” — Even a few months after being turned down, when that company got acquired, and it was apparent that the “dream” would have been a nightmare, I still felt resentment. I’d never been turned down after making it through that many interviews, and I didn’t want to do it again. So, I turned down multiple opportunities to interview for positions with VMware shortly after that.
 
 My customers were continually satisfied with my work, and I enjoyed the challenges presented in doing it. My boss put me in for substantial raises and bonuses each year, and so I collected an ever-increasing paycheck. I kept thinking it’d all get better soon. Despite all that, while I was still miserable, I stayed silent.
 
@@ -107,19 +107,19 @@ I fought back the harassment by effectively doing nothing, hoping they’d give 
 
 The harassment went on for a little over a month, and then finally, around 3 pm on a Friday, I’d come home from a particularly complicated customer site and opened Twitter to find another shitty comment. Another fucking tweet. At that moment, I crashed.
 
-I make analogies to a server crashing, because in hindsight that’s what felt like was happening. I couldn’t think, I just started crying, and I nearly threw up. My stomach had been in knots for weeks up to this point, but it felt like everything was coming undone. My body was still moving, but for some time I wasn’t in control. I remember very clearly everything that day leading up to that moment, but very little during the event. What wasn’t de-staged from the cache when the controller died, is gone.
+I make analogies to a server crashing, because in hindsight that’s what it felt like. I couldn’t think, I just started crying, and I nearly threw up. My stomach had been in knots for weeks up to this point, but it felt like everything was coming undone. My body was still moving, but for some time I wasn’t in control. I remember very clearly everything that day leading up to that moment, but very little during the event. What wasn’t de-staged from the cache when the controller died is gone.
 
 I didn’t have to tell my wife. It was impossible for her not to know; she was there when the crash happened and immediately went into action to get me help. I knew something like this was coming, so I’d been trying to reach out to a therapist in the days prior, but could never get our schedules synchronized. By chance, the therapist called me that afternoon in the middle of my panic, and I let it all go to her over the phone, having never met with her previously. She could tell just by the tone of my voice, my breathing, that I needed immediate care. Off to the emergency room, I went.
 
 For the first night in a long while, I felt a little better.
 
-I got sent home with a temporary prescription for Xanax, and a directive to talk to my doctor. The strange thing is that while I felt better because I finally let my secret out, I spent the weekend an absolute wreck. The flood gates of emotion had opened, and I had a backlog of questions to address. I also knew that there was no going back and that I would be forced to tackle even more issues and make some significant changes in my life.
+I got sent home with a temporary prescription for Xanax, and a directive to talk to my doctor. The strange thing is that while I felt better because I finally let my secret out, I spent the weekend an absolute wreck. The floodgates of emotion had opened, and I had a backlog of questions to address. I also knew that there was no going back and that I would be forced to tackle even more issues and make some significant changes in my life.
 
 For a while, what transpired in the aftermath of that night left me feeling betrayed by some people that I thought I could trust, and feeling helpless. Like so many times in life before, I was told by those who had the power to stop what was going on, that there was nothing they were willing to do, that this was my problem, and that I was to blame. My pain was always my fault. It’s never the responsibility of the people who were inflicting it.
 
 I don’t know what exactly motivates people to be so cruel to others. It’s unfortunate, but in the end, we are all flawed individuals. Even the bullies are coping. It doesn’t matter if they’re a kid in school or adults who act like children. It could be a teacher who is supposed to be looking out for the kids, and not their self-serving interests. I might cope with my issues by becoming withdrawn from others. They might deal by lashing out, by letting the demons inside them come out and feed the beast hiding in others.
 
-I quickly began looking for a new job, far away from the life I was leading. No travel. Regular hours. I wasn’t even sure if I wanted to stay in the same realm of IT. These events are why I spent a year at a customer in a role that I was utterly dispassionate about; it was a place to hide and regroup. Even though I was physically in a different situation, I was still a mess of a human being inside. If you worked with me there, you don’t even know the real me. It was a period of my life where I’m not even sure I knew who the real me was. I’d wonder that every day, and it still crosses my mind. I told almost no one there about what had happened — no one on my team, or my boss. Truthfully, I was ashamed.
+I quickly began looking for a new job, far away from the life I was leading. No travel. Regular hours. I wasn’t even sure if I wanted to stay in the same realm of IT. These events are why I spent a year at a customer in a role that I was utterly dispassionate about; it was a place to hide and regroup. Even though I was physically in a different situation, I was still a mess of a human being inside. If you worked with me there, you don’t even know the real me. It was a period of my life when I’m not even sure I knew who the real me was. I’d wonder that every day, and it still crosses my mind. I told almost no one there about what had happened — no one on my team, or my boss. Truthfully, I was ashamed.
 
 My brain needed to heal.
 
@@ -154,6 +154,6 @@ I call them out as examples from the Greater Virtualization Community, but it’
 
 Then there are “real people” like Jason Kander. Someone who has served in Missouri state office, then ran for the U.S. Senate and later led a nationwide voting rights organization. He was in the process of running for mayor of Kansas City when he abruptly brought his campaign to a halt to declare that, he too, was broken — struggling with depression as a result of PTSD from his time as an Army intelligence officer in Afghanistan.
 
-It is in those moments that I remember; we all have struggles.
+It is in those moments that I remember: we all have struggles.
 
 And I’m done being quiet about mine.

@@ -19,9 +19,9 @@ Something stood out from [an article on the Birth Without Fear site](http://birt
 >   
 > _I was there to support Mrs. BWF, but I never realized I needed someone there to support me._
 
-Sadie [has covered in detail](http://michaelandsadie.com/2012/07/19/6-months-old/) the events of Pearson’s birth, [and how its effected her.](http://michaelandsadie.com/2012/12/17/c-sectionupdate/) When it comes to moms recovering from traumatic deliveries, there is an abundance of literature, support mechanisms, and well wishers out there. There were many people who were looking out for postpartum depression in her.
+Sadie [has covered in detail](http://michaelandsadie.com/2012/07/19/6-months-old/) the events of Pearson’s birth, [and how it affected her.](http://michaelandsadie.com/2012/12/17/c-sectionupdate/) When it comes to moms recovering from traumatic deliveries, there is an abundance of literature, support mechanisms, and well-wishers out there. There were many people who were looking out for postpartum depression in her.
 
-But did anyone ever stop to ask how it effected me?
+But did anyone ever stop to ask how it affected me?
 
 I was there through the entire pregnancy (from the start, technically) and attended every prenatal appointment and test. I was there to research and interview all the midwives and doulas we considered. From the moment Sadie went into labor, I was there for the long haul. That is, up until the very end, when we were forcibly removed from each other.
 
@@ -35,9 +35,9 @@ By the time I got into the OR, Sadie already knew. I started to cry, and then we
 
 Saying I had trouble breathing would be a massive understatement. It was as if suddenly, there wasn’t enough oxygen on the planet to sustain me.
 
-I sad on the edge of the birthing tub, and I waited. Crying. Terrified. Furious. The entire pregnancy I’d focused on the process of eventually getting my son out. I was the coach. Through the labor I was the one my wife leaned on through the contractions. I was prepared to be there at that moment, to fight our midwife to catch that kid when he came sliding out. It was my job to be in that room at that moment he emerged, regardless of how… and I wasn’t.
+I sat on the edge of the birthing tub, and I waited. Crying. Terrified. Furious. The entire pregnancy I’d focused on the process of eventually getting my son out. I was the coach. Through the labor I was the one my wife leaned on through the contractions. I was prepared to be there at that moment, to fight our midwife to catch that kid when he came sliding out. It was my job to be in that room at that moment he emerged, regardless of how… and I wasn’t.
 
-At that moment, it was as if I had my identity ripped from me. What I’d setup to define that moment, and myself as a man, vanished.
+At that moment, it was as if I had my identity ripped from me. What I’d set up to define that moment, and myself as a man, vanished.
 
 Eventually a nurse came past the room to announce that they’d pulled a crying baby boy out of my wife. Eventually I got back down to the operating room and saw Sadie’s insides outside of her, and looked over as they were cleaning off a screaming Pearson. There, in that panic, is a moment I will never forget where I spoke to my son and he stopped crying to turn to look at me. It was awesome.
 

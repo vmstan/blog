@@ -13,7 +13,7 @@ ghostId: "ec6f45b2-c74a-400b-b112-e7fc96e0a285"
 
 I have an on-again, off-again relationship with iPhone cases. I put them on. I take them off. I generally don’t like cases. I’ve only broken my iPhone one time and that was when my 6 Plus came out of my pocket attached to my hand, unintentionally, on a sticky day. My iPhone 5 and 6 were rarely in cases and had minimal wear and tear. I’m usually pretty careful. I also buy AppleCare+ on them, even though I’m lucky enough to rarely need it.
 
-I’ve owned a variety of third-party cases over the years, from vendors like Mophie, Incase, Spigen, and Speck. I try a lot of these other cases mostly to be a resource for more case-needy friends and family, on what or not to buy. However, the only cases I personally tolerate are the official Apple cases. There are situations where you might need or want something more substantial, like if you’re working in construction or taking your phone spear-fishing, but otherwise, I feel like the simplicity of the Apple cases go a long way in keeping the style of the device.
+I’ve owned a variety of third-party cases over the years, from vendors like Mophie, Incase, Spigen, and Speck. I try a lot of these other cases mostly to be a resource for more case-needy friends and family on what and what not to buy. However, the only cases I personally tolerate are the official Apple cases. There are situations where you might need or want something more substantial, like if you’re working in construction or taking your phone spear-fishing, but otherwise, I feel like the simplicity of the Apple cases goes a long way in keeping the style of the device.
 
 I’ve owned just about every iteration of the Apple Leather Cases since they started making them around the time of the iPhone 5S. That was a good case, but it was for a device that really didn’t need one. Even for the price, I think the Apple leather case is a great value. It’s got a nice amount of grip, without being so grippy it gets stuck coming out of pant pockets like with the Apple silicone case. The leather also just has a much more premium look to it. It ages over time, which some people like. Apple calls this “a natural patina” … it’s just a gradual darkening of the material as it absorbs the oils of your hands.
 
@@ -23,7 +23,7 @@ In terms of protection, the leather case is not going to protect your device fro
 
 I still think that design-wise the iPhone 5S was probably a sweet spot, and given how popular the iPhone SE is now, I’m not the only one. The leather case for that phone is no different. However, the leather case for the 6 and 6S felt like a step backward in a couple of ways; the biggest was the cutouts for the buttons.
 
-They sucked, to put it mildly. They weren’t really buttons, just areas in the leather where Apple cut little grooves to represent where the actual buttons under the case were supposed to be. This made it difficult to actually press the buttons, especially on a case that was fresh out of the box. You’d just kind of mash the side of the phone and hope you were turning the volume up and down. I hated it, I think I used this case for a few days before it went in a drawer.
+They sucked, to put it mildly. They weren’t really buttons, just areas in the leather where Apple cut little grooves to represent where the actual buttons under the case were supposed to be. This made it difficult to actually press the buttons, especially on a case that was fresh out of the box. You’d just kind of mash the side of the phone and hope you were turning the volume up and down. I hated it. I think I used this case for a few days before it went in a drawer.
 
 My wife ended up using it for a while after she had my 6 for a few months (while I experimented with the 6 Plus) and then switched to Apple’s silicone case, and now battery case, with her 6S.
 
@@ -33,7 +33,7 @@ When my iPhone 7 arrived in September, I resisted the urge to get back into test
 
 It had… buttons.
 
-And yet, I resisted, I hovered over the order button a few times, until the one that I wanted was eventually out of stock and on a multiple-week backorder. Eventually, I gave in and picked up the midnight blue version from a local Apple store. I didn’t love the color, but I loved the buttons.
+And yet, I resisted. I hovered over the order button a few times, until the one that I wanted was eventually out of stock and on a multiple-week backorder. Eventually, I gave in and picked up the midnight blue version from a local Apple store. I didn’t love the color, but I loved the buttons.
 
 Then on a trip to Dallas a week or two later, while killing time one afternoon waiting to head to the airport, I went into an Apple store and found it: [Sea Blue](http://www.apple.com/shop/favoriteProduct/MMY42ZM/A/iphone-7-leather-case-sea-blue).
 

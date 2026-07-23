@@ -15,9 +15,9 @@ The Cisco Data Center track has been around since November 2012, and when they a
 
 And my VCAP-DCA.
 
-My goal (and my employers) for 2013 was to finally get my Cisco Certified Network Associate (CCNA) done, and I completed the first exam (ICND1) and received my Cisco Certfied Entry Network Technician (CCENT) back in July. The CCNA was something I've wanted to do since I got into IT. However I got side tracked by other things and never completed the second test.
+My goal (and my employer's) for 2013 was to finally get my Cisco Certified Network Associate (CCNA) done, and I completed the first exam (ICND1) and received my Cisco Certified Entry Network Technician (CCENT) back in July. The CCNA was something I've wanted to do since I got into IT. However, I got sidetracked by other things and never completed the second test.
 
-I did however complete the EMC Implementation Engineer certfification for Isilon, and passed the VMware Certified Associate in Cloud exam. So 2013 wasn't a total loss.
+I did, however, complete the EMC Implementation Engineer certification for Isilon and passed the VMware Certified Associate in Cloud exam. So 2013 wasn't a total loss.
 
 Sometime in late December after evaluating my status on the R/S CCNA exam, I decided to just bypass it and go straight into the Data Center specific version. Over my two week winter vacation I crammed for both exams and tested for both of them this week.
 

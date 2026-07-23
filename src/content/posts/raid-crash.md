@@ -30,13 +30,13 @@ Cisco is very particular about making ESXi drivers for their components match th
 
 With this particular customer, we were also impacted by various issues relating to the health of the DNS and Active Directory environment. With that in mind, we decided to focus on fixing the other environmental issues and in the meantime, not overload the UCS box until a deeper analysis could be done.
 
-**Try Try Again**
+**Try, Try Again**
 
-A day or so into the second setup at another customer, and I encountered the exact same issues. This time with a Windows 10 x64 image and View 7.0.2. The same crazy latency numbers under any amount of significant load, until the entire box stopped responding.
+A day or so into the second setup at another customer, I encountered the exact same issues. This time, it was with a Windows 10 x64 image and View 7.0.2. The same crazy latency numbers appeared under any amount of significant load, until the entire box stopped responding.
 
 The physical configuration differed slightly in that we were integrating the C-Series UCS into the customer’s fabric interconnects, so the firmware and driver versions differed even more than the first host, which was a standalone configuration connected to the customer’s network. After digging into it again with a fresh brain and more perspective, I found the cause.
 
-I started looking through the RAID controller driver details again. In both cases, VMware uses the LSI\_MR3 driver as the default driver for the Cisco 12G RAID (Avago) controller in ESXi 6.0 U2. In both environments, I verified that we were running the suggested driver versions based on the Cisco UCS compatibility matrix, and we were. So I started digging at this controller and wondered what VMware suggests for VSAN (keeping in mind we aren’t running VSAN at either site) and sure enough, they DO NOT suggest using the LSI\_MR3 driver, but instead [list the “legacy” MEGARAID\_SAS driver as their recommendation](http://www.vmware.com/resources/compatibility/detail.php?deviceCategory=vsanio&productid=38642&vsanrncomp=true&vcl=true) for the exact same controller.
+I started looking through the RAID controller driver details again. In both cases, VMware uses the LSI\_MR3 driver as the default driver for the Cisco 12G RAID (Avago) controller in ESXi 6.0 U2. In both environments, I verified that we were running the suggested driver versions based on the Cisco UCS compatibility matrix, and we were. So I started digging into this controller and wondered what VMware suggests for VSAN (keeping in mind we aren’t running VSAN at either site) and sure enough, they DO NOT suggest using the LSI\_MR3 driver, but instead [list the “legacy” MEGARAID\_SAS driver as their recommendation](http://www.vmware.com/resources/compatibility/detail.php?deviceCategory=vsanio&productid=38642&vsanrncomp=true&vcl=true) for the exact same controller.
 
 After applying the alternative driver, I’ve not been able to break the systems.
 

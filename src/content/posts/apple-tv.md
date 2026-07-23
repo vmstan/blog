@@ -15,7 +15,7 @@ When the 4th generation Apple TV was announced a few weeks back, my initial resp
 
 But then, I had second thoughts, and I didn’t order one at the start of the week when they were first available. I don’t really know why; my heart just wasn’t in it. I decided I’d wait it out and let others figure out all the kinks. However, on launch day, I had a change of heart and decided to stop by the Apple Store and pick up a 32GB model.
 
-I have two of the 3rd generation units, and the 2nd generation, and while I love them for all they do, I have been patiently waiting for Apple to revolutionize TV. I want a single TV solution from Apple that makes my life as a cord-cutter better. Unfortunately, that still hasn’t happened yet, but it’s a nice box.
+I have two of the 3rd generation units, and the 2nd generation, and while I love them for all they do, I have been patiently waiting for Apple to revolutionize TV. I want a single TV solution from Apple that makes my life as a cord-cutter better. Unfortunately, that still hasn’t happened, but it’s a nice box.
 
 **Pros:**
 - Universal search, with Siri, is fantastic. Telling the box to “show me the latest Ben Affleck movies” results in unified results with content from all the major providers like iTunes, Netflix, Hulu, and HBO. Selecting a title brings you to the one that is the best option based on if you’re paying for streaming or if you’d have to buy it. (e.g., _Gone Girl_ is available on HBO, and iTunes, but it defaults to HBO.)

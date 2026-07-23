@@ -35,7 +35,7 @@ At this point, I’ve been a Tweetbot user for so long, I don’t even know how 
 
 **[Overcast](https://overcast.fm/)**
 
-This has been my podcast player of choice since it came out a few years ago. The syncing between devices works great, and it has a nice clean design. What really motivates me to keep using it though is Voice Boost and Smart Speed, which cleans up the audio on even the most well-produced podcasts, and saves you time listening to dead air. (86 hours, in my case.)
+This has been my podcast player of choice since it came out a few years ago. The syncing between devices works great, and it has a nice clean design. What really motivates me to keep using it, though, are Voice Boost and Smart Speed, which clean up the audio on even the most well-produced podcasts and save you time listening to dead air. (86 hours, in my case.)
 
 **[Carrot Weather](http://www.meetcarrot.com/weather/)**
 
@@ -47,11 +47,11 @@ It’s a calculator. I mean, not really a lot to say here. I suck at math, so I 
 
 **[Workflow](http://workflow.is/)**
 
-I started using Workflow a few months ago, and now I have built enough little scripts with it, that help me get things done faster, that it’s become a part of my essential kit. Tip calculator, sending items to Tweetbot, getting public links to iCloud documents, cleaning up screenshots in my Photo Library… just to name a few. The app was recently acquired by Apple and is now free.
+I started using Workflow a few months ago, and now I have built enough little scripts with it that help me get things done faster that it’s become a part of my essential kit. Tip calculator, sending items to Tweetbot, getting public links to iCloud documents, cleaning up screenshots in my Photo Library… just to name a few. The app was recently acquired by Apple and is now free.
 
 **[Things](https://culturedcode.com/things/)**
 
-There are many to-do list applications I’m not totally married to this one, and occasionally I will just go back to the stock Reminders app (or use my #9 pick’s integration with them) but right now it’s Things.
+There are many to-do list applications. I’m not totally married to this one, and occasionally I will just go back to the stock Reminders app (or use my #9 pick’s integration with them), but right now it’s Things.
 
 **[Fantastical](https://flexibits.com/)**
 

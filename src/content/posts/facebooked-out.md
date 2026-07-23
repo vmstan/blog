@@ -29,13 +29,13 @@ When you're 30, you're basically right smack in the middle of the original Faceb
 
 Everyone is on Facebook, especially family. They get quite irritated when I don't keep them fed with pictures of 2.0 or news on developments of 2.1.
 
-But now we have Facebook though [their own admission](http://pando.com/2014/06/28/facebooks-science-experiment-on-users-shows-the-company-is-more-even-powerful-and-unethical-than-we-thought/), that they've been doing psychological testing on user emotional status without our knowledge or concent.
+But now we have Facebook, by [its own admission](http://pando.com/2014/06/28/facebooks-science-experiment-on-users-shows-the-company-is-more-even-powerful-and-unethical-than-we-thought/), doing psychological testing on users' emotional status without our knowledge or consent.
 
 > In a report published at the Proceedings of the National Academy of Sciences (PNAS), Facebook data scientists conducted an experiment to manipulate the emotions of nearly 700,000 users to see if positive or negative emotions are as contagious on social networks as they are in the real world. By tweaking Facebook's powerful News Feed algorithm, some users (we should probably just call them "lab rats" at this point) were shown fewer posts with positive words.  
 >   
 > Others saw fewer posts with negative words. "When positive expressions were reduced," the paper states, "people produced fewer positive posts and more negative posts; when negative expressions were reduced, the opposite pattern occurred. These results indicate that emotions expressed by others on Facebook influence our own emotions, constituting experimental evidence for massive-scale contagion via social networks."
 
-My initial reaction was that I'm out, cold. That's what I did last night. I even hovered over the button on the account deactivation page. But the pictures they throw up of my friends and family, wife included, who will miss me when I'm gone is almost another bit of emotional manupation.
+My initial reaction was that I'm out, cold. That's what I did last night. I even hovered over the button on the account deactivation page. But the pictures they throw up of my friends and family, wife included, who will miss me when I'm gone are almost another bit of emotional manipulation.
 
 After thinking about it today, I'm just going to be curtailing my browsing to a minimum. No more mobile. Just checking the main site a few times a day. Beyond the manipulation Facebook has been caught doing, Facebook really isn't all that healthy to begin with.
 
@@ -47,6 +47,6 @@ For now I'll leave you with a bit of topical humor on the subject.
 >   
 > — Michael Stanclift (@vmstan) [June 30, 2014](https://twitter.com/vmstan/status/483426664676749312?ref_src=twsrc%5Etfw)
 
-> Facebook just told me press a button to apply a lethal electrical shock to one of my friends. #FailedPsychologyEthics  
+> Facebook just told me to press a button to apply a lethal electrical shock to one of my friends. #FailedPsychologyEthics
 >   
 > — Michael Stanclift (@vmstan) [June 29, 2014](https://twitter.com/vmstan/status/483091253265854465?ref_src=twsrc%5Etfw)

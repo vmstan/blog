@@ -11,12 +11,12 @@ featured: false
 ghostId: "6e2214ea-f80d-4d34-8919-a51e21145bfe"
 ---
 
-Memory utilization is important in VMware, most of the time it’s the most limiting factor in the virtual to physical consolidation ratio. Often times I’m tasked with assessing how upgradable a physical host’s current memory configuration is. It’s easy to see from the vSphere Client how much memory you have installed in a host, but when you’re upgrading you need to know exactly how that memory is laid our on your motherboard so you can get the most bang for your buck.
+Memory utilization is important in VMware; most of the time it’s the most limiting factor in the virtual-to-physical consolidation ratio. Often I’m tasked with assessing how upgradable a physical host’s current memory configuration is. It’s easy to see from the vSphere Client how much memory you have installed in a host, but when you’re upgrading you need to know exactly how that memory is laid out on your motherboard so you can get the most bang for your buck.
 
 There are basically three ways to do this:
 
 1. **Open up the case and see.**  This is going to require downtime (because you wouldn’t open the case while you’re running production systems, right?) This is all well and good because you can just vMotion your virtual machines to another host and shut it down. Problem is, if you’re having memory utilization issues, chances are you’re overcommitting on your hosts, so you’re going to need to shut down virtual machines to do this.
-2. **Use an out-of band-management utility like DRAC or iLO.**  Great if your server has them configured, but a lot of people either don’t realize they have these or don’t bother to set them up until someone points out how useful they are. Usually to configure them requires a reboot of the host which means downtime, and I just explained why that’s probably not great in this situation.
+2. **Use an out-of-band management utility like DRAC or iLO.**  Great if your server has one configured, but a lot of people either don’t realize they have these utilities or don’t bother to set them up until someone points out how useful they are. Usually, configuring one requires a reboot of the host, which means downtime, and I just explained why that’s probably not great in this situation.
 3. **SSH into your hosts and run a couple of commands.**  This is what I’m going to explain how to do.
 
 Everything I’m going to show you is documented from the VMware KB. If you’d rather refer to those [go here for ESXi 4.x/5.x](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2005821) or [go here for ESX 3.x/4.x](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1003587). Make sure you know what version you’re checking, so you can use the right commands.
@@ -33,9 +33,9 @@ If you’re on Windows, I suggest using [Putty](http://www.chiark.greenend.org.u
 ssh root@VMWARE_HOST
 ```
 
-(I’m normally a Mac user, but I access my work demo lab through a Windows 7 virtual machine running on VMware View. So here is the results from Putty.)
+(I’m normally a Mac user, but I access my work demo lab through a Windows 7 virtual machine running on VMware View. So here are the results from Putty.)
 
-You’ll want to do is navigate to a location you can easily access through the vSphere datastore browser. The reason is we’re going to be running a command and outputting the results to a text file so we can easily get the information we want. I suggest using a local disk on the host, ISO/template datastore or maybe a shared datastore that you use for things like dumping host logs. The output file is going to just a few MBs, so it’s not really critical as long as it’s easily accessible. When we’re done we’re going to delete it from the host.
+What you’ll want to do is navigate to a location you can easily access through the vSphere datastore browser. The reason is we’re going to be running a command and outputting the results to a text file so we can easily get the information we want. I suggest using a local disk on the host, ISO/template datastore or maybe a shared datastore that you use for things like dumping host logs. The output file is going to be just a few MBs, so it’s not really critical as long as it’s easily accessible. When we’re done we’re going to delete it from the host.
 
 ```bash
 cd /vmfs/volumes/YOUR_DATASTORE
@@ -59,9 +59,9 @@ Now the problem with this file is that Notepad doesn’t know how to handle the 
 
 I would suggest opening the file in something like [Notepad++](http://notepad-plus-plus.org) which is really far more useful and can read the log file correctly. It’s also helpful for other VMware logs that don’t save whitespace in a way Notepad likes. (Note, Mac users can open the file in TextEdit just fine.)
 
-Run a search within the document and find the section that starts as _Dumping instances of CIM\_PhysicalMemory_. You’ll see the first entry as _Tag = 32.0_ and if you scroll down all the way though the section it’ll go until run out of memory slots. For instance, the server I ran my export on is a Cisco UCS B250 with 46 memory slots, so the last entry will be _32.45_.
+Run a search within the document and find the section that starts as _Dumping instances of CIM\_PhysicalMemory_. You’ll see the first entry as _Tag = 32.0_ and if you scroll down all the way through the section it’ll go until it runs out of memory slots. For instance, the server I ran my export on is a Cisco UCS B250 with 46 memory slots, so the last entry will be _32.45_.
 
-The key bits of information here are things _MaxMemorySpeed and Capacity_ if you’re trying to figure out what to buy. Capacity is listed in bytes, so 4294967296 is going to be a 4GB DIMM. There is also lots of other good information in the export such as the position of the DIMM on the motherboard, the node and channel the memory is utilized by, or if the slot is even in use, as well as things like serial numbers and part numbers.
+The key bits of information here are things like _MaxMemorySpeed and Capacity_ if you’re trying to figure out what to buy. Capacity is listed in bytes, so 4294967296 is going to be a 4GB DIMM. There is also lots of other good information in the export such as the position of the DIMM on the motherboard, the node and channel the memory is utilized by, or if the slot is even in use, as well as things like serial numbers and part numbers.
 
 At this point you can delete the file from the host, if you choose, either by utilizing the Datastore Browser or at the SSH session you may still have open.
 
@@ -75,7 +75,7 @@ Now you can close your SSH session, and turn SSH back off on your host in the sa
 
 The method for obtaining this information on ESX is similar to the ESXi method explained above, the only real difference is that the command utilized is different and the output file isn’t as detailed (although it’s much easier to read.)
 
-The first thing we’re going to need to do is enable SSH on the host. On ESX 3.x/4.x, SSH is designed off by default for the root account on an ESX host. The SSH service does not allow root logins. Non-root users are able to login with SSH, which you can then elevate this account to the root user. As an alternative to enabling SSH on your host, you can physically login to the console of the host and run the commands as well.
+The first thing we’re going to need to do is enable SSH on the host. On ESX 3.x/4.x, SSH is disabled by default for the root account on an ESX host. The SSH service does not allow root logins. Non-root users are able to log in with SSH and then elevate themselves to the root user. As an alternative to enabling SSH on your host, you can physically log in to the console of the host and run the commands as well.
 
 From [VMware KB 8375637](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=8375637):
 
@@ -84,10 +84,10 @@ From [VMware KB 8375637](http://kb.vmware.com/selfservice/microsites/search.do?l
 If you’re on Windows, I suggest using [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). If you’re on a Mac or Linux box, no need to download anything extra as it’s all built in. Just open up Terminal and away you go.
 
 ```bash
-ssh root@MWARE_HOST
+ssh root@VMWARE_HOST
 ```
 
-(I’m normally a Mac user, but I access my work demo lab through a Windows 7 virtual machine running on VMware View. So here is the results from Putty.)
+(I’m normally a Mac user, but I access my work demo lab through a Windows 7 virtual machine running on VMware View. So here are the results from Putty.)
 
 After logging in to your host with your regular user account we need to elevate to root user:
 
@@ -97,7 +97,7 @@ su -
 
 You’ll be prompted for your root password. Enter it now.
 
-You’ll want to do is navigate to a location you can easily access through the vSphere datastore browser. The reason is we’re going to be running a command and outputting the results to a text file so we can easily get the information we want. I suggest using a local disk on the host, ISO/template datastore or maybe a shared datastore that you use for things like dumping host logs. The output file is going to just a few MBs, so it’s not really critical as long as it’s easily accessible. When we’re done we’re going to delete it from the host.
+What you’ll want to do is navigate to a location you can easily access through the vSphere datastore browser. The reason is we’re going to be running a command and outputting the results to a text file so we can easily get the information we want. I suggest using a local disk on the host, ISO/template datastore or maybe a shared datastore that you use for things like dumping host logs. The output file is going to be just a few MBs, so it’s not really critical as long as it’s easily accessible. When we’re done we’re going to delete it from the host.
 
 ```bash
 cd /vmfs/volumes/YOUR_DATASTORE

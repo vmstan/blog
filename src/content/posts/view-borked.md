@@ -18,10 +18,10 @@ Two things wrong with this:
 1. Normally 32-bit apps run on 64-bit operating systems, unless they’re specifically configured not to.
 2. vCOPS for View is a 64-bit application, with a 64-bit installer. The system requirements state it can only run on Windows 2008 R2 or Windows 2003 R2 64-bit.
 
-After playing around with the 1.01 installer, and attempting to download and start the installer for 1.0 just fine on the same system, I notice that the published file size on VMware.com is 22MB, but the 1.01 installer I was downloading was only 16MB. I ran an MD5 checksum on this file and it didn’t match the published checksum on the website either. The file creation date shows sometime in late December, while the published file date is somewhere in early October.
+After playing around with the 1.01 installer, and attempting to download and start the installer for 1.0 just fine on the same system, I noticed that the published file size on VMware.com is 22MB, but the 1.01 installer I was downloading was only 16MB. I ran an MD5 checksum on this file and it didn’t match the published checksum on the website either. The file creation date shows sometime in late December, while the published file date is somewhere in early October.
 
 Eventually I was able to find a copy of a previously used 1.01 installer on another system, ran a checksum on it, and it matched the published checksum. Installed the adapter using this file and it worked just fine. Customer vCOPS environment is up and running.
 
-I have a support case in with VMware right now letting them know about this issue, hopefully they get it corrected soon. I realize it’s not a particularly popular product compared to something like vSphere or even a View Connection Broker, but it’s hard to see how this could have gone on for a while (nearly a month) without someone else noticing?
+I have a support case in with VMware right now letting them know about this issue. Hopefully they get it corrected soon. I realize it’s not a particularly popular product compared to something like vSphere or even a View Connection Broker, but it’s hard to see how this could have gone on for a while (nearly a month) without someone else noticing.
 
 **TL;DR** vCOPS for View 1.01 installer on vmware.com is screwed up, I’m working with VMware to get it fixed.

@@ -11,7 +11,7 @@ featured: false
 ghostId: "aab4b92f-1578-4750-91f0-7eca78e63058"
 ---
 
-Jessica Joy Kerr, in her blog post titled _[Open your eyes to the nonsense](https://blog.jessitron.com/2020/01/01/open-your-eyes-to-the-nonsense)_ shares a great anecdote from a friend about the software development process at a utility company:
+Jessica Joy Kerr, in her blog post titled _[Open your eyes to the nonsense](https://blog.jessitron.com/2020/01/01/open-your-eyes-to-the-nonsense)_, shares a great anecdote from a friend about the software development process at a utility company:
 
 “We make power, not sense.”
 
@@ -27,6 +27,6 @@ I’m also more interested in seeing what everyone in the room has to say about 
 
 One of the things I particularly enjoy about my role as a VMware TAM is that I get the runway to have these conversations and collect information with the customer, to advise over the long term as opposed to some two-day "best practice review" and then run off to the next project.
 
-Once in a while, companies can adopt technologies in greenfield environments where you can take everything about the vendor’s best practice and apply them. But more often than not, you have to find a way of blending the two. The trick, I suppose, is knowing how much of the old ideas and processes are actually still required and why. You rarely get that in an hour-long conversation. In order to do that, you need to understand more than just the business and the technical requirements.
+Once in a while, companies can adopt technologies in greenfield environments where you can take all of the vendor’s best practices and apply them. But more often than not, you have to find a way of blending the two. The trick, I suppose, is knowing how much of the old ideas and processes are actually still required and why. You rarely get that in an hour-long conversation. In order to do that, you need to understand more than just the business and the technical requirements.
 
 You have to understand the culture in which it will operate.

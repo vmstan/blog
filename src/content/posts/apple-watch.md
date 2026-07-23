@@ -27,6 +27,6 @@ Then there are the, less obvious…
 - What cost am I willing to try and convince my wife that she should let me pay for a smartwatch?
 - What cost is my wife actually willing to let me pay for a smartwatch?
 
-Humm… decisions, decisions.
+Hmm… decisions, decisions.
 
 As it is, I'm leaning towards the [38mm Stainless Steel w/ Black Sport Band](http://store.apple.com/us/buy-watch/apple-watch?product=MJ2Y2LL/A&step=detail).

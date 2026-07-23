@@ -11,7 +11,7 @@ featured: false
 ghostId: "ddbcae37-fa28-47f8-b54c-2b538cd6d5a1"
 ---
 
-It turns out that finding something to write about every day is really hard. Shocking, I know. You may have noticed (or maybe not) that January 1-4 there was a new post here every day. I skipped yesterday, but I blame my participation with this tweet from Jehad.
+It turns out that finding something to write about every day is really hard. Shocking, I know. You may have noticed (or maybe not) that January 1-4 there was a new post here every day. I skipped yesterday, but I blame my participation in this tweet from Jehad.
 
 > "A decision I’m happy about in 2019 is writing more. I didn’t write as much as I’d like but it’s been really helpful to articulate my thoughts. It has helped me write better, connect with more folks, and more. If you’re thinking about writing, do it." — Jehad Affoneh (@jaffoneh), January 5, 2020
 
@@ -23,7 +23,7 @@ Not having work things rolling around in my brain, having ample downtime, gives 
 
 I take this time period off every year, or at least try to. When I worked for the university starting in 2006, we just had this time period off as the campus was completely closed. Students didn't come back until around MLK Day, so even after returning to campus it was eerily quiet but gave us a couple of weeks to catch up and finish any small projects and prepare for the spring semester.
 
-Even the VAR that I worked for, it was expected that only a skeleton crew would be staffing the company the week of Christmas, and it was built into our company PTO schedule that we be off that week. It sort of set a trend that, with the exception of a couple of years before my children were born, I’ve tried to keep.
+Even at the VAR that I worked for, it was expected that only a skeleton crew would be staffing the company the week of Christmas, and it was built into our company PTO schedule that we be off that week. It sort of set a trend that, with the exception of a couple of years before my children were born, I’ve tried to keep.
 
 I realize that I’m in a very fortunate position because of the type of work that I do, who I’ve worked for, and especially who I currently work for, that I’m not someone working on Christmas Eve, and rushing back to the office on December 26. The same thing on Thanksgiving.
 

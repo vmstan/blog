@@ -23,7 +23,7 @@ But, it was not. The entire migration process took around 30 minutes and was nea
 
 This was my first customer VCSA migration. That utility is really amazeballs. No more old and busted physical Windows vCenter!
 
-I had more issues with the upgrade from 5.1 to 5.5 than anything else during this process. Somewhere during that 5.5 upgrade, the main vCenter component quit communicating with the SSO and inventory service. There were no errors presented during the upgrade, but it resulted in not being able to login at all through the C# client, and numerous errors after eventually logging in as [administrator@vsphere.local](mailto:administrator@vsphere.local) to the Web Client.
+I had more issues with the upgrade from 5.1 to 5.5 than anything else during this process. Somewhere during that 5.5 upgrade, the main vCenter component quit communicating with the SSO and inventory service. There were no errors presented during the upgrade, but it resulted in not being able to log in at all through the C# client, and numerous errors after eventually logging in as [administrator@vsphere.local](mailto:administrator@vsphere.local) to the Web Client.
 
 I tried to run through the [KB2093876](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2093876) workarounds, but was not successful. I ended up needing to uninstall the vCenter Server component, remove the Microsoft ADAM feature from the server, and then reinstall vCenter connected to the previous SQL database. Success.
 

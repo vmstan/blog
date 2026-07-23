@@ -19,7 +19,7 @@ It’s not as if this is a surprise because I interact with so many great people
 
 The last year has been a rebuilding year for me. In early 2017, I left my role as a data center engineer at a _Value Added Reseller_, to go back into a customer role. I had been working as a consultant for nearly six years, but prior to that I spent seven years on the customer side. So now I was back working 9-5, at the same desk. It was tough because I loved consulting, and I literally couldn’t wait to get back, but for various reasons, I needed the transition. The role I took was intentionally outside my comfort zone, to force myself to do something different and pick up new skills. It was challenging in ways both expected and unexpected. The team I was working on has some great people, and it has been fun to work with them, even if all the while I knew this wasn’t the place I wanted to stay at for very long.
 
-This year in transition was a change that I needed, being a customer was a place to lay low, reset, and figure out my future and my priorities. There was no travel and no on-call, not even an expectation to even have email on my phone, let alone respond after hours to it.
+This year in transition was a change that I needed; being a customer was a place to lay low, reset, and figure out my future and my priorities. There was no travel and no on-call, not even an expectation to have email on my phone, let alone respond after hours to it.
 
 But now I’m back, and ready to get to work doing what I love, for the company that I’ve spent the last decade focusing on, in the company of all the great people who’ve helped me get to this point.
 

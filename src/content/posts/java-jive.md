@@ -17,9 +17,9 @@ Yesterday my local paper posted [an article](http://www.shawneedispatch.com/news
 >
 > And with that philosophy, he also balances the need for affordable prices. Arshad says he has accomplished that and maintains some of the lowest prices in the area. A large cup of coffee at Java Jive costs $1.95 while a small costs $1.50.
 
-I'm all for supporting a local business, so this afternoon I decide to go check it out.
+I'm all for supporting a local business, so this afternoon I decided to go check it out.
 
-I just wanted to get a plain cup of coffee, nothing fancy. I look at the prices and a confirm what the article says a coffee is, $1.95. I ask the girl working there for one. She asks if I want milk in it. Sure.
+I just wanted to get a plain cup of coffee, nothing fancy. I looked at the prices and confirmed what the article says a coffee is, $1.95. I asked the girl working there for one. She asked if I wanted milk in it. Sure.
 
 "OK, that's a latte" … Rings me up for a $4 drink.
 

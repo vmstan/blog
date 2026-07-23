@@ -28,10 +28,10 @@ Anyway, I put hired up there in irony-quotes because it would be many years late
 That’s not to say that there weren’t other benefits to my involvement. The Neowindex, staff meet-up events were things that I still think about, and tell stories about, occasionally:
 
 - Like the time I got to play Team Fortress 2 with the development team of Valve Software.
-- Like the time I got to go on the _Northwestern_ of _Deadliest Catch_ fame and sit in the captain's chair while interviewing to Sig Hansen.
+- Like the time I got to go on the _Northwestern_ of _Deadliest Catch_ fame and sit in the captain's chair while interviewing Sig Hansen.
 - Like the time I got to go to HP and walk on the server assembly floor.
 - Like the time I got to go to AMD and meet the people who overclock their own processors to see how far the limits are.
-- Or, like the time I was dealing with some difficult life events, had a little too many Midori Sours, and decided it was a good idea to head to the strip club with some other staffers where I promptly forgot another staff member who came with us was gay, and couldn’t understand why he was so uncomfortable there…
+- Or, like the time I was dealing with some difficult life events, had a few too many Midori Sours, and decided it was a good idea to head to the strip club with some other staffers where I promptly forgot another staff member who came with us was gay, and couldn’t understand why he was so uncomfortable there…
 - And then decided to buy him a lap dance to loosen him up.
 
 Neowin was my life for most of those years, so much so that the groomscake at my wedding in 2008 was a surprise from my wife: The Neowin Logo.
@@ -48,7 +48,7 @@ Veteran status came with a special iron cross badge in the forums, but also gave
 
 Starting with getting married in 2008, my life began a series of major changes. We bought a house in 2009, I became more focused on my “real job” and less on the “side hustle” of writing. Twitter replaced the Neowin Forums as my new social media drug of choice. My wife and I had a son, and then another. My real job became a lot more mentally demanding around certifications and traveling for projects, which led to less time for writing. I also switched sides in the Mac/PC debate, and my “real” job became less focused around Microsoft and more around other technologies.
 
-I only talk to one former Neowin staff member with regularity. I really never talk to any of the folks that I left with to start another site. The rest I will occasionally exchange pleasantries with on Twitter. Some of the people that I hired as writers went on to bigger and better things, and I’m incredibly proud of the work many of them are doing. Every so often, when I remember, I’ll pop into the general Neowin Staff discussion board and wish Steve a happy birthday on our shared day, he’s 11 years older than I am, at last count. Then, I look around at the names and avatars of those who remain and while I recognize a few of them, most of them are completely unknown to me.
+I only talk to one former Neowin staff member with regularity. I really never talk to any of the folks that I left with to start another site. The rest I will occasionally exchange pleasantries with on Twitter. Some of the people that I hired as writers went on to bigger and better things, and I’m incredibly proud of the work many of them are doing. Every so often, when I remember, I’ll pop into the general Neowin Staff discussion board and wish Steve a happy birthday on our shared day; he’s 11 years older than I am, at last count. Then, I look around at the names and avatars of those who remain, and while I recognize a few of them, most of them are completely unknown to me.
 
 It’s sort of like visiting your old high school after being gone for years. The halls look smaller, the students look younger, and all your old teachers have retired, except for the gym teacher.
 

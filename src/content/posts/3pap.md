@@ -29,6 +29,6 @@ Me: Keep it as my backup.
 
 Wife: … … … This is such a weird hobby.
 
-Me: … so I want to by this German-made one to replace the home machine.
+Me: … so I want to buy this German-made one to replace the home machine.
 
 Wife: **STOP**

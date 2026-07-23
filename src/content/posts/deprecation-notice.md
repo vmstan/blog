@@ -21,6 +21,6 @@ Simply put, continuing to run the instance as it has always been has required a 
   
 The rising cost of compute across the planet has made continuing operations unsustainable.  
   
-Add to this the rise of AI as an attack vector and the increasing legal scrutiny in the United States and around the world about social networking, and it presents unacceptable risks to me personally of continuing to run a service like this. The increase in more sophisticated spammer sign-ups over the last few months is minor compared to what is coming. Administrators are not prepared. Platforms are not prepared. Open source, in general, is not prepared.  
+Add to this the rise of AI as an attack vector and the increasing legal scrutiny in the United States and around the world about social networking, and continuing to run a service like this presents unacceptable risks to me personally. The increase in more sophisticated spammer sign-ups over the last few months is minor compared to what is coming. Administrators are not prepared. Platforms are not prepared. Open source, in general, is not prepared.
   
 And in saying we are not prepared, that isn’t a slam against anyone. The Fediverse is full of very intelligent, diligent, and passionate people who want this to succeed. These are problems commercial platforms and software have to deal with as well, and they are failing at it already. The Fediverse exists in relative obscurity today, and has struggled to keep up with the threat landscape as it existed in 2022. That obscurity is what protects it. It won’t last forever.

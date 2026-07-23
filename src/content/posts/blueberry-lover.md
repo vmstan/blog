@@ -13,7 +13,7 @@ ghostId: "481e379b-fe4b-4b89-a2c1-d3553376707c"
 
 Occasionally I’ll wear my “blueberry” VMware certification shirt to work.
 
-Some people in the community love these shirts, some people don’t. I, do.
+Some people in the community love these shirts, some people don’t. I do.
 
 Blue also happens to be my favorite color.
 

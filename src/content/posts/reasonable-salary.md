@@ -11,7 +11,7 @@ featured: false
 ghostId: "802d0dc2-4cbd-4503-b3a4-faa4a684e9dd"
 ---
 
-The process of looking for a new job is stressful. If you already have one, you’re a bit like a secret agent, sneaking around town trying to complete the mission of getting someone new to agree to sign your paychecks, without the old boss finding out. If you don’t have a job, it’s even more stressful, as you wait around and watch your bank accounts dwindle, with nothing to replenish it.
+The process of looking for a new job is stressful. If you already have one, you’re a bit like a secret agent, sneaking around town trying to complete the mission of getting someone new to agree to sign your paychecks, without the old boss finding out. If you don’t have a job, it’s even more stressful, as you wait around and watch your bank accounts dwindle, with nothing to replenish them.
 
 I knew by March of this year that I was ready to move on from my now previous employer. I’ve never really had a difficult time finding a job when I decided to commit to the process. I don’t think this time was any different in that respect, but it was interesting. I was fortunate and excited to accept the position that I had the most interest in of all those I looked at during the entire process.
 
@@ -29,9 +29,9 @@ I’m happy that I’ve found one that did.
 
 I was pretty surprised that a recent comment about the efficient hiring process of my new employer on LinkedIn seemed to be popular, garnering 7,600 views over the last week. It gave me the idea to discuss a little bit of my process for my most recent job search.
 
-From the application on April 27 to the accepted offer on May 19, there wasn’t more than a few business days that went by without some contact with employees of the company.
+From the application on April 27 to the accepted offer on May 19, there weren’t more than a few business days that went by without some contact with employees of the company.
 
-The application process itself consisted of a phone screen with the recruiter, three phone interviews, and an on-site interview. Each one lasted between 30 minutes to an hour. Honestly, it seems like a reasonable amount. A few years back I interviewed for a position that involved a total of seven interviews, three phone interviews but then I was flown out to their offices to do four of which were back-to-back-to-back-to-back.
+The application process itself consisted of a phone screen with the recruiter, three phone interviews, and an on-site interview. Each one lasted between 30 minutes and an hour. Honestly, it seems like a reasonable amount. A few years back I interviewed for a position that involved a total of seven interviews: three phone interviews, and then I was flown out to their offices to do four interviews that were back-to-back-to-back-to-back.
 
 At least they took me out to lunch for the last one.
 
@@ -49,7 +49,7 @@ This time around, after expanding my community involvement over the last six yea
 
 The shortest process (aside from those who never get back to me at all) was a vendor I applied to for a professional services role. Their recruiter emailed me on a Sunday morning asking me to call them as soon as possible! It was Mother’s Day, and I knew I’d be traveling the next day, so I quickly emailed to let them know my plan to call them in the morning. After leaving a couple of voicemails across the next two days, I was finally called back, and they immediately asked what my salary requirement was.
 
-When I told them the number, she cut me off to say that was way too, and that was the end of the call. I swear the entire event lasted less than a minute. I was driving home, but I couldn’t stop laughing after I hung up. It didn’t upset me; in a way, I respected her for just getting to the point. Nobody wasted any time.
+When I told them the number, she cut me off to say that was way too high, and that was the end of the call. I swear the entire event lasted less than a minute. I was driving home, but I couldn’t stop laughing after I hung up. It didn’t upset me; in a way, I respected her for just getting to the point. Nobody wasted any time.
 
 Still, maybe tell me I’m pretty before you dump me.
 

@@ -21,7 +21,7 @@ Take 12 minutes, and give it a read:
 >   
 > Because when we give too many fucks, when we choose to give a fuck about everything, then we feel as though we are perpetually entitled to feel comfortable and happy at all times, that's when life fucks us.
 
-As Mark points out, not giving a fuck doesn't mean being apathetic, it means only caring about the things that really matter, and then not giving a fuck about what anyone else things in pursuit of that caring.
+As Mark points out, not giving a fuck doesn't mean being apathetic, it means only caring about the things that really matter, and then not giving a fuck about what anyone else thinks in pursuit of that caring.
 
 Ironically, the Instapaper Weekly email that came today included a mention about the language of Mark's article, and an apology.
 

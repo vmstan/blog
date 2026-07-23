@@ -11,9 +11,9 @@ featured: false
 ghostId: "afe47c19-bb84-4b45-a89d-3d1a4ab5b73a"
 ---
 
-The other day I was tasked with adding a new VLAN to a customer’s vSphere cluster. The existing network configuration had just the default VM Network setup, with no trunks or tagged port groups setup. In this case the customer is in the process of adding a few virtual desktops (Citrix, blah) and wanted a separate DHCP scope for those machines.
+The other day I was tasked with adding a new VLAN to a customer’s vSphere cluster. The existing network configuration had just the default VM Network setup, with no trunks or tagged port groups set up. In this case the customer is in the process of adding a few virtual desktops (Citrix, blah) and wanted a separate DHCP scope for those machines.
 
-In order to setup this VLAN I would need to put each host in maintenance mode, reconfigure the physical switch ports that were providing connectivity to that host from access ports to trunk ports, add tags to the existing VM Network and Service Console, and then provide connectivity to their new VLAN by adding a new port group tagged to that VLAN number.
+In order to set up this VLAN I would need to put each host in maintenance mode, reconfigure the physical switch ports that were providing connectivity to that host from access ports to trunk ports, add tags to the existing VM Network and Service Console, and then provide connectivity to their new VLAN by adding a new port group tagged to that VLAN number.
 
 (Note: if you need to trunk the connection the Service Console/Management Network uses, change the VLAN tag **before** you adjust the physical switch port settings. You’ll lose connectivity to the host temporarily until you change the switch port settings.)
 
@@ -32,7 +32,7 @@ You’ll also get these results if you’re running on a UCS chassis against a N
 
 #### What if none of this works?
 
-If all this doesn’t work for you, make sure you’re using Cisco switches. CDP is a proprietary protocol, so your Dell, HP, Juniper, 3Com, Netgear, Trendnet, SuperCheapNet switches are probably going to give you any of this data.
+If all this doesn’t work for you, make sure you’re using Cisco switches. CDP is a proprietary protocol, so your Dell, HP, Juniper, 3Com, Netgear, Trendnet, SuperCheapNet switches are probably not going to give you any of this data.
 
 However, as of ESXi 5.0, VMware does support [Link Layer Discovery Protocol](http://en.wikipedia.org/wiki/Link_Layer_Discovery_Protocol) (LLDP), which is the IEEE standardized version of CDP. The problem is they only support it with Distributed vSwitches, which requires Enterprise Plus licensing. A lot of the environments I work in either don’t have that licensing and/or have not adopted Distributed vSwitches. For reasons unknown, VMware does not support LLDP on regular vSwitches. (For more information on how to use LLDP [check out Ivo Beerens’ post](http://www.ivobeerens.nl/2012/05/16/configure-the-link-layer-discovery-protocol-lldp-in-vsphere-5/).)
 

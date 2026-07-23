@@ -13,7 +13,7 @@ ghostId: "63f87feb-26da-41ec-a1f9-a8776905ccf1"
 
 Installed an Ecobee thermostat, and one feature is an indoor air quality sensor. When our windows are closed, it almost always reports our home is "poor" despite two other Eve sensors saying everything is fine.
 
-The ppb level of the Eves (at their worst) yesterday were 116 in the main floor (where the Ecobee is) and 198 ppb in my office which gets the worst ventilation of any room in the house -- and is where I sit all day.
+The ppb levels of the Eves (at their worst) yesterday were 116 on the main floor (where the Ecobee is) and 198 ppb in my office, which gets the worst ventilation of any room in the house -- and is where I sit all day.
 
 Finally pulled the reading off the Ecobee API: 172718 ppb
 

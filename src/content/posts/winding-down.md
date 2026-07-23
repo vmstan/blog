@@ -11,7 +11,7 @@ featured: false
 ghostId: "63b78532-e8c6-40d4-a9ba-be49da09ef41"
 ---
 
-As [previously noticed](/deprecation-notice/), vmst.io will be decommissioned on June 30, 2026.
+As [previously noted](/deprecation-notice/), vmst.io will be decommissioned on June 30, 2026.
 
 **Starting at 17:00 UTC (noon central US) the instance will enter [self-destruct](https://docs.joinmastodon.org/admin/tootctl/#self-destruct) mode.** This process will erase vmst.io from the federation by broadcasting account `Delete` activities to all known other servers.
 
