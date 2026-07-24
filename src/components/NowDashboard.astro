@@ -10,6 +10,7 @@ const updatedLabel = new Intl.DateTimeFormat("en-US", {
     month: "long",
     day: "numeric",
     year: "numeric",
+    timeZone: "UTC",
 }).format(updatedAt);
 const appCount = nowSnapshot.apps.reduce(
     (total, category) => total + category.items.length,
@@ -140,7 +141,7 @@ const appCount = nowSnapshot.apps.reduce(
                         <span class="now-hardware-mark" aria-hidden="true"></span>
                         <span class="now-item-copy">
                             {
-                                "href" in item && item.href ? (
+                                item.href ? (
                                     <a href={item.href}>{item.name}</a>
                                 ) : (
                                     <strong>{item.name}</strong>

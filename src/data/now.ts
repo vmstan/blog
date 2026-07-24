@@ -95,7 +95,7 @@ export const nowSnapshot = {
     { name: "AirPods Pro 3", detail: "Everyday Audio" },
     { name: "Keychron K3 V2", detail: "Optical Blue Switches"},
     { name: "Logitech MX Master 3S", detail: "Everyday Pointer"},
-  ] satisfies (NowLink & { detail: string })[],
+  ] as (NowLink & { detail: string })[],
   podcasts: [
     "Accidental Tech Podcast",
     "Blocks",
