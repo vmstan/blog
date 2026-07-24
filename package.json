@@ -26,6 +26,6 @@
     "husky": "^9.1.7",
     "pagefind": "^1.5.2",
     "typescript": "^6.0.0",
-    "wrangler": "^4.113.0"
+    "wrangler": "^4.114.0"
   }
 }
