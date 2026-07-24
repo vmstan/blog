@@ -10,6 +10,11 @@
   --code: #15171a;
   --on-accent: #fff;
   --shadow: #15171a;
+  --whois-inactive: #a16207;
+  --whois-inactive-soft: #fdf3d3;
+  --whois-inactive-hover: #fdf5db;
+  --whois-legacy: #d92d20;
+  --whois-legacy-soft: #fdeceb;
   --site-gradient: linear-gradient(
     115deg,
     #0d88d8 0%,
@@ -35,6 +40,11 @@
     --line: #2b3840;
     --code: #090c0f;
     --on-accent: #071119;
+    --whois-inactive: #fbbf24;
+    --whois-inactive-soft: #2a2210;
+    --whois-inactive-hover: #241f11;
+    --whois-legacy: #f97066;
+    --whois-legacy-soft: #2a1512;
     --site-gradient: linear-gradient(
       115deg,
       #075b92 0%,
@@ -629,45 +639,110 @@ h4 {
   color: var(--accent-strong);
 }
 
+.whois-service-inactive {
+  border-color: color-mix(in srgb, var(--whois-inactive) 42%, var(--line));
+}
+
+.whois-service-inactive:hover {
+  border-color: color-mix(in srgb, var(--whois-inactive) 58%, var(--line));
+  background: var(--whois-inactive-hover);
+}
+
+.whois-service-inactive .whois-service-icon {
+  background: var(--whois-inactive-soft);
+  color: var(--whois-inactive);
+}
+
+.whois-service-inactive .whois-service-arrow {
+  color: var(--whois-inactive);
+}
+
 .whois-service-legacy {
-  color: #68777e;
+  border-color: color-mix(in srgb, var(--whois-legacy) 45%, var(--line));
   box-shadow: none;
   cursor: default;
 }
 
 .whois-service-legacy:hover {
-  border-color: var(--line);
+  border-color: color-mix(in srgb, var(--whois-legacy) 45%, var(--line));
   background: var(--paper);
-  color: #68777e;
+  color: var(--ink);
   transform: none;
 }
 
 .whois-service-legacy .whois-service-icon {
-  background: #f0f3f4;
-  color: #94a1a7;
+  background: var(--whois-legacy-soft);
+  color: var(--whois-legacy);
 }
 
 .whois-service-legacy .whois-service-arrow {
-  color: #94a1a7;
+  color: var(--whois-legacy);
 }
 
-@media (prefers-color-scheme: dark) {
-  .whois-service-legacy {
-    color: #829099;
-  }
+.whois-legend {
+  display: grid;
+  grid-template-columns: minmax(10rem, 0.34fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  padding-block: 2.2rem;
+}
 
-  .whois-service-legacy:hover {
-    color: #829099;
-  }
+.whois-legend-title {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
 
-  .whois-service-legacy .whois-service-icon {
-    background: #20282d;
-    color: #74838c;
-  }
+.whois-legend-items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem 2rem;
+  margin: 0;
+}
 
-  .whois-service-legacy .whois-service-arrow {
-    color: #74838c;
-  }
+.whois-legend-item dt {
+  display: flex;
+  gap: 0.55rem;
+  align-items: center;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.whois-legend-item dd {
+  margin: 0.2rem 0 0 1.5rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.whois-legend-swatch {
+  flex: none;
+  width: 0.95rem;
+  height: 0.95rem;
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  background: var(--paper);
+}
+
+.whois-legend-preferred .whois-legend-swatch {
+  border-color: color-mix(in srgb, var(--accent-strong) 42%, var(--line));
+  background: color-mix(in srgb, var(--accent-strong) 35%, var(--paper));
+}
+
+.whois-legend-active .whois-legend-swatch {
+  border-color: color-mix(in srgb, var(--accent-strong) 42%, var(--line));
+  background: color-mix(in srgb, var(--accent-strong) 12%, var(--paper));
+}
+
+.whois-legend-inactive .whois-legend-swatch {
+  border-color: color-mix(in srgb, var(--whois-inactive) 42%, var(--line));
+  background: var(--whois-inactive-soft);
+}
+
+.whois-legend-legacy .whois-legend-swatch {
+  border-color: color-mix(in srgb, var(--whois-legacy) 45%, var(--line));
+  background: var(--whois-legacy-soft);
 }
 
 .whois-service:focus-visible {
@@ -1774,6 +1849,11 @@ h4 {
     max-width: none;
   }
 
+  .whois-legend {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
   .now-hero {
     min-height: 22rem;
     grid-template-columns: 1fr;
@@ -1834,6 +1914,10 @@ h4 {
   }
 
   .whois-service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .whois-legend-items {
     grid-template-columns: 1fr;
   }
 

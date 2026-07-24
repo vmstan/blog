@@ -16,9 +16,16 @@ const serviceCount = whoisGroups.reduce(
 const tierOrder: Record<WhoisTier, number> = {
     preferred: 0,
     active: 1,
-    occasional: 2,
+    inactive: 2,
     legacy: 3,
 };
+
+const tierLegend: { tier: WhoisTier; label: string; note: string }[] = [
+    { tier: "preferred", label: "Preferred", note: "Best way to reach me here." },
+    { tier: "active", label: "Active", note: "Checked regularly." },
+    { tier: "inactive", label: "Inactive", note: "Still mine, rarely used." },
+    { tier: "legacy", label: "Legacy", note: "Dead account, kept for the record." },
+];
 
 function sortServices(services: WhoisService[]) {
     return [...services].sort((a, b) => {
@@ -177,4 +184,24 @@ const currentAge = getAge(whoisProfile.birthDate);
             ))
         }
     </div>
+
+    <footer class="whois-legend" aria-labelledby="whois-legend-title">
+        <h3 class="whois-legend-title" id="whois-legend-title">Legend</h3>
+        <dl class="whois-legend-items">
+            {
+                tierLegend.map((item) => (
+                    <div class={`whois-legend-item whois-legend-${item.tier}`}>
+                        <dt>
+                            <span
+                                class="whois-legend-swatch"
+                                aria-hidden="true"
+                            />
+                            {item.label}
+                        </dt>
+                        <dd>{item.note}</dd>
+                    </div>
+                ))
+            }
+        </dl>
+    </footer>
 </section>

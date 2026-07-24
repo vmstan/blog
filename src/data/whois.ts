@@ -6,9 +6,9 @@ interface WhoisServiceBase {
 
 // preferred  → the one service you'd steer people to in this category (one per group)
 // active     → accounts you actually use
-// occasional → present but rarely used; listed for completeness
+// inactive   → present but rarely used; listed for completeness
 // legacy     → dead; kept for the record, not linked
-export type WhoisTier = "preferred" | "active" | "occasional" | "legacy";
+export type WhoisTier = "preferred" | "active" | "inactive" | "legacy";
 
 export type WhoisService = WhoisServiceBase &
   (
@@ -58,7 +58,7 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "vmstan",
         href: "https://wa.me/vmstan",
         icon: "fa-brands fa-whatsapp",
-        tier: "occasional",
+        tier: "active",
       },
     ],
   },
@@ -85,7 +85,7 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "vmstan",
         href: "https://www.credly.com/users/vmstan",
         icon: "fa-solid fa-certificate",
-        tier: "occasional",
+        tier: "active",
       },
     ],
   },
@@ -126,28 +126,28 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "vmstan",
         href: "https://discord.com/users/vmstan",
         icon: "fa-brands fa-discord",
-        tier: "occasional",
+        tier: "active",
       },
       {
         name: "Facebook",
         handle: "stanclift",
         href: "https://www.facebook.com/stanclift",
         icon: "fa-brands fa-facebook",
-        tier: "occasional",
+        tier: "active",
       },
       {
         name: "TikTok",
         handle: "_vmstan",
         href: "https://www.tiktok.com/@_vmstan",
         icon: "fa-brands fa-tiktok",
-        tier: "occasional",
+        tier: "active",
       },
       {
         name: "X",
         handle: "vmstan",
         href: "https://x.com/vmstan",
         icon: "fa-brands fa-x-twitter",
-        tier: "occasional",
+        tier: "active",
       },
       {
         name: "Mastodon",
@@ -160,21 +160,21 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "realvmstan",
         href: "https://www.snapchat.com/add/realvmstan",
         icon: "fa-brands fa-snapchat",
-        tier: "occasional",
+        tier: "inactive",
       },
       {
         name: "Reddit",
         handle: "u/KhakiKansan",
         href: "https://www.reddit.com/user/KhakiKansan",
         icon: "fa-brands fa-reddit",
-        tier: "occasional",
+        tier: "inactive",
       },
       {
         name: "Patreon",
         handle: "vmstan",
         href: "https://patreon.com/vmstan",
         icon: "fa-brands fa-patreon",
-        tier: "occasional",
+        tier: "active",
       },
     ],
   },
@@ -187,14 +187,14 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "vmstan",
         href: "https://venmo.com/u/vmstan",
         icon: "fa-brands fa-venmo-v",
-        tier: "occasional",
+        tier: "active",
       },
       {
         name: "CashApp",
         handle: "vmstan",
         href: "https://cash.app/vmstan",
         icon: "fa-brands fa-cash-app",
-        tier: "occasional",
+        tier: "active",
       },
     ],
   },
@@ -207,21 +207,21 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "Stantactical",
         href: "https://steamcommunity.com/id/vmstan/",
         icon: "fa-brands fa-steam",
-        tier: "occasional",
+        tier: "active",
       },
       {
         name: "Xbox",
         handle: "Stantactical",
         href: "https://www.xbox.com/en-us/play/user/Stantactical",
         icon: "fa-brands fa-xbox",
-        tier: "occasional",
+        tier: "active",
       },
       {
         name: "Epic Games",
         handle: "Stantactical",
         href: "https://epicgames.com",
         icon: "fa-solid fa-shield",
-        tier: "occasional",
+        tier: "active",
       },
     ],
   },
