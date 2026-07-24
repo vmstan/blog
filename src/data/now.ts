@@ -12,10 +12,12 @@ export const nowSnapshot = {
   supplements: {
     href: "https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM",
     items: [
-      { name: "Vitamin D+K", detail: "10,000 IU" },
-      { name: "Omega 3 DHA/EPA", detail: "2 g" },
-      { name: "Magnesium", detail: "Glycinate + Threonate · 500 mg" },
-      { name: "Creatine", detail: "5 g" },
+      { name: "Vitamin D", detail: "Metagenics · 10,000 IU" },
+      { name: "Omega 3 DHA", detail: "Metagenics · 1000 mg" },
+      { name: "Omega 3 EPA", detail: "Metagenics · 1000 mg" },
+      { name: "Magnesium Glycinate", detail: "Metagenics · 400 mg" },
+      { name: "Magnesium Threonate", detail: " Metagenics · 100 mg" },
+      { name: "Zinc AG", detail: "Metagenics · 20 mg" },
     ],
   },
   sleep: [
@@ -33,18 +35,17 @@ export const nowSnapshot = {
   tape: "papmd",
   apps: [
     {
-      label: "Ad Blocker",
+      label: "Browser Extensions",
       items: [
-        {
-          name: "Wipr 2",
-          href: "https://kaylees.site/wipr2.html",
-        },
+        { name: "StopTheMadness", href: "https://underpassapp.com/StopTheMadness" },
+        { name: "Wipr 2", href: "https://kaylees.site/wipr2.html" },
       ],
     },
     {
       label: "Coding",
       items: [
-        { name: "Nova", href: "https://nova.app" },
+        { name: "Claude Code", href: "https://code.claude.com/docs/en/overview" },
+        { name: "Codex", href: "https://openai.com/codex" },
         { name: "Zed", href: "https://zed.dev" },
       ],
     },
@@ -55,19 +56,13 @@ export const nowSnapshot = {
     {
       label: "Diagramming",
       items: [
-        {
-          name: "OmniGraffle",
-          href: "https://www.omnigroup.com/omnigraffle",
-        },
+        { name: "OmniGraffle", href: "https://www.omnigroup.com/omnigraffle" },
       ],
     },
     {
       label: "Photo Editing",
       items: [
-        {
-          name: "Pixelmator",
-          href: "https://www.pixelmator.com",
-        },
+        { name: "Pixelmator", href: "https://www.pixelmator.com"},
       ],
     },
     {
@@ -81,6 +76,10 @@ export const nowSnapshot = {
     {
       label: "Terminal",
       items: [{ name: "Ghostty", href: "https://ghostty.org" }],
+    },
+    {
+      label: "Virtualization",
+      items: [{ name: "UTM", href: "https://mac.getutm.app" }],
     },
     {
       label: "Wallpapers",
@@ -100,8 +99,8 @@ export const nowSnapshot = {
   podcasts: [
     "Accidental Tech Podcast",
     "Blocks",
+    "Club Random",
     "Dithering",
-    "Raging Moderates",
     "Six Colors",
     "Vulcan Hello",
   ],
