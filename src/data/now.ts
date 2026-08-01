@@ -13,10 +13,9 @@ export const nowSnapshot = {
     href: "https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM",
     items: [
       { name: "Vitamin D", detail: "Metagenics · 10,000 IU" },
-      { name: "Omega 3 DHA", detail: "Metagenics · 1000 mg" },
-      { name: "Omega 3 EPA", detail: "Metagenics · 1000 mg" },
-      { name: "Magnesium Glycinate", detail: "Metagenics · 400 mg" },
-      { name: "Magnesium Threonate", detail: " Metagenics · 100 mg" },
+      { name: "Omega 3 DHA", detail: "Metagenics · 2000 mg" },
+      { name: "Omega 3 EPA", detail: "Metagenics · 2000 mg" },
+      { name: "Magnesium Glycinate", detail: "Metagenics · 500 mg" },
       { name: "Zinc AG", detail: "Metagenics · 20 mg" },
     ],
   },
@@ -24,7 +23,7 @@ export const nowSnapshot = {
     {
       context: "Home",
       device: "ResMed AirSense 11",
-      accessory: "Fisher & Paykel Nova Micro",
+      accessory: "AirFit P10",
     },
     {
       context: "Travel",
@@ -45,7 +44,6 @@ export const nowSnapshot = {
       label: "Coding",
       items: [
         { name: "Claude Code", href: "https://code.claude.com/docs/en/overview" },
-        { name: "Codex", href: "https://openai.com/codex" },
         { name: "Zed", href: "https://zed.dev" },
       ],
     },
