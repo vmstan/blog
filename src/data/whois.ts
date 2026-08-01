@@ -44,7 +44,7 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "mx@vmstan.com",
         href: "mailto:mx@vmstan.com",
         icon: "fa-solid fa-envelope",
-        tier: "preferred",
+        tier: "active",
       },
       {
         name: "Signal",
@@ -147,27 +147,13 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "vmstan",
         href: "https://x.com/vmstan",
         icon: "fa-brands fa-x-twitter",
-        tier: "active",
+        tier: "inactive",
       },
       {
         name: "Mastodon",
         handle: "vmstan@vmst.io",
         icon: "fa-brands fa-mastodon",
         tier: "legacy",
-      },
-      {
-        name: "Snapchat",
-        handle: "realvmstan",
-        href: "https://www.snapchat.com/add/realvmstan",
-        icon: "fa-brands fa-snapchat",
-        tier: "inactive",
-      },
-      {
-        name: "Reddit",
-        handle: "u/KhakiKansan",
-        href: "https://www.reddit.com/user/KhakiKansan",
-        icon: "fa-brands fa-reddit",
-        tier: "inactive",
       },
       {
         name: "Patreon",
