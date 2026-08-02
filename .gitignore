@@ -4,6 +4,7 @@ dist/
 .astro/
 .wrangler/
 .DS_Store
+.nova/
 
 # Ghost exports contain staff and site configuration data.
 migration/
