@@ -13,8 +13,7 @@ export const nowSnapshot = {
     href: "https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM",
     items: [
       { name: "Vitamin D", detail: "Metagenics · 10,000 IU" },
-      { name: "Omega 3 DHA", detail: "Metagenics · 2000 mg" },
-      { name: "Omega 3 EPA", detail: "Metagenics · 2000 mg" },
+      { name: "Omega 3 EPA/DHA", detail: "Metagenics · 4000 mg" },
       { name: "Magnesium Glycinate", detail: "Metagenics · 500 mg" },
       { name: "Zinc AG", detail: "Metagenics · 20 mg" },
     ],
@@ -44,7 +43,7 @@ export const nowSnapshot = {
       label: "Coding",
       items: [
         { name: "Claude Code", href: "https://code.claude.com/docs/en/overview" },
-        { name: "Zed", href: "https://zed.dev" },
+        { name: "Nova", href: "https://nova.app" },
       ],
     },
     {
@@ -53,15 +52,11 @@ export const nowSnapshot = {
     },
     {
       label: "Diagramming",
-      items: [
-        { name: "OmniGraffle", href: "https://www.omnigroup.com/omnigraffle" },
-      ],
+      items: [{ name: "OmniGraffle", href: "https://www.omnigroup.com/omnigraffle" }],
     },
     {
       label: "Photo Editing",
-      items: [
-        { name: "Pixelmator", href: "https://www.pixelmator.com"},
-      ],
+      items: [{ name: "Pixelmator", href: "https://www.pixelmator.com"}],
     },
     {
       label: "Podcasts",
@@ -89,7 +84,7 @@ export const nowSnapshot = {
     { name: "Apple Watch Ultra", detail: "Blue Trail Loop · Natural Titanium Milanese Loop" },
     { name: 'MacBook Pro M3 Max 14"', detail: "Personal · Space Black" },
     { name: 'MacBook Pro M5 Pro 16"', detail: "Business · Space Black" },
-    { name: 'iPad Pro 11" (2nd generation)', detail: "Minimally Utilized" },
+    { name: 'iPad Pro 11" (2nd generation)', detail: "Space Gray" },
     { name: "AirPods Pro 3", detail: "Everyday Audio" },
     { name: "Keychron K3 V2", detail: "Optical Blue Switches"},
     { name: "Logitech MX Master 3S", detail: "Everyday Pointer"},
