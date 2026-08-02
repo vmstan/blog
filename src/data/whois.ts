@@ -63,8 +63,8 @@ export const whoisGroups: WhoisGroup[] = [
     ],
   },
   {
-    title: "Professional",
-    description: "Work, code, and professional profiles.",
+    title: "Social",
+    description: "Places where I post and participate.",
     services: [
       {
         name: "LinkedIn",
@@ -73,26 +73,6 @@ export const whoisGroups: WhoisGroup[] = [
         icon: "fa-brands fa-linkedin",
         tier: "preferred",
       },
-      {
-        name: "GitHub",
-        handle: "vmstan",
-        href: "https://github.com/vmstan",
-        icon: "fa-brands fa-github",
-        tier: "active",
-      },
-      {
-        name: "Credly",
-        handle: "vmstan",
-        href: "https://www.credly.com/users/vmstan",
-        icon: "fa-solid fa-certificate",
-        tier: "active",
-      },
-    ],
-  },
-  {
-    title: "Social",
-    description: "Places where I post and participate.",
-    services: [
       {
         name: "Threads",
         handle: "vmstan",
@@ -160,6 +140,26 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "vmstan",
         href: "https://patreon.com/vmstan",
         icon: "fa-brands fa-patreon",
+        tier: "active",
+      },
+    ],
+  },
+  {
+    title: "Professional",
+    description: "Coding and certifications.",
+    services: [
+      {
+        name: "GitHub",
+        handle: "vmstan",
+        href: "https://github.com/vmstan",
+        icon: "fa-brands fa-github",
+        tier: "active",
+      },
+      {
+        name: "Credly",
+        handle: "vmstan",
+        href: "https://www.credly.com/users/vmstan",
+        icon: "fa-solid fa-certificate",
         tier: "active",
       },
     ],
