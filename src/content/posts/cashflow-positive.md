@@ -5,8 +5,8 @@ description: "August was the first month in over three years I didn't get a mass
 publishedAt: "2026-08-03"
 updatedAt: "2026-08-01T21:59:59.620Z"
 author: "Michael Stanclift"
-tags: []
-draft: true
+tags: ["mastodon", "fediverse", "socialmedia", "hosting", "personal"]
+draft: false
 featured: false
 ---
 
