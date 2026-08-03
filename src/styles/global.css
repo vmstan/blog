@@ -132,7 +132,7 @@ a:hover {
   color: white;
   font-size: 1.3rem;
   font-weight: 800;
-  letter-spacing: -0.03em;
+  /* letter-spacing: -0.03em; */
   text-decoration: none;
 }
 
@@ -248,7 +248,7 @@ a:hover {
   color: var(--accent-strong);
   font-size: 0.76rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  /* letter-spacing: 0.12em; */
   text-transform: uppercase;
 }
 
@@ -259,7 +259,7 @@ h4 {
   margin-block: 0;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
   line-height: 1.12;
-  letter-spacing: -0.035em;
+  /* letter-spacing: -0.035em; */
 }
 
 .hero h1,
@@ -273,7 +273,7 @@ h4 {
 .hero h1 {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-weight: 800;
-  letter-spacing: -0.045em;
+  /* letter-spacing: -0.045em; */
 }
 
 .compact-hero h1,
@@ -330,7 +330,7 @@ h4 {
 .post-card h2 {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: clamp(2rem, 4vw, 2.8rem);
-  letter-spacing: -0.04em;
+  /* letter-spacing: -0.04em; */
 }
 
 .post-card-link {
@@ -358,7 +358,7 @@ h4 {
   color: var(--muted);
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  /* letter-spacing: 0.03em; */
   text-transform: uppercase;
 }
 
@@ -477,7 +477,7 @@ h4 {
   color: var(--ink);
   font-size: clamp(1.35rem, 3vw, 1.8rem);
   font-weight: 800;
-  letter-spacing: -0.035em;
+  /* letter-spacing: -0.035em; */
   line-height: 1.15;
 }
 
@@ -533,7 +533,7 @@ h4 {
 .whois-directory-header h2 {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 800;
-  letter-spacing: -0.045em;
+  /* letter-spacing: -0.045em; */
 }
 
 .whois-directory-header > p {
@@ -541,7 +541,7 @@ h4 {
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 750;
-  letter-spacing: 0.06em;
+  /* letter-spacing: 0.06em; */
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -557,7 +557,7 @@ h4 {
 .whois-group-header h3 {
   font-size: 1rem;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  /* letter-spacing: -0.02em; */
 }
 
 .whois-group-header p {
@@ -691,7 +691,7 @@ h4 {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: 1rem;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  /* letter-spacing: -0.02em; */
 }
 
 .whois-legend-items {
@@ -834,7 +834,7 @@ h4 {
   color: #b9c7cf;
   font-size: 0.74rem;
   font-weight: 800;
-  letter-spacing: 0.12em;
+  /* letter-spacing: 0.12em; */
   text-transform: uppercase;
 }
 
@@ -852,7 +852,7 @@ h4 {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: clamp(2.35rem, 5.5vw, 4.75rem);
   font-weight: 850;
-  letter-spacing: -0.065em;
+  /* letter-spacing: -0.065em; */
   line-height: 0.97;
 }
 
@@ -869,7 +869,7 @@ h4 {
   color: #768994;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.74rem;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 
 .now-updated time {
@@ -936,7 +936,7 @@ h4 {
   color: white;
   font-size: clamp(1rem, 3vw, 1.45rem);
   font-weight: 900;
-  letter-spacing: 0.12em;
+  /* letter-spacing: 0.12em; */
 }
 
 .now-overview {
@@ -952,7 +952,7 @@ h4 {
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 750;
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   text-transform: uppercase;
 }
 
@@ -1042,7 +1042,7 @@ h4 {
   color: var(--accent-strong);
   font-size: 0.68rem;
   font-weight: 850;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
   text-transform: uppercase;
 }
 
@@ -1050,7 +1050,7 @@ h4 {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: clamp(1.55rem, 3vw, 2.1rem);
   font-weight: 850;
-  letter-spacing: -0.045em;
+  /* letter-spacing: -0.045em; */
 }
 
 .now-panel-link,
@@ -1067,7 +1067,7 @@ h4 {
 
 .now-panel-count {
   color: var(--muted);
-  letter-spacing: 0.04em;
+  /* letter-spacing: 0.04em; */
   text-transform: uppercase;
 }
 
@@ -1174,7 +1174,7 @@ h4 {
   color: #82cfff;
   font-size: 0.66rem;
   font-weight: 850;
-  letter-spacing: 0.1em;
+  /* letter-spacing: 0.1em; */
   text-transform: uppercase;
 }
 
@@ -1183,7 +1183,7 @@ h4 {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: 1rem;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  /* letter-spacing: -0.02em; */
 }
 
 .now-sleep-setup span {
@@ -1292,7 +1292,7 @@ h4 {
   color: #d8f1ff;
   font-size: 0.68rem;
   font-weight: 800;
-  letter-spacing: 0.06em;
+  /* letter-spacing: 0.06em; */
   text-transform: uppercase;
 }
 
@@ -1431,7 +1431,7 @@ h4 {
   min-height: 1.4rem;
   margin-top: 1.1rem;
   font-weight: 650;
-  letter-spacing: 0.02em;
+  /* letter-spacing: 0.02em; */
 }
 
 .search-page pagefind-results {
@@ -1458,7 +1458,7 @@ h4 {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: clamp(1.55rem, 3vw, 2rem);
   font-weight: 800;
-  letter-spacing: -0.04em;
+  /* letter-spacing: -0.04em; */
   transition: color 140ms ease;
 }
 
@@ -1663,7 +1663,7 @@ h4 {
   color: var(--muted);
   font-size: 0.72rem;
   font-weight: 800;
-  letter-spacing: 0.08em;
+  /* letter-spacing: 0.08em; */
   text-transform: uppercase;
 }
 
@@ -1685,7 +1685,7 @@ h4 {
   color: var(--accent-strong);
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   font-size: 0.85rem;
-  letter-spacing: 0.08em;
+  /* letter-spacing: 0.08em; */
 }
 
 .archive-year ol {
