@@ -1,10 +1,15 @@
 ---
 import {
+    whoisCredlyHandle,
     whoisGroups,
     whoisProfile,
+    whoisRoles,
+    type WhoisRole,
     type WhoisService,
     type WhoisTier,
 } from "../data/whois";
+import { earliestCertificationYear, loadCertifications } from "../lib/credly";
+import CertificationCard from "./CertificationCard.astro";
 
 const serviceCount = whoisGroups.reduce(
     (count, group) =>
@@ -50,6 +55,72 @@ function getAge(birthDate: string, today = new Date()) {
 }
 
 const currentAge = getAge(whoisProfile.birthDate);
+
+// Short months keep the timeline rail narrow enough to sit beside the roles.
+const monthFormatter = new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+});
+
+function formatMonth(value: string) {
+    return monthFormatter.format(new Date(`${value}-01T00:00:00Z`));
+}
+
+function tenureParts(span: { start: string; end?: string }) {
+    return {
+        start: formatMonth(span.start),
+        end: span.end ? formatMonth(span.end) : "Present",
+    };
+}
+
+/**
+ * Collapses roles linked by `continuesFrom` into a single run, so an unbroken
+ * stint that changed title or owner reads as one entry rather than two jobs.
+ * Roles stay newest-first, within runs and across them.
+ */
+function employmentRuns(roles: WhoisRole[]) {
+    const runs: WhoisRole[][] = [];
+
+    for (const role of roles) {
+        const current = runs.at(-1);
+
+        if (current?.at(-1)?.continuesFrom) {
+            current.push(role);
+        } else {
+            runs.push([role]);
+        }
+    }
+
+    return runs.map((group) => {
+        const newest = group[0]!;
+        const oldest = group.at(-1)!;
+
+        return {
+            roles: group,
+            company: newest.company,
+            formerly: [
+                ...new Set(
+                    group
+                        .slice(1)
+                        .map((role) => role.company)
+                        .filter((company) => company !== newest.company),
+                ),
+            ],
+            start: oldest.start,
+            end: newest.end,
+        };
+    });
+}
+
+const runs = employmentRuns(whoisRoles);
+
+const careerStartYear = whoisRoles.reduce(
+    (earliest, role) => Math.min(earliest, Number(role.start.slice(0, 4))),
+    Number.POSITIVE_INFINITY,
+);
+
+const { active, expired } = await loadCertifications(whoisCredlyHandle);
 ---
 
 <header class="whois-profile" aria-labelledby="whois-profile-name">
@@ -108,6 +179,160 @@ const currentAge = getAge(whoisProfile.birthDate);
         ageElement.textContent = String(age);
     }
 </script>
+
+<section class="whois-cv" aria-labelledby="whois-cv-title">
+    <header class="whois-directory-header">
+        <div>
+            <p class="eyebrow">Résumé</p>
+            <h2 id="whois-cv-title">Career</h2>
+        </div>
+        <p>Since {careerStartYear}</p>
+    </header>
+
+    <div class="whois-groups">
+        <section class="whois-group" aria-labelledby="whois-experience">
+            <header class="whois-group-header">
+                <h3 id="whois-experience">Experience</h3>
+                <p>Where I've worked, most recent first.</p>
+            </header>
+            <ol class="whois-roles">
+                {
+                    runs.map((run) => {
+                        const tenure = tenureParts(run);
+                        const lead = run.roles[0]!;
+                        const grouped = run.roles.length > 1;
+
+                        return (
+                            <li
+                                class:list={[
+                                    "whois-role",
+                                    !run.end && "whois-role-current",
+                                ]}
+                            >
+                                <span class="whois-role-tenure">
+                                    {tenure.start}{" "}
+                                    <span class="whois-role-end">
+                                        <span aria-hidden="true">–</span>{" "}
+                                        {tenure.end}
+                                    </span>
+                                </span>
+                                <span class="whois-role-copy">
+                                    <strong>{run.company}</strong>
+                                    {grouped
+                                        ? run.formerly.length > 0 && (
+                                              <span class="whois-role-acquisition whois-role-acquisition-during">
+                                                  <i
+                                                      class="fa-solid fa-code-merge"
+                                                      aria-hidden="true"
+                                                  />
+                                                  via{" "}
+                                                  {run.formerly.join(", ")}
+                                              </span>
+                                          )
+                                        : lead.acquisition && (
+                                              <span
+                                                  class:list={[
+                                                      "whois-role-acquisition",
+                                                      lead.acquisition
+                                                          .duringTenure &&
+                                                          "whois-role-acquisition-during",
+                                                  ]}
+                                              >
+                                                  <i
+                                                      class="fa-solid fa-code-merge"
+                                                      aria-hidden="true"
+                                                  />
+                                                  {lead.acquisition.note}
+                                              </span>
+                                          )}
+                                    <ol
+                                        class:list={[
+                                            "whois-role-titles",
+                                            grouped &&
+                                                "whois-role-titles-grouped",
+                                        ]}
+                                    >
+                                        {run.roles.map((role) => {
+                                            const span = tenureParts(role);
+
+                                            return (
+                                                <li>
+                                                    <span class="whois-role-title">
+                                                        {role.title}
+                                                    </span>
+                                                    {grouped && (
+                                                        <span class="whois-role-subtenure">
+                                                            {span.start}{" "}
+                                                            <span aria-hidden="true">
+                                                                –
+                                                            </span>{" "}
+                                                            {span.end}
+                                                        </span>
+                                                    )}
+                                                </li>
+                                            );
+                                        })}
+                                    </ol>
+                                </span>
+                            </li>
+                        );
+                    })
+                }
+            </ol>
+        </section>
+
+        <section class="whois-group" aria-labelledby="whois-certification">
+            <header class="whois-group-header">
+                <h3 id="whois-certification">Certification</h3>
+                <p>Exams I sat through, so you don't have to.</p>
+                <p class="whois-cert-note">Since {earliestCertificationYear}</p>
+            </header>
+            <div class="whois-cert-column">
+                {
+                    [
+                        {
+                            title: "Active",
+                            items: active,
+                            expired: false,
+                            open: true,
+                        },
+                        {
+                            title: "Expired",
+                            items: expired,
+                            expired: true,
+                            open: false,
+                        },
+                    ]
+                        .filter((set) => set.items.length > 0)
+                        .map((set) => (
+                            <details class="whois-cert-set" open={set.open}>
+                                <summary class="whois-cert-set-title">
+                                    {set.title}
+                                    <span class="whois-cert-count">
+                                        {set.items.length}
+                                    </span>
+                                    <i
+                                        class="fa-solid fa-chevron-down whois-cert-toggle"
+                                        aria-hidden="true"
+                                    />
+                                </summary>
+                                <ul class="whois-certs">
+                                    {set.items.map((certification) => (
+                                        <li>
+                                            <CertificationCard
+                                                certification={certification}
+                                                expired={set.expired}
+                                            />
+                                        </li>
+                                    ))}
+                                </ul>
+                            </details>
+                        ))
+                }
+            </div>
+        </section>
+    </div>
+</section>
 
 <section class="whois-directory" aria-labelledby="whois-directory-title">
     <header class="whois-directory-header">

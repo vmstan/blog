@@ -5,6 +5,10 @@ on:
     branches:
       - main
   pull_request:
+  # Weekly rebuild so build-time data (Credly certifications) stays current
+  # without a commit. Mondays at 12:00 UTC.
+  schedule:
+    - cron: "0 12 * * 1"
   workflow_dispatch:
 
 permissions:

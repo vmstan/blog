@@ -22,6 +22,19 @@ export interface WhoisGroup {
   services: WhoisService[];
 }
 
+export interface WhoisRole {
+  title: string;
+  company: string;
+  // "YYYY-MM"; omit end for the current role
+  start: string;
+  end?: string;
+  // What became of the company, and whether it happened on my watch.
+  acquisition?: { note: string; duringTenure: boolean };
+  // Same unbroken employment as the role listed below this one (a retitle or a
+  // change of owner, not a new job). Groups them under one timeline entry.
+  continuesFrom?: boolean;
+}
+
 export const whoisProfile = {
   command: '$ whois vmstan',
   name: "Michael Stanclift",
@@ -33,6 +46,66 @@ export const whoisProfile = {
     { label: "Broadcom", icon: "fa-solid fa-briefcase" },
   ],
 } as const;
+
+// Most recent first.
+export const whoisRoles: WhoisRole[] = [
+  {
+    title: "Staff Technical Adoption Manager",
+    company: "Broadcom",
+    start: "2023-11",
+    continuesFrom: true,
+  },
+  {
+    title: "Senior Technical Account Manager",
+    company: "VMware",
+    start: "2018-05",
+    end: "2023-11",
+    acquisition: {
+      note: "now Broadcom",
+      duringTenure: true,
+    },
+  },
+  {
+    title: "Lead Integration Engineer",
+    company: "DST Systems",
+    start: "2017-06",
+    end: "2018-05",
+    acquisition: {
+      note: "now SS&C",
+      duringTenure: false,
+    },
+  },
+  {
+    title: "Senior System Engineer",
+    company: "AOS",
+    start: "2011-08",
+    end: "2017-05",
+    acquisition: {
+      note: "now C1",
+      duringTenure: false,
+    },
+  },
+  {
+    title: "System Administrator",
+    company: "Lexmark Perceptive Software",
+    start: "2010-07",
+    end: "2011-08",
+    acquisition: {
+      note: "now Kofax",
+      duringTenure: false,
+    },
+  },
+  {
+    title: "Network Analyst",
+    company: "Rockhurst University",
+    start: "2006-06",
+    end: "2010-07",
+  },
+];
+
+// Certifications are pulled from this Credly profile at build time, and each
+// card links to its own badge there; see src/lib/credly.ts.
+export const whoisCredlyHandle = "vmstan";
 
 export const whoisGroups: WhoisGroup[] = [
   {
@@ -142,24 +215,11 @@ export const whoisGroups: WhoisGroup[] = [
         icon: "fa-brands fa-patreon",
         tier: "active",
       },
-    ],
-  },
-  {
-    title: "Professional",
-    description: "Coding and certifications.",
-    services: [
       {
         name: "GitHub",
         handle: "vmstan",
         href: "https://github.com/vmstan",
         icon: "fa-brands fa-github",
-        tier: "active",
-      },
-      {
-        name: "Credly",
-        handle: "vmstan",
-        href: "https://www.credly.com/users/vmstan",
-        icon: "fa-solid fa-certificate",
         tier: "active",
       },
     ],
