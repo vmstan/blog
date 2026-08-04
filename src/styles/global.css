@@ -876,6 +876,12 @@ h4 {
   font-weight: 800;
 }
 
+.whois-role-company {
+  margin-top: 0.1rem;
+  color: var(--ink);
+  font-size: 0.88rem;
+}
+
 .whois-role-acquisition {
   display: flex;
   gap: 0.45rem;
@@ -886,31 +892,27 @@ h4 {
   line-height: 1.45;
 }
 
+/* "arrow-turn-down-right" is Pro only; arrow-turn-up rotated a quarter turn
+   clockwise draws the same elbow, at the same weight as the other icons. That
+   turn swaps the glyph's 1em height into its width, so the box is 1em wide —
+   any narrower and the rotated arrow overhangs to the left of the text above. */
 .whois-role-acquisition i {
   flex: none;
-  width: 0.85em;
+  width: 1em;
   font-size: 0.9em;
+  line-height: 1;
   text-align: center;
 }
 
-/* Changes of ownership I was actually around for. */
-.whois-role-acquisition-during i {
-  color: var(--accent-strong);
-}
-
+/* Only grouped runs use this list: several titles under one employer, bound
+   together by a rule. Single roles lead with the title instead. */
 .whois-role-titles {
   display: grid;
   gap: 0.55rem;
-  margin: 0.35rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-/* Several titles under one employer earn a rule to bind them together. */
-.whois-role-titles-grouped {
-  margin-top: 0.7rem;
-  padding-left: 0.9rem;
+  margin: 0.7rem 0 0;
+  padding: 0 0 0 0.9rem;
   border-left: 1px solid var(--line);
+  list-style: none;
 }
 
 .whois-role-title {

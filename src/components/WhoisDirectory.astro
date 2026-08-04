@@ -193,7 +193,7 @@ const { active, expired } = await loadCertifications(whoisCredlyHandle);
         <section class="whois-group" aria-labelledby="whois-experience">
             <header class="whois-group-header">
                 <h3 id="whois-experience">Experience</h3>
-                <p>Where I've worked, most recent first.</p>
+                <p>Where I've worked, who's paying my bills.</p>
             </header>
             <ol class="whois-roles">
                 {
@@ -217,62 +217,63 @@ const { active, expired } = await loadCertifications(whoisCredlyHandle);
                                     </span>
                                 </span>
                                 <span class="whois-role-copy">
-                                    <strong>{run.company}</strong>
-                                    {grouped
-                                        ? run.formerly.length > 0 && (
-                                              <span class="whois-role-acquisition whois-role-acquisition-during">
-                                                  <i
-                                                      class="fa-solid fa-code-merge"
-                                                      aria-hidden="true"
-                                                  />
-                                                  via{" "}
-                                                  {run.formerly.join(", ")}
-                                              </span>
-                                          )
-                                        : lead.acquisition && (
-                                              <span
-                                                  class:list={[
-                                                      "whois-role-acquisition",
-                                                      lead.acquisition
-                                                          .duringTenure &&
-                                                          "whois-role-acquisition-during",
-                                                  ]}
-                                              >
-                                                  <i
-                                                      class="fa-solid fa-code-merge"
-                                                      aria-hidden="true"
-                                                  />
-                                                  {lead.acquisition.note}
-                                              </span>
-                                          )}
-                                    <ol
-                                        class:list={[
-                                            "whois-role-titles",
-                                            grouped &&
-                                                "whois-role-titles-grouped",
-                                        ]}
-                                    >
-                                        {run.roles.map((role) => {
-                                            const span = tenureParts(role);
+                                    {grouped ? (
+                                        <>
+                                            <strong>{run.company}</strong>
+                                            {run.formerly.length > 0 && (
+                                                <span class="whois-role-acquisition">
+                                                    <i
+                                                        class="fa-solid fa-code-merge"
+                                                        aria-hidden="true"
+                                                    />
+                                                    via {run.formerly.join(", ")}
+                                                </span>
+                                            )}
+                                            <ol class="whois-role-titles">
+                                                {run.roles.map((role) => {
+                                                    const span =
+                                                        tenureParts(role);
 
-                                            return (
-                                                <li>
-                                                    <span class="whois-role-title">
-                                                        {role.title}
-                                                    </span>
-                                                    {grouped && (
-                                                        <span class="whois-role-subtenure">
-                                                            {span.start}{" "}
-                                                            <span aria-hidden="true">
-                                                                –
-                                                            </span>{" "}
-                                                            {span.end}
-                                                        </span>
-                                                    )}
-                                                </li>
-                                            );
-                                        })}
-                                    </ol>
+                                                    return (
+                                                        <li>
+                                                            <span class="whois-role-title">
+                                                                {role.title}
+                                                            </span>
+                                                            <span class="whois-role-subtenure">
+                                                                {span.start}{" "}
+                                                                <span aria-hidden="true">
+                                                                    –
+                                                                </span>{" "}
+                                                                {span.end}
+                                                            </span>
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ol>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <strong>{lead.title}</strong>
+                                            <span class="whois-role-company">
+                                                {lead.company}
+                                            </span>
+                                            {lead.acquisition && (
+                                                <span class="whois-role-acquisition">
+                                                    <i
+                                                        class:list={[
+                                                            "fa-solid",
+                                                            lead.acquisition
+                                                                .duringTenure
+                                                                ? "fa-code-merge"
+                                                                : "fa-arrow-turn-up fa-rotate-90",
+                                                        ]}
+                                                        aria-hidden="true"
+                                                    />
+                                                    {lead.acquisition.note}
+                                                </span>
+                                            )}
+                                        </>
+                                    )}
                                 </span>
                             </li>
                         );
