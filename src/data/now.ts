@@ -15,6 +15,7 @@ export const nowSnapshot = {
       { name: "Vitamin D", detail: "Metagenics · 10,000 IU" },
       { name: "Omega 3 EPA/DHA", detail: "Metagenics · 2g/1g" },
       { name: "Magnesium Glycinate", detail: "Metagenics · 500 mg" },
+      { name: "Magnesium L-Threonate", detail: "Metagenics · 100 mg" },
       { name: "Zinc AG", detail: "Metagenics · 20 mg" },
     ],
   },
@@ -51,6 +52,10 @@ export const nowSnapshot = {
       items: [{ name: "OrbStack", href: "https://orbstack.dev" }],
     },
     {
+      label: "Databases",
+      items: [{ name: "TablePlus", href: "https://tableplus.com" }],
+    },
+    {
       label: "Diagramming",
       items: [{ name: "OmniGraffle", href: "https://www.omnigroup.com/omnigraffle" }],
     },
@@ -65,6 +70,13 @@ export const nowSnapshot = {
     {
       label: "Sleep Tracking",
       items: [{ name: "SleepHQ", href: "https://sleephq.com" }],
+    },
+    {
+      label: "System Mainteance",
+      items: [
+        { name: "Hazel", href: "https://www.noodlesoft.com/whats-new-in-hazel-6/" },
+        { name: "Updatest", href: "https://updatest.app" },
+      ],
     },
     {
       label: "Terminal",
