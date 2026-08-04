@@ -513,7 +513,7 @@ h4 {
 }
 
 .whois-directory {
-  margin-top: clamp(3rem, 7vw, 5rem);
+  margin-top: clamp(2rem, 4vw, 3rem);
 }
 
 .whois-directory-header {
@@ -785,6 +785,309 @@ h4 {
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 800;
+}
+
+.whois-cv {
+  margin-top: clamp(3rem, 7vw, 5rem);
+}
+
+.whois-cv .whois-group:last-child {
+  border-bottom: 0;
+}
+
+.whois-roles {
+  /* Distance from the list's left edge to the timeline rail. Must clear the
+     longest "Mon YYYY – Mon YYYY" range plus the tenure's padding, or the text
+     overflows its column and stops looking right-aligned. */
+  --rail: 10rem;
+  --role-gap: 1.5rem;
+  position: relative;
+  display: grid;
+  gap: var(--role-gap);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* One segment per role, running dot to dot, so the rail neither overshoots the
+   last role nor pokes above the first. */
+.whois-role:not(:last-child)::after {
+  position: absolute;
+  top: 1.15rem;
+  left: var(--rail);
+  width: 1px;
+  height: calc(100% + var(--role-gap) - 1rem);
+  background: var(--line);
+  content: "";
+}
+
+.whois-role {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--rail) minmax(0, 1fr);
+  /* Matches the tenure's padding-right so dates and titles sit an equal
+     distance either side of the rail. */
+  column-gap: 1.25rem;
+  /* Dates are smaller than titles; align what the eye reads, the baseline. */
+  align-items: baseline;
+  line-height: 1.35;
+}
+
+.whois-role::before {
+  position: absolute;
+  /* Centred on the role title's first line, not the shorter date text. */
+  top: 0.3rem;
+  left: calc(var(--rail) - 0.35rem);
+  width: 0.7rem;
+  height: 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--paper);
+  content: "";
+}
+
+.whois-role-current::before {
+  border-color: color-mix(in srgb, var(--accent-strong) 55%, var(--line));
+  background: color-mix(in srgb, var(--accent-strong) 45%, var(--paper));
+}
+
+.whois-role-tenure {
+  padding-right: 1.25rem;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.whois-role-current .whois-role-end {
+  color: var(--accent-strong);
+}
+
+.whois-role-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+
+.whois-role strong {
+  font-size: 0.98rem;
+  font-weight: 800;
+}
+
+.whois-role-acquisition {
+  display: flex;
+  gap: 0.45rem;
+  align-items: baseline;
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.whois-role-acquisition i {
+  flex: none;
+  width: 0.85em;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+/* Changes of ownership I was actually around for. */
+.whois-role-acquisition-during i {
+  color: var(--accent-strong);
+}
+
+.whois-role-titles {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0.35rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Several titles under one employer earn a rule to bind them together. */
+.whois-role-titles-grouped {
+  margin-top: 0.7rem;
+  padding-left: 0.9rem;
+  border-left: 1px solid var(--line);
+}
+
+.whois-role-title {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.whois-role-subtenure {
+  display: block;
+  color: var(--muted);
+  font-size: 0.76rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.whois-cert-column {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.whois-cert-set {
+  display: grid;
+  gap: 0.7rem;
+}
+
+.whois-cert-set-title {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0;
+  color: var(--muted);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.whois-cert-count {
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  background: var(--surface);
+  font-size: 0.7rem;
+}
+
+.whois-cert-set > summary {
+  cursor: pointer;
+  list-style: none;
+  transition: color 150ms ease;
+}
+
+.whois-cert-set > summary::-webkit-details-marker {
+  display: none;
+}
+
+.whois-cert-set > summary:hover,
+.whois-cert-set > summary:focus-visible {
+  color: var(--ink);
+}
+
+.whois-cert-set > summary:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 4px;
+  border-radius: 0.3rem;
+}
+
+.whois-cert-toggle {
+  font-size: 0.7rem;
+  transition: transform 150ms ease;
+}
+
+.whois-cert-set[open] .whois-cert-toggle {
+  transform: rotate(180deg);
+}
+
+.whois-certs {
+  display: grid;
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.whois-cert {
+  display: grid;
+  grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  gap: 0.85rem;
+  align-items: center;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  transition:
+    border-color 150ms ease,
+    background-color 150ms ease,
+    transform 150ms ease;
+}
+
+.whois-cert:hover {
+  border-color: color-mix(in srgb, var(--accent-strong) 45%, var(--line));
+  background: var(--surface);
+  color: var(--ink);
+  transform: translateY(-2px);
+}
+
+.whois-cert:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 3px;
+}
+
+.whois-cert-lapsed {
+  border-color: color-mix(in srgb, var(--whois-inactive) 42%, var(--line));
+}
+
+.whois-cert-lapsed:hover {
+  border-color: color-mix(in srgb, var(--whois-inactive) 58%, var(--line));
+  background: var(--whois-inactive-hover);
+}
+
+.whois-cert-lapsed .whois-cert-icon {
+  background: var(--whois-inactive-soft);
+  color: var(--whois-inactive);
+}
+
+.whois-cert-lapsed .whois-cert-arrow {
+  color: var(--whois-inactive);
+}
+
+.whois-cert-icon {
+  display: grid;
+  width: 2.6rem;
+  height: 2.6rem;
+  place-items: center;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent-strong) 12%, var(--paper));
+  color: var(--accent-strong);
+  font-size: 1.1rem;
+}
+
+.whois-cert-copy {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  line-height: 1.35;
+}
+
+.whois-cert-copy strong {
+  font-size: 0.98rem;
+  font-weight: 800;
+}
+
+.whois-cert-track {
+  margin-top: 0.1rem;
+  color: var(--ink);
+  font-size: 0.85rem;
+}
+
+.whois-cert-meta {
+  margin-top: 0.15rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.whois-cert-arrow {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+/* Sits in the group's label column, under the section description. */
+.whois-group-header .whois-cert-note {
+  margin-top: 0.75rem;
+  font-size: 0.78rem;
+  font-style: italic;
 }
 
 .now-page {
@@ -1917,6 +2220,32 @@ h4 {
     grid-template-columns: 1fr;
   }
 
+  /* Too narrow for a date column beside the roles: keep the rail at the edge
+     and let each range sit above its role, still on one line. */
+  .whois-roles {
+    --rail: 0.35rem;
+  }
+
+  .whois-role {
+    grid-template-columns: minmax(0, 1fr);
+    padding-left: 1.6rem;
+  }
+
+  /* The date line leads here, so the dot centres on it instead of the title. */
+  .whois-role::before {
+    top: 0.16rem;
+  }
+
+  .whois-role:not(:last-child)::after {
+    top: 1rem;
+    height: calc(100% + var(--role-gap) - 0.85rem);
+  }
+
+  .whois-role-tenure {
+    padding-right: 0;
+    text-align: left;
+  }
+
   .whois-legend-items {
     grid-template-columns: 1fr;
   }
@@ -1970,5 +2299,9 @@ h4 {
 
   .search-result-skeleton {
     animation: none;
+  }
+
+  .whois-cert-toggle {
+    transition: none;
   }
 }

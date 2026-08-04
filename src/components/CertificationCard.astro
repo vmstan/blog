@@ -1,0 +1,48 @@
+---
+import type { Certification } from "../lib/credly";
+
+interface Props {
+    certification: Certification;
+    expired?: boolean;
+}
+
+const { certification, expired = false } = Astro.props;
+
+const dayFormatter = new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    year: "numeric",
+    timeZone: "UTC",
+});
+
+function formatBadgeDate(value: string) {
+    return dayFormatter.format(new Date(`${value}T00:00:00Z`));
+}
+
+const meta = [
+    certification.abbreviation,
+    `Earned ${formatBadgeDate(certification.issuedOn)}`,
+    certification.expiresOn &&
+        `${expired ? "Expired" : "Valid through"} ${formatBadgeDate(certification.expiresOn)}`,
+]
+    .filter(Boolean)
+    .join(" · ");
+---
+
+<a
+    class:list={["whois-cert", expired && "whois-cert-lapsed"]}
+    href={certification.badgeUrl}
+>
+    <span class="whois-cert-icon" aria-hidden="true">
+        <i class="fa-solid fa-certificate"></i>
+    </span>
+    <span class="whois-cert-copy">
+        <strong>{certification.name}</strong>
+        {
+            certification.track && (
+                <span class="whois-cert-track">{certification.track}</span>
+            )
+        }
+        <span class="whois-cert-meta">{meta}</span>
+    </span>
+    <span class="whois-cert-arrow" aria-hidden="true">↗</span>
+</a>

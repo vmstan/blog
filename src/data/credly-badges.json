@@ -1,0 +1,118 @@
+{
+  "handle": "vmstan",
+  "fetchedAt": "2026-08-04T18:28:52.450Z",
+  "badges": [
+    {
+      "id": "af56f8e3-febe-453b-a084-581572bbb038",
+      "name": "VMware Certified Professional - VMware Cloud Foundation Architect",
+      "issuer": "Broadcom",
+      "issuedOn": "2026-03-06",
+      "expiresOn": "2029-03-06"
+    },
+    {
+      "id": "dde1b83a-7d43-41ac-b032-5e952202102f",
+      "name": "VMware Certified Professional - VMware Cloud Foundation Administrator",
+      "issuer": "Broadcom",
+      "issuedOn": "2025-12-16",
+      "expiresOn": "2028-12-16"
+    },
+    {
+      "id": "0d280d6d-d944-4605-aa40-93ed99d9e522",
+      "name": "VMware Certified Professional - VMware Cloud Foundation Administrator 2024",
+      "issuer": "Broadcom",
+      "issuedOn": "2025-01-30",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "bbbaef7b-1272-4fb6-a8cc-24051189c07e",
+      "name": "VMware Certified Professional - Data Center Virtualization 2024 [v2]",
+      "issuer": "Broadcom",
+      "issuedOn": "2024-12-31",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "163f5296-ff0f-4b44-b1fb-b4fdb9e33a2f",
+      "name": "VMware Certified Advanced Professional - Data Center Virtualization Design 2023",
+      "issuer": "Broadcom",
+      "issuedOn": "2023-01-23",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "1e2d2e84-c0f3-4b27-bc53-e54e1c66c3e4",
+      "name": "VMware Certified Professional - Data Center Virtualization 2023",
+      "issuer": "Broadcom",
+      "issuedOn": "2023-01-20",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "aec1de19-b2a0-4190-b392-ddbfe7d5e14d",
+      "name": "VMware Certified Technical Associate - Data Center Virtualization 2021",
+      "issuer": "Broadcom",
+      "issuedOn": "2021-02-22",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "a42a8598-f227-429a-b31c-49cb0f1f1117",
+      "name": "VMware Certified Implementation Expert 6.5 – Data Center Virtualization",
+      "issuer": "Broadcom",
+      "issuedOn": "2018-07-26",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "db566e3c-8a83-4828-81d6-837580a935e5",
+      "name": "VMware Certified Advanced Professional 6.5 – Data Center Virtualization Design",
+      "issuer": "Broadcom",
+      "issuedOn": "2018-07-26",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "1387fe31-ef6f-4adc-be54-60d22f3ecc98",
+      "name": "VMware Certified Professional 6 – Network Virtualization",
+      "issuer": "Broadcom",
+      "issuedOn": "2015-02-21",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "93aa37ad-c07b-47ab-815c-0d26cbd615b6",
+      "name": "VMware Certified Professional 6 – Data Center Virtualization",
+      "issuer": "Broadcom",
+      "issuedOn": "2017-01-26",
+      "expiresOn": "2026-06-30"
+    },
+    {
+      "id": "f845ddda-6db5-48f6-807a-43e037efd8cb",
+      "name": "Specialist - Implementation Engineer, VNX Solutions Version 7.0",
+      "issuer": "Dell Technologies",
+      "issuedOn": "2012-06-18",
+      "expiresOn": null
+    },
+    {
+      "id": "3a6628ed-0783-4af6-9059-5a9e58983bbb",
+      "name": "Specialist - Implementation Engineer, Dell EMC Unity Solutions Version 1.0",
+      "issuer": "Dell Technologies",
+      "issuedOn": "2016-05-12",
+      "expiresOn": null
+    },
+    {
+      "id": "23cfea7d-2262-47f5-9962-97fc419077db",
+      "name": "Specialist - Implementation Engineer, Isilon Solutions Version 1.0",
+      "issuer": "Dell Technologies",
+      "issuedOn": "2013-10-11",
+      "expiresOn": null
+    },
+    {
+      "id": "17e582ec-38e8-4b23-9b38-68aad6b6073d",
+      "name": "Cisco Certified Network Associate Data Center (CCNA Data Center)",
+      "issuer": "Cisco",
+      "issuedOn": "2014-01-04",
+      "expiresOn": "2018-04-06"
+    },
+    {
+      "id": "ff6ddaa9-4b94-4574-a9a6-809506df848d",
+      "name": "Double VCP - Data Center Virtualization & Network Virtualization",
+      "issuer": "Broadcom",
+      "issuedOn": "2015-02-21",
+      "expiresOn": null
+    }
+  ]
+}
