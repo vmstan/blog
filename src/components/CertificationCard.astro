@@ -36,7 +36,12 @@ function editionMeta(certification: Certification) {
 }
 ---
 
-<article class:list={["whois-cert", expired && "whois-cert-lapsed"]}>
+<article
+    class:list={[
+        "whois-cert",
+        expired ? "whois-cert-lapsed" : "whois-cert-current",
+    ]}
+>
     <span class="whois-cert-icon" aria-hidden="true">
         <i class="fa-solid fa-certificate"></i>
     </span>

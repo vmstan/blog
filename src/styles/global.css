@@ -1008,6 +1008,24 @@ h4 {
   color: var(--ink);
 }
 
+/* The two states carry the same weight as the tiers in the profile directory:
+   accent for what's current, the inactive amber for what's lapsed. */
+.whois-cert-current {
+  border-color: color-mix(in srgb, var(--accent-strong) 42%, var(--line));
+}
+
+.whois-cert-current .whois-cert-icon {
+  background: color-mix(in srgb, var(--accent-strong) 20%, var(--paper));
+}
+
+.whois-cert-current .whois-cert-abbr {
+  background: color-mix(in srgb, var(--accent-strong) 20%, var(--paper));
+}
+
+.whois-cert-current .whois-cert-arrow {
+  color: var(--accent-strong);
+}
+
 .whois-cert-lapsed {
   border-color: color-mix(in srgb, var(--whois-inactive) 42%, var(--line));
 }
