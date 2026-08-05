@@ -40,10 +40,11 @@ export const whoisProfile = {
   name: "Michael Stanclift",
   birthDate: "1983-11-09",
   description:
-    "Lifelong Kansan, father of four, and sysadmin since age 13. Heavily caffinated, infrequently rested.",
+    "Sysadmin at 13 • Husband of Sadie • Father of Four",
   facts: [
-    { label: "Kansas City", icon: "fa-solid fa-location-dot" },
-    { label: "Broadcom", icon: "fa-solid fa-briefcase" },
+    { label: "Kansas", icon: "fa-solid fa-location-dot" },
+    { label: "Blue", icon: "fa-solid fa-eye" },
+    { label: "A+", icon: "fa-solid fa-droplet" },
   ],
 } as const;
 
