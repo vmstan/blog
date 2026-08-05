@@ -24,18 +24,18 @@ export interface CertificationGroups {
   source: "credly" | "snapshot";
 }
 
-// Only VMware-lineage badges belong on the whois page; Credly reissues the
-// older VMware ones under Broadcom, so both issuers count.
-const vmwareIssuers = new Set(["VMware", "Broadcom"]);
+// Credly reissues the older VMware badges under Broadcom, so both issuers count
+// as VMware lineage.
+const certificationIssuers = new Set(["VMware", "Broadcom", "Cisco"]);
 // Certifications only. Achievement badges ("Double VCP") share the issuer but
 // carry no expiration of their own, so they never fit the active/expired split.
-const certificationPattern = /^(VMware|Broadcom) Certified /i;
+const certificationPattern = /^(VMware|Broadcom|Cisco) Certified /i;
 
 /**
  * Earliest year the page lists. Enforced here rather than left to the data so
  * the disclaimer on the whois page stays true if an older badge turns public.
  */
-export const earliestCertificationYear = 2015;
+export const earliestCertificationYear = 2014;
 
 const abbreviations: [RegExp, string][] = [
   [/^VMware Certified Implementation Expert/i, "VCIX"],
@@ -43,6 +43,7 @@ const abbreviations: [RegExp, string][] = [
   [/^VMware Certified Technical Associate/i, "VCTA"],
   [/^VMware Certified Associate/i, "VCA"],
   [/^VMware Certified Professional/i, "VCP"],
+  [/^Cisco Certified Network Associate/i, "CCNA"],
 ];
 
 export function credlyBadgesUrl(handle: string) {
@@ -91,19 +92,24 @@ export async function fetchCredlyBadges(handle: string) {
   return pickCredlyBadges(await response.json());
 }
 
-function isVmwareCertification(badge: CredlyBadge) {
+function isListedCertification(badge: CredlyBadge) {
   return (
-    vmwareIssuers.has(badge.issuer) &&
+    certificationIssuers.has(badge.issuer) &&
     certificationPattern.test(badge.name) &&
     Number(badge.issuedOn.slice(0, 4)) >= earliestCertificationYear
   );
 }
 
+// Some names repeat their own short form at the end ("… (CCNA Data Center)"),
+// which the meta line already carries as the abbreviation.
+const trailingParenthetical = /\s*\([^()]*\)\s*$/;
+
 function toCertification(badge: CredlyBadge): Certification {
-  const [name, track] = badge.name.split(/\s+[-–—]\s+/, 2);
+  const fullName = badge.name.replace(trailingParenthetical, "");
+  const [name, track] = fullName.split(/\s+[-–—]\s+/, 2);
 
   return {
-    name: name ?? badge.name,
+    name: name ?? fullName,
     track: track ?? null,
     abbreviation:
       abbreviations.find(([pattern]) => pattern.test(badge.name))?.[1] ?? null,
@@ -130,7 +136,7 @@ export function groupCertifications(
   asOf = new Date(),
 ): CertificationGroups {
   const certifications = badges
-    .filter(isVmwareCertification)
+    .filter(isListedCertification)
     .map(toCertification);
 
   return {
