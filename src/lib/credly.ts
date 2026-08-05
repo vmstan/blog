@@ -123,12 +123,17 @@ const trailingParenthetical = /\s*\([^()]*\)\s*$/;
 // newer ones put it on the track ("… Professional – DCV 2024"). Splitting it
 // off the family is what lets both collapse into one card.
 const generationSuffix = /\s+(\d+(?:\.\d+)?)$/;
+// Cisco runs the track straight on to the family — "Cisco Certified Network
+// Associate Data Center" — leaving the split nothing to key on. Give it one.
+const runOnFamily = /^(Cisco Certified Network Associate)\s+(?![-–—])/i;
 
 function toCertification(
   entry: ManualCertification,
   badgeUrl: string | null,
 ): Certification {
-  const fullName = entry.name.replace(trailingParenthetical, "");
+  const fullName = entry.name
+    .replace(trailingParenthetical, "")
+    .replace(runOnFamily, "$1 - ");
   const [family, track] = fullName.split(/\s+[-–—]\s+/, 2);
   const generation = family?.match(generationSuffix);
   const name = generation
