@@ -1012,7 +1012,8 @@ h4 {
     transform 150ms ease;
 }
 
-.whois-cert:hover {
+/* Only the linked cards react to the pointer; manual entries go nowhere. */
+a.whois-cert:hover {
   border-color: color-mix(in srgb, var(--accent-strong) 45%, var(--line));
   background: var(--surface);
   color: var(--ink);
@@ -1028,7 +1029,7 @@ h4 {
   border-color: color-mix(in srgb, var(--whois-inactive) 42%, var(--line));
 }
 
-.whois-cert-lapsed:hover {
+a.whois-cert-lapsed:hover {
   border-color: color-mix(in srgb, var(--whois-inactive) 58%, var(--line));
   background: var(--whois-inactive-hover);
 }

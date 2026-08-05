@@ -8,18 +8,31 @@ export interface CredlyBadge {
   expiresOn: string | null;
 }
 
+/**
+ * A certification that predates Credly, or was never issued through it. Named
+ * the way Credly names them so the same parsing applies; see whois.ts.
+ */
+export interface ManualCertification {
+  name: string;
+  issuedOn: string;
+  expiresOn: string | null;
+}
+
 export interface Certification {
   name: string;
   track: string | null;
   abbreviation: string | null;
   issuedOn: string;
   expiresOn: string | null;
-  badgeUrl: string;
+  // null for manual entries, which have no badge to link to.
+  badgeUrl: string | null;
 }
 
 export interface CertificationGroups {
   active: Certification[];
   expired: Certification[];
+  // Earliest year in the two lists, for the "Since …" note on the whois page.
+  earliestYear: number;
   // "credly" when the build reached the API, "snapshot" when it fell back.
   source: "credly" | "snapshot";
 }
@@ -30,12 +43,6 @@ const certificationIssuers = new Set(["VMware", "Broadcom", "Cisco"]);
 // Certifications only. Achievement badges ("Double VCP") share the issuer but
 // carry no expiration of their own, so they never fit the active/expired split.
 const certificationPattern = /^(VMware|Broadcom|Cisco) Certified /i;
-
-/**
- * Earliest year the page lists. Enforced here rather than left to the data so
- * the disclaimer on the whois page stays true if an older badge turns public.
- */
-export const earliestCertificationYear = 2014;
 
 const abbreviations: [RegExp, string][] = [
   [/^VMware Certified Implementation Expert/i, "VCIX"],
@@ -95,8 +102,7 @@ export async function fetchCredlyBadges(handle: string) {
 function isListedCertification(badge: CredlyBadge) {
   return (
     certificationIssuers.has(badge.issuer) &&
-    certificationPattern.test(badge.name) &&
-    Number(badge.issuedOn.slice(0, 4)) >= earliestCertificationYear
+    certificationPattern.test(badge.name)
   );
 }
 
@@ -104,18 +110,21 @@ function isListedCertification(badge: CredlyBadge) {
 // which the meta line already carries as the abbreviation.
 const trailingParenthetical = /\s*\([^()]*\)\s*$/;
 
-function toCertification(badge: CredlyBadge): Certification {
-  const fullName = badge.name.replace(trailingParenthetical, "");
+function toCertification(
+  entry: ManualCertification,
+  badgeUrl: string | null,
+): Certification {
+  const fullName = entry.name.replace(trailingParenthetical, "");
   const [name, track] = fullName.split(/\s+[-–—]\s+/, 2);
 
   return {
     name: name ?? fullName,
     track: track ?? null,
     abbreviation:
-      abbreviations.find(([pattern]) => pattern.test(badge.name))?.[1] ?? null,
-    issuedOn: badge.issuedOn,
-    expiresOn: badge.expiresOn,
-    badgeUrl: `https://www.credly.com/badges/${badge.id}`,
+      abbreviations.find(([pattern]) => pattern.test(fullName))?.[1] ?? null,
+    issuedOn: entry.issuedOn,
+    expiresOn: entry.expiresOn,
+    badgeUrl,
   };
 }
 
@@ -132,12 +141,18 @@ function byDateDescending(left: string | null, right: string | null) {
 
 export function groupCertifications(
   badges: CredlyBadge[],
+  manual: ManualCertification[],
   source: CertificationGroups["source"],
   asOf = new Date(),
 ): CertificationGroups {
-  const certifications = badges
-    .filter(isListedCertification)
-    .map(toCertification);
+  const certifications = [
+    ...badges
+      .filter(isListedCertification)
+      .map((badge) =>
+        toCertification(badge, `https://www.credly.com/badges/${badge.id}`),
+      ),
+    ...manual.map((entry) => toCertification(entry, null)),
+  ];
 
   return {
     active: certifications
@@ -152,6 +167,11 @@ export function groupCertifications(
           byDateDescending(left.expiresOn, right.expiresOn) ||
           byDateDescending(left.issuedOn, right.issuedOn),
       ),
+    earliestYear: certifications.reduce(
+      (earliest, certification) =>
+        Math.min(earliest, Number(certification.issuedOn.slice(0, 4))),
+      Number.POSITIVE_INFINITY,
+    ),
     source,
   };
 }
@@ -163,14 +183,17 @@ let cached: Promise<CertificationGroups> | undefined;
  * src/data/credly-badges.json when Credly is unreachable, so a bad day at
  * Credly never fails the build. Refresh the snapshot with `pnpm sync:credly`.
  */
-export function loadCertifications(handle: string) {
+export function loadCertifications(
+  handle: string,
+  manual: ManualCertification[] = [],
+) {
   cached ??= fetchCredlyBadges(handle)
-    .then((badges) => groupCertifications(badges, "credly"))
+    .then((badges) => groupCertifications(badges, manual, "credly"))
     .catch((error: unknown) => {
       console.warn(
         `[credly] Live fetch failed (${error instanceof Error ? error.message : error}); using snapshot from ${snapshot.fetchedAt}.`,
       );
-      return groupCertifications(snapshot.badges, "snapshot");
+      return groupCertifications(snapshot.badges, manual, "snapshot");
     });
 
   return cached;

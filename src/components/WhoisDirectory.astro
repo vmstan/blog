@@ -2,13 +2,14 @@
 import {
     whoisCredlyHandle,
     whoisGroups,
+    whoisManualCertifications,
     whoisProfile,
     whoisRoles,
     type WhoisRole,
     type WhoisService,
     type WhoisTier,
 } from "../data/whois";
-import { earliestCertificationYear, loadCertifications } from "../lib/credly";
+import { loadCertifications } from "../lib/credly";
 import CertificationCard from "./CertificationCard.astro";
 
 const serviceCount = whoisGroups.reduce(
@@ -120,7 +121,10 @@ const careerStartYear = whoisRoles.reduce(
     Number.POSITIVE_INFINITY,
 );
 
-const { active, expired } = await loadCertifications(whoisCredlyHandle);
+const { active, expired, earliestYear } = await loadCertifications(
+    whoisCredlyHandle,
+    whoisManualCertifications,
+);
 ---
 
 <header class="whois-profile" aria-labelledby="whois-profile-name">
@@ -286,7 +290,11 @@ const { active, expired } = await loadCertifications(whoisCredlyHandle);
             <header class="whois-group-header">
                 <h3 id="whois-certification">Certification</h3>
                 <p>Exams I sat through, so you don't have to.</p>
-                <p class="whois-cert-note">Since {earliestCertificationYear}</p>
+                {
+                    Number.isFinite(earliestYear) && (
+                        <p class="whois-cert-note">Since {earliestYear}</p>
+                    )
+                }
             </header>
             <div class="whois-cert-column">
                 {
