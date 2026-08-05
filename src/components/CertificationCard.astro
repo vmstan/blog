@@ -1,12 +1,12 @@
 ---
-import type { Certification } from "../lib/credly";
+import type { Certification, CertificationFamily } from "../lib/credly";
 
 interface Props {
-    certification: Certification;
+    family: CertificationFamily;
     expired?: boolean;
 }
 
-const { certification, expired = false } = Astro.props;
+const { family, expired = false } = Astro.props;
 
 const dayFormatter = new Intl.DateTimeFormat("en-US", {
     month: "long",
@@ -18,40 +18,73 @@ function formatBadgeDate(value: string) {
     return dayFormatter.format(new Date(`${value}T00:00:00Z`));
 }
 
-const meta = [
-    certification.abbreviation,
-    `Earned ${formatBadgeDate(certification.issuedOn)}`,
-    certification.expiresOn &&
-        `${expired ? "Expired" : "Valid through"} ${formatBadgeDate(certification.expiresOn)}`,
-]
-    .filter(Boolean)
-    .join(" · ");
+// The generation, wherever the name carried it, reads as part of the track.
+function editionLabel(certification: Certification) {
+    return [certification.track, certification.version]
+        .filter(Boolean)
+        .join(" ");
+}
 
-// Manual entries have no badge to open, so they render as plain cards.
-const Card = certification.badgeUrl ? "a" : "div";
+function editionMeta(certification: Certification) {
+    return [
+        `Earned ${formatBadgeDate(certification.issuedOn)}`,
+        certification.expiresOn &&
+            `${expired ? "Expired" : "Valid through"} ${formatBadgeDate(certification.expiresOn)}`,
+    ]
+        .filter(Boolean)
+        .join(" · ");
+}
 ---
 
-<Card
-    class:list={["whois-cert", expired && "whois-cert-lapsed"]}
-    href={certification.badgeUrl ?? undefined}
->
+<article class:list={["whois-cert", expired && "whois-cert-lapsed"]}>
     <span class="whois-cert-icon" aria-hidden="true">
         <i class="fa-solid fa-certificate"></i>
     </span>
-    <span class="whois-cert-copy">
-        <strong>{certification.name}</strong>
-        {
-            certification.track && (
-                <span class="whois-cert-track">{certification.track}</span>
-            )
-        }
-        <span class="whois-cert-meta">{meta}</span>
-    </span>
-    {
-        certification.badgeUrl && (
-            <span class="whois-cert-arrow" aria-hidden="true">
-                ↗
-            </span>
-        )
-    }
-</Card>
+    <div class="whois-cert-copy">
+        <p class="whois-cert-name">
+            <strong>{family.name}</strong>
+            {
+                family.abbreviation && (
+                    <span class="whois-cert-abbr">{family.abbreviation}</span>
+                )
+            }
+        </p>
+        <ul class="whois-cert-editions">
+            {
+                family.editions.map((certification) => {
+                    const label = editionLabel(certification);
+                    // Manual entries have no badge to open.
+                    const Edition = certification.badgeUrl ? "a" : "div";
+
+                    return (
+                        <li>
+                            <Edition
+                                class="whois-cert-edition"
+                                href={certification.badgeUrl ?? undefined}
+                            >
+                                <span>
+                                    {label && (
+                                        <span class="whois-cert-edition-name">
+                                            {label}
+                                        </span>
+                                    )}
+                                    <span class="whois-cert-meta">
+                                        {editionMeta(certification)}
+                                    </span>
+                                </span>
+                                {certification.badgeUrl && (
+                                    <span
+                                        class="whois-cert-arrow"
+                                        aria-hidden="true"
+                                    >
+                                        ↗
+                                    </span>
+                                )}
+                            </Edition>
+                        </li>
+                    );
+                })
+            }
+        </ul>
+    </div>
+</article>
