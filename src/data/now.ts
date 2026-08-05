@@ -13,10 +13,11 @@ export const nowSnapshot = {
     href: "https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM",
     items: [
       { name: "Vitamin D", detail: "Metagenics · 10,000 IU" },
-      { name: "Omega 3 EPA/DHA", detail: "Metagenics · 2g/1g" },
-      { name: "Magnesium Glycinate", detail: "Metagenics · 500 mg" },
+      { name: "Omega 3 EPA/DHA", detail: "Metagenics · 1670 mg / 1330 mg" },
+      { name: "Magnesium Glycinate", detail: "Metagenics · 400 mg" },
       { name: "Magnesium L-Threonate", detail: "Metagenics · 100 mg" },
       { name: "Zinc AG", detail: "Metagenics · 20 mg" },
+      { name: "Creatine", detail: "Momentous · 5 mg" },
     ],
   },
   sleep: [
