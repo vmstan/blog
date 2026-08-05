@@ -77,7 +77,7 @@ export const whoisRoles: WhoisRole[] = [
   },
   {
     title: "Senior System Engineer",
-    company: "AOS",
+    company: "AOS (Alexander Open Systems)",
     start: "2011-08",
     end: "2017-05",
     acquisition: {
