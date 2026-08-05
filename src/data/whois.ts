@@ -115,18 +115,8 @@ export const whoisCredlyHandle = "vmstan";
 // <track>" — and the same parsing gives them matching cards.
 export const whoisManualCertifications: ManualCertification[] = [
   {
-    name: "VMware Certified Associate - Network Virtualization",
-    issuedOn: "2015-02-19",
-    expiresOn: "2026-06-30",
-  },
-  {
-    name: "VMware Certified Advanced Professional - Desktop Administration",
+    name: "VMware Certified Advanced Professional 5 - Desktop Administration",
     issuedOn: "2014-09-06",
-    expiresOn: "2026-06-30",
-  },
-  {
-    name: "VMware Certified Associate - Cloud",
-    issuedOn: "2014-02-19",
     expiresOn: "2026-06-30",
   },
   {
