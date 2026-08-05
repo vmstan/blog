@@ -19,13 +19,23 @@ export interface ManualCertification {
 }
 
 export interface Certification {
+  // The family, with any generation stripped: "VMware Certified Professional".
   name: string;
   track: string | null;
+  // "5", "6.5", … for the names that carry a generation; null otherwise.
+  version: string | null;
   abbreviation: string | null;
   issuedOn: string;
   expiresOn: string | null;
   // null for manual entries, which have no badge to link to.
   badgeUrl: string | null;
+}
+
+/** Every generation of one certification, newest first. */
+export interface CertificationFamily {
+  name: string;
+  abbreviation: string | null;
+  editions: Certification[];
 }
 
 export interface CertificationGroups {
@@ -107,25 +117,74 @@ function isListedCertification(badge: CredlyBadge) {
 }
 
 // Some names repeat their own short form at the end ("… (CCNA Data Center)"),
-// which the meta line already carries as the abbreviation.
+// which the abbreviation already carries.
 const trailingParenthetical = /\s*\([^()]*\)\s*$/;
+// Older names put the generation on the family ("… Professional 6.5 – DCV");
+// newer ones put it on the track ("… Professional – DCV 2024"). Splitting it
+// off the family is what lets both collapse into one card.
+const generationSuffix = /\s+(\d+(?:\.\d+)?)$/;
 
 function toCertification(
   entry: ManualCertification,
   badgeUrl: string | null,
 ): Certification {
   const fullName = entry.name.replace(trailingParenthetical, "");
-  const [name, track] = fullName.split(/\s+[-–—]\s+/, 2);
+  const [family, track] = fullName.split(/\s+[-–—]\s+/, 2);
+  const generation = family?.match(generationSuffix);
+  const name = generation
+    ? family!.slice(0, generation.index)
+    : (family ?? fullName);
 
   return {
-    name: name ?? fullName,
+    name,
     track: track ?? null,
+    version: generation?.[1] ?? null,
     abbreviation:
-      abbreviations.find(([pattern]) => pattern.test(fullName))?.[1] ?? null,
+      abbreviations.find(([pattern]) => pattern.test(name))?.[1] ?? null,
     issuedOn: entry.issuedOn,
     expiresOn: entry.expiresOn,
     badgeUrl,
   };
+}
+
+// Families run highest tier first, not newest first. Anything unranked follows,
+// in the order it was earned.
+const familyOrder = ["VCIX", "VCAP", "VCP", "VCTA", "VCA"];
+
+function familyRank(abbreviation: string | null) {
+  const rank = abbreviation ? familyOrder.indexOf(abbreviation) : -1;
+
+  return rank === -1 ? familyOrder.length : rank;
+}
+
+/**
+ * Collapses a sorted list into one entry per family, so seven generations of
+ * VCP read as one card with seven editions rather than seven cards. Editions
+ * keep the order they arrived in; the families themselves go by tier.
+ */
+export function groupByFamily(
+  certifications: Certification[],
+): CertificationFamily[] {
+  const families = new Map<string, CertificationFamily>();
+
+  for (const certification of certifications) {
+    const family = families.get(certification.name);
+
+    if (family) {
+      family.editions.push(certification);
+    } else {
+      families.set(certification.name, {
+        name: certification.name,
+        abbreviation: certification.abbreviation,
+        editions: [certification],
+      });
+    }
+  }
+
+  return [...families.values()].sort(
+    (left, right) =>
+      familyRank(left.abbreviation) - familyRank(right.abbreviation),
+  );
 }
 
 function hasExpired(certification: Certification, asOf: Date) {

@@ -995,43 +995,39 @@ h4 {
   list-style: none;
 }
 
+/* One card per certification family; each edition inside is its own link. */
 .whois-cert {
   display: grid;
-  grid-template-columns: 2.6rem minmax(0, 1fr) auto;
+  grid-template-columns: 2.6rem minmax(0, 1fr);
   gap: 0.85rem;
-  align-items: center;
+  align-items: start;
   padding: 0.9rem 1rem;
   border: 1px solid var(--line);
   border-radius: 0.75rem;
   background: var(--paper);
   color: var(--ink);
-  text-decoration: none;
-  transition:
-    border-color 150ms ease,
-    background-color 150ms ease,
-    transform 150ms ease;
 }
 
-/* Only the linked cards react to the pointer; manual entries go nowhere. */
-a.whois-cert:hover {
-  border-color: color-mix(in srgb, var(--accent-strong) 45%, var(--line));
-  background: var(--surface);
-  color: var(--ink);
-  transform: translateY(-2px);
+/* The two states carry the same weight as the tiers in the profile directory:
+   accent for what's current, the inactive amber for what's lapsed. */
+.whois-cert-current {
+  border-color: color-mix(in srgb, var(--accent-strong) 42%, var(--line));
 }
 
-.whois-cert:focus-visible {
-  outline: 2px solid var(--accent-strong);
-  outline-offset: 3px;
+.whois-cert-current .whois-cert-icon {
+  background: color-mix(in srgb, var(--accent-strong) 20%, var(--paper));
+}
+
+.whois-cert-current .whois-cert-abbr {
+  background: color-mix(in srgb, var(--accent-strong) 20%, var(--paper));
+}
+
+.whois-cert-current .whois-cert-arrow {
+  color: var(--accent-strong);
 }
 
 .whois-cert-lapsed {
   border-color: color-mix(in srgb, var(--whois-inactive) 42%, var(--line));
-}
-
-a.whois-cert-lapsed:hover {
-  border-color: color-mix(in srgb, var(--whois-inactive) 58%, var(--line));
-  background: var(--whois-inactive-hover);
 }
 
 .whois-cert-lapsed .whois-cert-icon {
@@ -1061,19 +1057,75 @@ a.whois-cert-lapsed:hover {
   line-height: 1.35;
 }
 
-.whois-cert-copy strong {
+.whois-cert-name {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 0;
+  gap: 0.45rem;
+}
+
+.whois-cert-name strong {
   font-size: 0.98rem;
   font-weight: 800;
 }
 
-.whois-cert-track {
-  margin-top: 0.1rem;
+.whois-cert-abbr {
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--accent-strong) 12%, var(--paper));
+  padding: 0.05rem 0.45rem;
+  color: var(--accent-strong);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.whois-cert-lapsed .whois-cert-abbr {
+  background: var(--whois-inactive-soft);
+  color: var(--whois-inactive);
+}
+
+.whois-cert-editions {
+  margin: 0.45rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.whois-cert-editions li + li {
+  margin-top: 0.4rem;
+  border-top: 1px solid color-mix(in srgb, var(--line) 65%, transparent);
+  padding-top: 0.4rem;
+}
+
+.whois-cert-edition {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.6rem;
+  align-items: center;
   color: var(--ink);
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+a.whois-cert-edition:hover,
+a.whois-cert-edition:hover .whois-cert-arrow {
+  color: var(--accent-strong);
+}
+
+a.whois-cert-edition:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 3px;
+  border-radius: 0.35rem;
+}
+
+.whois-cert-edition-name {
+  display: block;
   font-size: 0.85rem;
 }
 
 .whois-cert-meta {
-  margin-top: 0.15rem;
+  display: block;
+  margin-top: 0.1rem;
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 700;
@@ -1083,6 +1135,7 @@ a.whois-cert-lapsed:hover {
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 800;
+  transition: color 150ms ease;
 }
 
 /* Sits in the group's label column, under the section description. */

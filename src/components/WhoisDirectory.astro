@@ -9,7 +9,7 @@ import {
     type WhoisService,
     type WhoisTier,
 } from "../data/whois";
-import { loadCertifications } from "../lib/credly";
+import { groupByFamily, loadCertifications } from "../lib/credly";
 import CertificationCard from "./CertificationCard.astro";
 
 const serviceCount = whoisGroups.reduce(
@@ -326,10 +326,10 @@ const { active, expired, earliestYear } = await loadCertifications(
                                     />
                                 </summary>
                                 <ul class="whois-certs">
-                                    {set.items.map((certification) => (
+                                    {groupByFamily(set.items).map((family) => (
                                         <li>
                                             <CertificationCard
-                                                certification={certification}
+                                                family={family}
                                                 expired={set.expired}
                                             />
                                         </li>
