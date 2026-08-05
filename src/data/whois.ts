@@ -1,3 +1,5 @@
+import type { ManualCertification } from "../lib/credly";
+
 interface WhoisServiceBase {
   name: string;
   handle: string;
@@ -107,6 +109,42 @@ export const whoisRoles: WhoisRole[] = [
 // Certifications are pulled from this Credly profile at build time, and each
 // card links to its own badge there; see src/lib/credly.ts.
 export const whoisCredlyHandle = "vmstan";
+
+// Certifications with no Credly badge behind them, so nothing to link to and
+// nothing left to change. Name them the way Credly does — "<full name> -
+// <track>" — and the same parsing gives them matching cards.
+export const whoisManualCertifications: ManualCertification[] = [
+  {
+    name: "VMware Certified Associate - Network Virtualization",
+    issuedOn: "2015-02-19",
+    expiresOn: "2026-06-30",
+  },
+  {
+    name: "VMware Certified Advanced Professional - Desktop Administration",
+    issuedOn: "2014-09-06",
+    expiresOn: "2026-06-30",
+  },
+  {
+    name: "VMware Certified Associate - Cloud",
+    issuedOn: "2014-02-19",
+    expiresOn: "2026-06-30",
+  },
+  {
+    name: "VMware Certified Advanced Professional 5 - Data Center Administration",
+    issuedOn: "2014-02-07",
+    expiresOn: "2026-06-30",
+  },
+  {
+    name: "VMware Certified Professional 5 - Desktop",
+    issuedOn: "2012-10-01",
+    expiresOn: "2026-06-30",
+  },
+  {
+    name: "VMware Certified Professional 5 - Data Center Virtualization",
+    issuedOn: "2011-10-03",
+    expiresOn: "2026-06-30",
+  },
+];
 
 export const whoisGroups: WhoisGroup[] = [
   {

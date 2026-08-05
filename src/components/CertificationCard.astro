@@ -26,11 +26,14 @@ const meta = [
 ]
     .filter(Boolean)
     .join(" · ");
+
+// Manual entries have no badge to open, so they render as plain cards.
+const Card = certification.badgeUrl ? "a" : "div";
 ---
 
-<a
+<Card
     class:list={["whois-cert", expired && "whois-cert-lapsed"]}
-    href={certification.badgeUrl}
+    href={certification.badgeUrl ?? undefined}
 >
     <span class="whois-cert-icon" aria-hidden="true">
         <i class="fa-solid fa-certificate"></i>
@@ -44,5 +47,11 @@ const meta = [
         }
         <span class="whois-cert-meta">{meta}</span>
     </span>
-    <span class="whois-cert-arrow" aria-hidden="true">↗</span>
-</a>
+    {
+        certification.badgeUrl && (
+            <span class="whois-cert-arrow" aria-hidden="true">
+                ↗
+            </span>
+        )
+    }
+</Card>
