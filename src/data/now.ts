@@ -101,7 +101,7 @@ export const nowSnapshot = {
     { name: "AirPods Pro 3", detail: "Everyday Audio" },
     { name: "Logitech MX Mechanical Mini for Mac", detail: "Clickety Clicky Clack"},
     { name: "Logitech MX Master 3S", detail: "Everyday Pointer"},
-    { name: 'LG UltraFine 24" 4K', detail: "24MD4KLB-B"},
+    { name: 'LG UltraFine 24" 4K', detail: "Display"},
   ] as (NowLink & { detail: string })[],
   podcasts: [
     "Accidental Tech Podcast",
