@@ -99,8 +99,9 @@ export const nowSnapshot = {
     { name: 'MacBook Pro M5 Pro 16"', detail: "Business · Space Black" },
     { name: 'iPad Pro 11" (2nd generation)', detail: "Space Gray" },
     { name: "AirPods Pro 3", detail: "Everyday Audio" },
-    { name: "Keychron K3 V2", detail: "Optical Blue Switches"},
+    { name: "Logitech MX Mechanical Mini for Mac", detail: "Clickety Clicky Clack"},
     { name: "Logitech MX Master 3S", detail: "Everyday Pointer"},
+    { name: 'LG UltraFine 24" 4K', detail: "24MD4KLB-B"},
   ] as (NowLink & { detail: string })[],
   podcasts: [
     "Accidental Tech Podcast",
