@@ -63,8 +63,8 @@ const abbreviations: [RegExp, string][] = [
   [/^Cisco Certified Network Associate/i, "CCNA"],
 ];
 
-export function credlyBadgesUrl(handle: string) {
-  return `https://www.credly.com/users/${handle}/badges?sort=-state_updated_at&page=1`;
+export function credlyBadgesUrl(handle: string, page = 1) {
+  return `https://www.credly.com/users/${handle}/badges?sort=-state_updated_at&page=${page}`;
 }
 
 /** Reduces the Credly API payload to the handful of fields the site renders. */
@@ -96,17 +96,44 @@ export function pickCredlyBadges(payload: unknown): CredlyBadge[] {
   });
 }
 
-export async function fetchCredlyBadges(handle: string) {
-  const response = await fetch(credlyBadgesUrl(handle), {
-    headers: { Accept: "application/json" },
-    signal: AbortSignal.timeout(15_000),
-  });
+function getTotalPages(payload: unknown) {
+  const totalPages = (payload as { metadata?: { total_pages?: unknown } })
+    .metadata?.total_pages;
 
-  if (!response.ok) {
-    throw new Error(`Credly responded with ${response.status}`);
+  if (totalPages === undefined) {
+    return 1;
   }
 
-  return pickCredlyBadges(await response.json());
+  if (!Number.isSafeInteger(totalPages) || Number(totalPages) < 1) {
+    throw new Error("Credly response contained an invalid page count");
+  }
+
+  return Number(totalPages);
+}
+
+export async function fetchCredlyBadges(
+  handle: string,
+  fetcher: typeof fetch = fetch,
+) {
+  const badges: CredlyBadge[] = [];
+  let totalPages = 1;
+
+  for (let page = 1; page <= totalPages; page += 1) {
+    const response = await fetcher(credlyBadgesUrl(handle, page), {
+      headers: { Accept: "application/json" },
+      signal: AbortSignal.timeout(15_000),
+    });
+
+    if (!response.ok) {
+      throw new Error(`Credly page ${page} responded with ${response.status}`);
+    }
+
+    const payload: unknown = await response.json();
+    badges.push(...pickCredlyBadges(payload));
+    totalPages = getTotalPages(payload);
+  }
+
+  return badges;
 }
 
 function isListedCertification(badge: CredlyBadge) {

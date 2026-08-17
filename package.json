@@ -10,6 +10,7 @@
   "scripts": {
     "prepare": "husky",
     "dev": "astro dev",
+    "test": "node --test src/lib/credly.test.ts",
     "build": "astro check && astro build && pagefind --site dist",
     "preview": "astro preview",
     "deploy": "pnpm build && wrangler deploy",
