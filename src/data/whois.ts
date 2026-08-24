@@ -42,7 +42,7 @@ export const whoisProfile = {
   name: "Michael Stanclift",
   birthDate: "1983-11-09",
   description:
-    "Sysadmin at 13 • Husband of Sadie • Father of Four",
+    "Remant of Virtualization • Husband of Sadie • Father of Four",
   facts: [
     { label: "Kansas", icon: "fa-solid fa-location-dot" },
     { label: "Blue", icon: "fa-solid fa-eye" },

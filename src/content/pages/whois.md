@@ -3,7 +3,7 @@ title: "Whois"
 slug: "whois"
 description: "A directory of Michael Stanclift's profiles, usernames, and contact information across third-party services."
 publishedAt: "2025-07-17T16:18:56.000Z"
-updatedAt: "2026-08-05T17:10:58.647Z"
+updatedAt: "2026-08-24"
 author: "Michael Stanclift"
 tags: []
 draft: false

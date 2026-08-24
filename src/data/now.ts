@@ -22,7 +22,7 @@ export const nowSnapshot = {
     {
       context: "Home",
       device: "ResMed AirSense 11",
-      accessory: "AirFit P10",
+      accessory: "AirFit F40",
     },
     {
       context: "Travel",
@@ -42,7 +42,7 @@ export const nowSnapshot = {
     {
       label: "Coding",
       items: [
-        { name: "Claude Code", href: "https://code.claude.com/docs/en/overview" },
+        { name: "Codex", href: "https://openai.com/codex/" },
         { name: "Nova", href: "https://nova.app" },
       ],
     },
@@ -104,9 +104,9 @@ export const nowSnapshot = {
   podcasts: [
     "Accidental Tech Podcast",
     "Blocks",
-    "Club Random",
     "Dithering",
     "Six Colors",
+    "The Rebound",
     "Vulcan Hello",
   ],
 } as const;
