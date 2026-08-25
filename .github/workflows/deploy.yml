@@ -43,6 +43,19 @@ jobs:
       - name: Build site
         run: pnpm build
 
+      # The build regenerates src/styles/icons.css and the subset webfonts.
+      # Nothing else would notice if they drifted from what is committed, so
+      # fail here rather than let a stale icon ship.
+      - name: Check generated icon assets are current
+        run: |
+          changed=$(git status --porcelain -- src/styles/icons.css src/styles/fonts)
+          if [ -n "$changed" ]; then
+            echo "::error::Generated icon assets differ from the committed ones. Run 'pnpm build:icons' and commit the result."
+            echo "$changed"
+            git diff -- src/styles/icons.css
+            exit 1
+          fi
+
   preview:
     name: Deploy preview
     if: >-
