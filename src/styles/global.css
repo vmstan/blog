@@ -1,9 +1,10 @@
 :root {
   color-scheme: light dark;
   --accent: #0d88d8;
-  --accent-strong: #0d88d8;
+  --accent-strong: #0a66a2;
+  --accent-hover: #084d7a;
   --ink: #15171a;
-  --muted: #738a94;
+  --muted: #5a6d76;
   --paper: #fff;
   --surface: #f4f8fa;
   --line: #e5eff5;
@@ -33,6 +34,7 @@
   :root {
     --accent: #62c2ff;
     --accent-strong: #62c2ff;
+    --accent-hover: #8fd4ff;
     --ink: #e8eef2;
     --muted: #9aabb5;
     --paper: #101418;
@@ -87,7 +89,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent);
+  color: var(--accent-hover);
 }
 
 .shell {

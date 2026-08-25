@@ -11,7 +11,8 @@
     "prepare": "husky",
     "dev": "astro dev",
     "test": "node --test src/lib/credly.test.ts",
-    "build": "astro check && astro build && pagefind --site dist",
+    "build": "node scripts/build-icon-css.mjs && astro check && astro build && pagefind --site dist",
+    "build:icons": "node scripts/build-icon-css.mjs",
     "preview": "astro preview",
     "deploy": "pnpm build && wrangler deploy",
     "import:ghost": "node scripts/import-ghost.mjs",
@@ -27,6 +28,7 @@
     "@astrojs/check": "^0.9.10",
     "husky": "^9.1.7",
     "pagefind": "^1.5.2",
+    "subset-font": "^2.5.0",
     "typescript": "^6.0.3",
     "wrangler": "^4.125.0"
   }
