@@ -12,6 +12,25 @@ pnpm install
 pnpm dev
 ```
 
+Scaffold a new entry with the generator rather than copying an existing file:
+
+```sh
+pnpm new post "Cashflow Positive"
+pnpm new page "Colophon" --description "How this site is built." --publish
+```
+
+The slug is derived from the title and used as both the filename and the `slug`
+frontmatter field that `src/pages/[slug].astro` routes on. Pass `--slug` to
+override it, `--description` to fill in the meta description, and `--date` to set
+a `publishedAt` other than today. The generator refuses to write when the slug is
+already taken by a post or a page.
+
+New entries are created with `draft: true` so an unfinished stub cannot ship on
+the next commit; `--publish` creates them published instead. Pages also need a
+matching entry in `navigation` in `src/config.ts` before they appear in the
+header. The `updatedAt` field is seeded with the publish date only to satisfy the
+schema—a pre-commit hook rewrites it on every staged content file.
+
 Run the production checks and build with:
 
 ```sh
