@@ -29,7 +29,10 @@ New entries are created with `draft: true` so an unfinished stub cannot ship on
 the next commit; `--publish` creates them published instead. Pages also need a
 matching entry in `navigation` in `src/config.ts` before they appear in the
 header. The `updatedAt` field is seeded with the publish date only to satisfy the
-schema—a pre-commit hook rewrites it on every staged content file.
+schema—a pre-commit hook rewrites it on every staged content file. Changes to
+the Now and Whois data sources update their corresponding page as well. If a
+commit reaches `main` without running local hooks, GitHub Actions repairs and
+commits the missing timestamp before building and deploying it.
 
 Run the production checks and build with:
 

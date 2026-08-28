@@ -5,6 +5,7 @@ const contentDirectories = ["src/content/posts", "src/content/pages"];
 const relatedPages = new Map([
   ["src/data/now.ts", "src/content/pages/now.md"],
   ["src/data/whois.ts", "src/content/pages/whois.md"],
+  ["src/data/credly-badges.json", "src/content/pages/whois.md"],
 ]);
 
 function git(args, options = {}) {
@@ -22,6 +23,25 @@ function stagedFiles() {
     "--name-only",
     "--diff-filter=ACMR",
     "-z",
+    "--",
+    ...contentDirectories,
+    ...relatedPages.keys(),
+  ]);
+
+  return output
+    .toString()
+    .split("\0")
+    .filter(Boolean);
+}
+
+function changedFiles(base, head) {
+  const output = git([
+    "diff",
+    "--name-only",
+    "--diff-filter=ACMR",
+    "-z",
+    base,
+    head,
     "--",
     ...contentDirectories,
     ...relatedPages.keys(),
@@ -80,6 +100,36 @@ function withUpdatedAt(source, timestamp, file) {
   );
 }
 
+function updatedAtValue(source, file) {
+  const frontmatter = source.match(
+    /^(---\r?\n)([\s\S]*?)(\r?\n---(?:\r?\n|$))/,
+  );
+
+  if (!frontmatter) {
+    throw new Error(`${file} does not have an opening front matter block`);
+  }
+
+  const matches = frontmatter[2].match(/^updatedAt:[^\r\n]*$/gm) ?? [];
+  if (matches.length !== 1) {
+    throw new Error(
+      `${file} must contain exactly one updatedAt field in its front matter`,
+    );
+  }
+
+  return matches[0];
+}
+
+function fileAtRevision(revision, file) {
+  try {
+    return git(["show", `${revision}:${file}`], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+    });
+  } catch {
+    return null;
+  }
+}
+
 function stagedEntry(file) {
   const entry = git(["ls-files", "--stage", "--", file], {
     encoding: "utf8",
@@ -115,13 +165,61 @@ function updatePage(file, timestamp) {
   console.log(`Updated ${file} to ${timestamp}`);
 }
 
-try {
-  const targets = pageTargets(stagedFiles());
+function updateWorkingPage(file, timestamp) {
+  const source = readFileSync(file, "utf8");
+  const updatedSource = withUpdatedAt(source, timestamp, file);
 
-  if (targets.size > 0) {
-    const timestamp = new Date().toISOString();
-    for (const target of targets) {
-      updatePage(target, timestamp);
+  if (source !== updatedSource) {
+    writeFileSync(file, updatedSource);
+    console.log(`Repaired ${file} to ${timestamp}`);
+  }
+}
+
+function repairRange(base, head) {
+  const files = changedFiles(base, head);
+  const targets = pageTargets(files);
+  const timestamp = new Date(
+    git(["show", "-s", "--format=%cI", head], { encoding: "utf8" }).trim(),
+  ).toISOString();
+
+  for (const target of targets) {
+    const before = fileAtRevision(base, target);
+    const after = fileAtRevision(head, target);
+
+    if (!after) {
+      continue;
+    }
+
+    const timestampWasUpdated =
+      before && updatedAtValue(before, target) !== updatedAtValue(after, target);
+
+    if (!timestampWasUpdated) {
+      updateWorkingPage(target, timestamp);
+    }
+  }
+}
+
+try {
+  const [mode, base, head] = process.argv.slice(2);
+
+  if (mode === "--repair-range") {
+    if (!base || !head) {
+      throw new Error("--repair-range requires a base and head revision");
+    }
+
+    repairRange(base, head);
+  } else {
+    if (mode) {
+      throw new Error(`unknown argument: ${mode}`);
+    }
+
+    const targets = pageTargets(stagedFiles());
+
+    if (targets.size > 0) {
+      const timestamp = new Date().toISOString();
+      for (const target of targets) {
+        updatePage(target, timestamp);
+      }
     }
   }
 } catch (error) {
