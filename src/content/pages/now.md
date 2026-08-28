@@ -3,7 +3,7 @@ title: "Now"
 slug: "now"
 description: "A snapshot of what I am focused on right now: my current health routine, CPAP gear, and the apps and hardware in daily use."
 publishedAt: "2025-07-17T21:04:28.000Z"
-updatedAt: "2026-08-24"
+updatedAt: "2026-08-28T15:21:20.000Z"
 author: "Michael Stanclift"
 tags: []
 draft: false
