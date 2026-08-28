@@ -14,7 +14,7 @@ export const nowSnapshot = {
     items: [
       { name: "Vitamin D+K", detail: "Metagenics · 10,000 IU" },
       { name: "Omega 3 (EPA/DHA)", detail: "Metagenics · 3,000 mg" },
-      { name: "Magnesium Glycinate", detail: "Metagenics · 600 mg" },
+      { name: "Magnesium (Glycinate)", detail: "Metagenics · 600 mg" },
       { name: "Creatine", detail: "Momentous · 10 mg" },
     ],
   },
@@ -98,7 +98,7 @@ export const nowSnapshot = {
     { name: 'iPad Pro 11" (2nd generation)', detail: "Space Gray" },
     { name: "AirPods Pro 3", detail: "Everyday Audio" },
     { name: "Logitech MX Mechanical Mini for Mac", detail: "Clickety Clicky Clack"},
-    { name: "Logitech MX Master 3S", detail: "Everyday Pointer"},
+    { name: "Logitech MX Master 4 for Mac", detail: "Everyday Pointer"},
     { name: 'LG UltraFine 24" 4K', detail: "Display"},
   ] as (NowLink & { detail: string })[],
   podcasts: [
