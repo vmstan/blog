@@ -29,8 +29,8 @@
     "@astrojs/check": "^0.9.10",
     "husky": "^9.1.7",
     "pagefind": "^1.5.2",
-    "subset-font": "^2.6.0",
+    "subset-font": "^2.7.0",
     "typescript": "^6.0.3",
-    "wrangler": "^4.127.0"
+    "wrangler": "^4.127.1"
   }
 }
