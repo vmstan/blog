@@ -14,8 +14,10 @@ export const nowSnapshot = {
     items: [
       { name: "Vitamin D", detail: "Metagenics · 12,000 IU" },
       { name: "Omega 3", detail: "Metagenics · 3,000 mg" },
-      { name: "Magnesium", detail: "Metagenics · 544 mg" },
-      { name: "Zinc", detail: "Metagenics · 10 mg" },
+      { name: "Magnesium", detail: "Metagenics · 600 mg" },
+      { name: "Zinc", detail: "Metagenics · 20 mg" },
+      { name: "Copper", detail: "Thorne · 2 mg" },
+      { name: "Boron", detail: "Pure Encapsulations · 2 mg" },
       { name: "Creatine", detail: "Momentous · 10 mg" },
     ],
   },
