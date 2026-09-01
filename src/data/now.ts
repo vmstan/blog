@@ -12,9 +12,10 @@ export const nowSnapshot = {
   supplements: {
     href: "https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM",
     items: [
-      { name: "Vitamin D+K", detail: "Metagenics · 10,000 IU" },
-      { name: "Omega 3 (EPA/DHA)", detail: "Metagenics · 3,000 mg" },
-      { name: "Magnesium (Glycinate)", detail: "Metagenics · 600 mg" },
+      { name: "Vitamin D", detail: "Metagenics · 12,000 IU" },
+      { name: "Omega 3", detail: "Metagenics · 3,000 mg" },
+      { name: "Magnesium", detail: "Metagenics · 544 mg" },
+      { name: "Zinc", detail: "Metagenics · 10 mg" },
       { name: "Creatine", detail: "Momentous · 10 mg" },
     ],
   },
@@ -22,7 +23,7 @@ export const nowSnapshot = {
     {
       context: "Home",
       device: "ResMed AirSense 11",
-      accessory: "AirFit F40",
+      accessory: "F&P Nova Micro",
     },
     {
       context: "Travel",
@@ -43,7 +44,7 @@ export const nowSnapshot = {
       label: "Coding",
       items: [
         { name: "Codex", href: "https://openai.com/codex/" },
-        { name: "Nova", href: "https://nova.app" },
+        { name: "Zed", href: "https://zed.dev" },
       ],
     },
     {
