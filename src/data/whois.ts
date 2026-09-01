@@ -42,11 +42,12 @@ export const whoisProfile = {
   name: "Michael Stanclift",
   birthDate: "1983-11-09",
   description:
-    "Remant of Virtualization • Husband of Sadie • Father of Four",
+    "Remnant of Virtualization • Husband of Sadie • Father of Four • Online since 1995",
   facts: [
     { label: "Kansas", icon: "fa-solid fa-location-dot" },
     { label: "Blue", icon: "fa-solid fa-eye" },
     { label: "A+", icon: "fa-solid fa-droplet" },
+    { label: "Trekkie", icon: "fa-solid fa-rocket" },
   ],
 } as const;
 
@@ -215,6 +216,13 @@ export const whoisGroups: WhoisGroup[] = [
         handle: "_vmstan",
         href: "https://www.tiktok.com/@_vmstan",
         icon: "fa-brands fa-tiktok",
+        tier: "inactive",
+      },
+      {
+        name: "Snapchat",
+        handle: "realvmstan",
+        href: "https://snapchat.com/t/Qd8aia3H",
+        icon: "fa-brands fa-snapchat",
         tier: "inactive",
       },
       {
