@@ -162,27 +162,7 @@ const { active, expired, earliestYear } = await loadCertifications(
     </div>
 </header>
 
-<script>
-    const ageElement = document.querySelector<HTMLElement>("[data-whois-age]");
-    const birthDate = ageElement?.dataset.birthDate;
-
-    if (ageElement && birthDate) {
-        const [birthYear, birthMonth, birthDay] = birthDate
-            .split("-")
-            .map(Number);
-        const today = new Date();
-        const birthdayHasPassed =
-            today.getMonth() + 1 > birthMonth ||
-            (today.getMonth() + 1 === birthMonth &&
-                today.getDate() >= birthDay);
-        const age =
-            today.getFullYear() -
-            birthYear -
-            (birthdayHasPassed ? 0 : 1);
-
-        ageElement.textContent = String(age);
-    }
-</script>
+<script is:inline src="/js/whois-age.js"></script>
 
 <section class="whois-cv" aria-labelledby="whois-cv-title">
     <header class="whois-directory-header">

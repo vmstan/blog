@@ -48,15 +48,7 @@ const socialImage = image ? new URL(image, SITE.url).toString() : undefined;
     {!noindex && <link rel="canonical" href={canonicalUrl} />}
     {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link
-      href="/pagefind/pagefind-component-ui.css"
-      rel="stylesheet"
-      media="print"
-      onload="this.setAttribute('media', 'all')"
-    />
-    <noscript>
-      <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" />
-    </noscript>
+    <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" />
     <script
       is:inline
       src="/pagefind/pagefind-component-ui.js"
