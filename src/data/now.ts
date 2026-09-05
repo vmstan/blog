@@ -12,12 +12,12 @@ export const nowSnapshot = {
   supplements: {
     href: "https://supp.co/u/4cgsmq683fhf-xul/stack/products?st=9dBbXM",
     items: [
-      { name: "Vitamin D", detail: "Metagenics · 12,000 IU" },
-      { name: "Omega 3", detail: "Metagenics · 3,000 mg" },
+      { name: "Vitamin D", detail: "Metagenics · 15,000 IU" },
+      { name: "Omega 3", detail: "Metagenics · 4,000 mg" },
       { name: "Magnesium", detail: "Metagenics · 600 mg" },
       { name: "Zinc", detail: "Metagenics · 20 mg" },
       { name: "Copper", detail: "Thorne · 2 mg" },
-      { name: "Boron", detail: "Pure Encapsulations · 2 mg" },
+      { name: "Boron", detail: "Pure Encapsulations · 4 mg" },
       { name: "Creatine", detail: "Momentous · 10 mg" },
     ],
   },
