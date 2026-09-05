@@ -24,6 +24,7 @@ function usage(message) {
 function parseArguments(argv) {
   const positional = [];
   const options = {};
+  const valueOptions = new Set(["slug", "description", "date"]);
 
   for (let index = 0; index < argv.length; index += 1) {
     const argument = argv[index];
@@ -34,11 +35,13 @@ function parseArguments(argv) {
     }
 
     if (argument.startsWith("--")) {
+      const name = argument.slice(2);
+      if (!valueOptions.has(name)) usage(`Unknown option: ${argument}`);
       const value = argv[index + 1];
       if (value === undefined || value.startsWith("--")) {
         usage(`${argument} needs a value`);
       }
-      options[argument.slice(2)] = value;
+      options[name] = value;
       index += 1;
       continue;
     }

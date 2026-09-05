@@ -37,8 +37,15 @@ commits the missing timestamp before building and deploying it.
 Run the production checks and build with:
 
 ```sh
+pnpm test
+pnpm test:coverage
 pnpm build
 ```
+
+The regular suite includes isolated CLI fixtures and a production-output smoke
+test. The coverage command additionally enforces the repository's line,
+function, and branch thresholds across the application libraries, maintenance
+scripts, and browser JavaScript.
 
 ## Publish
 

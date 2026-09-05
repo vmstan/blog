@@ -481,6 +481,17 @@ test("groupCertifications handles an empty list", () => {
   assert.equal(groups.earliestYear, Number.POSITIVE_INFINITY);
 });
 
+test("groupCertifications uses the current time when asOf is omitted", () => {
+  const groups = groupCertifications(
+    [certBadge({ expiresOn: "2000-01-01" })],
+    [],
+    "credly",
+  );
+
+  assert.equal(groups.active.length, 0);
+  assert.equal(groups.expired.length, 1);
+});
+
 function certification(
   name: string,
   abbreviation: string | null,
