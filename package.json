@@ -11,7 +11,7 @@
     "prepare": "husky",
     "dev": "astro dev",
     "new": "node scripts/new-entry.mjs",
-    "test": "node --test src/lib/credly.test.ts",
+    "test": "node --test \"src/lib/*.test.ts\"",
     "build": "node scripts/build-icon-css.mjs && astro check && astro build && pagefind --site dist",
     "build:icons": "node scripts/build-icon-css.mjs",
     "preview": "astro preview",
