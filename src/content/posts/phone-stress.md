@@ -3,12 +3,10 @@ title: "Phone Stress"
 slug: "phone-stress"
 description: "Why I am rooting for the rumored Verizon iPhone even though I am a satisfied AT&T customer with no plans to switch."
 publishedAt: "2011-01-09T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "mobile", "telecom", "opinion"]
 draft: false
 featured: false
-ghostId: "29a133f4-5229-4d95-96bb-67c511650a1a"
 ---
 
 The boys who cried wolf (AKA The Wall Street Journal, et al) are all indicating that Tuesday will be the announcement of the long awaited iPhone 4 on Verizon. I hope they’re finally right.

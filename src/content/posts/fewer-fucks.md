@@ -3,12 +3,10 @@ title: "Fewer Fucks"
 slug: "fewer-fucks"
 description: "On Mark Manson's essay about caring about fewer things, and learning to spend a limited supply of caring on what actually matters."
 publishedAt: "2015-02-01T16:28:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["mentalhealth", "personal", "productivity", "opinion"]
 draft: false
 featured: false
-ghostId: "361cfbd3-3b4d-4cf1-9b1b-41177e1a43eb"
 ---
 
 Pardon my language, or don't. Last weekend in my Instapaper Weekly email, was a link to a fantastic article by [Mark Manson](https://twitter.com/@IAmMarkManson) called _[The Subtle Art of Not Giving a Fuck](http://markmanson.net/not-giving-a-fuck)_.

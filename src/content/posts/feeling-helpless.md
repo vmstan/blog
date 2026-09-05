@@ -3,12 +3,10 @@ title: "Feeling Helpless"
 slug: "feeling-helpless"
 description: "A personal account of the workplace meeting where six years of service, and my mental health, were met with disbelief and a door pointed toward the exit."
 publishedAt: "2019-05-28T18:42:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["mentalhealth", "personal", "workplace"]
 draft: false
 featured: false
-ghostId: "a2f05dfa-bc99-478e-8f06-a054d27fd724"
 ---
 
 > For a while, what transpired in the aftermath of that night left me feeling betrayed by some people that I thought I could trust, and feeling helpless. Like so many times in life before, I was told by those who had the power to stop what was going on, that there was nothing they were willing to do, that this was my problem, and that I was to blame. My pain was always my fault. It’s never the responsibility of the people who were inflicting it.

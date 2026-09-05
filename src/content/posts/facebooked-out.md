@@ -3,12 +3,10 @@ title: "Facebooked Out"
 slug: "facebooked-out"
 description: "Another attempt at quitting Facebook, why the last one only lasted a few weeks, and what 24 hours away feels like at thirty."
 publishedAt: "2014-06-30T00:55:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["socialmedia", "personal", "technology", "opinion"]
 draft: false
 featured: false
-ghostId: "8674972b-d5fe-40d7-994e-54b650e56b9a"
 ---
 
 Almost exactly one year ago, I wrote:

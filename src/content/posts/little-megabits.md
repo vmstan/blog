@@ -3,12 +3,10 @@ title: "Little Megabits"
 slug: "little-megabits"
 description: "A field example of what not to do with VMware networking, from 100mb links to single-vNIC vSwitches sharing management and VM traffic."
 publishedAt: "2013-02-01T18:00:00.000Z"
-updatedAt: "2026-07-21"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "networking", "datacenter", "infrastructure", "opinion"]
 draft: false
 featured: false
-ghostId: "8790011d-248d-48e0-8ec9-6182a5810098"
 ---
 
 1. You really should never use 100mb networking with VMware for much of anything. I’m not even sure 100mb networking has any place in a modern datacenter, except maybe cheap connectivity to something like an iLO/DRAC.

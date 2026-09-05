@@ -3,12 +3,10 @@ title: "Java Jive"
 slug: "java-jive"
 description: "Checking out a new neighborhood coffee shop that promised organic, fair-trade coffee at some of the lowest prices around."
 publishedAt: "2015-07-31T19:17:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["food", "community", "home", "review"]
 draft: false
 featured: false
-ghostId: "20312c46-c33a-4eeb-abec-6b27e2ed8667"
 ---
 
 Yesterday my local paper posted [an article](http://www.shawneedispatch.com/news/2015/jul/29/java-jive-opens-western-shawnee-offers-much-more-j/) about a new coffee shop that has opened up near my house.

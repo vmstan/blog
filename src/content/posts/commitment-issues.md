@@ -3,12 +3,10 @@ title: "Commitment Issues"
 slug: "commitment-issues"
 description: "One month after switching to the Nexus One and praising it, I sold it and went back to the iPhone 4. Here is what changed my mind."
 publishedAt: "2010-07-29T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "android", "mobile", "review", "opinion"]
 draft: false
 featured: false
-ghostId: "e55c0298-a7a5-4c22-9d17-b1241caa8425"
 ---
 
 I’ve never been one to have commitment issues. But my [decision to move from the iPhone 4 to the Nexus One](http://techvirtuoso.com/2010/06/29/decision-is-final-apples-failure-is-sending-me-to-android/) just couldn’t stick. Last month I wrote about what I saw as the flaws of the iOS platform and specifically the issues I had with the iPhone 4. I also [wrote a glowing review of the Nexus One](http://techvirtuoso.com/2010/07/02/the-nexus-one-vs-the-iphone-and-life-after-ios/) and I stand by (most) of that analysis. But yesterday I sold my Nexus One and will soon be buying an iPhone 4.

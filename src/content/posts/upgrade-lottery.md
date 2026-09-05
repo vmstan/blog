@@ -3,12 +3,10 @@ title: "Upgrade Lottery"
 slug: "upgrade-lottery"
 description: "A weekend of stacked vCenter, ESXi, and Horizon View upgrades that all went off without a single support call."
 publishedAt: "2014-01-13T18:01:00.000Z"
-updatedAt: "2026-07-21"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "troubleshooting", "datacenter", "consulting"]
 draft: false
 featured: false
-ghostId: "2d9063e4-e222-4989-9265-7fb733609f32"
 ---
 
 Over the weekend I facilitated a customer upgrade that involved:

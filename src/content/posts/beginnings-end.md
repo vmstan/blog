@@ -3,12 +3,10 @@ title: "Beginnings End"
 slug: "beginnings-end"
 description: "Giving notice after six years as a VAR data center engineer, and looking back on the 242 customers I helped along the way."
 publishedAt: "2017-05-22T16:19:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["career", "employment", "consulting", "personal"]
 draft: false
 featured: false
-ghostId: "e84deca2-3b29-40b4-8a29-9332a1f11d0e"
 ---
 
 This morning I gave two weeks' notice to my current employer, a Kansas City-based VAR, where I have been a senior data center engineer for the last six years.

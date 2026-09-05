@@ -3,12 +3,10 @@ title: "Using CDP"
 slug: "using-cdp"
 description: "Adding a VLAN to a customer's vSphere cluster, and using CDP to map exactly which physical switch ports each host connects to."
 publishedAt: "2013-02-26T18:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "networking", "cisco", "troubleshooting", "datacenter"]
 draft: false
 featured: false
-ghostId: "afe47c19-bb84-4b45-a89d-3d1a4ab5b73a"
 ---
 
 The other day I was tasked with adding a new VLAN to a customer’s vSphere cluster. The existing network configuration had just the default VM Network setup, with no trunks or tagged port groups set up. In this case the customer is in the process of adding a few virtual desktops (Citrix, blah) and wanted a separate DHCP scope for those machines.

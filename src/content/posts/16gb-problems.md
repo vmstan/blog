@@ -3,12 +3,10 @@ title: "16GB Problems"
 slug: "16gb-problems"
 description: "Apple finally killed the 16GB storage floor, then shipped a new MacBook Pro capped at 16GB of memory. A look at why Skylake forced that tradeoff."
 publishedAt: "2016-10-28T15:58:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "hardware", "mobile", "opinion"]
 draft: false
 featured: false
-ghostId: "9e9d1049-63f7-4206-910d-f05a03561187"
 ---
 
 For many years, 16GB devices have been an issue for Apple and its users. However, Apple fixed this in September, bumping up to 32GB of storage as the new minimum capacity in the iPhone 7, and then going as far as to rev-up the existing iPad line to this new minimum.

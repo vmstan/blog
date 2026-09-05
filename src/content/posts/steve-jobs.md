@@ -3,12 +3,10 @@ title: "Steve Jobs"
 slug: "steve-jobs"
 description: "Remembering Steve Jobs as the rare inventor and salesman whose name, a century from now, will sit alongside Edison and the Wright brothers."
 publishedAt: "2011-10-06T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "technology", "tribute", "personal"]
 draft: false
 featured: false
-ghostId: "4fb3a25e-b129-4146-9d6f-5c9a3328a8e5"
 ---
 
 One hundred years from now, people will talk about Steve Jobs the same way we do about Alexander Graham Bell, Thomas Edison, Henry Ford and the Wright brothers. Perhaps, [as my friend Chris helped point out](https://twitter.com/#!/bangbang023/status/121940063562117120), he was a mix of Edison and John Lennon. Maybe he was a bit [like Walt Disney, or Jim Henson](https://twitter.com/#!/semilshah/status/121783867811184641), a man who was personally tied to the brand he created.

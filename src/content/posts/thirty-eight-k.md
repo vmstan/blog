@@ -3,12 +3,10 @@ title: "Thirty Eight K"
 slug: "thirty-eight-k"
 description: "A story about impostor syndrome, negotiating salaries badly, and the $38k university job where I had no concept of my own worth."
 publishedAt: "2020-01-02T21:05:07.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["career", "salary", "employment", "personal"]
 draft: false
 featured: false
-ghostId: "fb5ec272-4bcf-4453-ad71-b1dabc7c8afd"
 ---
 
 I've historically been pretty terrible at two things: negotiating salaries and promoting my own skills. As someone who freely admits the movie of his life story could very well be titled _The Imposter Syndrome_, when it came time to discuss with a recruiter or hiring manager what I was worth, I've been a slow learner.

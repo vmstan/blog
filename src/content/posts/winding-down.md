@@ -3,12 +3,10 @@ title: "Winding Down"
 slug: "winding-down"
 description: "The final days of the vmst.io Mastodon instance, including what happens when it enters federation self-destruct mode on June 30, 2026."
 publishedAt: "2026-06-22T17:58:55.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["mastodon", "fediverse", "socialmedia", "hosting", "migration"]
 draft: false
 featured: false
-ghostId: "63b78532-e8c6-40d4-a9ba-be49da09ef41"
 ---
 
 As [previously noted](/deprecation-notice/), vmst.io will be decommissioned on June 30, 2026.

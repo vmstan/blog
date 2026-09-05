@@ -3,12 +3,10 @@ title: "Fearful Coaching"
 slug: "fearful-coaching"
 description: "A reflection on watching my wife endure birth trauma and postpartum depression, and the unspoken toll it takes on partners too."
 publishedAt: "2013-06-30T02:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["family", "mentalhealth", "health", "personal"]
 draft: false
 featured: false
-ghostId: "5bf2b893-2e2c-451a-bccc-169a6a753343"
 ---
 
 Something stood out from [an article on the Birth Without Fear site](http://birthwithoutfearblog.com/2011/08/28/emergency-c-sections-incubators-hospital-protocol-men-experience-birth-trauma-too/) that Sadie sent me earlier tonight:

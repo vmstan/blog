@@ -3,12 +3,10 @@ title: "Sleep Apnea"
 slug: "sleep-apnea"
 description: "A visit to the ENT for tonsil stones turned into a snoring complaint, an at-home sleep study, and a sleep apnea diagnosis."
 publishedAt: "2023-05-22T14:58:27.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["health", "sleep", "personal", "family"]
 draft: false
 featured: false
-ghostId: "a9a48f91-d763-4e35-bfac-83282bed46db"
 ---
 
 I went to an ENT a few weeks ago because I have been getting tonsil stones for a few years now, especially bad in the winter months. He said "yep your tonsils need to come out, this is going to be terrible, plan to be out for at least a week" 😯

@@ -3,9 +3,8 @@ title: "Format Change"
 slug: "format-change"
 description: "Virtually Benevolent has moved from Ghost to Astro, trading ActivityPub and a database-backed system for Markdown, static files, and simpler publishing."
 publishedAt: "2026-07-21T17:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["astro", "ghost", "mastodon", "hosting", "migration"]
 draft: false
 featured: false
 ---

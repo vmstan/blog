@@ -3,12 +3,10 @@ title: "Guided Powers"
 slug: "guided-powers"
 description: "The part of datacenter design nobody mentions until it bites you: power. A crash course in connectors, voltages, and amperage for admins."
 publishedAt: "2014-05-16T04:08:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["datacenter", "hardware", "consulting", "infrastructure"]
 draft: false
 featured: false
-ghostId: "99e991f0-3337-47de-8942-1c7196e6e37d"
 ---
 
 > Power… it is the only thing that you will find more prevalent in a datacenter than racks, yet many times when discussing upgrades and new installations, it's the part that no one ever mentions:

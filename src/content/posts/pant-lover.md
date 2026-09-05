@@ -3,12 +3,10 @@ title: "Pant Lover"
 slug: "pant-lover"
 description: "A very specific quest for work pants that look sharp in a morning meeting and survive crawling under a raised floor that afternoon."
 publishedAt: "2016-12-07T19:40:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["lifestyle", "review", "personal"]
 draft: false
 featured: false
-ghostId: "8474a50d-90ef-4935-90a1-35870499ec39"
 ---
 
 I have some strict requirements around work pants. My wife hates the “I can see your socks while you’re standing up” hipster look, so they have to be full length. Honestly, it’d be a great look since I’m 6’4” but as a result, I’m at a 36” inseam. I’m also currently 220 lbs, which results in a 36” waist. I could probably lose some weight, but it’s not happening today.

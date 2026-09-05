@@ -3,12 +3,10 @@ title: "Gravity Sync"
 slug: "gravity-sync"
 description: "How a quick hack to keep two Pi-hole instances in sync grew into Gravity Sync, a small tool for high-availability Pi-hole setups."
 publishedAt: "2020-05-20T19:01:22.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["networking", "automation", "software", "hosting"]
 draft: false
 featured: false
-ghostId: "26e1f4be-9bb3-4c38-86fa-bd866a1028d9"
 ---
 
 I just got on the Pi-hole bandwagon a few weeks ago, and boy do I love it. Really, who doesn't love DNS? And what is better than a Pi-hole? Two Pi-holes!

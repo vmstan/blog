@@ -102,7 +102,6 @@ function today() {
 function frontMatter(fields) {
   const lines = Object.entries(fields).map(([key, value]) => {
     if (typeof value === "boolean") return `${key}: ${value}`;
-    if (Array.isArray(value)) return `${key}: []`;
     return `${key}: ${JSON.stringify(value)}`;
   });
 
@@ -136,7 +135,6 @@ try {
     publishedAt: date,
     updatedAt: date,
     author: siteAuthor(),
-    tags: [],
     draft: !options.publish,
     featured: false,
   });

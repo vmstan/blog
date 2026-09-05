@@ -3,12 +3,10 @@ title: "Objective Complete"
 slug: "objective-complete"
 description: "Finishing the Cisco Data Center certification track, and setting my sights on the CCNP Data Center and VCAP-DCA next."
 publishedAt: "2014-01-04T23:59:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["cisco", "certification", "networking", "career", "datacenter"]
 draft: false
 featured: false
-ghostId: "50c0dcfc-eb5f-426e-8a96-eb2cd53e8612"
 ---
 
 The Cisco Data Center track has been around since November 2012, and when they announced it I knew that I'd have to get it at some point. I'm pleased to say that it's now done, and I can start making my way to other things… like a CCNP Data Center.

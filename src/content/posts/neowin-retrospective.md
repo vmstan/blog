@@ -3,12 +3,10 @@ title: "Neowin Retrospective"
 slug: "neowin-retrospective"
 description: "Before 'vmstan' there was 'Marshalus': looking back on being hired as a teenage gaming news reporter covering Microsoft at Neowin."
 publishedAt: "2017-02-13T17:58:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["microsoft", "community", "writing", "career", "technology"]
 draft: false
 featured: false
-ghostId: "e93eab70-d5a4-4304-a023-e6b2f054d560"
 ---
 
 Most of the people who know and interact with me professionally, or on social media, know me as “vmstan” — and if you asked most of those people, they’d tell you I only pay attention to two things when it comes to technology: VMware and Apple.

@@ -9,12 +9,10 @@ const entrySchema = z.object({
   publishedAt: z.coerce.date(),
   updatedAt: z.coerce.date(),
   author: z.string(),
-  tags: z.array(z.string()).default([]),
   draft: z.boolean().default(false),
   featured: z.boolean().default(false),
   canonicalUrl: z.url().optional(),
   metaTitle: z.string().optional(),
-  ghostId: z.string().optional(),
 });
 
 const posts = defineCollection({

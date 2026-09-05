@@ -3,12 +3,10 @@ title: "EMC Elected"
 slug: "emc-elected"
 description: "The surprise of finding my name on the EMC Elect list, and some thoughts on what these vendor influencer programs are really for."
 publishedAt: "2017-03-30T17:30:00.000Z"
-updatedAt: "2026-07-21"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["emc", "storage", "career", "community"]
 draft: false
 featured: false
-ghostId: "65da4058-4c06-44dd-9315-77e8053d57e5"
 ---
 
 On Wednesday morning, during my morning Starbucks cold-brew run, I received a shocking message from my friend Jon Hildebrand.

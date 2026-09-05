@@ -3,12 +3,10 @@ title: "Rash Judgement"
 slug: "rash-judgement"
 description: "A worsening rash under my Apple Watch turned out to be a nickel allergy. What I learned about the stainless steel sport band clasp."
 publishedAt: "2015-09-22T15:20:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "health", "wearables", "review"]
 draft: false
 featured: false
-ghostId: "d0be82d8-f542-43e0-aebc-34b918f263e4"
 ---
 
 A couple of months ago I noticed a rash on my wrist, under my Apple Watch. I didn’t put a lot of thought into it at first, made sure to clean the strap and back of the watch. Figured it was just from lack of skin breathing under the sport band, on a hot day, after a workout.

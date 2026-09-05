@@ -41,7 +41,7 @@ test("new-entry supports pages, explicit slugs, and publishing", () => {
   assert.equal(result.status, 0, result.stderr);
   const source = readFileSync(path.join(root, "src/content/pages/resume-page.md"), "utf8");
   assert.match(source, /draft: false/);
-  assert.match(source, /tags: \[\]/);
+  assert.doesNotMatch(source, /^tags:/m);
   assert.match(result.stdout, /Add it to navigation/);
 });
 

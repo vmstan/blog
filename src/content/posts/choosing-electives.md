@@ -3,12 +3,10 @@ title: "Choosing Electives"
 slug: "choosing-electives"
 description: "After two draining months, a hard look at how much social media was fueling the stress, and what stepping back from Twitter taught me."
 publishedAt: "2017-03-30T22:59:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["socialmedia", "mentalhealth", "personal", "writing"]
 draft: false
 featured: false
-ghostId: "3ff0ee98-5db8-41ff-aaaa-415ec60562da"
 ---
 
 I'm going to start this by saying something that might seem strange for a post like this, but is no surprise to my closest friends: The last two months, and especially the last two weeks, have been very stressful and mentally draining. Without getting into the details of it all, I will simply say that the biggest contributing factor, or at least the medium that has facilitated the stress, has been social media.

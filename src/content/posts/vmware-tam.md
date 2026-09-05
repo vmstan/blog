@@ -3,12 +3,10 @@ title: "VMware TAM"
 slug: "vmware-tam"
 description: "Accepting a role at VMware as a Technical Account Manager, joining the company I had spent most of my career focused on."
 publishedAt: "2018-05-01T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "career", "employment", "community"]
 draft: false
 featured: false
-ghostId: "1cd00597-c7d8-4a83-861c-01d75696e380"
 ---
 
 I have accepted a job with VMware as a Technical Account Manager (TAM).

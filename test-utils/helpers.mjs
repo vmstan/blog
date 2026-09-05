@@ -47,7 +47,6 @@ description: "Fixture"
 publishedAt: "2024-01-01"
 updatedAt: "${updatedAt}"
 author: "Test User"
-tags: []
 draft: false
 featured: false
 ---

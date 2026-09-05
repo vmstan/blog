@@ -3,12 +3,10 @@ title: "Local Admin"
 slug: "local-admin"
 description: "The perennial IT debate over giving users local administrator rights, and the two schools of thought that never quite agree."
 publishedAt: "2009-12-08T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["security", "administration", "workplace", "microsoft", "opinion"]
 draft: false
 featured: false
-ghostId: "f4cf03fa-4a2c-439e-acd1-06bf7cc2f90e"
 ---
 
 A recent email discussion over an educational security listserv got me thinking about the topic of giving users administrator rights to their local machines. This is a common discussion that comes up about once every month or so, whenever someone new joins the group. The discussion usually starts by asking for methods of removing administrator access in environments where rights have already been given, and then nosedives into a long discussion about the ethical and practical reasoning behind it.

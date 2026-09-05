@@ -3,12 +3,10 @@ title: "Classic Ordering"
 slug: "classic-ordering"
 description: "A curated starter list of classic Star Trek episodes for getting up to speed without watching every Original Series installment."
 publishedAt: "2023-04-18T14:37:00.000Z"
-updatedAt: "2026-07-21"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["television", "entertainment", "community"]
 draft: false
 featured: false
-ghostId: "92bd5444-eebf-41c3-8511-6d3d4d56f17c"
 ---
 
 Elan Hasson asked in a Matrix chat group of Mastodon admins how he should go back and watch classic Star Trek. It got me thinking about a list of episodes to help jumpstart your knowledge without having to watch every Original Series episode (of which some haven't aged super well, or are confusing to new viewers in the context of modern Trek.)

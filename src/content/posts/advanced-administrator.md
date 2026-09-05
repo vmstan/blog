@@ -3,12 +3,10 @@ title: "Advanced Administrator"
 slug: "advanced-administrator"
 description: "Reflections on sitting the VMware VCAP5-DCA, an entirely lab-based exam unlike any other in the VMware certification portfolio."
 publishedAt: "2014-02-13T16:21:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "certification", "career", "datacenter"]
 draft: false
 featured: false
-ghostId: "6c512333-c030-419e-8bab-dfb4c305ad30"
 ---
 
 On Friday, February 7, I sat for the VMware Certified Advanced Professional, Data Center Administration (VCAP5-DCA) exam. Thinking about how I performed has consumed most of my idle hours, so after some reflection over the last week I've decided to document a bit of my perspective. I'll say as much as I can without breaking NDA. I can't imagine anything listed here isn't something covered in the official exam blueprint or any of the numerous articles or training for the exam.

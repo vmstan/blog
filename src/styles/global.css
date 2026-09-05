@@ -415,24 +415,6 @@ h4 {
   object-fit: cover;
 }
 
-.entry-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 1.25rem 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.entry-tags li {
-  padding: 0.2rem 0.6rem;
-  border-radius: 999px;
-  background: var(--surface);
-  color: var(--muted);
-  font-size: 0.75rem;
-  font-weight: 700;
-}
-
 .whois-page {
   max-width: var(--shell);
 }

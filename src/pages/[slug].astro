@@ -96,17 +96,6 @@ const structuredData = {
               </div>
             )
           }
-          {
-            kind === "post" && entry.data.tags.length > 0 && (
-              <ul class="entry-tags" aria-label="Tags" data-pagefind-ignore>
-                {
-                  entry.data.tags.map((tag) => (
-                    <li data-pagefind-filter="tag">{tag}</li>
-                  ))
-                }
-              </ul>
-            )
-          }
         </header>
       )
     }

@@ -3,9 +3,8 @@ title: "Cashflow Positive"
 slug: "cashflow-positive"
 description: "August was the first month in over three years I didn't get a massive Digital Ocean invoice for Mastodon hosting."
 publishedAt: "2026-08-03"
-updatedAt: "2026-08-01T21:59:59.620Z"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["mastodon", "fediverse", "socialmedia", "hosting", "personal"]
 draft: false
 featured: false
 ---

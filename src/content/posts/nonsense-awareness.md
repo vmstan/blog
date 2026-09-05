@@ -3,12 +3,10 @@ title: "Nonsense Awareness"
 slug: "nonsense-awareness"
 description: "Borrowing a lesson from Jessica Joy Kerr: stop trying to make sense of an organization's culture, and learn to observe and work within it."
 publishedAt: "2020-01-04T01:18:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["workplace", "culture", "career", "opinion"]
 draft: false
 featured: false
-ghostId: "aab4b92f-1578-4750-91f0-7eca78e63058"
 ---
 
 Jessica Joy Kerr, in her blog post titled _[Open your eyes to the nonsense](https://blog.jessitron.com/2020/01/01/open-your-eyes-to-the-nonsense)_, shares a great anecdote from a friend about the software development process at a utility company:

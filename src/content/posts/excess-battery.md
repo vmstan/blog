@@ -3,12 +3,10 @@ title: "Excess Battery"
 slug: "excess-battery"
 description: "Using the iPhone XS Smart Battery Case on an iPhone X: what fits, what does not, and whether the cosmetic compromises actually matter."
 publishedAt: "2019-01-22T16:44:19.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "mobile", "hardware", "review"]
 draft: false
 featured: false
-ghostId: "0260bb96-9af4-4954-a026-8b74a9e95ab5"
 ---
 
 I recently picked up an iPhone XS Smart Battery Case for my iPhone X. I’ve previously owned the 6S battery case for my iPhone 6 and the iPhone 7 case. Let me first say that even though Apple has designed the case for the XS, it worked on the X running iOS 12.2.2 without any effort.

@@ -3,12 +3,10 @@ title: "Round Robin"
 slug: "round-robin"
 description: "A quick PowerCLI script to switch every datastore on every host in a vSphere cluster to Round Robin multipathing."
 publishedAt: "2013-06-26T16:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "storage", "automation", "datacenter"]
 draft: false
 featured: false
-ghostId: "86a68fb8-ac27-4146-b43d-a99df179bd53"
 ---
 
 So you want to set your datastores to Round Robin, but you’ve got multiple hosts, dozens of datastores, and very little time? Just fire up PowerCLI and run this script. Replace “VMCluster” with the name of your cluster. This will change the multipathing policy on each datastore, on each host in the cluster.

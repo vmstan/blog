@@ -3,12 +3,10 @@ title: "After iOS"
 slug: "after-ios"
 description: "Why years of iPhone loyalty ended with the iPhone 4's antenna troubles, and what pushed me to try Android on the Nexus One."
 publishedAt: "2010-07-02T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Vmstan"
-tags: ["apple", "android", "mobile", "review"]
 draft: false
 featured: false
-ghostId: "466aec4c-1a85-4ff3-aca9-ea04d1c2441b"
 ---
 
 As I explained in a previous entry on Tuesday, I’ve made the decision to leave the world of Apple mobile devices for the land of Google Android. To briefly bring you up to speed:

@@ -3,12 +3,10 @@ title: "New Recruit(er)"
 slug: "new-recruit-er"
 description: "Having never needed a technical recruiter to find work, some candid thoughts on what they do and the mixed results I have watched."
 publishedAt: "2013-12-19T03:22:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["career", "employment", "recruiting", "resume", "opinion"]
 draft: false
 featured: false
-ghostId: "65385973-ec97-4b16-9099-6432aa1c27fa"
 ---
 
 Historically, finding employment has not really been particularly difficult for me. When I’ve decided it was time to make a change, I’ve been able to do so pretty quickly. A well-assembled resume, solid technical chops, practiced interviewing skills, and making connections with people seem to have served me pretty well thus far. I don’t say that to brag, just as a statement of fact.

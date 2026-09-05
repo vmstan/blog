@@ -3,12 +3,10 @@ title: "View Borked"
 slug: "view-borked"
 description: "A baffling '32-bit application' error while installing the vCenter Operations Manager adapter for View, on a 64-bit app and OS."
 publishedAt: "2013-01-18T18:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "desktop", "troubleshooting", "software"]
 draft: false
 featured: false
-ghostId: "576d644e-8cfe-4a84-9fa3-2069d751a976"
 ---
 
 I’ve been on a View 5.1 deployment with a customer all week, and part of the project involved deploying VMware vCenter Operations Manager (vCOPS) for View, version 1.01. I’ve done this a couple times before, and had no issues getting the Linux OVA base vApp configured. Then when I went to install the View adapter into a Windows VM, I got a strange message about how this installer was a 32-bit application and not able to run on a 64-bit system.

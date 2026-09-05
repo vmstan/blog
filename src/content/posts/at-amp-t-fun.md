@@ -3,12 +3,10 @@ title: "AT&T Fun"
 slug: "at-amp-t-fun"
 description: "Six months of broken DVRs, frozen TV, and dropping internet on AT&T U-verse, and the late-night failure that finally broke my patience."
 publishedAt: "2011-04-27T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["telecom", "networking", "home", "troubleshooting"]
 draft: false
 featured: false
-ghostId: "5064b6a0-be1b-4db2-a3f2-2bfa3f4af593"
 ---
 
 I’ve had AT&T’s U-verse service since October 2009, the day we moved into our house. At its heart, it’s really a fantastic service offering… IPTV, whole home DVR, advanced DSL, all wrapped up into a nice package. But for the last 6 months I’ve been struggling with a lot of different issues ranging from broken DVRs and freezing TV signals to Internet connections that go away at random. While the issues have not been persistent enough to track down an exact cause, they’ve been frustrating.

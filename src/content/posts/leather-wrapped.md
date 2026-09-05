@@ -3,12 +3,10 @@ title: "Leather Wrapped"
 slug: "leather-wrapped"
 description: "An on-again, off-again relationship with iPhone cases, and why Apple's own leather case is the only one I keep coming back to."
 publishedAt: "2016-12-08T19:57:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "mobile", "hardware", "review", "lifestyle"]
 draft: false
 featured: false
-ghostId: "ec6f45b2-c74a-400b-b112-e7fc96e0a285"
 ---
 
 I have an on-again, off-again relationship with iPhone cases. I put them on. I take them off. I generally don’t like cases. I’ve only broken my iPhone one time and that was when my 6 Plus came out of my pocket attached to my hand, unintentionally, on a sticky day. My iPhone 5 and 6 were rarely in cases and had minimal wear and tear. I’m usually pretty careful. I also buy AppleCare+ on them, even though I’m lucky enough to rarely need it.

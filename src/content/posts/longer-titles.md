@@ -3,12 +3,10 @@ title: "Longer Titles"
 slug: "longer-titles"
 description: "A little shameless self-promotion: a new Sr. Systems Engineer title and passing the first exam on the way to my CCNA."
 publishedAt: "2013-07-05T16:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["career", "certification", "cisco", "community"]
 draft: false
 featured: false
-ghostId: "f0126dd1-1cb1-43ce-a8eb-2f9e22f8e230"
 ---
 
 There is no other purpose for this entry, except for some shameless self promotion. I’m pretty excited about both of them, as they’re the results of things I’ve been working on for a while. Even though I love to talk about myself, I’ll keep it short and sweet.

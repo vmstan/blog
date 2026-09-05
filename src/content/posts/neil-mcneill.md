@@ -3,12 +3,10 @@ title: "Neil McNeill"
 slug: "neil-mcneill"
 description: "A tribute to Neil McNeill, the most interesting man I knew, who could discuss corporate taxation and lithium batteries in the same breath."
 publishedAt: "2015-10-08T17:07:00.000Z"
-updatedAt: "2026-07-21"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["personal", "family", "tribute", "community"]
 draft: false
 featured: false
-ghostId: "2a110c4b-d559-40b1-91ad-480c57a08ed0"
 ---
 
 Neil McNeill was the most interesting man in my world.

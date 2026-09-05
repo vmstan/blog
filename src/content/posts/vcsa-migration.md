@@ -3,12 +3,10 @@ title: "VCSA Migration"
 slug: "vcsa-migration"
 description: "My first Windows-to-appliance vCenter migration using the 6.0 U2M tool, including the step upgrades needed to get there from 5.1 GA."
 publishedAt: "2016-12-02T20:21:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "troubleshooting", "datacenter", "migration"]
 draft: false
 featured: false
-ghostId: "654aaee8-5d65-4045-85e3-b7b69692c68b"
 ---
 
 Last night I did my first customer migration from a Windows-based vCenter to the VMware vCenter Server Appliance (VCSA) using the new 6.0 U2M utility.

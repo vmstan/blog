@@ -3,12 +3,10 @@ title: "Resolution Delusion"
 slug: "resolution-delusion"
 description: "Not a fan of New Year's resolutions, but Brent Simmons' goal of getting angry only when it is truly worth it is one worth borrowing."
 publishedAt: "2020-01-01T22:52:10.000Z"
-updatedAt: "2026-07-21"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["mentalhealth", "personal", "culture", "opinion"]
 draft: false
 featured: false
-ghostId: "921996cb-d886-4336-a4f2-db3af40cbbeb"
 ---
 
 I'm not one for making New Year's resolutions. They always get broken, and then you're disappointed in yourself. However, Brent Simmons [posted something on Inessential](https://inessential.com/2020/01/01/my_new_years_resolution_is_to_focus_my_a.html) which I think is a good goal for anyone this year:

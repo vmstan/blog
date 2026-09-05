@@ -3,12 +3,10 @@ title: "Size Matters"
 slug: "size-matters"
 description: "After insisting Apple should never build a phone bigger than four inches, here is what finally converted me to the iPhone 6 Plus."
 publishedAt: "2015-12-01T16:36:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "mobile", "hardware", "review"]
 draft: false
 featured: false
-ghostId: "128358ea-38aa-44cd-b93a-a9c984d4f496"
 ---
 
 My original bout with the 4.7” iPhone 6 lasted almost seven months to the day. I remember this because I received it on September 19, 2014. It was the same day my second son was born.

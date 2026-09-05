@@ -3,12 +3,10 @@ title: "Apple TV"
 slug: "apple-tv"
 description: "Second-guessing, then buying, the fourth-generation Apple TV, and what I still want from Apple as a cord-cutter."
 publishedAt: "2015-12-01T19:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "hardware", "television", "entertainment", "review"]
 draft: false
 featured: false
-ghostId: "f60c1ee4-af8d-4b20-be82-9a284d59e384"
 ---
 
 When the 4th generation Apple TV was announced a few weeks back, my initial response was basically “take my money!”

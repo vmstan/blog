@@ -3,12 +3,10 @@ title: "Skip Day"
 slug: "skip-day"
 description: "It turns out finding something to write every day is genuinely hard. A few honest words about breaking a daily posting streak."
 publishedAt: "2020-01-06T23:03:12.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["writing", "personal", "productivity", "socialmedia"]
 draft: false
 featured: false
-ghostId: "ddbcae37-fa28-47f8-b54c-2b538cd6d5a1"
 ---
 
 It turns out that finding something to write about every day is really hard. Shocking, I know. You may have noticed (or maybe not) that January 1-4 there was a new post here every day. I skipped yesterday, but I blame my participation in this tweet from Jehad.

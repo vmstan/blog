@@ -3,12 +3,10 @@ title: "Apple Watch"
 slug: "apple-watch"
 description: "Working through which original Apple Watch to buy, weighing steel against aluminum and which band survives life in a datacenter."
 publishedAt: "2015-03-09T19:37:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "hardware", "wearables", "review"]
 draft: false
 featured: false
-ghostId: "3c9cef22-48b1-478f-8b06-bc726b35cb05"
 ---
 
 After months of industry speculation, Apple today released pricing for the new [Apple Watch](http://www.apple.com/watch/). As a registered iFanboy, I'm legally required to purchase one. I wasn't even sure when they were originally announced last fall if I'd want one, but I've come around.

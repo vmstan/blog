@@ -3,12 +3,10 @@ title: "Desktop Tested"
 slug: "desktop-tested"
 description: "A Monday-morning VCAP Desktop Administration exam I walked into unprepared, and the honest post-mortem on why I will sit it again."
 publishedAt: "2014-07-01T20:10:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "certification", "career", "desktop"]
 draft: false
 featured: false
-ghostId: "be74343b-1914-4425-9f11-942e91b89b3c"
 ---
 
 Yesterday I sat for the VMware Certified Advanced Professional in Desktop Administration exam. While I would love to tell you that I passed, sadly it seems I will be sitting for the exam again soon.

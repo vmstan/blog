@@ -3,12 +3,10 @@ title: "Lazy Explorers"
 slug: "lazy-explorers"
 description: "A blunt take on the administrators still running Internet Explorer 6 on Windows XP, and why 'it breaks our apps' is not good enough."
 publishedAt: "2010-01-16T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["security", "software", "administration", "microsoft", "opinion"]
 draft: false
 featured: false
-ghostId: "6ac03945-caa5-4b76-b549-5d55b92dfab2"
 ---
 
 The number of businesses still using Internet Explorer 6 is painful to see. Coupled with the fact that all of them are on Windows XP or Windows 2000, it turns from pain into terror, especially when it comes to security.

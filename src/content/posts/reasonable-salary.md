@@ -3,12 +3,10 @@ title: "Reasonable Salary"
 slug: "reasonable-salary"
 description: "On the peculiar, secret-agent stress of job hunting while still employed, and finally accepting a position I was genuinely excited about."
 publishedAt: "2017-06-10T15:28:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["career", "employment", "salary", "recruiting", "personal"]
 draft: false
 featured: false
-ghostId: "802d0dc2-4cbd-4503-b3a4-faa4a684e9dd"
 ---
 
 The process of looking for a new job is stressful. If you already have one, you’re a bit like a secret agent, sneaking around town trying to complete the mission of getting someone new to agree to sign your paychecks, without the old boss finding out. If you don’t have a job, it’s even more stressful, as you wait around and watch your bank accounts dwindle, with nothing to replenish them.

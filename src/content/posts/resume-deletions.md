@@ -3,12 +3,10 @@ title: "Resume Deletions"
 slug: "resume-deletions"
 description: "Some jobs are not worth a line on your resume, like the woodworking-tool company that announced it was out of money on my first day."
 publishedAt: "2020-01-13T16:24:06.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["career", "employment", "resume", "workplace"]
 draft: false
 featured: false
-ghostId: "d742694d-dd5c-4c12-a65f-af3252a49dea"
 ---
 
 There are some things that just aren’t worth putting on your resume. This was the reminder that came to mind during replies to Owen Williams on Twitter.

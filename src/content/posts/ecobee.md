@@ -3,12 +3,10 @@ title: "Air Quality"
 slug: "ecobee"
 description: "My new Ecobee's air quality sensor insists I live inside a volcano. Comparing its wild VOC readings against my Eve sensors and the raw API."
 publishedAt: "2025-05-22T14:34:44.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["hardware", "health", "home", "technology"]
 draft: false
 featured: false
-ghostId: "63f87feb-26da-41ec-a1f9-a8776905ccf1"
 ---
 
 Installed an Ecobee thermostat, and one feature is an indoor air quality sensor. When our windows are closed, it almost always reports our home is "poor" despite two other Eve sensors saying everything is fine.

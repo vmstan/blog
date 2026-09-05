@@ -3,12 +3,10 @@ title: "Kernel Panic"
 slug: "kernel-panic"
 description: "A personal essay, two years in the making, about the day my mind ran out of resources and threw a kernel panic."
 publishedAt: "2019-04-19T21:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["mentalhealth", "personal", "workplace", "career"]
 draft: false
 featured: false
-ghostId: "01f8f79c-7f7b-412d-ac5f-b19e09b9d924"
 ---
 
 I’ve been thinking for over two years about how to talk about this, how to talk about the day I couldn’t process anymore. The day where my bullshit buffers overflowed. The day of my internal kernel panic. When starved for resources, my brain finally threw up a PSOD, and quit.

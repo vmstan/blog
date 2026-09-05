@@ -3,12 +3,10 @@ title: "vExpert 2013"
 slug: "vexpert-2013"
 description: "Being named a 2013 VMware vExpert came as a genuine surprise, so much so that I had pre-written the opposite blog post just in case."
 publishedAt: "2013-05-28T16:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "community", "career", "certification"]
 draft: false
 featured: false
-ghostId: "d578dbff-8838-45ee-92c0-6d3b748dfff8"
 ---
 
 Earlier today, [John Mark Troyer](https://twitter.com/jtroyer) announced the [2013 vExpert list](http://blogs.vmware.com/vmtn/2013/05/vexpert-2013-awardees-announced.html).

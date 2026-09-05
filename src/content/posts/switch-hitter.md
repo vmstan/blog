@@ -3,12 +3,10 @@ title: "Switch Hitter"
 slug: "switch-hitter"
 description: "Two years an iPhone evangelist, and why the iPhone 4 finally has me seriously considering a switch away from iOS."
 publishedAt: "2010-06-29T00:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["apple", "android", "mobile", "review", "opinion"]
 draft: false
 featured: false
-ghostId: "97f56f5d-a5a8-4070-9892-d942c5c76174"
 ---
 
 Ever since the iPhone supported Exchange, I’ve been a huge supporter. I’ve spent two good years on the iOS with my iPhone 3G. My job bought it for me back in 2008 and I got it shortly after launch. It was a solid phone with a lot of good things to say about it. I evangelized to everyone I knew about how they should get an iPhone, how it’s the best smartphone around. I got a 3GS for my wife, I’ve told countless other family members to get one. In most ways, when it was introduced, it was the best thing around. But things have changed.

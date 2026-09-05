@@ -83,13 +83,3 @@ If a cacheable dynamic route is added later—for example an image transformer,
 server-rendered search, or a third-party API proxy—enable Workers Cache for that
 Worker entrypoint with `"cache": { "enabled": true }` and return an explicit public
 `Cache-Control` header. Keep the static blog routes on the asset-first path.
-
-## Re-run the Ghost migration
-
-The raw Ghost export must remain outside the repository because it contains staff and site configuration data. The importer refuses to replace existing Markdown unless `--force` is supplied.
-
-```sh
-pnpm import:ghost -- /absolute/path/to/export.json --download-images
-```
-
-Add `--force` only when intentionally regenerating all imported Markdown. Once posts have been edited by hand, treat the generated Markdown as the source of truth rather than re-running the importer.

@@ -3,12 +3,10 @@ title: "Securely Obscure"
 slug: "securely-obscure"
 description: "A network security architect once told me the cloud would soon put me out of a job. Years later, a look back at that prediction."
 publishedAt: "2016-12-05T15:17:00.000Z"
-updatedAt: "2026-07-21"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["security", "career", "datacenter", "infrastructure", "opinion"]
 draft: false
 featured: false
-ghostId: "e142d37a-3ae9-448e-8581-e79bae4dfc5d"
 ---
 
 A couple of years ago, one of our network security architects at work told me that I was in the wrong business. Storage, virtualization, data centers, it’s all going to the cloud. I’d soon be out of a job.

@@ -3,12 +3,10 @@ title: "Host Memory"
 slug: "host-memory"
 description: "Three ways to find out exactly how a VMware host's memory is laid out on the motherboard before you spend money upgrading it."
 publishedAt: "2013-02-11T18:00:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["vmware", "hardware", "datacenter", "administration"]
 draft: false
 featured: false
-ghostId: "6e2214ea-f80d-4d34-8919-a51e21145bfe"
 ---
 
 Memory utilization is important in VMware; most of the time it’s the most limiting factor in the virtual-to-physical consolidation ratio. Often I’m tasked with assessing how upgradable a physical host’s current memory configuration is. It’s easy to see from the vSphere Client how much memory you have installed in a host, but when you’re upgrading you need to know exactly how that memory is laid out on your motherboard so you can get the most bang for your buck.

@@ -3,12 +3,10 @@ title: "Bird Bath"
 slug: "bird-bath"
 description: "The turkey brine recipe I keep coming back to, adapted from Traeger and boiled down to the essentials."
 publishedAt: "2014-11-26T22:20:00.000Z"
-updatedAt: "2026-07-23"
+updatedAt: "2026-09-05T20:13:49.664Z"
 author: "Michael Stanclift"
-tags: ["food", "home", "lifestyle", "personal"]
 draft: false
 featured: false
-ghostId: "1e675f8d-250e-49aa-8d7f-3819f6b7b8e8"
 ---
 
 This is the turkey brine recipe I've been using, adapted from [this one](http://www.traegergrills.com/teamtraeger/post/2013/11/14/Slow-Smoked-Maple-Bourbon-Brined-Turkey.aspx#.VHZLgYsnxSU) by Traeger. The first time I used it, it was identical to their instructions but I've since boiled it down to what I consider the basics.

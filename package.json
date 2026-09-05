@@ -17,7 +17,6 @@
     "build:icons": "node scripts/build-icon-css.mjs",
     "preview": "astro preview",
     "deploy": "pnpm build && wrangler deploy",
-    "import:ghost": "node scripts/import-ghost.mjs",
     "sync:credly": "node scripts/sync-credly.mjs"
   },
   "dependencies": {
