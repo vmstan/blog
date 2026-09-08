@@ -18,26 +18,16 @@ const appCount = nowSnapshot.apps.reduce(
 );
 ---
 
-<header class="now-hero" aria-labelledby="now-title">
-    <div class="now-hero-copy">
-        <p class="now-status">
-            <span class="now-status-dot" aria-hidden="true"></span>
-            <span>Current snapshot</span>
-        </p>
-        <h1 id="now-title">This is what right now looks like.</h1>
-        <p class="now-intro">
-            A living inventory of the routines, tools, and hardware earning a
-            place in my day.
-        </p>
-        <p class="now-updated">
-            Last refreshed <time datetime={updatedAt.toISOString()}>{updatedLabel}</time>
-        </p>
-    </div>
-    <div class="now-signal" aria-hidden="true">
-        <span class="now-signal-ring now-signal-ring-outer"></span>
-        <span class="now-signal-ring now-signal-ring-inner"></span>
-        <span class="now-signal-core">NOW</span>
-    </div>
+<header class="now-header" aria-labelledby="now-title">
+    <p class="eyebrow now-eyebrow"><span class="now-dot" aria-hidden="true"></span>Now</p>
+    <h1 id="now-title">This is what right now looks like.</h1>
+    <p class="now-intro">
+        A living inventory of the routines, tools, and hardware earning a
+        place in my day.
+    </p>
+    <p class="now-updated">
+        Last refreshed <time datetime={updatedAt.toISOString()}>{updatedLabel}</time>
+    </p>
 </header>
 
 <section class="now-overview" aria-label="Snapshot at a glance">
