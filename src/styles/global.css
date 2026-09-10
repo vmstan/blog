@@ -1459,14 +1459,19 @@ a.whois-cert-edition:focus-visible {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  align-items: center;
   color: var(--ink);
   font-size: 0.9rem;
   text-decoration: none;
 }
 
-.now-app-list a > span {
-  color: var(--accent-strong);
-  font-size: 0.75rem;
+.now-scope-icons {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 0.35rem;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.8rem;
 }
 
 .now-app-list a:hover strong {

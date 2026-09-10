@@ -3,9 +3,17 @@ interface NowLink {
   href?: string;
 }
 
+type NowScope = "personal" | "business" | "both";
+
+interface NowApp {
+  name: string;
+  href?: string;
+  scope: NowScope;
+}
+
 interface NowAppCategory {
   label: string;
-  items: NowLink[];
+  items: NowApp[];
 }
 
 export const nowSnapshot = {
@@ -33,61 +41,77 @@ export const nowSnapshot = {
   tape: "papmd",
   apps: [
     {
+      label: "AI",
+      items: [
+        { name: "Claude", href: "https://www.apple.com/safari/", scope: "personal" },
+        { name: "Codex", href: "https://www.google.com/chrome/", scope: "personal" },
+        { name: "Gemini", href: "https://www.google.com/chrome/", scope: "business" },
+        { name: "Muse", href: "https://www.google.com/chrome/", scope: "personal" },
+      ],
+    },
+    {
+      label: "Browser",
+      items: [
+        { name: "Safari", href: "https://www.apple.com/safari/", scope: "personal" },
+        { name: "Chrome", href: "https://www.google.com/chrome/", scope: "business" },
+      ],
+    },
+    {
       label: "Browser Extensions",
       items: [
-        { name: "StopTheMadness", href: "https://underpassapp.com/StopTheMadness" },
-        { name: "Wipr 2", href: "https://kaylees.site/wipr2.html" },
+        { name: "StopTheMadness", href: "https://underpassapp.com/StopTheMadness", scope: "personal" },
+        { name: "Wipr 2", href: "https://kaylees.site/wipr2.html", scope: "personal" },
+        { name: "Ghostery", href: "https://www.ghostery.com/", scope: "business" },
       ],
     },
     {
       label: "Coding",
       items: [
-        { name: "Codex", href: "https://openai.com/codex/" },
-        { name: "Zed", href: "https://zed.dev" },
+        { name: "Zed", href: "https://zed.dev", scope: "personal" },
       ],
     },
     {
       label: "Containers",
-      items: [{ name: "OrbStack", href: "https://orbstack.dev" }],
+      items: [{ name: "OrbStack", href: "https://orbstack.dev", scope: "personal" }],
     },
     {
       label: "Databases",
-      items: [{ name: "TablePlus", href: "https://tableplus.com" }],
+      items: [{ name: "TablePlus", href: "https://tableplus.com", scope: "personal" }],
     },
     {
       label: "Diagramming",
-      items: [{ name: "OmniGraffle", href: "https://www.omnigroup.com/omnigraffle" }],
+      items: [{ name: "OmniGraffle", href: "https://www.omnigroup.com/omnigraffle", scope: "personal" }],
     },
     {
       label: "Photo Editing",
-      items: [{ name: "Pixelmator", href: "https://www.pixelmator.com"}],
+      items: [{ name: "Pixelmator", href: "https://www.pixelmator.com", scope: "personal" }],
     },
     {
       label: "Podcasts",
-      items: [{ name: "Overcast", href: "https://overcast.fm" }],
+      items: [{ name: "Overcast", href: "https://overcast.fm", scope: "personal" }],
     },
     {
       label: "Sleep Tracking",
-      items: [{ name: "SleepHQ", href: "https://sleephq.com" }],
+      items: [{ name: "SleepHQ", href: "https://sleephq.com", scope: "personal" }],
     },
     {
       label: "System Mainteance",
       items: [
-        { name: "Hazel", href: "https://www.noodlesoft.com/whats-new-in-hazel-6/" },
-        { name: "Updatest", href: "https://updatest.app" },
+        { name: "Hazel", href: "https://www.noodlesoft.com/whats-new-in-hazel-6/", scope: "personal" },
+        { name: "Updatest", href: "https://updatest.app", scope: "personal" },
       ],
     },
     {
       label: "Terminal",
-      items: [{ name: "Ghostty", href: "https://ghostty.org" }],
+      items: [{ name: "Ghostty", href: "https://ghostty.org", scope: "personal" }],
     },
     {
       label: "Virtualization",
-      items: [{ name: "UTM", href: "https://mac.getutm.app" }],
+      items: [{ name: "UTM", href: "https://mac.getutm.app", scope: "personal" }],
     },
     {
       label: "Wallpapers",
-      items: [{ name: "Wallaroo", href: "https://wallaroo.app" }],
+      items: [{ name: "Wallaroo", href: "https://wallaroo.app", scope: "personal" }],
     },
   ] satisfies NowAppCategory[],
   hardware: [

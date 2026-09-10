@@ -16,6 +16,14 @@ const appCount = nowSnapshot.apps.reduce(
     (total, category) => total + category.items.length,
     0,
 );
+const scopeMeta = {
+    personal: { label: "personal", icons: ["fa-solid fa-user"] },
+    business: { label: "business", icons: ["fa-solid fa-briefcase"] },
+    both: {
+        label: "personal and business",
+        icons: ["fa-solid fa-user", "fa-solid fa-briefcase"],
+    },
+} as const;
 ---
 
 <header class="now-header" aria-labelledby="now-title">
@@ -105,9 +113,23 @@ const appCount = nowSnapshot.apps.reduce(
                         <span>{category.label}</span>
                         <div class="now-app-items">
                             {category.items.map((app) => (
-                                <a href={app.href}>
-                                    <strong>{app.name}</strong>
-                                    <span aria-hidden="true">↗</span>
+                                <a
+                                    href={app.href}
+                                    aria-label={`${app.name}, ${scopeMeta[app.scope].label}`}
+                                >
+                                    <strong aria-hidden="true">
+                                        {app.name}
+                                    </strong>
+                                    <span class="now-scope-icons">
+                                        {scopeMeta[app.scope].icons.map(
+                                            (icon) => (
+                                                <i
+                                                    class={icon}
+                                                    aria-hidden="true"
+                                                />
+                                            ),
+                                        )}
+                                    </span>
                                 </a>
                             ))}
                         </div>

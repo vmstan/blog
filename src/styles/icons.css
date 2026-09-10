@@ -53,6 +53,7 @@
 
 /* solid */
 .fa-arrow-turn-up{--fa:"\f148"}
+.fa-briefcase{--fa:"\f0b1"}
 .fa-cake-candles{--fa:"\f1fd"}
 .fa-certificate{--fa:"\f0a3"}
 .fa-chevron-down{--fa:"\f078"}
@@ -66,6 +67,7 @@
 .fa-rocket{--fa:"\f135"}
 .fa-shield{--fa:"\f132"}
 .fa-skull-crossbones{--fa:"\f714"}
+.fa-user{--fa:"\f007"}
 
 /* brands */
 .fa-apple{--fa:"\f179"}
