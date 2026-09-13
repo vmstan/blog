@@ -16,9 +16,7 @@ function committedProject() {
   const root = temporaryProject("updated-at");
   initializeGit(root);
   write(root, "src/content/posts/fixture.md", validFrontmatter());
-  write(root, "src/content/pages/now.md", validFrontmatter());
   write(root, "src/content/pages/whois.md", validFrontmatter());
-  write(root, "src/data/now.ts", "export const value = 1;\n");
   write(root, "src/data/whois.ts", "export const value = 1;\n");
   write(root, "src/data/credly-badges.json", "{}\n");
   git(root, "add", ".");
@@ -44,14 +42,13 @@ test("update-updated-at updates staged content in the index and working tree", (
 
 test("update-updated-at maps changed data files to their pages", () => {
   const root = committedProject();
-  write(root, "src/data/now.ts", "export const value = 2;\n");
+  write(root, "src/data/whois.ts", "export const value = 2;\n");
   write(root, "src/data/credly-badges.json", '{"changed":true}\n');
-  git(root, "add", "src/data/now.ts", "src/data/credly-badges.json");
+  git(root, "add", "src/data/whois.ts", "src/data/credly-badges.json");
 
   const result = runNode("scripts/update-updated-at.mjs", [], root);
 
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /src\/content\/pages\/now\.md/);
   assert.match(result.stdout, /src\/content\/pages\/whois\.md/);
   assert.doesNotMatch(result.stdout, /posts\/fixture/);
 });
@@ -128,13 +125,13 @@ test("update-updated-at reports malformed range content", () => {
 
 test("update-updated-at reports mapped pages missing from the index", () => {
   const root = committedProject();
-  write(root, "src/data/now.ts", "export const value = 2;\n");
-  rmSync(path.join(root, "src/content/pages/now.md"));
-  git(root, "add", "src/data/now.ts");
-  git(root, "rm", "-q", "src/content/pages/now.md");
+  write(root, "src/data/whois.ts", "export const value = 2;\n");
+  rmSync(path.join(root, "src/content/pages/whois.md"));
+  git(root, "add", "src/data/whois.ts");
+  git(root, "rm", "-q", "src/content/pages/whois.md");
   const result = runNode("scripts/update-updated-at.mjs", [], root);
   assert.equal(result.status, 1);
-  assert.match(result.stderr, /now\.md is not present in the Git index/);
+  assert.match(result.stderr, /whois\.md is not present in the Git index/);
 });
 
 test("update-updated-at ignores a related page absent from a repair range", () => {

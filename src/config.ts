@@ -7,7 +7,6 @@ export const SITE = {
   navigation: [
     { href: "/", label: "Home" },
     { href: "/whois/", label: "Whois" },
-    { href: "/now/", label: "Now" },
     { href: "/archive/", label: "Archive" },
   ],
 } as const;

@@ -53,21 +53,19 @@
 
 /* solid */
 .fa-arrow-turn-up{--fa:"\f148"}
-.fa-briefcase{--fa:"\f0b1"}
 .fa-cake-candles{--fa:"\f1fd"}
+.fa-capsules{--fa:"\f46b"}
 .fa-certificate{--fa:"\f0a3"}
 .fa-chevron-down{--fa:"\f078"}
 .fa-code-merge{--fa:"\f387"}
 .fa-droplet{--fa:"\f043"}
 .fa-envelope{--fa:"\f0e0"}
 .fa-eye{--fa:"\f06e"}
-.fa-headphones{--fa:"\f025"}
 .fa-location-dot{--fa:"\f3c5"}
-.fa-moon{--fa:"\f186"}
+.fa-mask-ventilator{--fa:"\e524"}
 .fa-rocket{--fa:"\f135"}
 .fa-shield{--fa:"\f132"}
 .fa-skull-crossbones{--fa:"\f714"}
-.fa-user{--fa:"\f007"}
 
 /* brands */
 .fa-apple{--fa:"\f179"}

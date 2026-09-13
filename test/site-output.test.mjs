@@ -50,7 +50,6 @@ test("special pages, metadata, RSS, sitemap, and search assets are emitted", () 
   assert.equal(build.status, 0, build.stderr);
   const missing = output("404.html");
   const whois = output("whois", "index.html");
-  const now = output("now", "index.html");
   const rss = output("rss.xml");
 
   assert.match(missing, /<meta name="robots" content="noindex">/);
@@ -60,8 +59,6 @@ test("special pages, metadata, RSS, sitemap, and search assets are emitted", () 
   assert.match(whois, /aria-disabled="true" tabindex="-1"/);
   assert.match(whois, /<summary class="whois-cert-set-title">\s*Active/);
   assert.match(whois, /<summary class="whois-cert-set-title">\s*Expired/);
-  assert.match(now, /class="now-overview"/);
-  assert.match(now, /Last refreshed <time datetime=/);
   assert.ok(rss.indexOf("Cashflow Positive") < rss.indexOf("Format Change"));
   assert.match(rss, /<link>https:\/\/vmstan\.com\/cashflow-positive\/<\/link>/);
   assert.ok(existsSync(path.join(repositoryRoot, "dist/sitemap-index.xml")));

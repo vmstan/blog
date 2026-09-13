@@ -1,7 +1,6 @@
 ---
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import NowDashboard from "../components/NowDashboard.astro";
 import WhoisDirectory from "../components/WhoisDirectory.astro";
 import { SITE } from "../config";
 import { formatDate, publishedPosts, readingTime } from "../lib/content";
@@ -37,7 +36,6 @@ export async function getStaticPaths() {
 const { entry, kind, newer, older } = Astro.props;
 const { Content } = await render(entry);
 const isWhois = kind === "page" && entry.data.slug === "whois";
-const isNow = kind === "page" && entry.data.slug === "now";
 const minutes = readingTime(entry.body || entry.data.description);
 const canonicalUrl =
   entry.data.canonicalUrl ?? new URL(`/${entry.data.slug}/`, SITE.url).toString();
@@ -63,12 +61,12 @@ const structuredData = {
     class:list={[
       "entry",
       "shell",
-      { "whois-page": isWhois, "now-page": isNow },
+      { "whois-page": isWhois },
     ]}
     data-pagefind-body={kind === "post" ? "" : undefined}
   >
     {
-      !isWhois && !isNow && (
+      !isWhois && (
         <header class="entry-header">
           {kind === "post" && <p class="eyebrow" data-pagefind-ignore>Essay</p>}
           <h1>{entry.data.title}</h1>
@@ -102,8 +100,6 @@ const structuredData = {
     {
       isWhois ? (
         <WhoisDirectory />
-      ) : isNow ? (
-        <NowDashboard updatedAt={entry.data.updatedAt} />
       ) : (
         <div class="prose">
           <Content />

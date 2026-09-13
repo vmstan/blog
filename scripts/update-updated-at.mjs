@@ -3,7 +3,6 @@ import { readFileSync, writeFileSync } from "node:fs";
 
 const contentDirectories = ["src/content/posts", "src/content/pages"];
 const relatedPages = new Map([
-  ["src/data/now.ts", "src/content/pages/now.md"],
   ["src/data/whois.ts", "src/content/pages/whois.md"],
   ["src/data/credly-badges.json", "src/content/pages/whois.md"],
 ]);
