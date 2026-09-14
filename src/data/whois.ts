@@ -272,6 +272,13 @@ export const whoisGroups: WhoisGroup[] = [
         icon: "fa-brands fa-patreon",
         tier: "active",
       },
+      {
+        name: "Credly",
+        handle: "vmstan",
+        href: "https://www.credly.com/users/vmstan",
+        icon: "fa-solid fa-c",
+        tier: "active",
+      },
     ],
   },
   {
