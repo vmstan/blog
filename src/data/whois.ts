@@ -347,6 +347,13 @@ export const whoisGroups: WhoisGroup[] = [
         icon: "fa-solid fa-a",
         tier: "inactive",
       },
+      {
+        name: "EA",
+        handle: "Stantactical",
+        href: "https://ea.com",
+        icon: "fa-solid fa-e",
+        tier: "inactive",
+      },
     ],
   },
 ];
