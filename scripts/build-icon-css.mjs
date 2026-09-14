@@ -36,16 +36,22 @@ const styles = {
   },
 };
 
-// Font Awesome 7 declares each icon as `.fa-name{--fa:"\f09b"}`.
+// Font Awesome 7 declares most icons as `.fa-name{--fa:"\f09b"}`, but the
+// single-letter icons use a literal character instead (`.fa-a{--fa:"A"}`).
+// Both forms are normalized to hex so the subsetting and emitted CSS below
+// can treat them identically.
 function codepoints(cssFile) {
   const css = readFileSync(join(faRoot, "css", cssFile), "utf8");
   const map = new Map();
   for (const [, selectors, value] of css.matchAll(
-    /([^{}]+)\{--fa:"\\([0-9a-f]+)"\}/g,
+    /([^{}]+)\{--fa:"(\\[0-9a-f]+|[^"])"\}/g,
   )) {
+    const codepoint = value.startsWith("\\")
+      ? value.slice(1)
+      : value.codePointAt(0).toString(16);
     for (const selector of selectors.split(",")) {
       const name = selector.trim().replace(/^\./, "");
-      if (/^fa-[a-z0-9-]+$/.test(name)) map.set(name, value);
+      if (/^fa-[a-z0-9-]+$/.test(name)) map.set(name, codepoint);
     }
   }
   return map;

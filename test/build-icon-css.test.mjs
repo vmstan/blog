@@ -28,6 +28,15 @@ test("build-icon-css emits only used solid, brand, and utility rules", () => {
   assert.ok(readFileSync(path.join(root, "src/styles/fonts/fa-brands-400-subset.woff2")).length > 0);
 });
 
+test("build-icon-css supports single-letter icons declared as literals", () => {
+  const root = iconProject("fa-solid fa-a");
+  const result = runNode("scripts/build-icon-css.mjs", [], root);
+
+  assert.equal(result.status, 0, result.stderr);
+  const css = readFileSync(path.join(root, "src/styles/icons.css"), "utf8");
+  assert.match(css, /\.fa-a\{--fa:"\\41"\}/);
+});
+
 test("build-icon-css rejects unknown Font Awesome classes", () => {
   const root = iconProject("fa-solid fa-does-not-exist");
   const result = runNode("scripts/build-icon-css.mjs", [], root);
