@@ -279,6 +279,13 @@ export const whoisGroups: WhoisGroup[] = [
         icon: "fa-solid fa-c",
         tier: "active",
       },
+      {
+        name: "Docker Hub",
+        handle: "vmstan",
+        href: "https://hub.docker.com/u/vmstan",
+        icon: "fa-brands fa-docker",
+        tier: "active",
+      },
     ],
   },
   {
