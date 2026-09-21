@@ -2,7 +2,7 @@
   "name": "virtually-benevolent",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@12.4.2",
+  "packageManager": "pnpm@12.5.1",
   "engines": {
     "node": "24.x"
   },
@@ -29,8 +29,8 @@
     "@astrojs/check": "^0.9.10",
     "husky": "^9.1.7",
     "pagefind": "^1.5.2",
-    "subset-font": "^2.7.0",
+    "subset-font": "^2.9.0",
     "typescript": "^6.0.3",
-    "wrangler": "^4.133.0"
+    "wrangler": "^4.135.0"
   }
 }
