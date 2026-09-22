@@ -52,6 +52,7 @@
 .fa-rotate-90{transform:rotate(90deg)}
 
 /* solid */
+.fa-a{--fa:"\41"}
 .fa-arrow-turn-up{--fa:"\f148"}
 .fa-c{--fa:"\43"}
 .fa-cake-candles{--fa:"\f1fd"}

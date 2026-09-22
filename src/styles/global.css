@@ -744,6 +744,20 @@ h4 {
   font-size: 0.9rem;
 }
 
+/* Two letterforms share one bubble (EA stand-in). Shrink the pair and drop
+   the default FA fixed width so "E" and "A" sit side by side. */
+.whois-service-icon-duo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.08rem;
+  font-size: 0.6rem;
+}
+
+.whois-service-icon-duo i {
+  width: auto;
+}
+
 .whois-service-copy {
   display: flex;
   min-width: 0;

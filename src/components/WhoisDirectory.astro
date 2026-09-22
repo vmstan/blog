@@ -368,10 +368,20 @@ const { active, expired, earliestYear } = await loadCertifications(
                                         }
                                     >
                                         <span
-                                            class="whois-service-icon"
+                                            class:list={[
+                                                "whois-service-icon",
+                                                Array.isArray(service.icon) &&
+                                                    "whois-service-icon-duo",
+                                            ]}
                                             aria-hidden="true"
                                         >
-                                            <i class={service.icon} />
+                                            {Array.isArray(service.icon) ? (
+                                                service.icon.map((icon) => (
+                                                    <i class={icon} />
+                                                ))
+                                            ) : (
+                                                <i class={service.icon} />
+                                            )}
                                         </span>
                                         <span class="whois-service-copy">
                                             <strong>{service.name}</strong>

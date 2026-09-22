@@ -3,7 +3,9 @@ import type { ManualCertification } from "../lib/credly";
 interface WhoisServiceBase {
   name: string;
   handle: string;
-  icon: string;
+  // Most services use one Font Awesome class; EA has no brand icon, so it
+  // pairs "E" and "A" side by side inside the same bubble.
+  icon: string | string[];
 }
 
 // preferred  → the one service you'd steer people to in this category (one per group)
@@ -358,7 +360,7 @@ export const whoisGroups: WhoisGroup[] = [
         name: "EA",
         handle: "Stantactical",
         href: "https://ea.com",
-        icon: "fa-solid fa-e",
+        icon: ["fa-solid fa-e", "fa-solid fa-a"],
         tier: "inactive",
       },
     ],
