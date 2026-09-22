@@ -1,1 +1,3 @@
 node scripts/update-updated-at.mjs
+pnpm build:icons
+git add src/styles/icons.css src/styles/fonts
