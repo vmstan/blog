@@ -348,10 +348,10 @@ export const whoisGroups: WhoisGroup[] = [
         tier: "active",
       },
       {
-        name: "Activision",
-        handle: "vmstan",
-        href: "https://activision.com",
-        icon: "fa-solid fa-a",
+        name: "Ubisoft",
+        handle: "Stantactical",
+        href: "https://ubisoft.com",
+        icon: "fa-solid fa-hurricane",
         tier: "inactive",
       },
       {

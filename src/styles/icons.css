@@ -52,7 +52,6 @@
 .fa-rotate-90{transform:rotate(90deg)}
 
 /* solid */
-.fa-a{--fa:"\41"}
 .fa-arrow-turn-up{--fa:"\f148"}
 .fa-c{--fa:"\43"}
 .fa-cake-candles{--fa:"\f1fd"}
@@ -64,6 +63,7 @@
 .fa-e{--fa:"\45"}
 .fa-envelope{--fa:"\f0e0"}
 .fa-eye{--fa:"\f06e"}
+.fa-hurricane{--fa:"\f751"}
 .fa-location-dot{--fa:"\f3c5"}
 .fa-mask-ventilator{--fa:"\e524"}
 .fa-shield{--fa:"\f132"}
