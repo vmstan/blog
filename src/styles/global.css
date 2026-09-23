@@ -168,22 +168,30 @@ a:hover {
   color: white;
 }
 
-.header-search {
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   margin-left: auto;
+}
+
+.header-search {
   --pf-background: transparent;
-  --pf-border: color-mix(in srgb, white 55%, transparent);
-  --pf-border-focus: white;
-  --pf-border-radius: 999px;
+  --pf-border: transparent;
+  --pf-border-focus: transparent;
+  --pf-border-radius: 50%;
   --pf-input-height: auto;
   --pf-outline-focus: white;
   --pf-text-muted: white;
 }
 
 .header-search .pf-trigger-btn {
-  padding: 0.42rem 0.85rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  padding: 0 !important;
+  justify-content: center !important;
+  border-radius: 50% !important;
   color: white !important;
-  font-size: 0.78rem !important;
-  font-weight: 700 !important;
 }
 
 .header-search .pf-trigger-btn:hover,
@@ -192,6 +200,8 @@ a:hover {
 }
 
 .header-search .pf-trigger-icon {
+  width: 1rem !important;
+  height: 1rem !important;
   background: white !important;
 }
 
@@ -1524,19 +1534,19 @@ a.whois-cert-edition:focus-visible {
   color: inherit;
 }
 
-.footer-social {
+.header-social {
   display: flex;
   align-items: center;
   gap: 0.45rem;
 }
 
-.footer-social a {
+.header-social a {
   display: grid;
   width: 2rem;
   height: 2rem;
   place-items: center;
   border-radius: 50%;
-  color: #b5c0c5;
+  color: color-mix(in srgb, white 86%, transparent);
   font-size: 1rem;
   text-decoration: none;
   transition:
@@ -1545,13 +1555,13 @@ a.whois-cert-edition:focus-visible {
     transform 160ms ease;
 }
 
-.footer-social a:hover {
-  background: color-mix(in srgb, white 10%, transparent);
+.header-social a:hover {
+  background: color-mix(in srgb, white 12%, transparent);
   color: white;
   transform: translateY(-1px);
 }
 
-.footer-social a:focus-visible {
+.header-social a:focus-visible {
   outline: 2px solid white;
   outline-offset: 2px;
 }
@@ -1564,7 +1574,7 @@ a.whois-cert-edition:focus-visible {
     padding-block: 1rem;
   }
 
-  .header-search {
+  .header-actions {
     position: absolute;
     top: 1.2rem;
     right: 1.25rem;

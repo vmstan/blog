@@ -30,11 +30,40 @@ const pathname = Astro.url.pathname;
         }
       </ul>
     </nav>
-    <pagefind-modal-trigger
-      class="header-search"
-      placeholder="Search"
-      hide-shortcut
-    ></pagefind-modal-trigger>
+    <div class="header-actions">
+      <nav class="header-social" aria-label="Social links">
+        <a
+          href="https://www.threads.com/@vmstan"
+          rel="me"
+          aria-label="Threads"
+          title="Threads"
+        >
+          <i class="fa-brands fa-threads" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://x.com/vmstan"
+          rel="me"
+          aria-label="X-Twitter"
+          title="X"
+        >
+          <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/vmstan"
+          rel="me"
+          aria-label="LinkedIn"
+          title="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </nav>
+      <pagefind-modal-trigger
+        class="header-search"
+        placeholder="Search"
+        compact
+        hide-shortcut
+      ></pagefind-modal-trigger>
+    </div>
   </div>
 </header>
 
