@@ -23,7 +23,7 @@ jobs:
     name: Normalize content timestamps
     permissions:
       contents: write
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     timeout-minutes: 5
     outputs:
       commit: ${{ steps.commit.outputs.sha }}
@@ -69,7 +69,7 @@ jobs:
     if: >-
       always() &&
       (needs.normalize.result == 'success' || needs.normalize.result == 'skipped')
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     timeout-minutes: 15
 
     steps:
@@ -128,7 +128,7 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     timeout-minutes: 15
 
     steps:
@@ -222,7 +222,7 @@ jobs:
     name: Deploy
     if: github.event_name != 'pull_request' && needs.test.result == 'success'
     needs: [normalize, test]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     timeout-minutes: 15
 
     steps:
