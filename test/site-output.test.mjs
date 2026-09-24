@@ -9,7 +9,8 @@ import { repositoryRoot } from "../test-utils/helpers.mjs";
 const build = spawnSync("pnpm", ["build"], {
   cwd: repositoryRoot,
   encoding: "utf8",
-  timeout: 60_000,
+  // Full production build; allow headroom for 1-vCPU CI runners.
+  timeout: 240_000,
 });
 
 test("production site builds successfully", () => {
